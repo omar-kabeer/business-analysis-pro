@@ -1,7 +1,7 @@
 {
   "name": "business-analysis-os",
-  "version": "1.0.0",
-  "description": "Enterprise Business Analysis and Product Management OS: 18 BABOK v3 and product-aligned skills with an orchestrator that routes requests, plus a hard no em dash house style enforced by the natural-prose-editor skill.",
+  "version": "1.1.0",
+  "description": "Enterprise Business Analysis and Product Management OS: 18 BABOK v3 and product-aligned skills with an orchestrator that routes requests, a library of BABOK-aligned deliverable templates, and a hard no em dash house style enforced by the natural-prose-editor skill.",
   "author": {
     "name": "Umar",
     "email": "uksaid12@gmail.com"
@@ -19,6 +19,5 @@
     "quality",
     "executive-review",
     "writing"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }
