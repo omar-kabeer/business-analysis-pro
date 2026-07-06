@@ -39,6 +39,10 @@ cpSync(
 const templatesOut = resetDir('templates')
 cpSync(join(root, 'templates'), templatesOut, { recursive: true })
 
+// Checklists (DoR, DoD, review checklists).
+const checklistsOut = resetDir('checklists')
+cpSync(join(root, 'checklists'), checklistsOut, { recursive: true })
+
 // 4. Report what was built and guard the house-style rule.
 // Imported third-party skills may keep em dashes inside their own authoring
 // instructions; the ban is enforced on their generated output by the mandatory

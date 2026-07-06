@@ -42,6 +42,8 @@ function walkMarkdown(dir, acc) {
   return acc
 }
 
+const allowedStatus = new Set(['draft', 'in-review', 'approved', 'final', 'deprecated'])
+
 function validateSkills() {
   const skillsDir = join(root, 'skills')
   const skillNames = readdirSync(skillsDir).filter((entry) =>
@@ -98,16 +100,12 @@ function validateSkills() {
   }
 }
 
-function validateTemplates() {
-  const templatesDir = join(root, 'templates')
-  const allowedStatus = new Set(['draft', 'in-review', 'approved', 'final', 'deprecated'])
-  const files = walkMarkdown(templatesDir, []).filter((f) => !f.endsWith('README.md'))
-
+function validateFrontmatterDir(dir, expectedType) {
+  const files = walkMarkdown(join(root, dir), []).filter((f) => !f.endsWith('README.md'))
   if (files.length === 0) {
-    errors.push(`${templatesDir}: no template files found`)
+    errors.push(`${join(root, dir)}: no ${expectedType} files found`)
     return
   }
-
   for (const path of files) {
     const fields = parseFrontmatter(path)
     for (const required of ['type', 'domain', 'status', 'version']) {
@@ -115,8 +113,8 @@ function validateTemplates() {
         errors.push(`${path}: missing required "${required}" frontmatter`)
       }
     }
-    if (fields.type && fields.type !== 'deliverable') {
-      errors.push(`${path}: type must be "deliverable"`)
+    if (fields.type && fields.type !== expectedType) {
+      errors.push(`${path}: type must be "${expectedType}"`)
     }
     if (fields.status && !allowedStatus.has(fields.status)) {
       errors.push(`${path}: status must be one of ${[...allowedStatus].join(', ')}`)
@@ -128,10 +126,10 @@ function validateTemplates() {
 }
 
 // House style: the em dash (U+2014) is banned in produced artifacts.
-// Scoped to deliverable/template markdown so instructional docs and skills
-// (which must name the character to explain the rule) are not flagged.
+// Scoped to deliverable, template, and checklist markdown so instructional docs
+// and skills (which must name the character to explain the rule) are not flagged.
 function validateEditorialStyle() {
-  const scanDirs = ['templates', 'deliverables']
+  const scanDirs = ['templates', 'checklists', 'deliverables']
   for (const rel of scanDirs) {
     for (const file of walkMarkdown(join(root, rel), [])) {
       const lines = readText(file).split(/\r?\n/)
@@ -145,7 +143,8 @@ function validateEditorialStyle() {
 }
 
 validateSkills()
-validateTemplates()
+validateFrontmatterDir('templates', 'deliverable')
+validateFrontmatterDir('checklists', 'checklist')
 validateEditorialStyle()
 
 if (errors.length) {
@@ -156,4 +155,4 @@ if (errors.length) {
   process.exit(1)
 }
 
-console.log('Validation passed: skills and templates are structurally sound.')
+console.log('Validation passed: skills, templates, and checklists are structurally sound.')
