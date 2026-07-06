@@ -29,6 +29,19 @@ function parseFrontmatter(path) {
   return fields
 }
 
+function walkMarkdown(dir, acc) {
+  if (!existsSync(dir)) return acc
+  for (const entry of readdirSync(dir)) {
+    const full = join(dir, entry)
+    if (statSync(full).isDirectory()) {
+      walkMarkdown(full, acc)
+    } else if (entry.endsWith('.md')) {
+      acc.push(full)
+    }
+  }
+  return acc
+}
+
 function validateSkills() {
   const skillsDir = join(root, 'skills')
   const skillNames = readdirSync(skillsDir).filter((entry) =>
@@ -86,18 +99,30 @@ function validateSkills() {
 }
 
 function validateTemplates() {
-  const brdPath = join(root, 'templates', 'brd.md')
-  const fields = parseFrontmatter(brdPath)
-  const expected = {
-    type: 'deliverable',
-    domain: 'business-analysis',
-    status: 'draft',
-    version: '1.0.0',
+  const templatesDir = join(root, 'templates')
+  const allowedStatus = new Set(['draft', 'in-review', 'approved', 'final', 'deprecated'])
+  const files = walkMarkdown(templatesDir, []).filter((f) => !f.endsWith('README.md'))
+
+  if (files.length === 0) {
+    errors.push(`${templatesDir}: no template files found`)
+    return
   }
 
-  for (const [key, value] of Object.entries(expected)) {
-    if (fields[key] !== value) {
-      errors.push(`${brdPath}: expected ${key}: ${value}`)
+  for (const path of files) {
+    const fields = parseFrontmatter(path)
+    for (const required of ['type', 'domain', 'status', 'version']) {
+      if (!fields[required]) {
+        errors.push(`${path}: missing required "${required}" frontmatter`)
+      }
+    }
+    if (fields.type && fields.type !== 'deliverable') {
+      errors.push(`${path}: type must be "deliverable"`)
+    }
+    if (fields.status && !allowedStatus.has(fields.status)) {
+      errors.push(`${path}: status must be one of ${[...allowedStatus].join(', ')}`)
+    }
+    if (fields.version && !/^\d+\.\d+\.\d+$/.test(fields.version)) {
+      errors.push(`${path}: version must be semantic (for example 1.0.0)`)
     }
   }
 }
@@ -105,19 +130,6 @@ function validateTemplates() {
 // House style: the em dash (U+2014) is banned in produced artifacts.
 // Scoped to deliverable/template markdown so instructional docs and skills
 // (which must name the character to explain the rule) are not flagged.
-function walkMarkdown(dir, acc) {
-  if (!existsSync(dir)) return acc
-  for (const entry of readdirSync(dir)) {
-    const full = join(dir, entry)
-    if (statSync(full).isDirectory()) {
-      walkMarkdown(full, acc)
-    } else if (entry.endsWith('.md')) {
-      acc.push(full)
-    }
-  }
-  return acc
-}
-
 function validateEditorialStyle() {
   const scanDirs = ['templates', 'deliverables']
   for (const rel of scanDirs) {
