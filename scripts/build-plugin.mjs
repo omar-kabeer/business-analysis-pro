@@ -29,6 +29,7 @@ cpSync(join(root, 'skills'), skillsOut, { recursive: true })
 // 2. Cross-cutting docs the skills point to.
 const docsOut = resetDir('docs')
 cpSync(join(root, 'docs', 'methodology', 'editorial-style.md'), join(docsOut, 'editorial-style.md'))
+cpSync(join(root, 'docs', 'methodology', 'sdlc-playbook.md'), join(docsOut, 'sdlc-playbook.md'))
 cpSync(
   join(root, 'docs', 'architecture', 'skill-authoring-guidelines.md'),
   join(docsOut, 'skill-authoring-guidelines.md'),
