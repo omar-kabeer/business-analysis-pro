@@ -2,21 +2,31 @@ name: Validate OS
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "**" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "**" ]
 
 jobs:
   validate:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-    - name: Use Node.js
-      uses: actions/setup-node@v3
-      with:
-        node-version: '18.x'
+      - name: Use Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
 
-    - name: Run local checks
-      run: npm run check
+      - name: Validate skills and templates (structure + house style)
+        run: npm run check
+
+      - name: Build the distributable plugin
+        run: npm run build:plugin
+
+      - name: Ensure the plugin is in sync with the source
+        run: |
+          if ! git diff --exit-code -- plugin; then
+            echo "plugin/ is out of date. Run 'npm run build:plugin' and commit the result."
+            exit 1
+          fi
