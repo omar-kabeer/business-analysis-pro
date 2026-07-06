@@ -10,6 +10,8 @@ This repository is an enterprise Business Analysis and Product Management Operat
 - Keep one primary responsibility per file.
 - Maintain traceability between methods, templates, deliverables, examples, and evaluation criteria where practical.
 - Do not place generated or temporary outputs in source directories unless they are intentional examples.
+- When creating or updating skills, follow `docs/architecture/skill-authoring-guidelines.md`, which captures the repository's Claude skill creation research guidance.
+- Apply the house style in `docs/methodology/editorial-style.md` to every prose deliverable, using the `natural-prose-editor` skill as the final pass. The em dash ban is non-negotiable and enforced by `scripts/validate-assets.mjs`.
 
 ## Quality Gates
 

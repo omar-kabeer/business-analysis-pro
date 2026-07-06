@@ -1,0 +1,17 @@
+{
+  "name": "ba-os",
+  "owner": {
+    "name": "Umar",
+    "email": "uksaid12@gmail.com"
+  },
+  "metadata": {
+    "description": "Marketplace for the Business Analysis OS: an enterprise Business Analysis and Product Management operating system for Claude Code."
+  },
+  "plugins": [
+    {
+      "name": "business-analysis-os",
+      "source": "./plugin",
+      "description": "Enterprise Business Analysis and Product Management OS. BABOK v3-aligned specialist skills (orchestrator, business analysis, requirements, elicitation, strategy, product management, product ownership, UX, market research, finance, architecture, governance, quality, executive review) plus natural-prose-editor, technical-writer, proposal-writer, and prompt-master, with a hard no em dash house style."
+    }
+  ]
+}

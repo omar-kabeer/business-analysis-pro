@@ -27,6 +27,25 @@ The repository is organized around reusable skills, documented methodology, temp
 4. Store reusable templates, checklists, and frameworks in their top-level directories.
 5. Validate new assets against the quality gates in `CONTRIBUTING.md`.
 
+## Use as a Claude Code plugin
+
+The OS is packaged as a Claude Code plugin under `plugin/`, published through the marketplace catalog at `.claude-plugin/marketplace.json`.
+
+Install from the repository root:
+
+```
+/plugin marketplace add .
+/plugin install business-analysis-os@ba-os
+```
+
+The plugin is generated from this repository, so `skills/` stays the single source of truth. After changing any skill, rebuild the plugin with:
+
+```
+npm run build:plugin
+```
+
+Skills install namespaced as `business-analysis-os:<skill>` (for example `/business-analysis-os:orchestrator`). A SessionStart hook loads the no em dash house style at the start of every session. See `plugin/README.md` for details.
+
 ## License
 
 This project is licensed under the Apache License 2.0. See `LICENSE` for details.

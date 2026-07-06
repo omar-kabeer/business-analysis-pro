@@ -1,0 +1,24 @@
+{
+  "name": "business-analysis-os",
+  "version": "1.0.0",
+  "description": "Enterprise Business Analysis and Product Management OS: 18 BABOK v3 and product-aligned skills with an orchestrator that routes requests, plus a hard no em dash house style enforced by the natural-prose-editor skill.",
+  "author": {
+    "name": "Umar",
+    "email": "uksaid12@gmail.com"
+  },
+  "homepage": "https://github.com/omar-kabeer/business-analysis-pro",
+  "repository": "https://github.com/omar-kabeer/business-analysis-pro",
+  "license": "Apache-2.0",
+  "keywords": [
+    "business-analysis",
+    "babok",
+    "product-management",
+    "requirements",
+    "strategy",
+    "governance",
+    "quality",
+    "executive-review",
+    "writing"
+  ],
+  "hooks": "./hooks/hooks.json"
+}
