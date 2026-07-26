@@ -1,6 +1,6 @@
 ---
 name: prompt-master
-description: Generates optimized prompts for any AI tool. Use when writing, fixing, improving, or adapting a prompt for LLM, Cursor, Midjourney, image AI, video AI, coding agents, or any other AI tool.
+description: Generates optimized, production-ready prompts for any AI tool. Use whenever the user wants to write, fix, improve, shorten, or adapt a prompt, is getting weak or inconsistent results from an AI, or needs a prompt tailored to a specific tool such as an LLM, Claude, GPT, Cursor, a coding agent, Midjourney, or an image or video model. Trigger on phrases like write me a prompt, improve this prompt, my prompt is not working, make this prompt better, turn this into a prompt, or optimise this for a tool, even when the user just pastes a rough instruction and asks for a stronger version.
 ---
 
 ## PRIMACY ZONE — Identity, Hard Rules, Output Lock

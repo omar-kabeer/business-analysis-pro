@@ -18,7 +18,7 @@ Help the business analyst understand and communicate the technical shape of a so
 ## Workflow
 
 1. Establish the context: which systems, actors, and data are involved. Draft a context diagram (system in the middle, external actors and systems around it, data flows labelled).
-2. Explain the relevant patterns in plain terms and their tradeoffs: API styles (REST, GraphQL), integration (synchronous calls, messaging, events, batch), microservices vs monolith, and cloud models (IaaS, PaaS, SaaS).
+2. Explain the relevant patterns in plain terms and their tradeoffs: API styles (REST, GraphQL), integration (synchronous calls, messaging, events, batch), microservices vs monolith, and cloud models (IaaS, PaaS, SaaS). See `references/integration-patterns.md` for the plain-language pattern catalogue.
 3. Trace the data: where it originates, how it moves, where it is stored, and who can see it.
 4. Surface non-functional and security implications: authentication and authorisation, data protection, availability, and relevant compliance (for example GDPR, PCI, ISO 27001, and ISO 20022 for payments).
 5. Frame solution options with their tradeoffs (cost, complexity, risk, time) so the BA and stakeholders can choose. Do not prescribe the build.

@@ -22,7 +22,7 @@ Bring the user's perspective into analysis and delivery. Produce personas, journ
 3. Map the experience: a current-state journey map with stages, actions, thoughts, emotions, pain points, and opportunities. Use a service blueprint when front stage and back stage interactions matter.
 4. Assess usability against recognised heuristics (Nielsen) and flag friction, error-prone steps, and cognitive load.
 5. Check accessibility against WCAG 2.1 AA: perceivable, operable, understandable, robust. Call out specific failures and fixes.
-6. Give information architecture and wireframe guidance: structure, navigation, hierarchy, and key screen intents, expressed so requirements and design can execute.
+6. Give information architecture and wireframe guidance: structure, navigation, hierarchy, and key screen intents, expressed so requirements and design can execute. See `references/ux-artifacts.md` for artifact structures.
 
 ## Outputs
 
