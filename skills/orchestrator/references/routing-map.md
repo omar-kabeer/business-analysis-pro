@@ -21,6 +21,7 @@ Use this to map an incoming request to the right specialist skill and a sensible
 | "Validate, critique, is this any good, find the gaps" | quality | executive-review |
 | "Make this board-ready, executive summary, present to CEO" | executive-review | natural-prose-editor |
 | Payments, ISO 20022, SWIFT, SEPA, clearing and settlement | business-analysis + domain pack | requirements, architecture |
+| Healthcare, HL7, FHIR, EHR, patient data, HIPAA | business-analysis + domain pack | requirements, architecture, data-analysis |
 | "Write the proposal / report / documentation / prompt" | proposal-writer, technical-writer, prompt-master | natural-prose-editor |
 
 ## Common sequences
@@ -30,6 +31,7 @@ Use this to map an incoming request to the right specialist skill and a sensible
 - Requirements package: requirements, governance (traceability), quality.
 - Any written deliverable ends with natural-prose-editor as the house-style pass.
 - Payments initiatives load `domain-packs/payments-iso20022/` alongside the core skills.
+- Healthcare initiatives load `domain-packs/healthcare-hl7-fhir/` alongside the core skills.
 
 ## Execution patterns
 

@@ -5,6 +5,7 @@ Domain-specific knowledge and deliverables that load only when a domain applies,
 ## Available packs
 
 - `payments-iso20022/`: payments and ISO 20022, including message families, migration and regulatory context, and payments-specific deliverables. Relevant to banking, fintech, and any initiative that moves money.
+- `healthcare-hl7-fhir/`: healthcare and HL7 FHIR, including the FHIR resource model, US Core and USCDI, the HIPAA and interoperability landscape, and healthcare-specific deliverables. Relevant to health systems, payers, and health tech.
 
 ## Loading convention
 
