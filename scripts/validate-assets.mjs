@@ -1,5 +1,5 @@
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
-import { join } from 'node:path'
+import { join, basename } from 'node:path'
 
 const root = process.cwd()
 const errors = []
@@ -58,11 +58,9 @@ function validateSkills() {
     if (!/^[a-z0-9-]+$/.test(skillName)) {
       errors.push(`${skillDir}: skill folder must use kebab-case`)
     }
-
     if (files.includes('README.md')) {
       errors.push(`${skillDir}: README.md is not allowed for runtime skill content`)
     }
-
     if (!files.includes('SKILL.md')) {
       errors.push(`${skillDir}: missing SKILL.md`)
       continue
@@ -71,29 +69,16 @@ function validateSkills() {
     const fields = parseFrontmatter(skillPath)
     const keys = Object.keys(fields)
     for (const required of ['name', 'description']) {
-      if (!fields[required]) {
-        errors.push(`${skillPath}: missing required "${required}" frontmatter`)
-      }
+      if (!fields[required]) errors.push(`${skillPath}: missing required "${required}" frontmatter`)
     }
-
     for (const key of keys) {
       if (!['name', 'description'].includes(key)) {
         errors.push(`${skillPath}: unsupported frontmatter field "${key}"`)
       }
     }
-
-    if (fields.name !== skillName) {
-      errors.push(`${skillPath}: frontmatter name must match folder name`)
-    }
-
-    if (fields.name && fields.name.length > 64) {
-      errors.push(`${skillPath}: name must be 64 characters or fewer`)
-    }
-
-    if (fields.description && fields.description.length > 1024) {
-      errors.push(`${skillPath}: description must be 1024 characters or fewer`)
-    }
-
+    if (fields.name !== skillName) errors.push(`${skillPath}: frontmatter name must match folder name`)
+    if (fields.name && fields.name.length > 64) errors.push(`${skillPath}: name must be 64 characters or fewer`)
+    if (fields.description && fields.description.length > 1024) errors.push(`${skillPath}: description must be 1024 characters or fewer`)
     if (fields.description && !/\b(use|when|asks|mentions|request|requests)\b/i.test(fields.description)) {
       errors.push(`${skillPath}: description should include trigger conditions`)
     }
@@ -109,19 +94,28 @@ function validateFrontmatterDir(dir, expectedType) {
   for (const path of files) {
     const fields = parseFrontmatter(path)
     for (const required of ['type', 'domain', 'status', 'version']) {
-      if (!fields[required]) {
-        errors.push(`${path}: missing required "${required}" frontmatter`)
-      }
+      if (!fields[required]) errors.push(`${path}: missing required "${required}" frontmatter`)
     }
-    if (fields.type && fields.type !== expectedType) {
-      errors.push(`${path}: type must be "${expectedType}"`)
-    }
-    if (fields.status && !allowedStatus.has(fields.status)) {
-      errors.push(`${path}: status must be one of ${[...allowedStatus].join(', ')}`)
-    }
-    if (fields.version && !/^\d+\.\d+\.\d+$/.test(fields.version)) {
-      errors.push(`${path}: version must be semantic (for example 1.0.0)`)
-    }
+    if (fields.type && fields.type !== expectedType) errors.push(`${path}: type must be "${expectedType}"`)
+    if (fields.status && !allowedStatus.has(fields.status)) errors.push(`${path}: status must be one of ${[...allowedStatus].join(', ')}`)
+    if (fields.version && !/^\d+\.\d+\.\d+$/.test(fields.version)) errors.push(`${path}: version must be semantic (for example 1.0.0)`)
+  }
+}
+
+// Subagents: agents/*.md with name + description frontmatter; name matches filename.
+function validateAgents() {
+  const dir = join(root, 'agents')
+  if (!existsSync(dir)) return
+  const files = readdirSync(dir).filter((f) => f.endsWith('.md') && f !== 'README.md')
+  for (const file of files) {
+    const path = join(dir, file)
+    const fields = parseFrontmatter(path)
+    const expected = basename(file, '.md')
+    if (!fields.name) errors.push(`${path}: missing required "name" frontmatter`)
+    if (!fields.description) errors.push(`${path}: missing required "description" frontmatter`)
+    if (fields.name && fields.name !== expected) errors.push(`${path}: frontmatter name must match filename`)
+    if (fields.name && !/^[a-z0-9-]+$/.test(fields.name)) errors.push(`${path}: agent name must be kebab-case`)
+    if (fields.description && fields.description.length > 1024) errors.push(`${path}: description must be 1024 characters or fewer`)
   }
 }
 
@@ -141,7 +135,6 @@ function validateEditorialStyle() {
 }
 
 // MVP proof: the operating system must be demonstrable end to end.
-// These assets prove the orchestrator to business-analysis to BRD to evaluation loop.
 function validateMvp() {
   const required = [
     'skills/orchestrator/SKILL.md',
@@ -153,24 +146,21 @@ function validateMvp() {
     'examples/customer-self-service-portal/evaluation.md',
   ]
   for (const rel of required) {
-    if (!existsSync(join(root, rel))) {
-      errors.push(`MVP asset missing: ${rel}`)
-    }
+    if (!existsSync(join(root, rel))) errors.push(`MVP asset missing: ${rel}`)
   }
 }
 
 validateSkills()
 validateFrontmatterDir('templates', 'deliverable')
 validateFrontmatterDir('checklists', 'checklist')
+validateAgents()
 validateEditorialStyle()
 validateMvp()
 
 if (errors.length) {
   console.error('Validation failed:')
-  for (const error of errors) {
-    console.error(`- ${error}`)
-  }
+  for (const error of errors) console.error(`- ${error}`)
   process.exit(1)
 }
 
-console.log('Validation passed: skills, templates, checklists, and MVP assets are sound.')
+console.log('Validation passed: skills, agents, templates, checklists, and MVP assets are sound.')

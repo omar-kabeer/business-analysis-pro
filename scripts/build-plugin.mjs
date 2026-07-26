@@ -26,6 +26,10 @@ function resetDir(rel) {
 const skillsOut = resetDir('skills')
 cpSync(join(root, 'skills'), skillsOut, { recursive: true })
 
+// Subagents (Claude Code only).
+const agentsOut = resetDir('agents')
+cpSync(join(root, 'agents'), agentsOut, { recursive: true })
+
 // 2. Cross-cutting docs the skills point to.
 const docsOut = resetDir('docs')
 cpSync(join(root, 'docs', 'methodology', 'editorial-style.md'), join(docsOut, 'editorial-style.md'))
