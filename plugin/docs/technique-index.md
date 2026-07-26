@@ -15,7 +15,7 @@ Maps each of the 50 BABOK v3 techniques to the Business Analysis OS skill that o
 | 9 | Business Rules Analysis | requirements | frd |
 | 10 | Collaborative Games | elicitation | workshop-plan |
 | 11 | Concept Modelling | data-analysis | |
-| 12 | Data Dictionary | data-analysis | |
+| 12 | Data Dictionary | data-analysis | data-dictionary |
 | 13 | Data Flow Diagrams | data-analysis | |
 | 14 | Data Mining | data-analysis | |
 | 15 | Data Modelling | data-analysis | |
@@ -25,7 +25,7 @@ Maps each of the 50 BABOK v3 techniques to the Business Analysis OS skill that o
 | 19 | Estimation | finance, product-owner | |
 | 20 | Financial Analysis | finance | business-case |
 | 21 | Focus Groups | elicitation | |
-| 22 | Functional Decomposition | process-modelling | |
+| 22 | Functional Decomposition | process-modelling | process-model |
 | 23 | Glossary | business-analysis | |
 | 24 | Interface Analysis | architecture | frd |
 | 25 | Interviews | elicitation | interview-guide |
@@ -37,8 +37,8 @@ Maps each of the 50 BABOK v3 techniques to the Business Analysis OS skill that o
 | 31 | Observation | elicitation | |
 | 32 | Organizational Modelling | business-analysis | stakeholder-register |
 | 33 | Prioritization | product-manager, product-owner | prioritization-matrix |
-| 34 | Process Analysis | process-modelling | |
-| 35 | Process Modelling | process-modelling | |
+| 34 | Process Analysis | process-modelling | process-model |
+| 35 | Process Modelling | process-modelling | process-model |
 | 36 | Prototyping | ux, elicitation | |
 | 37 | Reviews | quality | requirement-quality-review; business-case-review |
 | 38 | Risk Analysis and Management | governance | risk-register |
@@ -46,13 +46,13 @@ Maps each of the 50 BABOK v3 techniques to the Business Analysis OS skill that o
 | 40 | Root Cause Analysis | business-analysis, process-modelling | |
 | 41 | Scope Modelling | business-analysis | current-state-assessment |
 | 42 | Sequence Diagrams | architecture, data-analysis | |
-| 43 | Stakeholder List, Map, or Personas | elicitation, ux | stakeholder-register; stakeholder-map-raci |
+| 43 | Stakeholder List, Map, or Personas | elicitation, ux | stakeholder-register; stakeholder-map-raci; journey-map |
 | 44 | State Modelling | data-analysis, architecture | |
 | 45 | Survey or Questionnaire | elicitation, market-research | |
 | 46 | SWOT Analysis | strategy | swot-analysis |
-| 47 | Use Cases and Scenarios | requirements | frd |
+| 47 | Use Cases and Scenarios | requirements | use-case-specification; frd |
 | 48 | User Stories | product-owner | user-story-epic |
-| 49 | Vendor Assessment | vendor-evaluation | |
+| 49 | Vendor Assessment | vendor-evaluation | rfp |
 | 50 | Workshops | elicitation | workshop-plan |
 
 Every BABOK v3 technique now has an owning skill. Blank template cells indicate a technique supported by a skill but not yet backed by a dedicated template; these are candidates for future template tranches (for example a data dictionary, a use-case specification, or a process model template).
