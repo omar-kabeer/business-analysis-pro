@@ -20,6 +20,7 @@ Use this to map an incoming request to the right specialist skill and a sensible
 | "RAID, risk register, decision log, release readiness" | governance | quality |
 | "Validate, critique, is this any good, find the gaps" | quality | executive-review |
 | "Make this board-ready, executive summary, present to CEO" | executive-review | natural-prose-editor |
+| Payments, ISO 20022, SWIFT, SEPA, clearing and settlement | business-analysis + domain pack | requirements, architecture |
 | "Write the proposal / report / documentation / prompt" | proposal-writer, technical-writer, prompt-master | natural-prose-editor |
 
 ## Common sequences
@@ -28,6 +29,7 @@ Use this to map an incoming request to the right specialist skill and a sensible
 - New product bet: strategy, market-research, finance, product-manager, executive-review.
 - Requirements package: requirements, governance (traceability), quality.
 - Any written deliverable ends with natural-prose-editor as the house-style pass.
+- Payments initiatives load `domain-packs/payments-iso20022/` alongside the core skills.
 
 ## Execution patterns
 

@@ -127,7 +127,7 @@ function validateFrontmatterDir(dir, expectedType) {
 
 // House style: the em dash (U+2014) is banned in produced artifacts.
 function validateEditorialStyle() {
-  const scanDirs = ['templates', 'checklists', 'deliverables', 'examples', 'evaluation', 'frameworks']
+  const scanDirs = ['templates', 'checklists', 'deliverables', 'examples', 'evaluation', 'frameworks', 'domain-packs']
   for (const rel of scanDirs) {
     for (const file of walkMarkdown(join(root, rel), [])) {
       const lines = readText(file).split(/\r?\n/)

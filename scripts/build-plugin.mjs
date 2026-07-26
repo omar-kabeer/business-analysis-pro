@@ -53,6 +53,10 @@ cpSync(join(root, 'evaluation'), evalOut, { recursive: true })
 const fwOut = resetDir('frameworks')
 cpSync(join(root, 'frameworks'), fwOut, { recursive: true })
 
+// Domain packs.
+const dpOut = resetDir('domain-packs')
+cpSync(join(root, 'domain-packs'), dpOut, { recursive: true })
+
 // 4. Report what was built and guard the house-style rule.
 // Imported third-party skills may keep em dashes inside their own authoring
 // instructions; the ban is enforced on their generated output by the mandatory
