@@ -1,13 +1,5 @@
 # Deliverables
 
-This directory contains assets for the Deliverables area of Business Analysis OS.
+The catalogue of deliverables the OS produces, each mapped to the template that scaffolds it, the skill that owns it, and the rubric that grades it where one exists. Use `catalogue.md` to find the right deliverable and asset for a job.
 
-## Purpose
-
-Use this space for focused, reusable assets that support enterprise business analysis, product management, product ownership, governance, and decision-making workflows.
-
-## Contribution Notes
-
-- Keep each file focused on one primary responsibility.
-- Use clear Markdown structure and descriptive filenames.
-- Cross-reference related templates, checklists, frameworks, deliverables, and examples when useful.
+This folder is the index. The templates themselves live in `templates/`, the checklists in `checklists/`, the rubrics in `evaluation/`, and domain-specific deliverables in `domain-packs/`.

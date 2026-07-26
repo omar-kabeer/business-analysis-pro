@@ -1,13 +1,10 @@
 # Methodology
 
-This directory contains assets for the Methodology area of Business Analysis OS.
+Cross-cutting methodology and standards for the OS:
 
-## Purpose
+- `editorial-style.md`: the house style, including the hard no em dash rule.
+- `sdlc-playbook.md`: how to use the OS across the software development life cycle, with the phase-to-skill-to-template-to-gate map.
+- `technique-index.md`: the 50 BABOK techniques mapped to owning skills and templates.
+- `skills-audit.md`: the re-evaluation of the skills against BABOK and the skill-creation research.
 
-Use this space for focused, reusable assets that support enterprise business analysis, product management, product ownership, governance, and decision-making workflows.
-
-## Contribution Notes
-
-- Keep each file focused on one primary responsibility.
-- Use clear Markdown structure and descriptive filenames.
-- Cross-reference related templates, checklists, frameworks, deliverables, and examples when useful.
+The BABOK reference itself lives in `skills/business-analysis/references/babok-knowledge-areas.md`, and skill authoring rules in `docs/architecture/skill-authoring-guidelines.md`.

@@ -1,13 +1,8 @@
 # Examples
 
-This directory contains assets for the Examples area of Business Analysis OS.
+End-to-end worked examples live in the top-level `examples/` directory:
 
-## Purpose
+- `examples/customer-self-service-portal/`: an unstructured request taken through discovery and analysis to a completed, graded BRD.
+- `examples/supplier-invoice-approval/`: a full life cycle through the three SDLC gates (invest, build, release) with a post-launch evaluation.
 
-Use this space for focused, reusable assets that support enterprise business analysis, product management, product ownership, governance, and decision-making workflows.
-
-## Contribution Notes
-
-- Keep each file focused on one primary responsibility.
-- Use clear Markdown structure and descriptive filenames.
-- Cross-reference related templates, checklists, frameworks, deliverables, and examples when useful.
+Both demonstrate the flow described in `docs/methodology/sdlc-playbook.md` and are enforced by the validator.

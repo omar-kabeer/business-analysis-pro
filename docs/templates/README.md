@@ -1,13 +1,3 @@
 # Templates
 
-This directory contains assets for the Templates area of Business Analysis OS.
-
-## Purpose
-
-Use this space for focused, reusable assets that support enterprise business analysis, product management, product ownership, governance, and decision-making workflows.
-
-## Contribution Notes
-
-- Keep each file focused on one primary responsibility.
-- Use clear Markdown structure and descriptive filenames.
-- Cross-reference related templates, checklists, frameworks, deliverables, and examples when useful.
+The reusable deliverable templates live in the top-level `templates/` directory, each with frontmatter (type, domain, status, version) enforced by `scripts/validate-assets.mjs`. For the full catalogue mapped to owning skills and rubrics, see `deliverables/catalogue.md`. Checklists are in `checklists/`, rubrics in `evaluation/`, and domain-specific templates in `domain-packs/`.
