@@ -12,7 +12,7 @@ Maps each of the 50 BABOK v3 techniques to the Business Analysis OS skill that o
 | 6 | Business Capability Analysis | business-analysis | gap-analysis |
 | 7 | Business Cases | finance | business-case |
 | 8 | Business Model Canvas | strategy | business-model-canvas |
-| 9 | Business Rules Analysis | requirements | frd |
+| 9 | Business Rules Analysis | requirements | business-rules-catalogue; frd |
 | 10 | Collaborative Games | elicitation | workshop-plan |
 | 11 | Concept Modelling | data-analysis | |
 | 12 | Data Dictionary | data-analysis | data-dictionary |
@@ -27,7 +27,7 @@ Maps each of the 50 BABOK v3 techniques to the Business Analysis OS skill that o
 | 21 | Focus Groups | elicitation | |
 | 22 | Functional Decomposition | process-modelling | process-model |
 | 23 | Glossary | business-analysis | |
-| 24 | Interface Analysis | architecture | frd |
+| 24 | Interface Analysis | architecture | context-diagram; frd |
 | 25 | Interviews | elicitation | interview-guide |
 | 26 | Item Tracking | governance | raid-log |
 | 27 | Lessons Learned | agile-coach, governance | |
@@ -44,9 +44,9 @@ Maps each of the 50 BABOK v3 techniques to the Business Analysis OS skill that o
 | 38 | Risk Analysis and Management | governance | risk-register |
 | 39 | Roles and Permissions Matrix | governance | stakeholder-map-raci |
 | 40 | Root Cause Analysis | business-analysis, process-modelling | |
-| 41 | Scope Modelling | business-analysis | current-state-assessment |
+| 41 | Scope Modelling | business-analysis | context-diagram; current-state-assessment |
 | 42 | Sequence Diagrams | architecture, data-analysis | |
-| 43 | Stakeholder List, Map, or Personas | elicitation, ux | stakeholder-register; stakeholder-map-raci; journey-map |
+| 43 | Stakeholder List, Map, or Personas | elicitation, ux | stakeholder-register; stakeholder-map-raci; persona; empathy-map; journey-map |
 | 44 | State Modelling | data-analysis, architecture | |
 | 45 | Survey or Questionnaire | elicitation, market-research | |
 | 46 | SWOT Analysis | strategy | swot-analysis |
