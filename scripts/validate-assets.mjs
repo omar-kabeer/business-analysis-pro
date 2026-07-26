@@ -126,10 +126,8 @@ function validateFrontmatterDir(dir, expectedType) {
 }
 
 // House style: the em dash (U+2014) is banned in produced artifacts.
-// Scoped to deliverable, template, and checklist markdown so instructional docs
-// and skills (which must name the character to explain the rule) are not flagged.
 function validateEditorialStyle() {
-  const scanDirs = ['templates', 'checklists', 'deliverables']
+  const scanDirs = ['templates', 'checklists', 'deliverables', 'examples', 'evaluation']
   for (const rel of scanDirs) {
     for (const file of walkMarkdown(join(root, rel), [])) {
       const lines = readText(file).split(/\r?\n/)
@@ -142,10 +140,30 @@ function validateEditorialStyle() {
   }
 }
 
+// MVP proof: the operating system must be demonstrable end to end.
+// These assets prove the orchestrator to business-analysis to BRD to evaluation loop.
+function validateMvp() {
+  const required = [
+    'skills/orchestrator/SKILL.md',
+    'skills/business-analysis/SKILL.md',
+    'templates/brd.md',
+    'evaluation/brd-rubric.md',
+    'examples/customer-self-service-portal/scenario.md',
+    'examples/customer-self-service-portal/brd.md',
+    'examples/customer-self-service-portal/evaluation.md',
+  ]
+  for (const rel of required) {
+    if (!existsSync(join(root, rel))) {
+      errors.push(`MVP asset missing: ${rel}`)
+    }
+  }
+}
+
 validateSkills()
 validateFrontmatterDir('templates', 'deliverable')
 validateFrontmatterDir('checklists', 'checklist')
 validateEditorialStyle()
+validateMvp()
 
 if (errors.length) {
   console.error('Validation failed:')
@@ -155,4 +173,4 @@ if (errors.length) {
   process.exit(1)
 }
 
-console.log('Validation passed: skills, templates, and checklists are structurally sound.')
+console.log('Validation passed: skills, templates, checklists, and MVP assets are sound.')

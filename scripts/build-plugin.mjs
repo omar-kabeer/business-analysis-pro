@@ -45,6 +45,10 @@ cpSync(join(root, 'templates'), templatesOut, { recursive: true })
 const checklistsOut = resetDir('checklists')
 cpSync(join(root, 'checklists'), checklistsOut, { recursive: true })
 
+// Evaluation rubrics.
+const evalOut = resetDir('evaluation')
+cpSync(join(root, 'evaluation'), evalOut, { recursive: true })
+
 // 4. Report what was built and guard the house-style rule.
 // Imported third-party skills may keep em dashes inside their own authoring
 // instructions; the ban is enforced on their generated output by the mandatory

@@ -46,6 +46,10 @@ npm run build:plugin
 
 Skills install namespaced as `business-analysis-os:<skill>` (for example `/business-analysis-os:orchestrator`). A SessionStart hook loads the no em dash house style at the start of every session. See `plugin/README.md` for details.
 
+## Worked example
+
+A complete end-to-end example lives in `examples/customer-self-service-portal/`: an unstructured business request (`scenario.md`) taken through analysis to a completed Business Requirements Document (`brd.md`), then graded against a reusable rubric (`evaluation/brd-rubric.md`) in `evaluation.md`. It demonstrates the MVP flow: orchestrator to business-analysis to BRD to evaluation, and doubles as an integration test enforced by `npm run check`.
+
 ## License
 
 This project is licensed under the Apache License 2.0. See `LICENSE` for details.
