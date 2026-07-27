@@ -35,7 +35,6 @@ const docsOut = resetDir('docs')
 cpSync(join(root, 'docs', 'methodology', 'editorial-style.md'), join(docsOut, 'editorial-style.md'))
 cpSync(join(root, 'docs', 'methodology', 'sdlc-playbook.md'), join(docsOut, 'sdlc-playbook.md'))
 cpSync(join(root, 'docs', 'methodology', 'technique-index.md'), join(docsOut, 'technique-index.md'))
-cpSync(join(root, 'docs', 'methodology', 'skills-audit.md'), join(docsOut, 'skills-audit.md'))
 cpSync(
   join(root, 'docs', 'architecture', 'skill-authoring-guidelines.md'),
   join(docsOut, 'skill-authoring-guidelines.md'),

@@ -16,3 +16,16 @@ Thumbs.db
 dist/
 dist-ssr/
 *.local
+
+# Private (excluded from the public repo)
+apps/
+PLAN.md
+CODEX_IMPLEMENTATION_GUIDE.md
+docs/methodology/skills-audit.md
+
+# Secrets and local env
+.env
+.env.*
+*.pem
+*.key
+secrets/
