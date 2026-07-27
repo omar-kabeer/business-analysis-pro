@@ -40,10 +40,14 @@ Every deliverable the OS produces, with its template, owning skill, and rubric w
 | Product requirements document | prd | product-manager | prd-rubric |
 | Epic and user stories | user-story-epic | product-owner | |
 | Product vision brief | product-vision-brief | product-manager | |
+| Product strategy document | product-strategy | product-manager | |
 | Product roadmap | product-roadmap | product-manager | |
 | Prioritization matrix | prioritization-matrix | product-manager, product-owner | |
 | Opportunity solution tree | opportunity-solution-tree | product-manager | |
 | Go-to-market plan | go-to-market-plan | product-manager | |
+| Release plan and notes | release-plan-and-notes | product-manager, product-owner | |
+| Win/loss report | win-loss-report | product-manager | |
+| Experiment and post-mortem log | experiment-log | product-manager | |
 | Persona | persona | ux | |
 | Empathy map | empathy-map | ux | |
 | Journey map | journey-map | ux | |

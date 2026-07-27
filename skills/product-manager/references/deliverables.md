@@ -7,7 +7,7 @@ The artefacts a PM produces across the lifecycle, mapped to audience, purpose, p
 | Artefact | Audience | Purpose | Phase | Template |
 | --- | --- | --- | --- | --- |
 | Product vision statement | Company, market | The multi-year future state and value | Concept | product-vision-brief |
-| Product strategy document | Leadership, team | Segments, positioning, value props, revenue model, strategic bets | Concept, growth | product-vision-brief (extend) |
+| Product strategy document | Leadership, team | Segments, positioning, value props, revenue model, strategic bets | Concept, growth | product-strategy |
 | Product roadmap | Internal and external | Sequence outcomes over now, next, later | All | product-roadmap |
 | Business case and financial model | Executives | ROI, cost, TAM, NPV, break-even to secure funding | Concept, growth | business-case |
 
@@ -24,7 +24,7 @@ The artefacts a PM produces across the lifecycle, mapped to audience, purpose, p
 | Artefact | Audience | Purpose | Phase | Template |
 | --- | --- | --- | --- | --- |
 | Prioritised backlog input | Product owner, engineering | Ranked user stories and enhancements | Delivery | user-story-epic (product-owner) |
-| Release plan and notes | Team, customers | Deployment scope and customer-facing changes | Launch | (candidate template) |
+| Release plan and notes | Team, customers | Deployment scope and customer-facing changes | Launch | release-plan-and-notes |
 | Go-to-market readiness checklist | Cross-functional | Sales, support, marketing, billing, legal aligned pre-launch | Launch | go-to-market-plan |
 
 ## Performance evaluation
@@ -32,7 +32,7 @@ The artefacts a PM produces across the lifecycle, mapped to audience, purpose, p
 | Artefact | Audience | Purpose | Phase | Template |
 | --- | --- | --- | --- | --- |
 | KPI dashboard | Team, leadership | Engagement, funnel, retention, financial health | Growth, maturity | (data-analysis skill) |
-| Win/loss report | Product, sales, marketing | Positioning accuracy and competitive gaps | Growth | (candidate template) |
-| Experiment or post-mortem log | Product | Hypothesis, result, and learning for the next loop | Continuous | (candidate template) |
+| Win/loss report | Product, sales, marketing | Positioning accuracy and competitive gaps | Growth | win-loss-report |
+| Experiment or post-mortem log | Product | Hypothesis, result, and learning for the next loop | Continuous | experiment-log |
 
-Candidate templates are gaps worth adding to `templates/` in a future tranche (release plan and notes, win/loss report, experiment log, and a fuller product strategy document).
+The insights repository remains a candidate template (currently supported by the data-analysis skill); a future tranche could add it.
