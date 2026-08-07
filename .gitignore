@@ -29,3 +29,11 @@ docs/methodology/skills-audit.md
 *.pem
 *.key
 secrets/
+
+# Source library: track the register and the docs, never the source material itself.
+# The PDFs and workbooks are licensed to us and are not redistributable.
+sources/**
+!sources/manifest.json
+!sources/index.md
+!sources/naming-convention.md
+!sources/standards-mapping.md
