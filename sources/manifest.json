@@ -224,7 +224,8 @@
         "prototype",
         "published-page"
       ],
-      "identityVerified": true
+      "notes": "EXTRACTION BLOCKED 2026-08-07. The held PDF is image-only: about 95 pages with no text layer, and pdftotext returns only page breaks. pdftoppm and OCR are unavailable in this environment, so identity cannot be verified and obligations cannot be extracted without fabrication. No conformance file produced. The three artefact types remain covered by wcag-2.1 in the interim; the 2.2 delta (new success criteria, removal of 4.1.1 Parsing) is unextracted. Obtain a text-based copy of WCAG 2.2 to complete this source.",
+      "identityVerified": false
     },
     {
       "id": "iso-31000-2018",
