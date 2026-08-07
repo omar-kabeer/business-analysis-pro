@@ -318,7 +318,10 @@
         "requirement-statement",
         "requirements-package"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-29148.md",
+      "year": 2011,
+      "notes": "Identity confirmed from the title page: ISO/IEC/IEEE 29148:2011, first edition. This is the 2011 edition, not the 2018 revision. Cite the edition held.",
+      "identityVerified": true
     },
     {
       "id": "iso-29119-3",

@@ -37,3 +37,6 @@ sources/**
 !sources/index.md
 !sources/naming-convention.md
 !sources/standards-mapping.md
+# Conformance checks are hand-written from the sources, contain no licensed text, and are tracked.
+!sources/conformance/
+!sources/conformance/**
