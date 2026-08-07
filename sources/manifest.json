@@ -145,7 +145,8 @@
         "enterprise-architecture-model",
         "capability-map"
       ],
-      "identityVerified": true
+      "notes": "IDENTITY MISMATCH found 2026-08-07. The held file is the ArchiMate 3.1 Reference Cards (Personal PDF Edition, product N190), not the ArchiMate 3.1 Specification (product C197) that this record names. It is genuine Open Group ArchiMate 3.1 content, but it is a summary card set: it carries the element and relationship definitions and notation, but no normative 'shall' clauses, no conformance requirements chapter, and not the full allowed-relationship rules. It cannot serve as the conformance authority for enterprise architecture models. Acquire the ArchiMate 3.1 Specification (C197) before extracting checks. No conformance file produced.",
+      "identityVerified": false
     },
     {
       "id": "apqc-pcf",
