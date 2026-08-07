@@ -198,6 +198,7 @@
         "prototype",
         "published-page"
       ],
+      "conformance": "conformance/wcag-2.1.md",
       "identityVerified": true
     },
     {
