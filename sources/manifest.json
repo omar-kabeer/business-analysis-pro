@@ -358,7 +358,9 @@
         "test-specification",
         "acceptance-criteria"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-29119-3.md",
+      "notes": "Identity confirmed 2026-08-07 from the title page: first edition, 2013-09-01. A 2021 second edition exists; cite the edition held.",
+      "identityVerified": true
     },
     {
       "id": "iso-20400",
