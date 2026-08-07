@@ -280,7 +280,9 @@
         "security-requirement",
         "compliance-matrix"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-27001-2022.md",
+      "notes": "Identity confirmed 2026-08-07 from the title page: third edition, 2022-10. The copy carries an SNV/SQS (Swiss) licence stamp and is not licensed to us; replace with an owned copy before client use.",
+      "identityVerified": true
     },
     {
       "id": "iso-27002",
