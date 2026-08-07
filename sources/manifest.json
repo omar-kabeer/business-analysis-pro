@@ -246,6 +246,7 @@
         "risk-register",
         "risk-assessment"
       ],
+      "conformance": "conformance/iso-31000-2018.md",
       "identityVerified": true
     },
     {
