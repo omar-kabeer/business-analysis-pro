@@ -406,6 +406,7 @@
       "constrains": [
         "prose-deliverable"
       ],
+      "notes": "IDENTITY MISMATCH found 2026-08-07. The held file is a third-party health-communication resource titled 'Guidance for applying the ISO Plain Language Standard to health Information', which supports and references ISO 24495-1 but is NOT the standard. It states it 'supports' and gives 'guidance on how to align your health documents with the provisions of ISO 24495'. It contains no ISO clause structure and no 'shall' provisions. It cannot serve as the conformance authority for prose-deliverable. Acquire ISO 24495-1:2023 (Plain language, Part 1: Governing principles and guidelines) before extracting checks. No conformance file produced. It does paraphrase the four IPLF principles (relevant, findable, understandable, usable), which can guide wording once the real standard is held.",
       "identityVerified": false
     },
     {
