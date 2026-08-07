@@ -460,7 +460,8 @@
         "sprint-artefact",
         "product-backlog"
       ],
-      "identityVerified": false
+      "conformance": "conformance/scrum-guide-2020.md",
+      "identityVerified": true
     },
     {
       "id": "cobit-2019",
