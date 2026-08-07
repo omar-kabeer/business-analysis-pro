@@ -384,7 +384,9 @@
         "procurement-document",
         "vendor-assessment"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-20400.md",
+      "notes": "Identity confirmed 2026-08-07 from the title page: first edition, 2017-04. A guidance standard (provisions stated with 'should'), not certifiable; conformance severities are a house gate.",
+      "identityVerified": true
     },
     {
       "id": "iso-24495-1",
