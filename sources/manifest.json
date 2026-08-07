@@ -74,6 +74,7 @@
         "class-model",
         "sequence-diagram"
       ],
+      "conformance": "conformance/uml-2.5.md",
       "identityVerified": true
     },
     {
