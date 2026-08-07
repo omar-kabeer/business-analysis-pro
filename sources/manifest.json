@@ -48,6 +48,7 @@
       "constrains": [
         "process-model"
       ],
+      "conformance": "conformance/bpmn-2.0.md",
       "identityVerified": true
     },
     {
