@@ -419,13 +419,14 @@
         "ux",
         "prototyping"
       ],
-      "notes": "A 2019 revision supersedes this edition. Cite the edition held, not the standard in general.",
+      "notes": "A 2019 revision supersedes this edition. Cite the edition held, not the standard in general. Identity confirmed 2026-08-07 from the title page: first edition, 2010-03-15.",
       "authority": "normative",
       "constrains": [
         "design-process",
         "prototype"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-9241-210-2010.md",
+      "identityVerified": true
     },
     {
       "id": "scrum-guide-2020",
