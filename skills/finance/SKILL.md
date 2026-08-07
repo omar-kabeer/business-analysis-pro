@@ -1,6 +1,6 @@
 ---
 name: finance
-description: Financial analysis specialist for Business Analysis OS. Use whenever the user needs a business case, cost-benefit analysis, ROI, NPV, IRR, payback, sensitivity or scenario analysis, or risk-adjusted value for a decision or investment. Trigger on phrases like build a business case, is it worth it, what is the ROI, run an NPV or IRR, cost benefit, payback period, or justify this spend financially. Produces a defensible financial justification with explicit assumptions and sensitivities. Take market inputs from the market-research skill and hand the executive framing to the executive-review skill.
+description: Financial analysis specialist for Business Analysis OS. Use whenever the user needs a business case, cost-benefit analysis, ROI, NPV, IRR, payback, sensitivity or scenario analysis, or risk-adjusted value for a decision or investment. Trigger on phrases like build a business case, is it worth it, what is the ROI, run an NPV or IRR, cost benefit, payback period, or justify this spend financially. Produces a defensible financial justification with explicit assumptions and sensitivities. Take market inputs from the market-research skill and effort or cost forecasts from the estimation skill, hand weighted option scoring to the decision-analysis skill, and hand the executive framing to the executive-review skill.
 ---
 
 # Financial Analysis Skill

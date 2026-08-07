@@ -1,55 +1,47 @@
-# Business Analysis OS
+# Business Analysis OS (Claude Code plugin)
 
-Business Analysis OS is an enterprise-ready operating system for business analysis, product management, product ownership, and executive decision support with AI-assisted workflows.
+An enterprise Business Analysis and Product Management operating system for Claude Code. It installs 40 skills that turn Claude into a senior business analyst, product manager, and executive reviewer, coordinated by an orchestrator and held to a strict editorial house style. Version 1.15.0 closes the plugin against the full BABOK v3 artefact register, so every artefact the guide defines has exactly one owning skill.
 
-The repository is organized around reusable skills, documented methodology, templates, checklists, frameworks, domain packs, example deliverables, evaluation assets, and shared project memory.
+This directory is the distributable plugin. It is generated from the repository by `scripts/build-plugin.mjs`; edit skills under the repository `skills/` folder, not here.
 
-## Repository Map
+## What you get
 
-- `.github/` — GitHub automation, agent metadata, reusable instructions, skills, and MCP configuration.
-- `docs/` — Architecture, methodology, frameworks, BABOK guidance, product-management guidance, templates documentation, and examples.
-- `skills/` — Modular specialist skill packs for orchestration, strategy, analysis, product, UX, research, finance, architecture, governance, quality, and executive review.
-- `templates/` — Reusable artifact templates.
-- `checklists/` — Quality, readiness, and review checklists.
-- `frameworks/` — Decision, analysis, prioritization, and delivery frameworks.
-- `deliverables/` — Canonical output examples and deliverable definitions.
-- `domain-packs/` — Industry or domain-specific knowledge packs.
-- `prompts/` — Prompt assets that support the operating system.
-- `evaluation/` — Rubrics, test cases, and evaluation workflows.
-- `examples/` — End-to-end usage examples.
-- `memory/` — Persistent project context and reusable knowledge notes.
+- Orchestrator that classifies a request and routes it to the right specialist, with boundary rules that keep the skills from overlapping.
+- Framing and evidence: elicitation, document-analysis, business-analysis, ba-planning, market-research, strategy.
+- Specification: requirements, product-manager, product-owner, agile-coach, ux, prototyping.
+- Modelling and representation: visual-modelling, process-modelling, data-modelling, business-intelligence, data-analysis, architecture, business-architecture.
+- Decision and evaluation: decision-analysis, estimation, finance, vendor-evaluation, procurement-contracts, acceptance-testing, quality, solution-evaluation.
+- Control: risk-analysis, change-control, regulatory-compliance, information-management, governance.
+- Communication: communication, executive-review, technical-writer, proposal-writer, natural-prose-editor, prompt-master.
+- Maintenance: skill-upgrader, which upgrades a skill against BABOK and the curated source library in `sources/`. See `docs/skill-upgrade-program.md`.
+- A hard no em dash house style, applied automatically through the natural-prose-editor skill and a SessionStart hook.
 
-## Getting Started
+## Coverage
 
-1. Review `docs/architecture/overview.md` for the operating model.
-2. Review `AGENTS.md` and `CLAUDE.md` for agent and Claude-specific guidance.
-3. Add or update skill packs under `skills/` using the local `README.md` files as ownership boundaries.
-4. Store reusable templates, checklists, and frameworks in their top-level directories.
-5. Validate new assets against the quality gates in `CONTRIBUTING.md`.
+The skill set is derived from a line-by-line reading of the BABOK v3 artefact register (410 rows covering task inputs and outputs, guidelines and tools, requirement and design classes, packaging and representation forms, named diagram and matrix forms, procurement documents, analysis and review artefacts, all 50 technique work products, and the five perspectives). Every row resolves to exactly one owning skill. The layers above are mutually exclusive and collectively exhaustive: framing, evidence, specification, representation, decision, control, and communication.
 
-## Use as a Claude Code plugin
+## Install
 
-The OS is packaged as a Claude Code plugin under `plugin/`, published through the marketplace catalog at `.claude-plugin/marketplace.json`.
-
-Install from the repository root:
+From the repository root (local marketplace):
 
 ```
 /plugin marketplace add .
 /plugin install business-analysis-os@ba-os
 ```
 
-The plugin is generated from this repository, so `skills/` stays the single source of truth. After changing any skill, rebuild the plugin with:
+Or point at the folder or the hosted git repository:
 
 ```
-npm run build:plugin
+/plugin marketplace add C:\Users\USER\Documents\Documents\Personal Development\business-analysis-pro
+/plugin install business-analysis-os@ba-os
 ```
 
-Skills install namespaced as `business-analysis-os:<skill>` (for example `/business-analysis-os:orchestrator`). A SessionStart hook loads the no em dash house style at the start of every session. See `plugin/README.md` for details.
+Restart Claude Code if prompted, then type `/` to see the skills.
 
-## Worked example
+## Use
 
-A complete end-to-end example lives in `examples/customer-self-service-portal/`: an unstructured business request (`scenario.md`) taken through analysis to a completed Business Requirements Document (`brd.md`), then graded against a reusable rubric (`evaluation/brd-rubric.md`) in `evaluation.md`. It demonstrates the MVP flow: orchestrator to business-analysis to BRD to evaluation, and doubles as an integration test enforced by `npm run check`.
+- Start broad requests with the orchestrator: `/business-analysis-os:orchestrator`.
+- Or call a specialist directly, for example `/business-analysis-os:business-analysis` or `/business-analysis-os:requirements`.
+- Claude also triggers these automatically based on the request, so you can just describe the task.
 
-## License
-
-This project is licensed under the Apache License 2.0. See `LICENSE` for details.
+Plugin skills are namespaced as `business-analysis-os:<skill>`. The house-style hook injects the no em dash rule at the start of every session.

@@ -1,6 +1,6 @@
 ---
 name: quality
-description: Validation and quality-assurance specialist for Business Analysis OS. Use whenever the user wants an artifact critiqued or validated before it ships: requirements, PRDs, business cases, user stories, analysis, or any deliverable. Trigger on phrases like review this, validate these requirements, critique this, is this good enough, find the gaps, poke holes in this, or QA this before I send it. Acts as an independent critic that finds ambiguity, missing requirements, contradictions, weak acceptance criteria, and untested assumptions, then gives specific, prioritised fixes. Pair it with the executive-review skill for board-level polish.
+description: Validation and quality-assurance specialist for Business Analysis OS. Use whenever the user wants an artifact critiqued or validated before it ships: requirements, PRDs, business cases, user stories, analysis, or any deliverable. Trigger on phrases like review this, validate these requirements, critique this, is this good enough, find the gaps, poke holes in this, or QA this before I send it. Acts as an independent critic that finds ambiguity, missing requirements, contradictions, weak acceptance criteria, and untested assumptions, then gives specific, prioritised fixes. Hand user acceptance testing and test case design to the acceptance-testing skill. Pair it with the executive-review skill for board-level polish.
 ---
 
 # Quality and Validation Skill
