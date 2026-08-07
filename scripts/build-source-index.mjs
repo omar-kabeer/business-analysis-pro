@@ -69,7 +69,9 @@ function walk(dir, acc = []) {
     const full = join(dir, entry.name);
     const rel = relative(SOURCES, full).split('\\').join('/');
     if (entry.isDirectory()) walk(full, acc);
-    else if (!NON_SOURCE_FILES.has(rel)) acc.push(rel);
+    // conformance/ holds hand-written conformance checks derived from the sources,
+    // not source documents, so it is not subject to the source path and stem rules.
+    else if (!NON_SOURCE_FILES.has(rel) && !rel.startsWith('conformance/')) acc.push(rel);
   }
   return acc;
 }

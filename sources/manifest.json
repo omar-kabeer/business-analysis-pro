@@ -24,6 +24,7 @@
       "constrains": [
         "*"
       ],
+      "conformance": "conformance/babok-3.0-2015.md",
       "identityVerified": true
     },
     {
@@ -48,6 +49,7 @@
       "constrains": [
         "process-model"
       ],
+      "conformance": "conformance/bpmn-2.0.md",
       "identityVerified": true
     },
     {
@@ -73,6 +75,7 @@
         "class-model",
         "sequence-diagram"
       ],
+      "conformance": "conformance/uml-2.5.md",
       "identityVerified": true
     },
     {
@@ -97,6 +100,7 @@
         "decision-table",
         "decision-requirements-diagram"
       ],
+      "conformance": "conformance/dmn-1.3.md",
       "identityVerified": true
     },
     {
@@ -121,6 +125,7 @@
         "motivation-model",
         "business-objective"
       ],
+      "conformance": "conformance/bmm-1.3.md",
       "identityVerified": true
     },
     {
@@ -145,32 +150,34 @@
         "enterprise-architecture-model",
         "capability-map"
       ],
-      "identityVerified": true
+      "notes": "IDENTITY MISMATCH found 2026-08-07. The held file is the ArchiMate 3.1 Reference Cards (Personal PDF Edition, product N190), not the ArchiMate 3.1 Specification (product C197) that this record names. It is genuine Open Group ArchiMate 3.1 content, but it is a summary card set: it carries the element and relationship definitions and notation, but no normative 'shall' clauses, no conformance requirements chapter, and not the full allowed-relationship rules. It cannot serve as the conformance authority for enterprise architecture models. Acquire the ArchiMate 3.1 Specification (C197) before extracting checks. No conformance file produced.",
+      "identityVerified": false
     },
     {
       "id": "apqc-pcf",
       "title": "Process Classification Framework",
       "publisher": "APQC",
-      "version": "unrecorded",
       "tier": "standard",
       "path": "standards/apqc-pcf.pdf",
       "locatorStyle": "APQC PCF category <n>",
       "licence": {
         "position": "free-to-obtain",
-        "redistributable": false,
-        "verified": false
+        "redistributable": true,
+        "verified": true
       },
       "skills": [
         "business-architecture",
         "process-modelling"
       ],
-      "notes": "Attribution required. Confirm edition and terms.",
+      "version": "8.0",
+      "notes": "Identity confirmed 2026-08-07 from the cover and copyright page: Cross-Industry PCF version 8.0, February 2026. Open standard: APQC grants a royalty-free licence to use and create derivative works provided the APQC attribution statement is carried on every copy and derivative. The PCF governs process-taxonomy well; it is an ill-fitting authority for capability-map (a process framework, not a capability model), which produces no check. See conformance file.",
       "authority": "normative",
       "constrains": [
         "process-taxonomy",
         "capability-map"
       ],
-      "identityVerified": false
+      "conformance": "conformance/apqc-pcf.md",
+      "identityVerified": true
     },
     {
       "id": "wcag-2.1",
@@ -195,6 +202,7 @@
         "prototype",
         "published-page"
       ],
+      "conformance": "conformance/wcag-2.1.md",
       "identityVerified": true
     },
     {
@@ -220,7 +228,8 @@
         "prototype",
         "published-page"
       ],
-      "identityVerified": true
+      "notes": "EXTRACTION BLOCKED 2026-08-07. The held PDF is image-only: about 95 pages with no text layer, and pdftotext returns only page breaks. pdftoppm and OCR are unavailable in this environment, so identity cannot be verified and obligations cannot be extracted without fabrication. No conformance file produced. The three artefact types remain covered by wcag-2.1 in the interim; the 2.2 delta (new success criteria, removal of 4.1.1 Parsing) is unextracted. Obtain a text-based copy of WCAG 2.2 to complete this source.",
+      "identityVerified": false
     },
     {
       "id": "iso-31000-2018",
@@ -246,6 +255,7 @@
         "risk-register",
         "risk-assessment"
       ],
+      "conformance": "conformance/iso-31000-2018.md",
       "identityVerified": true
     },
     {
@@ -271,13 +281,14 @@
         "security-requirement",
         "compliance-matrix"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-27001-2022.md",
+      "notes": "Identity confirmed 2026-08-07 from the title page: third edition, 2022-10. The copy carries an SNV/SQS (Swiss) licence stamp and is not licensed to us; replace with an owned copy before client use.",
+      "identityVerified": true
     },
     {
       "id": "iso-27002",
       "title": "Information security controls",
       "publisher": "ISO/IEC",
-      "version": "27002",
       "tier": "standard",
       "path": "standards/iso-27002.pdf",
       "locatorStyle": "ISO/IEC 27002 control <n>",
@@ -295,7 +306,10 @@
         "security-control",
         "compliance-matrix"
       ],
-      "identityVerified": false
+      "version": "27002:2022",
+      "conformance": "conformance/iso-27002.md",
+      "notes": "Identity confirmed 2026-08-07 from the title page: third edition, 2022-02. A code of practice (controls stated with 'should'), not a certifiable standard; conformance severities are a house gate.",
+      "identityVerified": true
     },
     {
       "id": "iso-29148",
@@ -318,7 +332,10 @@
         "requirement-statement",
         "requirements-package"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-29148.md",
+      "year": 2011,
+      "notes": "Identity confirmed from the title page: ISO/IEC/IEEE 29148:2011, first edition. This is the 2011 edition, not the 2018 revision. Cite the edition held.",
+      "identityVerified": true
     },
     {
       "id": "iso-29119-3",
@@ -342,7 +359,9 @@
         "test-specification",
         "acceptance-criteria"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-29119-3.md",
+      "notes": "Identity confirmed 2026-08-07 from the title page: first edition, 2013-09-01. A 2021 second edition exists; cite the edition held.",
+      "identityVerified": true
     },
     {
       "id": "iso-20400",
@@ -366,7 +385,9 @@
         "procurement-document",
         "vendor-assessment"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-20400.md",
+      "notes": "Identity confirmed 2026-08-07 from the title page: first edition, 2017-04. A guidance standard (provisions stated with 'should'), not certifiable; conformance severities are a house gate.",
+      "identityVerified": true
     },
     {
       "id": "iso-24495-1",
@@ -390,6 +411,7 @@
       "constrains": [
         "prose-deliverable"
       ],
+      "notes": "IDENTITY MISMATCH found 2026-08-07. The held file is a third-party health-communication resource titled 'Guidance for applying the ISO Plain Language Standard to health Information', which supports and references ISO 24495-1 but is NOT the standard. It states it 'supports' and gives 'guidance on how to align your health documents with the provisions of ISO 24495'. It contains no ISO clause structure and no 'shall' provisions. It cannot serve as the conformance authority for prose-deliverable. Acquire ISO 24495-1:2023 (Plain language, Part 1: Governing principles and guidelines) before extracting checks. No conformance file produced. It does paraphrase the four IPLF principles (relevant, findable, understandable, usable), which can guide wording once the real standard is held.",
       "identityVerified": false
     },
     {
@@ -410,13 +432,14 @@
         "ux",
         "prototyping"
       ],
-      "notes": "A 2019 revision supersedes this edition. Cite the edition held, not the standard in general.",
+      "notes": "A 2019 revision supersedes this edition. Cite the edition held, not the standard in general. Identity confirmed 2026-08-07 from the title page: first edition, 2010-03-15.",
       "authority": "normative",
       "constrains": [
         "design-process",
         "prototype"
       ],
-      "identityVerified": false
+      "conformance": "conformance/iso-9241-210-2010.md",
+      "identityVerified": true
     },
     {
       "id": "scrum-guide-2020",
@@ -442,7 +465,8 @@
         "sprint-artefact",
         "product-backlog"
       ],
-      "identityVerified": false
+      "conformance": "conformance/scrum-guide-2020.md",
+      "identityVerified": true
     },
     {
       "id": "cobit-2019",
@@ -468,7 +492,8 @@
         "governance-approach",
         "change-assessment"
       ],
-      "identityVerified": false
+      "conformance": "conformance/cobit-2019.md",
+      "identityVerified": true
     },
     {
       "id": "crisp-dm-1.0",
@@ -492,6 +517,7 @@
       "constrains": [
         "analytics-workflow"
       ],
+      "conformance": "conformance/crisp-dm-1.0.md",
       "identityVerified": true,
       "notes": "Confirmed from the title page. Chapman, Clinton, Kerber, Khabaza, Reinartz, Shearer and Wirth."
     },
@@ -579,6 +605,7 @@
       "constrains": [
         "effort-estimate"
       ],
+      "conformance": "conformance/cocomo-ii-2.1.md",
       "identityVerified": true
     },
     {
