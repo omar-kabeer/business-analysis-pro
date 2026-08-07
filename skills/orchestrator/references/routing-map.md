@@ -6,6 +6,7 @@ Use this to map an incoming request to the right specialist skill and a sensible
 
 | Signal in the request | Primary skill | Common follow-on |
 | --- | --- | --- |
+| Fresh project, "where do I start", "what documents do I need", "I have an idea", no clear brief | project-intake | orchestrator, then the prescribed skills |
 | Vague problem, need to frame it, stakeholders unclear | elicitation | business-analysis, strategy |
 | "Interview / workshop / discovery / find the real problem" | elicitation | requirements |
 | "Here are the existing documents, mine these, what do our policies say" | document-analysis | business-analysis, requirements |
