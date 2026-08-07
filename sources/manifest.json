@@ -152,26 +152,27 @@
       "id": "apqc-pcf",
       "title": "Process Classification Framework",
       "publisher": "APQC",
-      "version": "unrecorded",
       "tier": "standard",
       "path": "standards/apqc-pcf.pdf",
       "locatorStyle": "APQC PCF category <n>",
       "licence": {
         "position": "free-to-obtain",
-        "redistributable": false,
-        "verified": false
+        "redistributable": true,
+        "verified": true
       },
       "skills": [
         "business-architecture",
         "process-modelling"
       ],
-      "notes": "Attribution required. Confirm edition and terms.",
+      "version": "8.0",
+      "notes": "Identity confirmed 2026-08-07 from the cover and copyright page: Cross-Industry PCF version 8.0, February 2026. Open standard: APQC grants a royalty-free licence to use and create derivative works provided the APQC attribution statement is carried on every copy and derivative. The PCF governs process-taxonomy well; it is an ill-fitting authority for capability-map (a process framework, not a capability model), which produces no check. See conformance file.",
       "authority": "normative",
       "constrains": [
         "process-taxonomy",
         "capability-map"
       ],
-      "identityVerified": false
+      "conformance": "conformance/apqc-pcf.md",
+      "identityVerified": true
     },
     {
       "id": "wcag-2.1",
