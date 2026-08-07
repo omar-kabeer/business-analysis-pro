@@ -4,6 +4,10 @@ These are conformance authorities, not citation sources. An artefact this skill 
 
 Resolve each source id against `sources/manifest.json` and read its checks in `sources/conformance/<source-id>.md`.
 
+## Baseline for every artefact
+
+- `babok-3.0-2015`. The BABOK Guide v3 anchors every skill and constrains every artefact type. Its cross-cutting checks (the requirements and designs quality characteristics, traceability, approval, classification, and validation) are the general baseline under the artefact-specific sources. Read `sources/conformance/babok-3.0-2015.md` alongside the specific source for any artefact. For requirement statements it is consistent with, and less detailed than, `iso-29148`.
+
 ## requirement-statement
 
 - `iso-29148`. ISO/IEC/IEEE 29148:2011, requirements engineering. Every individual requirement must pass the ISO29148-RS blocking checks: explicit subject and action, singular, free of vague terms, unambiguous, verifiable, implementation-free, complete with no placeholders, traceable both ways, and assumptions recorded. Advisory checks cover necessity, feasibility, keyword use, active voice, unique id, and dated references.

@@ -24,6 +24,7 @@
       "constrains": [
         "*"
       ],
+      "conformance": "conformance/babok-3.0-2015.md",
       "identityVerified": true
     },
     {
