@@ -516,6 +516,7 @@
       "constrains": [
         "analytics-workflow"
       ],
+      "conformance": "conformance/crisp-dm-1.0.md",
       "identityVerified": true,
       "notes": "Confirmed from the title page. Chapman, Clinton, Kerber, Khabaza, Reinartz, Shearer and Wirth."
     },
