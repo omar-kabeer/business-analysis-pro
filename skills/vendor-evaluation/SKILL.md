@@ -1,6 +1,6 @@
 ---
 name: vendor-evaluation
-description: Vendor and solution evaluation specialist for Business Analysis OS. Use whenever the user needs to run or structure a supplier or product selection: RFI or RFP preparation, evaluation criteria and weighting, scoring matrices, shortlisting, proof-of-concept or demo scoring, total-cost comparison, and a recommendation report. Trigger on phrases like write an RFP or RFI, build a vendor scoring matrix, compare these suppliers, evaluation criteria, shortlist vendors, score the demos, or which vendor should we choose. Produces a transparent, defensible selection. Take requirements from the requirements skill and financial modelling from the finance skill.
+description: Vendor and solution evaluation specialist for Business Analysis OS. Use whenever the user needs to run or structure a supplier or product selection: RFI or RFP preparation, evaluation criteria and weighting, scoring matrices, shortlisting, proof-of-concept or demo scoring, total-cost comparison, and a recommendation report. Trigger on phrases like write an RFP or RFI, build a vendor scoring matrix, compare these suppliers, evaluation criteria, shortlist vendors, score the demos, or which vendor should we choose. Produces a transparent, defensible selection. Take requirements from the requirements skill and financial modelling from the finance skill, use the decision-analysis skill for the weighted scoring method, and hand statements of work, service levels, and contract terms to the procurement-contracts skill.
 ---
 
 # Vendor Evaluation Skill

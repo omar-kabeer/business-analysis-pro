@@ -1,7 +1,7 @@
 {
   "name": "business-analysis-os",
-  "version": "1.15.0",
-  "description": "Enterprise Business Analysis and Product Management OS: 39 BABOK v3 and product-aligned skills with an orchestrator that routes requests, full coverage of the BABOK v3 artefact register across analysis, modelling, data, risk, compliance, change, testing, and procurement, a library of BABOK-aligned deliverable templates, and a hard no em dash house style enforced by the natural-prose-editor skill.",
+  "version": "1.16.0",
+  "description": "Enterprise Business Analysis and Product Management OS: 40 BABOK v3 and product-aligned skills with an orchestrator that routes requests, full coverage of the BABOK v3 artefact register across analysis, modelling, data, risk, compliance, change, testing, and procurement, a library of BABOK-aligned deliverable templates, and a hard no em dash house style enforced by the natural-prose-editor skill.",
   "author": {
     "name": "Umar",
     "email": "uksaid12@gmail.com"
@@ -28,6 +28,7 @@
     "visual-modelling",
     "estimation",
     "acceptance-testing",
-    "procurement"
+    "procurement",
+    "skill-maintenance"
   ]
 }

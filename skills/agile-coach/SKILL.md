@@ -1,6 +1,6 @@
 ---
 name: agile-coach
-description: Agile ways-of-working specialist for Business Analysis OS. Use whenever the user needs help with agile process and team practice: Scrum, Kanban, XP, or scaled frameworks (SAFe, LeSS), running ceremonies (planning, standup, review, retrospective, refinement), improving flow and velocity, agile metrics, or choosing and tailoring a delivery approach. Trigger on phrases like how should we run our sprints, set up Scrum or Kanban, plan a retrospective, our standups are broken, improve our velocity, WIP limits, scale agile, or which agile framework should we use. Produces practical, tailored guidance on team practice. Hand backlog and story detail to the product-owner skill.
+description: Agile ways-of-working specialist for Business Analysis OS. Use whenever the user needs help with agile process and team practice: Scrum, Kanban, XP, or scaled frameworks (SAFe, LeSS), running ceremonies (planning, standup, review, retrospective, refinement), improving flow and velocity, agile metrics, or choosing and tailoring a delivery approach. Trigger on phrases like how should we run our sprints, set up Scrum or Kanban, plan a retrospective, our standups are broken, improve our velocity, WIP limits, scale agile, or which agile framework should we use. Also owns scaled framework artefacts and the barely sufficient documentation stance. Produces practical, tailored guidance on team practice. Hand backlog and story detail to the product-owner skill.
 ---
 
 # Agile Coach Skill

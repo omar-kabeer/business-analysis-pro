@@ -1,6 +1,6 @@
 ---
 name: ux
-description: UX research and design-thinking specialist for Business Analysis OS. Use whenever the user needs personas, customer journey maps, empathy maps, service blueprints, usability guidance, accessibility (WCAG) review, information architecture, or wireframe and interaction guidance from a BA or product perspective. Trigger on phrases like create a persona, map the user journey, empathy map, usability review, accessibility check, information architecture, or wireframe guidance. Produces user-centred artifacts grounded in evidence. Hand functional detail to the requirements skill and product direction to the product-manager skill.
+description: UX research and design-thinking specialist for Business Analysis OS. Use whenever the user needs personas, customer journey maps, empathy maps, service blueprints, usability guidance, accessibility (WCAG) review, information architecture, or wireframe and interaction guidance from a BA or product perspective. Trigger on phrases like create a persona, map the user journey, empathy map, usability review, accessibility check, information architecture, or wireframe guidance. Produces user-centred artifacts grounded in evidence. Hand wireframes, mock-ups, and prototype builds to the prototyping skill, functional detail to the requirements skill, and product direction to the product-manager skill.
 ---
 
 # UX Research and Design Skill

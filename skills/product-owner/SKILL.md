@@ -1,6 +1,6 @@
 ---
 name: product-owner
-description: Product ownership and agile delivery specialist for Business Analysis OS. Use whenever the user needs backlog work: epics, features, user stories, acceptance criteria, story splitting, backlog refinement and prioritisation, definition of ready and definition of done, sprint planning, and release planning. Trigger on phrases like write user stories, build the backlog, epics and features, acceptance criteria, definition of ready or done, refine the backlog, plan the sprint, or release plan. Produces INVEST-quality stories and a well-ordered backlog. Take product direction from the product-manager skill and send stories to the quality skill for validation.
+description: Product ownership and agile delivery specialist for Business Analysis OS. Use whenever the user needs backlog work: epics, features, user stories, acceptance criteria, story splitting, backlog refinement and prioritisation, definition of ready and definition of done, sprint planning, and release planning. Trigger on phrases like write user stories, build the backlog, epics and features, acceptance criteria, definition of ready or done, refine the backlog, plan the sprint, or release plan. Produces INVEST-quality stories and a well-ordered backlog. Take product direction from the product-manager skill, send stories to the quality skill for validation and to the acceptance-testing skill for test design, and take sizing method from the estimation skill.
 ---
 
 # Product Owner Skill
