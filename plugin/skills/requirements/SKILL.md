@@ -1,6 +1,6 @@
 ---
 name: requirements
-description: Requirements engineering specialist for Business Analysis OS. Use whenever the user needs to write, structure, or review functional and non-functional requirements, business rules, constraints, assumptions, acceptance criteria, use cases, user stories, or full requirement documents such as a BRD, FRD, PRD, SRS, or NFR spec. Trigger on phrases like write the requirements, draft a BRD or SRS, define acceptance criteria, specify NFRs, turn these notes into requirements, or make these requirements testable. Produces atomic, testable, traceable requirements. Use the elicitation skill to gather raw input first and the quality skill to validate the result.
+description: Requirements engineering specialist for Business Analysis OS. Use whenever the user needs to write, structure, or review functional and non-functional requirements, business rules, constraints, assumptions, acceptance criteria, use cases, user stories, or full requirement documents such as a BRD, FRD, PRD, SRS, or NFR spec. Trigger on phrases like write the requirements, draft a BRD or SRS, define acceptance criteria, specify NFRs, turn these notes into requirements, or make these requirements testable. Produces atomic, testable, traceable requirements. Use the elicitation skill to gather raw input first, the quality skill to validate the result, the acceptance-testing skill to turn acceptance criteria into tests, and the change-control skill once requirements are baselined.
 ---
 
 # Requirements Engineering Skill

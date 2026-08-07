@@ -1,6 +1,6 @@
 ---
 name: data-analysis
-description: Data analysis specialist for the business analyst in Business Analysis OS. Use whenever the user needs to define metrics and KPIs, build a data dictionary, model data (entities, attributes, relationships), draw a data flow diagram, specify reporting or dashboard needs, or reason about data to support a decision. Trigger on phrases like define the KPIs, what metrics should we track, data dictionary, data model or entity relationship, data flow, reporting requirements, dashboard, or help me make sense of this data. Produces decision-ready metrics, data definitions, and models. This is BA-facing data work; hand heavy statistics or engineering to specialists.
+description: Data analysis specialist for the business analyst in Business Analysis OS. Use whenever the user needs to define metrics and KPIs, set targets and thresholds, build a measurement framework, analyse performance data, or reason about numbers to support a decision. Trigger on phrases like define the KPIs, what metrics should we track, set a target, is this number good, measure this outcome, or help me make sense of this data. Produces decision-ready metrics and measurement definitions. Hand entities, dictionaries, and data models to the data-modelling skill, warehouses, pipelines, and dashboards to the business-intelligence skill, and heavy statistics or engineering to specialists.
 ---
 
 # Data Analysis Skill
