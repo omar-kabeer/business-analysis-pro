@@ -491,7 +491,8 @@
         "governance-approach",
         "change-assessment"
       ],
-      "identityVerified": false
+      "conformance": "conformance/cobit-2019.md",
+      "identityVerified": true
     },
     {
       "id": "crisp-dm-1.0",
