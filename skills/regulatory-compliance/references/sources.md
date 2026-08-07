@@ -11,4 +11,8 @@ Resolve each source id against `sources/manifest.json` and read its checks in `s
 ## compliance-matrix
 
 - `iso-27001-2022`. ISO/IEC 27001:2022. A Statement of Applicability (compliance matrix) must pass the ISO27001-CM blocking checks: it lists the necessary controls from risk treatment; each control has an inclusion justification; each records implemented-or-not; and controls are compared against Annex A with any exclusion justified. Advisory: the matrix is retained as controlled, dated documented information.
-- `iso-27002` complements this on the same artefact: 27001 defines the Statement of Applicability structure, 27002 defines the controls' content. See `sources/conformance/iso-27002.md`.
+- `iso-27002` complements this on the same artefact: 27001 defines the Statement of Applicability structure, 27002 defines the controls' content. A 27002-sourced control in the matrix must pass ISO27002-CM-01 (identified by its 27002 clause and title). See `sources/conformance/iso-27002.md`.
+
+## security-control
+
+- `iso-27002`. ISO/IEC 27002:2022, information security controls. A documented control must pass the ISO27002-SC blocking checks: it has a title, a control statement (what), and a purpose (why); and the control statement is distinct from the implementation guidance (how). Advisory checks cover the five-attribute classification (control type, information security properties, cybersecurity concepts, operational capabilities, security domains), valid control-type values, and guidance. Note: 27002 is a code of practice using "should" and makes attributes optional, so the blocking severities are our house gate.

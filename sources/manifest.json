@@ -288,7 +288,6 @@
       "id": "iso-27002",
       "title": "Information security controls",
       "publisher": "ISO/IEC",
-      "version": "27002",
       "tier": "standard",
       "path": "standards/iso-27002.pdf",
       "locatorStyle": "ISO/IEC 27002 control <n>",
@@ -306,7 +305,10 @@
         "security-control",
         "compliance-matrix"
       ],
-      "identityVerified": false
+      "version": "27002:2022",
+      "conformance": "conformance/iso-27002.md",
+      "notes": "Identity confirmed 2026-08-07 from the title page: third edition, 2022-02. A code of practice (controls stated with 'should'), not a certifiable standard; conformance severities are a house gate.",
+      "identityVerified": true
     },
     {
       "id": "iso-29148",
