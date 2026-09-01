@@ -1,3 +1,10 @@
+---
+type: deliverable
+domain: elicitation
+status: draft
+version: 1.0.0
+---
+
 # Stakeholder Engagement Approach
 
 ## Purpose

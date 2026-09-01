@@ -1,3 +1,10 @@
+---
+type: deliverable
+domain: quality
+status: draft
+version: 1.0.0
+---
+
 # Business Analysis Performance Assessment
 
 ## Purpose

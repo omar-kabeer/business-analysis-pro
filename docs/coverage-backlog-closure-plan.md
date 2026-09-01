@@ -82,7 +82,7 @@ A template file has this structure:
 5. Numbered content sections (`## 1. ...`, `## 2. ...`) that carry the working structure of the artefact, using placeholder tables where the artefact is inherently tabular and prose guidance where it is narrative.
 6. Cross-references to the matching rubric and to related templates where useful.
 
-Templates carry no YAML frontmatter. The existing templates do not use it, so neither do new ones.
+Templates require YAML frontmatter, unlike rubrics. Every template opens with a frontmatter block carrying `type: deliverable`, a `domain` matching the owning skill, `status: draft`, and a semantic `version` (for example 1.0.0), then the `# {Artefact Name}` heading. This is enforced: `scripts/validate-assets.mjs` fails any file under `templates/` that is missing `type`, `domain`, `status`, or a semantic `version`. Rubrics under `evaluation/` are not subject to this frontmatter check.
 
 ### 1.3 Naming and placement
 

@@ -1,3 +1,10 @@
+---
+type: deliverable
+domain: ba-planning
+status: draft
+version: 1.0.0
+---
+
 # Business Analysis Approach
 
 ## Purpose

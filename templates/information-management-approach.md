@@ -1,3 +1,10 @@
+---
+type: deliverable
+domain: information-management
+status: draft
+version: 1.0.0
+---
+
 # Information Management Approach
 
 ## Purpose

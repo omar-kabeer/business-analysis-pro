@@ -1,3 +1,10 @@
+---
+type: deliverable
+domain: governance
+status: draft
+version: 1.0.0
+---
+
 # Governance Approach
 
 ## Purpose
