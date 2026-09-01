@@ -39,20 +39,20 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 1 | `information-management-approach` | both | Approach | `templates/information-management-approach.md` | KA3 Planning & Monitoring | Information Management Approach | shipped |
 | 1 | `non-functional-requirements` | rubric | Synthesis & Drafting |  | KA11 Perspectives; KA2 Key Concepts | Non-functional (quality-of-service) requirements ; Non-functional requirements (merged) | rubric shipped |
 | 1 | `potential-value` | both | Elicitation | `templates/potential-value.md` | KA4 Elicitation | Potential Value | shipped |
-| 1 | `recommended-actions` | both | Elicitation | `templates/recommended-actions.md` | KA4 Elicitation | Recommended Actions | rubric shipped |
+| 1 | `recommended-actions` | both | Elicitation | `templates/recommended-actions.md` | KA4 Elicitation | Recommended Actions | shipped |
 | 1 | `risk-analysis-results` | rubric | Elicitation |  | KA4 Elicitation | Risk Analysis Results | rubric shipped |
 | 1 | `solution-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Solution requirements | rubric shipped |
 | 1 | `stakeholder-engagement-approach` | both | Elicitation | `templates/stakeholder-engagement-approach.md` | KA3 Planning & Monitoring | Stakeholder Engagement Approach | shipped |
 | 1 | `stakeholder-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Stakeholder requirements | rubric shipped |
 | 1 | `transition-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Transition requirements | rubric shipped |
 | 2 | `business-analysis-package` | rubric | Synthesis & Drafting |  | KA6 Packaging & Representation | Business analysis package | rubric shipped |
-| 2 | `design-options` | both | Synthesis & Drafting | `templates/design-options.md` | KA6 Strategy Analysis | Design Options | rubric shipped |
+| 2 | `design-options` | both | Synthesis & Drafting | `templates/design-options.md` | KA6 Strategy Analysis | Design Options | shipped |
 | 2 | `designs-approved` | both | GAP: lifecycle governance | `templates/designs-approved.md` | KA5 Requirements Lifecycle | Designs [approved] | shipped |
 | 2 | `designs-change-assessment` | both | GAP: lifecycle governance | `templates/designs-change-assessment.md` | KA5 Requirements Lifecycle | Designs Change Assessment | shipped |
 | 2 | `designs-maintained` | both | Architecture | `templates/designs-maintained.md` | KA5 Requirements Lifecycle | Designs [maintained] | shipped |
 | 2 | `designs-prioritized` | both | GAP: lifecycle governance | `templates/designs-prioritized.md` | KA5 Requirements Lifecycle | Designs [prioritized] | shipped |
 | 2 | `designs-traced` | both | Architecture | `templates/designs-traced.md` | KA5 Requirements Lifecycle | Designs [traced] | shipped |
-| 2 | `enterprise-limitation` | both | Synthesis & Drafting | `templates/enterprise-limitation.md` | KA6 Strategy Analysis | Enterprise Limitation | rubric shipped |
+| 2 | `enterprise-limitation` | both | Synthesis & Drafting | `templates/enterprise-limitation.md` | KA6 Strategy Analysis | Enterprise Limitation | shipped |
 | 2 | `identified-risks` | rubric | Synthesis (produce) / risk-challenger audits |  | KA6 Strategy Analysis | Identified Risks | rubric shipped |
 | 2 | `metrics-and-kpis` | rubric | Synthesis & Drafting |  | KA10 Techniques; KA6 Strategy Analysis | Metrics & KPIs (definitions, targets, reporting) ; Metrics and Key Performance Indicators [KPIs] (merged) | rubric shipped |
 | 2 | `requirements-approved` | rubric | GAP: lifecycle governance |  | KA5 Requirements Lifecycle | Requirements [approved] | rubric shipped |
@@ -61,9 +61,9 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 2 | `requirements-package` | rubric | Synthesis & Drafting |  | KA6 Packaging & Representation | Requirements package (requirements document) | rubric shipped |
 | 2 | `requirements-prioritized` | rubric | GAP: lifecycle governance |  | KA5 Requirements Lifecycle | Requirements [prioritized] | rubric shipped |
 | 2 | `requirements-traced` | rubric | Architecture |  | KA5 Requirements Lifecycle | Requirements [traced] | rubric shipped |
-| 2 | `solution-limitation` | both | Synthesis & Drafting | `templates/solution-limitation.md` | KA6 Strategy Analysis | Solution Limitation | rubric shipped |
+| 2 | `solution-limitation` | both | Synthesis & Drafting | `templates/solution-limitation.md` | KA6 Strategy Analysis | Solution Limitation | shipped |
 | 2 | `solution-performance-goals` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Performance Goals | rubric shipped |
-| 2 | `solution-performance-measures` | both | Synthesis & Drafting | `templates/solution-performance-measures.md` | KA6 Strategy Analysis | Solution Performance Measures | rubric shipped |
+| 2 | `solution-performance-measures` | both | Synthesis & Drafting | `templates/solution-performance-measures.md` | KA6 Strategy Analysis | Solution Performance Measures | shipped |
 | 2 | `solution-recommendations` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Recommendations | rubric shipped |
 | 2 | `solution-scope` | both | Synthesis & Drafting | `templates/solution-scope.md` | KA6 Strategy Analysis | Solution Scope | shipped |
 | 2 | `stakeholder-analysis` | rubric | Elicitation |  | KA6 Strategy Analysis; KA9 Analysis/Assessment/Review/Test | Stakeholder Analysis Results ; Stakeholder analysis (merged) | rubric shipped |
@@ -83,7 +83,7 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 3 | `request-for-proposal` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Proposal (RFP) | rubric shipped |
 | 3 | `request-for-quote` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Quote (RFQ) | rubric shipped |
 | 3 | `request-for-tender` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Tender (RFT) | rubric shipped |
-| 3 | `requirements-architecture` | both | Synthesis & Drafting | `templates/requirements-architecture.md` | KA7 RADD | Requirements Architecture | rubric shipped |
+| 3 | `requirements-architecture` | both | Synthesis & Drafting | `templates/requirements-architecture.md` | KA7 RADD | Requirements Architecture | shipped |
 | 3 | `requirements-specified-and-modelled` | rubric | Synthesis & Drafting |  | KA7 RADD | Requirements [specified and modelled] | rubric shipped |
 | 3 | `requirements-traceability-matrix` | rubric | Visual Modeling | `templates/requirements-traceability-matrix.md` | Named Forms | Requirements traceability matrix | rubric shipped |
 | 3 | `requirements-validated` | rubric | Quality & Audit |  | KA7 RADD | Requirements [validated] | rubric shipped |
@@ -93,8 +93,8 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 3 | `sequence-diagram` | rubric | Visual Modeling |  | Named Forms | Sequence diagram | rubric shipped |
 | 3 | `service-level-agreement` | rubric | Analytics & Performance | `templates/service-level-agreement.md` | KA8 Procurement | Service Level Agreement (SLA) | rubric shipped |
 | 3 | `sipoc-diagram` | rubric | Visual Modeling |  | Named Forms | SIPOC diagram | rubric shipped |
-| 3 | `solution-performance-analysis` | both | Analytics & Performance | `templates/solution-performance-analysis.md` | KA8 Solution Evaluation | Solution Performance Analysis | rubric shipped |
-| 3 | `solution-recommendation` | both | Synthesis & Drafting | `templates/solution-recommendation.md` | KA7 RADD | Solution Recommendation | rubric via solution-recommendations; template pending |
+| 3 | `solution-performance-analysis` | both | Analytics & Performance | `templates/solution-performance-analysis.md` | KA8 Solution Evaluation | Solution Performance Analysis | shipped |
+| 3 | `solution-recommendation` | both | Synthesis & Drafting | `templates/solution-recommendation.md` | KA7 RADD | Solution Recommendation | shipped (rubric: solution-recommendations) |
 | 3 | `state-model` | rubric | Visual Modeling |  | Named Forms | State diagram ; State table (merged) | rubric shipped |
 | 3 | `statement-of-work` | rubric | Analytics & Performance | `templates/statement-of-work.md` | KA8 Procurement | Statement of Work (SOW) | rubric shipped |
 | 3 | `swimlane-diagram` | rubric | Visual Modeling |  | Named Forms | Swimlane diagram | rubric shipped |
