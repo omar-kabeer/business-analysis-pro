@@ -40,3 +40,6 @@ sources/**
 # Conformance checks are hand-written from the sources, contain no licensed text, and are tracked.
 !sources/conformance/
 !sources/conformance/**
+
+# token-optimizer plugin cache (do not commit)
+.token-optimizer/
