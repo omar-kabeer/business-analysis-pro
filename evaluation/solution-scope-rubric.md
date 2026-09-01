@@ -19,6 +19,29 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 7 | Unambiguous | There is no ambiguity about what is in and what is out. |
 | 8 | Evolvable | The scope is treated as able to evolve as more is discovered. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | The in-scope boundary is unclear. | The boundary is defined, so new capabilities are understood. |
+| 2 | No view of the scope's content. | Described through capabilities, functions, processes, or data. |
+| 3 | No link to the future state. | Shows how the solution enables the future state's goals. |
+| 4 | Out-of-scope is unstated. | Out-of-scope components are stated for clarity. |
+| 5 | Over- or under-specified for the stage. | Enough detail to act, without over-specifying. |
+| 6 | Inconsistent with the change strategy. | Consistent with the change strategy and future state. |
+| 7 | What is in or out is ambiguous. | No ambiguity about what is in and out. |
+| 8 | Treated as fixed and final. | Treated as able to evolve as more is discovered. |
+
+## Common failure modes
+
+- No out-of-scope: only what is in is listed, so the boundary is one-sided and disputes follow.
+- Scope creep built in: vague inclusions that can be read to cover almost anything.
+- Solution detail too early: component-level design where a boundary was wanted.
+- Orphan scope: capabilities in scope that trace to no future-state goal.
+- Frozen scope: presented as immutable when discovery will clearly move it.
+
 ## Result
 
 Total the scores (maximum 24):

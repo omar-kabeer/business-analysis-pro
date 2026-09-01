@@ -19,6 +19,29 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 7 | Repository | They are stored where other business analysts can access them. |
 | 8 | Change discipline | Changes are made through the governance process, not silently. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | No longer reflects the stated needs. | Reflects the current stated needs. |
+| 2 | Left stale as context changed. | Kept up to date as the context changes. |
+| 3 | Edits introduced conflicts. | Remains internally consistent after edits. |
+| 4 | Not named or stored for reuse. | Named, defined, and stored for long-term reuse. |
+| 5 | Status and attributes are stale. | Status and attributes are kept current. |
+| 6 | Traceability broke after edits. | Relationships remain valid after maintenance. |
+| 7 | Stored where others cannot reach them. | Stored where other analysts can access them. |
+| 8 | Changed silently, off-process. | Changes made through the governance process. |
+
+## Common failure modes
+
+- Drift: the requirements no longer match what the business actually needs.
+- Broken trace: an edit invalidated the traceability and no one repaired it.
+- Silent edit: a requirement changed outside change control, so history is lost.
+- Stale attributes: status still says "proposed" long after approval.
+- Local copy: the current version lives on someone's laptop, not the shared repository.
+
 ## Result
 
 Total the scores (maximum 24):

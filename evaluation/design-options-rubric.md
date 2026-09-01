@@ -19,6 +19,29 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 7 | Feasible | Each option is feasible within the constraints. |
 | 8 | Traceable | The options address the requirements and needs. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | One option, or near-identical variants. | Genuinely distinct and viable options. |
+| 2 | No make-or-buy approach stated. | Each states create, purchase, or a combination. |
+| 3 | Components undefined. | The solution components of each option are defined. |
+| 4 | No improvement opportunities considered. | Opportunities to improve the business are identified and compared. |
+| 5 | Integration ignored. | Proposed integration of components is considered. |
+| 6 | No pros, cons, or costs. | Advantages, disadvantages, and costs are set out. |
+| 7 | Options not feasible within constraints. | Each option is feasible within the constraints. |
+| 8 | No link to requirements. | The options address the requirements and needs. |
+
+## Common failure modes
+
+- Straw options: one real option padded with alternatives no one would pick.
+- No do-nothing: the baseline of keeping the current state is missing.
+- Approach unstated: create versus buy left implicit, hiding cost and risk.
+- Cost-free comparison: advantages listed with no cost or downside, so the choice looks obvious for the wrong reason.
+- Integration blind spot: each option works alone but its fit with existing systems is unexamined.
+
 ## Result
 
 Total the scores (maximum 24):

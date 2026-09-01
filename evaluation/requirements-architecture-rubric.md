@@ -18,6 +18,28 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 6 | Contextual information | The contextual information needed to interpret the structure is recorded. |
 | 7 | Traceable | The structure supports tracing requirements to needs, designs, and releases. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Requirements are an unstructured pile. | Organized into a coherent structure. |
+| 2 | Relationships between requirements are unstated. | Interrelationships are defined and correct. |
+| 3 | Only one viewpoint, where several are needed. | The relevant viewpoints are represented. |
+| 4 | Cannot be used to judge completeness. | Can be used to confirm the requirements are complete, no gaps. |
+| 5 | Viewpoints and relationships conflict. | Internally consistent, no conflicts. |
+| 6 | Structure cannot be interpreted without the author. | The contextual information needed to interpret it is recorded. |
+| 7 | Does not support tracing. | Supports tracing to needs, designs, and releases. |
+
+## Common failure modes
+
+- Flat list dressed up: a list of requirements relabelled as an architecture, with no relationships.
+- Single viewpoint: one model where the audience needs data, process, and rule views.
+- Untestable completeness: the structure cannot answer "is anything missing".
+- Context-free: the diagram cannot be read without the author in the room.
+- Inconsistent viewpoints: two views of the same requirements disagree.
+
 ## Result
 
 Total the scores (maximum 21):

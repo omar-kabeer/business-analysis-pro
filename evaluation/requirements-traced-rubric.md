@@ -19,6 +19,29 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 7 | Repository | The traces are held in a maintainable repository rather than ad hoc. |
 | 8 | Stakeholder agreement | Key relationships are approved by the sponsor or accountable owner. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | No relationships defined. | Each requirement has defined relationships to requirements, components, or releases. |
+| 2 | Trace runs one way only. | Runs back to the need and forward to design, test, and release. |
+| 3 | Orphan requirements exist. | Every requirement is traced, no orphans. |
+| 4 | Change impact is invisible. | The traceability makes the impact of a change visible. |
+| 5 | No release allocation. | Allocation to releases, phases, or iterations is captured. |
+| 6 | Relationship types are wrong or absent. | The type of each relationship is correct. |
+| 7 | Traces kept ad hoc. | Held in a maintainable repository. |
+| 8 | Key links unapproved. | Key relationships approved by the sponsor or owner. |
+
+## Common failure modes
+
+- One-way trace: forward links only, so backward impact analysis is impossible.
+- Orphan requirement: no link up to a need, so its purpose is unknown.
+- Coverage illusion: links exist but point at the wrong targets, giving false confidence.
+- Stale trace: the matrix was built once and never maintained as requirements changed.
+- Wrong relationship type: "derives" where "satisfies" was meant, corrupting impact analysis.
+
 ## Result
 
 Total the scores (maximum 24):
