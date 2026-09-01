@@ -72,7 +72,7 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 3 | `bpmn-model` | rubric | Visual Modeling |  | Named Forms | BPMN model | rubric shipped |
 | 3 | `class-model-class-diagram` | rubric | Visual Modeling |  | Named Forms | Class model / class diagram | rubric shipped |
 | 3 | `crud-matrix` | rubric | Visual Modeling |  | Named Forms | CRUD matrix | rubric shipped |
-| 3 | `decision-matrix` | rubric | Visual Modeling | `templates/decision-matrix.md` | KA10 Techniques; Named Forms | Decision analysis (decision matrix / expected-value model) ; Decision matrix (simple & weighted) (merged) | not-started |
+| 3 | `decision-matrix` | rubric | Visual Modeling | `templates/decision-matrix.md` | KA10 Techniques; Named Forms | Decision analysis (decision matrix / expected-value model) ; Decision matrix (simple & weighted) (merged) | rubric shipped |
 | 3 | `entity-relationship-diagram` | rubric | Visual Modeling |  | Named Forms | Entity Relationship Diagram (ERD) | rubric shipped |
 | 3 | `escalation-matrix` | rubric | Visual Modeling |  | Named Forms | Escalation matrix | rubric shipped |
 | 3 | `fishbone-ishikawa-diagram` | rubric | Visual Modeling |  | Named Forms | Fishbone / Ishikawa diagram | rubric shipped |
@@ -85,23 +85,23 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 3 | `request-for-tender` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Tender (RFT) | not-started |
 | 3 | `requirements-architecture` | both | Synthesis & Drafting | `templates/requirements-architecture.md` | KA7 RADD | Requirements Architecture | not-started |
 | 3 | `requirements-specified-and-modelled` | rubric | Synthesis & Drafting |  | KA7 RADD | Requirements [specified and modelled] | not-started |
-| 3 | `requirements-traceability-matrix` | rubric | Visual Modeling | `templates/requirements-traceability-matrix.md` | Named Forms | Requirements traceability matrix | not-started |
+| 3 | `requirements-traceability-matrix` | rubric | Visual Modeling | `templates/requirements-traceability-matrix.md` | Named Forms | Requirements traceability matrix | rubric shipped |
 | 3 | `requirements-validated` | rubric | Quality & Audit |  | KA7 RADD | Requirements [validated] | not-started |
 | 3 | `requirements-verified` | rubric | Quality & Audit |  | KA7 RADD | Requirements [verified] | not-started |
-| 3 | `scope-model` | rubric | Visual Modeling |  | KA10 Techniques; Named Forms | Scope model (context diagram / boundary model) ; Context diagram (merged) | not-started |
+| 3 | `scope-model` | rubric | Visual Modeling |  | KA10 Techniques; Named Forms | Scope model (context diagram / boundary model) ; Context diagram (merged) | rubric shipped |
 | 3 | `scope-statement` | rubric | Analytics & Performance |  | KA8 Procurement | Scope statement | not-started |
-| 3 | `sequence-diagram` | rubric | Visual Modeling |  | Named Forms | Sequence diagram | not-started |
+| 3 | `sequence-diagram` | rubric | Visual Modeling |  | Named Forms | Sequence diagram | rubric shipped |
 | 3 | `service-level-agreement` | rubric | Analytics & Performance | `templates/service-level-agreement.md` | KA8 Procurement | Service Level Agreement (SLA) | not-started |
-| 3 | `sipoc-diagram` | rubric | Visual Modeling |  | Named Forms | SIPOC diagram | not-started |
+| 3 | `sipoc-diagram` | rubric | Visual Modeling |  | Named Forms | SIPOC diagram | rubric shipped |
 | 3 | `solution-performance-analysis` | both | Analytics & Performance | `templates/solution-performance-analysis.md` | KA8 Solution Evaluation | Solution Performance Analysis | not-started |
 | 3 | `solution-recommendation` | both | Synthesis & Drafting | `templates/solution-recommendation.md` | KA7 RADD | Solution Recommendation | not-started |
-| 3 | `state-model` | rubric | Visual Modeling |  | Named Forms | State diagram ; State table (merged) | not-started |
+| 3 | `state-model` | rubric | Visual Modeling |  | Named Forms | State diagram ; State table (merged) | rubric shipped |
 | 3 | `statement-of-work` | rubric | Analytics & Performance | `templates/statement-of-work.md` | KA8 Procurement | Statement of Work (SOW) | not-started |
-| 3 | `swimlane-diagram` | rubric | Visual Modeling |  | Named Forms | Swimlane diagram | not-started |
-| 3 | `use-case` | rubric | Synthesis & Drafting |  | KA11 Perspectives; Named Forms | Use cases and scenarios ; Use case diagram (merged) | not-started |
-| 3 | `value-chain` | rubric | Visual Modeling |  | Named Forms | Value chain | not-started |
-| 3 | `value-stream-map` | rubric | Visual Modeling |  | Named Forms | Value stream map | not-started |
-| 3 | `wireframe-mock-up-storyboard` | rubric | Visual Modeling |  | Named Forms | Wireframe / mock-up / storyboard | not-started |
+| 3 | `swimlane-diagram` | rubric | Visual Modeling |  | Named Forms | Swimlane diagram | rubric shipped |
+| 3 | `use-case` | rubric | Synthesis & Drafting |  | KA11 Perspectives; Named Forms | Use cases and scenarios ; Use case diagram (merged) | rubric shipped |
+| 3 | `value-chain` | rubric | Visual Modeling |  | Named Forms | Value chain | rubric shipped |
+| 3 | `value-stream-map` | rubric | Visual Modeling |  | Named Forms | Value stream map | rubric shipped |
+| 3 | `wireframe-mock-up-storyboard` | rubric | Visual Modeling |  | Named Forms | Wireframe / mock-up / storyboard | rubric shipped |
 | 3 | `work-breakdown-structure` | rubric | Analytics & Performance |  | KA8 Procurement | Work Breakdown Structure (WBS) | not-started |
 | 4 | `behavioural-business-rules` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Behavioural (operative) business rules | not-started |
 | 4 | `business-analysis-communication-plan` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Business analysis communication plan (legacy/v2) | not-started |
