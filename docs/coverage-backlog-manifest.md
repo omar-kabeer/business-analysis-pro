@@ -144,17 +144,17 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 5 | `data-dictionary` | rubric | Synthesis & Drafting | `templates/data-dictionary.md` | KA10 Techniques; KA11 Perspectives | Data dictionary (data element definitions) ; Source data dictionary ; Target data dictionary (merged) | rubric shipped |
 | 5 | `data-flow-diagram` | rubric | Visual Modeling |  | KA10 Techniques | Data flow diagram (DFD) | rubric shipped |
 | 5 | `data-mining-model-findings` | rubric | Visual Modeling |  | KA10 Techniques | Data-mining model / findings (patterns & insights) | rubric shipped |
-| 5 | `data-model` | rubric | Visual Modeling |  | KA10 Techniques | Data model (ERD / class model) | not-started |
-| 5 | `decision-model` | rubric | Visual Modeling |  | KA10 Techniques | Decision model (decision tables / decision trees) | not-started |
-| 5 | `decomposition-diagram-breakdown-structure` | rubric | Visual Modeling |  | KA10 Techniques | Decomposition diagram / breakdown structure | not-started |
-| 5 | `documented-interview-responses-notes` | rubric | Elicitation |  | KA10 Techniques | Documented interview responses / notes | not-started |
-| 5 | `estimate-cost-effort-forecasts-with-ranges` | rubric | Synthesis & Drafting |  | KA10 Techniques | Estimate(s) ,  cost/effort forecasts with ranges | not-started |
-| 5 | `financial-analysis` | rubric | Synthesis & Drafting |  | KA10 Techniques | Financial analysis (ROI, NPV, IRR, payback, cost-benefit) | not-started |
-| 5 | `findings-extracted-from-existing-documents` | rubric | Elicitation |  | KA10 Techniques | Findings extracted from existing documents | not-started |
-| 5 | `focus-group-findings-report` | rubric | Elicitation |  | KA10 Techniques | Focus-group findings report | not-started |
-| 5 | `glossary-of-business-domain-terms` | rubric | Synthesis & Drafting |  | KA10 Techniques | Glossary of business-domain terms | not-started |
-| 5 | `interface-list-interface-specifications` | rubric | Synthesis & Drafting |  | KA10 Techniques | Interface list / interface specifications | not-started |
-| 5 | `item-issue-log` | rubric | Synthesis & Drafting |  | KA10 Techniques | Item / issue log (tracking record) | not-started |
+| 5 | `data-model` | rubric | Visual Modeling |  | KA10 Techniques | Data model (ERD / class model) | rubric shipped |
+| 5 | `decision-model` | rubric | Visual Modeling |  | KA10 Techniques | Decision model (decision tables / decision trees) | rubric shipped |
+| 5 | `decomposition-diagram-breakdown-structure` | rubric | Visual Modeling |  | KA10 Techniques | Decomposition diagram / breakdown structure | rubric shipped |
+| 5 | `documented-interview-responses-notes` | rubric | Elicitation |  | KA10 Techniques | Documented interview responses / notes | rubric shipped |
+| 5 | `estimate-cost-effort-forecasts-with-ranges` | rubric | Synthesis & Drafting |  | KA10 Techniques | Estimate(s) ,  cost/effort forecasts with ranges | rubric shipped |
+| 5 | `financial-analysis` | rubric | Synthesis & Drafting |  | KA10 Techniques | Financial analysis (ROI, NPV, IRR, payback, cost-benefit) | rubric shipped |
+| 5 | `findings-extracted-from-existing-documents` | rubric | Elicitation |  | KA10 Techniques | Findings extracted from existing documents | rubric shipped |
+| 5 | `focus-group-findings-report` | rubric | Elicitation |  | KA10 Techniques | Focus-group findings report | rubric shipped |
+| 5 | `glossary-of-business-domain-terms` | rubric | Synthesis & Drafting |  | KA10 Techniques | Glossary of business-domain terms | rubric shipped |
+| 5 | `interface-list-interface-specifications` | rubric | Synthesis & Drafting |  | KA10 Techniques | Interface list / interface specifications | rubric shipped |
+| 5 | `item-issue-log` | rubric | Synthesis & Drafting |  | KA10 Techniques | Item / issue log (tracking record) | rubric shipped |
 | 5 | `lessons-learned-document-register` | rubric | Synthesis & Drafting |  | KA10 Techniques | Lessons learned document / register | not-started |
 | 5 | `list-of-ideas-themes-for-analysis` | rubric | Elicitation |  | KA10 Techniques | List of ideas / themes for analysis | not-started |
 | 5 | `mind-map` | rubric | Visual Modeling |  | KA10 Techniques | Mind map | not-started |
