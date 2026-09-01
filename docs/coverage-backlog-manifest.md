@@ -103,16 +103,16 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 3 | `value-stream-map` | rubric | Visual Modeling |  | Named Forms | Value stream map | rubric shipped |
 | 3 | `wireframe-mock-up-storyboard` | rubric | Visual Modeling |  | Named Forms | Wireframe / mock-up / storyboard | rubric shipped |
 | 3 | `work-breakdown-structure` | rubric | Analytics & Performance |  | KA8 Procurement | Work Breakdown Structure (WBS) | rubric shipped |
-| 4 | `behavioural-business-rules` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Behavioural (operative) business rules | not-started |
-| 4 | `business-analysis-communication-plan` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Business analysis communication plan (legacy/v2) | not-started |
-| 4 | `business-analysis-information-architecture` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Business Analysis Information Architecture | not-started |
-| 4 | `business-analysis-plan` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Business analysis plan (legacy/v2) | not-started |
-| 4 | `checklist` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Checklist(s) | not-started |
-| 4 | `competitive-analysis` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Competitive analysis | not-started |
-| 4 | `cost-benefit-analysis` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Cost-benefit analysis | not-started |
-| 4 | `definitional-business-rules` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Definitional (structural) business rules | not-started |
-| 4 | `enterprise-culture-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Enterprise Culture Assessment | not-started |
-| 4 | `enterprise-readiness-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Enterprise Readiness Assessment | not-started |
+| 4 | `behavioural-business-rules` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Behavioural (operative) business rules | rubric shipped |
+| 4 | `business-analysis-communication-plan` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Business analysis communication plan (legacy/v2) | rubric shipped |
+| 4 | `business-analysis-information-architecture` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Business Analysis Information Architecture | rubric shipped |
+| 4 | `business-analysis-plan` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Business analysis plan (legacy/v2) | rubric shipped |
+| 4 | `checklist` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Checklist(s) | rubric shipped |
+| 4 | `competitive-analysis` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Competitive analysis | rubric shipped |
+| 4 | `cost-benefit-analysis` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Cost-benefit analysis | rubric shipped |
+| 4 | `definitional-business-rules` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Definitional (structural) business rules | rubric shipped |
+| 4 | `enterprise-culture-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Enterprise Culture Assessment | rubric shipped |
+| 4 | `enterprise-readiness-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Enterprise Readiness Assessment | rubric shipped |
 | 4 | `evolutionary-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Evolutionary (functional) prototype | not-started |
 | 4 | `feasibility-study` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Feasibility study | not-started |
 | 4 | `focus-group-plan` | rubric | Elicitation |  | KA9 Analysis/Assessment/Review/Test | Focus Group Plan | not-started |
