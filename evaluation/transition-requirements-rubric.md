@@ -19,6 +19,30 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 7 | Dependencies and sequence | Ordering and dependencies between transition steps are explicit. |
 | 8 | Risk | Cutover and migration risks are identified with responses and owners. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Ongoing-solution requirements are mixed in. | Each requirement addresses only the move from current to future state. |
+| 2 | The states being bridged are unstated. | The from-state and to-state each requirement bridges are named and correct. |
+| 3 | Migration, cutover, or training is missing. | Data migration, cutover, coexistence, training, and decommissioning are covered where relevant. |
+| 4 | Compound, and no acceptance condition. | Atomic, unambiguous, with an acceptance condition. |
+| 5 | No end point for the requirement. | The point at which each is no longer needed is stated. |
+| 6 | No link to the change strategy. | Each traces to the change strategy and the states it connects. |
+| 7 | Ordering and dependencies are implicit. | Ordering and dependencies between transition steps are explicit. |
+| 8 | Cutover risks are unaddressed. | Cutover and migration risks are identified with responses and owners. |
+
+## Common failure modes
+
+- Permanent in disguise: an ongoing-solution requirement filed as transitional, so it is dropped after cutover.
+- No retirement: the requirement never says when it stops applying, so it lingers.
+- Cutover gap: data migration or coexistence during the switch is unspecified.
+- Sequence risk: dependent steps are listed without their order, so cutover can be run wrong.
+- Rollback silence: no plan for backing out a failed transition.
+- Training and decommissioning forgotten: people and legacy systems are left out of the move.
+
 ## Result
 
 Total the scores (maximum 24):

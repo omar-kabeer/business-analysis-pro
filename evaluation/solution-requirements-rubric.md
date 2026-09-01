@@ -20,6 +20,31 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 8 | Prioritised | Requirements are ranked or grouped by value, with stakeholder agreement. |
 | 9 | Feasible | The set is achievable within the agreed risk, schedule, and budget. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Only one type present, or the two are not distinguished. | Functional and non-functional requirements both covered and clearly distinguished. |
+| 2 | Solution requirements float free of stakeholder needs. | Each traces to a stakeholder requirement it satisfies, no orphans. |
+| 3 | Stakeholder requirements are left uncovered. | Every stakeholder requirement is satisfied by one or more solution requirements. |
+| 4 | Compound and ambiguous statements. | Each is self-contained and admits one interpretation. |
+| 5 | No acceptance criteria and unquantified NFRs. | Functional items carry acceptance criteria and NFRs are quantified. |
+| 6 | The set conflicts internally. | The set is internally consistent. |
+| 7 | Premature design where a need was wanted. | Stated at need-level capability, avoiding premature design unless design is intended. |
+| 8 | Unranked. | Ranked or grouped by value, with stakeholder agreement. |
+| 9 | Not achievable within the constraints. | Achievable within the agreed risk, schedule, and budget. |
+
+## Common failure modes
+
+- Coverage gap: a stakeholder requirement with no solution requirement satisfying it.
+- Orphan solution requirement: a capability no stakeholder need traces to.
+- Type confusion: functional and non-functional requirements mixed without distinction.
+- Premature design: a specific technology chosen where the need-level capability was wanted.
+- Double-counting: the same need restated as several solution requirements, inflating scope.
+- Untestable set: functional items without acceptance criteria, NFRs without numbers.
+
 ## Result
 
 Total the scores (maximum 27):
