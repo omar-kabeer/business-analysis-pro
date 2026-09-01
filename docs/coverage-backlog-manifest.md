@@ -113,16 +113,16 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 4 | `definitional-business-rules` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Definitional (structural) business rules | rubric shipped |
 | 4 | `enterprise-culture-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Enterprise Culture Assessment | rubric shipped |
 | 4 | `enterprise-readiness-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Enterprise Readiness Assessment | rubric shipped |
-| 4 | `evolutionary-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Evolutionary (functional) prototype | not-started |
-| 4 | `feasibility-study` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Feasibility study | not-started |
-| 4 | `focus-group-plan` | rubric | Elicitation |  | KA9 Analysis/Assessment/Review/Test | Focus Group Plan | not-started |
-| 4 | `force-field-analysis` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Force field analysis | not-started |
-| 4 | `gap-analysis` | rubric | Synthesis & Drafting | `templates/gap-analysis.md` | KA9 Analysis/Assessment/Review/Test | Gap analysis | not-started |
-| 4 | `horizontal-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Horizontal prototype | not-started |
-| 4 | `impact-analysis` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Impact analysis | not-started |
-| 4 | `inspection` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Inspection | not-started |
-| 4 | `operational-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Operational Assessment | not-started |
-| 4 | `peer-review` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Peer review | not-started |
+| 4 | `evolutionary-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Evolutionary (functional) prototype | rubric shipped |
+| 4 | `feasibility-study` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Feasibility study | rubric shipped |
+| 4 | `focus-group-plan` | rubric | Elicitation |  | KA9 Analysis/Assessment/Review/Test | Focus Group Plan | rubric shipped |
+| 4 | `force-field-analysis` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Force field analysis | rubric shipped |
+| 4 | `gap-analysis` | rubric | Synthesis & Drafting | `templates/gap-analysis.md` | KA9 Analysis/Assessment/Review/Test | Gap analysis | rubric shipped |
+| 4 | `horizontal-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Horizontal prototype | rubric shipped |
+| 4 | `impact-analysis` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Impact analysis | rubric shipped |
+| 4 | `inspection` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Inspection | rubric shipped |
+| 4 | `operational-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Operational Assessment | rubric shipped |
+| 4 | `peer-review` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Peer review | rubric shipped |
 | 4 | `proof-of-concept` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Proof of concept | not-started |
 | 4 | `requirements-attribute` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Requirements attribute(s) | not-started |
 | 4 | `requirements-defect` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Requirements defect | not-started |
