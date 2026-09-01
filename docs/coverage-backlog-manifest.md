@@ -123,16 +123,16 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 4 | `inspection` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Inspection | rubric shipped |
 | 4 | `operational-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Operational Assessment | rubric shipped |
 | 4 | `peer-review` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Peer review | rubric shipped |
-| 4 | `proof-of-concept` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Proof of concept | not-started |
-| 4 | `requirements-attribute` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Requirements attribute(s) | not-started |
-| 4 | `requirements-defect` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Requirements defect | not-started |
-| 4 | `requirements-management-plan` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Requirements management plan (legacy/v2) | not-started |
-| 4 | `risk-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Risk assessment | not-started |
-| 4 | `stakeholder-impact-analysis` | rubric | Elicitation |  | KA9 Analysis/Assessment/Review/Test | Stakeholder Impact Analysis | not-started |
-| 4 | `throw-away-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Throw-away (rapid) prototype | not-started |
-| 4 | `user-acceptance-test` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | User acceptance test (UAT) | not-started |
-| 4 | `vertical-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Vertical prototype | not-started |
-| 4 | `walkthrough` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Walkthrough | not-started |
+| 4 | `proof-of-concept` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Proof of concept | rubric shipped |
+| 4 | `requirements-attribute` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Requirements attribute(s) | rubric shipped |
+| 4 | `requirements-defect` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Requirements defect | rubric shipped |
+| 4 | `requirements-management-plan` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Requirements management plan (legacy/v2) | rubric shipped |
+| 4 | `risk-assessment` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Risk assessment | rubric shipped |
+| 4 | `stakeholder-impact-analysis` | rubric | Elicitation |  | KA9 Analysis/Assessment/Review/Test | Stakeholder Impact Analysis | rubric shipped |
+| 4 | `throw-away-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Throw-away (rapid) prototype | rubric shipped |
+| 4 | `user-acceptance-test` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | User acceptance test (UAT) | rubric shipped |
+| 4 | `vertical-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Vertical prototype | rubric shipped |
+| 4 | `walkthrough` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Walkthrough | rubric shipped |
 | 5 | `acceptance-and-evaluation-criteria` | rubric | Quality & Audit |  | KA10 Techniques; KA11 Perspectives | Acceptance criteria & evaluation criteria (measures) ; Acceptance criteria (merged) | not-started |
 | 5 | `balanced-scorecard` | rubric | Visual Modeling |  | KA10 Techniques | Balanced scorecard (strategy map, objectives, measures, targets) | not-started |
 | 5 | `benchmarking-study-market-analysis-report` | rubric | Synthesis & Drafting |  | KA10 Techniques | Benchmarking study / market analysis report | not-started |
