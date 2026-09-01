@@ -25,6 +25,31 @@ For each dimension score 0 to 3:
 | 8 | Assumptions and risks | Key assumptions, dependencies, and risks are explicit, with their impact if wrong. |
 | 9 | Next step | A clear recommendation on the next deliverable, such as a PRD or business case, or an explicit stopping point. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Framed as a feature, not a need; no evidence. | The customer problem is explicit, evidenced, and framed as a need. |
+| 2 | No named users or buyers. | Target users and buyers named, with context and the job to be done. |
+| 3 | No value proposition or differentiation. | Core value stated, with how it differs from alternatives. |
+| 4 | Market and competitors ignored. | Market and main alternatives described, with where the product fits. |
+| 5 | Solution over-specified or absent. | Solution and capabilities outlined at the right altitude. |
+| 6 | No success measures. | Outcomes stated with measurable metrics and targets. |
+| 7 | No scope or MVP. | Initial scope, a minimum viable slice, and what is deferred are drawn. |
+| 8 | Assumptions and risks hidden. | Key assumptions, dependencies, and risks explicit, with impact if wrong. |
+| 9 | No next step. | A clear recommendation on the next deliverable, or an explicit stopping point. |
+
+## Common failure modes
+
+- Feature pitch: the brief sells a feature instead of framing a customer need.
+- No differentiation: the value proposition does not say why this beats the alternatives.
+- Market-blind: competitors and alternatives are ignored, so positioning is untested.
+- Over-specified solution: detailed design where an outline was wanted, foreclosing options.
+- Unmeasurable success: outcomes with no metric, so the product cannot be judged later.
+- No MVP: everything is in the first release, with nothing deferred.
+
 ## Result
 
 Total the scores (maximum 27). Record a verdict:

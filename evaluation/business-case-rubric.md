@@ -20,6 +20,32 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 8 | Risk | Key risks are identified with responses and owners. |
 | 9 | Recommendation and ask | The recommendation follows from the analysis, and the decision required and approver are explicit. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Need stated from one team's view, cost of inaction ignored. | Need from the enterprise view, linked to strategy, cost of doing nothing quantified. |
+| 2 | Outcomes are tied to one solution. | Outcomes are measurable and solution-independent. |
+| 3 | Only the preferred option, no do-nothing. | Real alternatives assessed, including do-nothing, on scope, feasibility, and risk. |
+| 4 | Figures with no assumptions or sources. | Every cost and benefit has a stated assumption and source; the model is consistent. |
+| 5 | Metrics wrong or cherry-picked. | NPV, IRR, payback, ROI, and TCO computed correctly and interpreted honestly. |
+| 6 | No sensitivity analysis. | Sensitivity or scenario analysis with a break-even for the key driver. |
+| 7 | Intangibles ignored. | Intangible benefits and costs recorded and tied to strategy. |
+| 8 | Risks absent or unowned. | Key risks identified with responses and owners. |
+| 9 | Recommendation does not follow, or no ask. | Recommendation follows from the analysis; decision and approver explicit. |
+
+## Common failure modes
+
+- No do-nothing baseline: the case compares options but omits the cost of the status quo.
+- Benefit inflation: optimistic benefits with no assumption, source, or sensitivity test.
+- Solution-locked outcomes: the desired outcomes only make sense if the chosen solution is built.
+- Metric misuse: IRR quoted without the hurdle rate, or NPV omitted where it should lead.
+- Single-point finance: one number per line, no range, so the risk in the estimate is hidden.
+- Orphan recommendation: a conclusion the analysis does not support.
+- No ask: the case argues a position but never states the decision required or who makes it.
+
 ## Result
 
 Total the scores (maximum 27):
