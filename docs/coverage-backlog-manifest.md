@@ -155,19 +155,19 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 5 | `glossary-of-business-domain-terms` | rubric | Synthesis & Drafting |  | KA10 Techniques | Glossary of business-domain terms | rubric shipped |
 | 5 | `interface-list-interface-specifications` | rubric | Synthesis & Drafting |  | KA10 Techniques | Interface list / interface specifications | rubric shipped |
 | 5 | `item-issue-log` | rubric | Synthesis & Drafting |  | KA10 Techniques | Item / issue log (tracking record) | rubric shipped |
-| 5 | `lessons-learned-document-register` | rubric | Synthesis & Drafting |  | KA10 Techniques | Lessons learned document / register | not-started |
-| 5 | `list-of-ideas-themes-for-analysis` | rubric | Elicitation |  | KA10 Techniques | List of ideas / themes for analysis | not-started |
-| 5 | `mind-map` | rubric | Visual Modeling |  | KA10 Techniques | Mind map | not-started |
+| 5 | `lessons-learned-document-register` | rubric | Synthesis & Drafting |  | KA10 Techniques | Lessons learned document / register | rubric shipped |
+| 5 | `list-of-ideas-themes-for-analysis` | rubric | Elicitation |  | KA10 Techniques | List of ideas / themes for analysis | rubric shipped |
+| 5 | `mind-map` | rubric | Visual Modeling |  | KA10 Techniques | Mind map | rubric shipped |
 | 5 | `non-functional-requirements-specification` | rubric | Synthesis & Drafting |  | KA10 Techniques | Non-functional requirements (quality attributes) specification | not-started |
-| 5 | `observation-notes-findings` | rubric | Elicitation |  | KA10 Techniques | Observation notes / findings | not-started |
+| 5 | `observation-notes-findings` | rubric | Elicitation |  | KA10 Techniques | Observation notes / findings | rubric shipped |
 | 5 | `organizational-model-org-chart` | rubric | Visual Modeling |  | KA10 Techniques | Organizational model / org chart | not-started |
-| 5 | `prioritized-list-ranking` | rubric | Synthesis & Drafting |  | KA10 Techniques | Prioritized list / ranking | not-started |
-| 5 | `process-analysis-findings-improvement-recommendations` | rubric | Visual Modeling |  | KA10 Techniques | Process analysis findings / improvement recommendations | not-started |
-| 5 | `process-model` | rubric | Visual Modeling | `templates/process-model.md` | KA10 Techniques; KA11 Perspectives | Process model (flowchart, BPMN, swimlane) ; Process models (merged) | not-started |
-| 5 | `product-backlog` | rubric | Synthesis & Drafting |  | KA10 Techniques; KA11 Perspectives | Backlog (prioritized list of work items) ; Product backlog (merged) | not-started |
-| 5 | `prototype` | rubric | Visual Modeling |  | KA10 Techniques | Prototype (mock-up, wireframe, storyboard) | not-started |
-| 5 | `review-record-defect-log` | rubric | Quality & Audit |  | KA10 Techniques | Review record / defect log | not-started |
-| 5 | `risk-register` | rubric | Synthesis & Drafting | `templates/risk-register.md` | KA10 Techniques | Risk register (risks, assessment, responses) | not-started |
+| 5 | `prioritized-list-ranking` | rubric | Synthesis & Drafting |  | KA10 Techniques | Prioritized list / ranking | rubric shipped |
+| 5 | `process-analysis-findings-improvement-recommendations` | rubric | Visual Modeling |  | KA10 Techniques | Process analysis findings / improvement recommendations | rubric shipped |
+| 5 | `process-model` | rubric | Visual Modeling | `templates/process-model.md` | KA10 Techniques; KA11 Perspectives | Process model (flowchart, BPMN, swimlane) ; Process models (merged) | rubric shipped |
+| 5 | `product-backlog` | rubric | Synthesis & Drafting |  | KA10 Techniques; KA11 Perspectives | Backlog (prioritized list of work items) ; Product backlog (merged) | rubric shipped |
+| 5 | `prototype` | rubric | Visual Modeling |  | KA10 Techniques | Prototype (mock-up, wireframe, storyboard) | rubric shipped |
+| 5 | `review-record-defect-log` | rubric | Quality & Audit |  | KA10 Techniques | Review record / defect log | rubric shipped |
+| 5 | `risk-register` | rubric | Synthesis & Drafting | `templates/risk-register.md` | KA10 Techniques | Risk register (risks, assessment, responses) | rubric shipped |
 | 5 | `roles-and-permissions-matrix` | rubric | Visual Modeling |  | KA10 Techniques | Roles and permissions matrix (RACI-style) | not-started |
 | 5 | `root-cause-analysis` | rubric | Visual Modeling |  | KA10 Techniques | Root cause analysis (fishbone, 5 Whys) | not-started |
 | 5 | `stakeholder-list-stakeholder-map-personas` | rubric | Elicitation |  | KA10 Techniques | Stakeholder list / stakeholder map / personas | not-started |
