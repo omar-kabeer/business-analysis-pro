@@ -133,17 +133,17 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 4 | `user-acceptance-test` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | User acceptance test (UAT) | rubric shipped |
 | 4 | `vertical-prototype` | rubric | Synthesis & Drafting |  | KA9 Analysis/Assessment/Review/Test | Vertical prototype | rubric shipped |
 | 4 | `walkthrough` | rubric | Quality & Audit |  | KA9 Analysis/Assessment/Review/Test | Walkthrough | rubric shipped |
-| 5 | `acceptance-and-evaluation-criteria` | rubric | Quality & Audit |  | KA10 Techniques; KA11 Perspectives | Acceptance criteria & evaluation criteria (measures) ; Acceptance criteria (merged) | not-started |
-| 5 | `balanced-scorecard` | rubric | Visual Modeling |  | KA10 Techniques | Balanced scorecard (strategy map, objectives, measures, targets) | not-started |
-| 5 | `benchmarking-study-market-analysis-report` | rubric | Synthesis & Drafting |  | KA10 Techniques | Benchmarking study / market analysis report | not-started |
-| 5 | `business-capability-map-capability-model` | rubric | Visual Modeling |  | KA10 Techniques | Business capability map / capability model | not-started |
-| 5 | `business-model-canvas` | rubric | Visual Modeling | `templates/business-model-canvas.md` | KA10 Techniques | Business Model Canvas (9-block canvas) | not-started |
-| 5 | `business-rules-catalogue-set-of-business-rules` | rubric | Synthesis & Drafting |  | KA10 Techniques | Business rules catalogue / set of business rules | not-started |
-| 5 | `collaborative-game-outputs` | rubric | Elicitation |  | KA10 Techniques | Collaborative game outputs (product box, affinity map) | not-started |
-| 5 | `concept-model` | rubric | Visual Modeling |  | KA10 Techniques | Concept model (business vocabulary, concepts & relationships) | not-started |
-| 5 | `data-dictionary` | rubric | Synthesis & Drafting | `templates/data-dictionary.md` | KA10 Techniques; KA11 Perspectives | Data dictionary (data element definitions) ; Source data dictionary ; Target data dictionary (merged) | not-started |
-| 5 | `data-flow-diagram` | rubric | Visual Modeling |  | KA10 Techniques | Data flow diagram (DFD) | not-started |
-| 5 | `data-mining-model-findings` | rubric | Visual Modeling |  | KA10 Techniques | Data-mining model / findings (patterns & insights) | not-started |
+| 5 | `acceptance-and-evaluation-criteria` | rubric | Quality & Audit |  | KA10 Techniques; KA11 Perspectives | Acceptance criteria & evaluation criteria (measures) ; Acceptance criteria (merged) | rubric shipped |
+| 5 | `balanced-scorecard` | rubric | Visual Modeling |  | KA10 Techniques | Balanced scorecard (strategy map, objectives, measures, targets) | rubric shipped |
+| 5 | `benchmarking-study-market-analysis-report` | rubric | Synthesis & Drafting |  | KA10 Techniques | Benchmarking study / market analysis report | rubric shipped |
+| 5 | `business-capability-map-capability-model` | rubric | Visual Modeling |  | KA10 Techniques | Business capability map / capability model | rubric shipped |
+| 5 | `business-model-canvas` | rubric | Visual Modeling | `templates/business-model-canvas.md` | KA10 Techniques | Business Model Canvas (9-block canvas) | rubric shipped |
+| 5 | `business-rules-catalogue-set-of-business-rules` | rubric | Synthesis & Drafting |  | KA10 Techniques | Business rules catalogue / set of business rules | rubric shipped |
+| 5 | `collaborative-game-outputs` | rubric | Elicitation |  | KA10 Techniques | Collaborative game outputs (product box, affinity map) | rubric shipped |
+| 5 | `concept-model` | rubric | Visual Modeling |  | KA10 Techniques | Concept model (business vocabulary, concepts & relationships) | rubric shipped |
+| 5 | `data-dictionary` | rubric | Synthesis & Drafting | `templates/data-dictionary.md` | KA10 Techniques; KA11 Perspectives | Data dictionary (data element definitions) ; Source data dictionary ; Target data dictionary (merged) | rubric shipped |
+| 5 | `data-flow-diagram` | rubric | Visual Modeling |  | KA10 Techniques | Data flow diagram (DFD) | rubric shipped |
+| 5 | `data-mining-model-findings` | rubric | Visual Modeling |  | KA10 Techniques | Data-mining model / findings (patterns & insights) | rubric shipped |
 | 5 | `data-model` | rubric | Visual Modeling |  | KA10 Techniques | Data model (ERD / class model) | not-started |
 | 5 | `decision-model` | rubric | Visual Modeling |  | KA10 Techniques | Decision model (decision tables / decision trees) | not-started |
 | 5 | `decomposition-diagram-breakdown-structure` | rubric | Visual Modeling |  | KA10 Techniques | Decomposition diagram / breakdown structure | not-started |
