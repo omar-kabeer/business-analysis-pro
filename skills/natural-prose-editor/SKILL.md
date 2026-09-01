@@ -259,3 +259,7 @@ weird errors, nothing."
 (Light touch: smoothed one ragged opener, kept the casual register and the
 author's voice completely. The original interruptive beat becomes a period, not
 an em-dash. Don't formalize a casual draft just because you can.)
+
+## Operating standard
+
+This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.
