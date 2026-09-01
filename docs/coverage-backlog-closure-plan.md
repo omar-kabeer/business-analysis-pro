@@ -1,7 +1,7 @@
 # Coverage Backlog Closure Plan
 
 Plan version: 1.1.0
-Plan status: Phase 6 in progress (6a: 10 KA11 BI rubrics)
+Plan status: Phase 6 in progress (6a-6b: 20 KA11 rubrics)
 Source of truth for scope: [`COVERAGE_BACKLOG.md`](../COVERAGE_BACKLOG.md) (generated 2026-09-01 from `BABOK_v3_Artefacts_Register.xlsx`)
 Authoring reference: [`BABOK_v3_Deliverables_Artefacts_Documents_Catalogue.md`](../BABOK_v3_Deliverables_Artefacts_Documents_Catalogue.md)
 Primary source (copyrighted, consult sparingly): `sources/babok/babok-3.0-2015.pdf`
