@@ -29,22 +29,22 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 1 | `business-analysis-performance-assessment` | both | Quality & Audit | `templates/business-analysis-performance-assessment.md` | KA3 Planning & Monitoring | Business Analysis Performance Assessment | not-started |
 | 1 | `business-objectives` | both | Elicitation | `templates/business-objectives.md` | KA4 Elicitation | Business Objectives | not-started |
 | 1 | `change-strategy` | both | Approach | `templates/change-strategy.md` | KA3 Planning & Monitoring | Change Strategy | not-started |
-| 1 | `designs` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Designs | not-started |
+| 1 | `designs` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Designs | rubric shipped |
 | 1 | `elicitation-activity-plan` | both | Elicitation | `templates/elicitation-activity-plan.md` | KA4 Elicitation | Elicitation Activity Plan | not-started |
 | 1 | `elicitation-results-confirmed` | rubric | Elicitation |  | KA4 Elicitation | Elicitation Results [confirmed] | not-started |
 | 1 | `elicitation-results-unconfirmed` | rubric | Elicitation |  | KA4 Elicitation | Elicitation Results [unconfirmed] | not-started |
-| 1 | `functional-requirements` | rubric | Synthesis & Drafting |  | KA11 Perspectives; KA2 Key Concepts | Functional specifications ; Functional requirements (merged) | not-started |
+| 1 | `functional-requirements` | rubric | Synthesis & Drafting |  | KA11 Perspectives; KA2 Key Concepts | Functional specifications ; Functional requirements (merged) | rubric shipped |
 | 1 | `future-state-description` | rubric | Elicitation |  | KA4 Elicitation | Future State Description | not-started |
 | 1 | `governance-approach` | both | Approach | `templates/governance-approach.md` | KA3 Planning & Monitoring | Governance Approach | not-started |
 | 1 | `information-management-approach` | both | Approach | `templates/information-management-approach.md` | KA3 Planning & Monitoring | Information Management Approach | not-started |
-| 1 | `non-functional-requirements` | rubric | Synthesis & Drafting |  | KA11 Perspectives; KA2 Key Concepts | Non-functional (quality-of-service) requirements ; Non-functional requirements (merged) | not-started |
+| 1 | `non-functional-requirements` | rubric | Synthesis & Drafting |  | KA11 Perspectives; KA2 Key Concepts | Non-functional (quality-of-service) requirements ; Non-functional requirements (merged) | rubric shipped |
 | 1 | `potential-value` | both | Elicitation | `templates/potential-value.md` | KA4 Elicitation | Potential Value | not-started |
 | 1 | `recommended-actions` | both | Elicitation | `templates/recommended-actions.md` | KA4 Elicitation | Recommended Actions | not-started |
 | 1 | `risk-analysis-results` | rubric | Elicitation |  | KA4 Elicitation | Risk Analysis Results | not-started |
-| 1 | `solution-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Solution requirements | not-started |
+| 1 | `solution-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Solution requirements | rubric shipped |
 | 1 | `stakeholder-engagement-approach` | both | Elicitation | `templates/stakeholder-engagement-approach.md` | KA3 Planning & Monitoring | Stakeholder Engagement Approach | not-started |
-| 1 | `stakeholder-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Stakeholder requirements | not-started |
-| 1 | `transition-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Transition requirements | not-started |
+| 1 | `stakeholder-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Stakeholder requirements | rubric shipped |
+| 1 | `transition-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Transition requirements | rubric shipped |
 | 2 | `business-analysis-package` | rubric | Synthesis & Drafting |  | KA6 Packaging & Representation | Business analysis package | not-started |
 | 2 | `design-options` | both | Synthesis & Drafting | `templates/design-options.md` | KA6 Strategy Analysis | Design Options | not-started |
 | 2 | `designs-approved` | both | GAP: lifecycle governance | `templates/designs-approved.md` | KA5 Requirements Lifecycle | Designs [approved] | not-started |

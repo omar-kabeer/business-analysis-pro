@@ -323,7 +323,7 @@ Counts are from `docs/coverage-backlog-manifest.md` v1.0.0: 217 register rows re
 | Phase | Content | Canonical slugs | Status |
 | --- | --- | --- | --- |
 | 0 | Manifest, plan, authoring guide | 3 files | shipped |
-| 1 | KA2, KA3, KA4 rubrics (7 also templates) | 21 | not-started |
+| 1 | KA2, KA3, KA4 rubrics (7 also templates) | 21 | in-progress (Batch 1.1 shipped: 6 KA2 rubrics) |
 | 2 | KA5, KA6 rubrics (some also templates) | 22 | not-started |
 | 3 | KA7, KA8, Named Forms rubrics (some also templates) | 36 | not-started |
 | 4 | KA9 rubrics | 30 | not-started |
