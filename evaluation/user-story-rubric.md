@@ -18,6 +18,29 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 6 | Testable | The story has acceptance criteria that make it testable. |
 | 7 | Traceable | The story traces to a goal, epic, or feature. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Cannot ship without several other stories. | Stands on its own, with minimal dependence. |
+| 2 | Locks in an implementation. | Captures intent, leaving room to discuss the detail. |
+| 3 | No value to any user or the business. | Delivers value, stated from the user's perspective. |
+| 4 | The team cannot estimate it. | The team can estimate it. |
+| 5 | Too big for one iteration. | Small enough to deliver in one iteration. |
+| 6 | No acceptance criteria. | Has acceptance criteria that make it testable. |
+| 7 | No link to an epic, feature, or goal. | Traces to a goal, epic, or feature. |
+
+## Common failure modes
+
+- Technical task masquerading as a story: "add an index to the orders table" with no user value.
+- Compound story: several user goals joined with "and", too big to finish in an iteration.
+- Missing acceptance criteria: nothing states when the story is done.
+- Design in the story: the solution is prescribed instead of the need, removing room to negotiate.
+- Dependency chain: the story cannot ship without three others, breaking independence.
+- No persona: "as a user" with no real role, so value cannot be judged.
+
 ## Result
 
 Total the scores (maximum 21):

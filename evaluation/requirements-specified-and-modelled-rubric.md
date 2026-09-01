@@ -19,6 +19,29 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 7 | Attributes | Requirement attributes such as source, priority, and status are captured. |
 | 8 | Traceable | The requirements trace to their source and to each other. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Elicitation notes copied verbatim, unanalysed. | Requirements are analysed, not just captured. |
+| 2 | Form fights the content, such as prose for a state machine. | The form used, text, matrix, or diagram, suits the requirement. |
+| 3 | Detail is at the wrong altitude for the audience. | The abstraction level suits the audience and stage. |
+| 4 | Compound and ambiguous. | Atomic and admits one interpretation. |
+| 5 | Silent gaps in the models or text. | Models and text cover the scope, no silent gaps. |
+| 6 | Text and models contradict each other. | Requirements and models are internally consistent. |
+| 7 | No attributes captured. | Source, priority, and status attributes are captured. |
+| 8 | No links to source or between requirements. | Requirements trace to their source and to each other. |
+
+## Common failure modes
+
+- Transcription, not analysis: raw elicitation notes presented as specified requirements.
+- Wrong representation: a complex rule written as prose where a decision table would be unambiguous.
+- Model and text disagree: a diagram says one thing, the text another, with no reconciliation.
+- Altitude mismatch: implementation detail where an intent was wanted, or the reverse.
+- Attribute void: no source, priority, or status, so the requirement cannot be managed downstream.
+
 ## Result
 
 Total the scores (maximum 24):

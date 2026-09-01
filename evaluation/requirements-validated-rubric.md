@@ -18,6 +18,28 @@ For each dimension score 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 | 6 | Non-benefiting removed | Requirements that cannot be validated are challenged or removed. |
 | 7 | Measures | The measures that will confirm the benefit are identified. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | No benefit can be shown for the requirement. | Each requirement can be shown to deliver benefit to stakeholders. |
+| 2 | No link to the goals of the change. | Each aligns with the business goals and objectives. |
+| 3 | Value is asserted, not traced. | The value of each traces to a business objective or need. |
+| 4 | Stakeholders have not agreed their needs are met. | Stakeholders agree their needs are met. |
+| 5 | The benefit rests on untested assumptions. | The assumptions behind the expected benefit are tested. |
+| 6 | Non-benefiting requirements are kept unchallenged. | Requirements that cannot be validated are challenged or removed. |
+| 7 | No measure will confirm the benefit. | The measures that will confirm the benefit are identified. |
+
+## Common failure modes
+
+- Validate confused with verify: the check asks whether the requirement is well-formed instead of whether it delivers value.
+- Assumed benefit: value claimed with no evidence and no measure to confirm it.
+- Kept anyway: a requirement that delivers no benefit survives because it was already written.
+- Goal drift: a requirement that no longer serves any objective is validated by habit.
+- No baseline: the benefit has no before-state to measure the after against.
+
 ## Result
 
 Total the scores (maximum 21):
