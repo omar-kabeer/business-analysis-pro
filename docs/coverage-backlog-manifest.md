@@ -46,27 +46,27 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 1 | `stakeholder-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Stakeholder requirements | rubric shipped |
 | 1 | `transition-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Transition requirements | rubric shipped |
 | 2 | `business-analysis-package` | rubric | Synthesis & Drafting |  | KA6 Packaging & Representation | Business analysis package | rubric shipped |
-| 2 | `design-options` | both | Synthesis & Drafting | `templates/design-options.md` | KA6 Strategy Analysis | Design Options | not-started |
+| 2 | `design-options` | both | Synthesis & Drafting | `templates/design-options.md` | KA6 Strategy Analysis | Design Options | rubric shipped |
 | 2 | `designs-approved` | both | GAP: lifecycle governance | `templates/designs-approved.md` | KA5 Requirements Lifecycle | Designs [approved] | shipped |
 | 2 | `designs-change-assessment` | both | GAP: lifecycle governance | `templates/designs-change-assessment.md` | KA5 Requirements Lifecycle | Designs Change Assessment | shipped |
 | 2 | `designs-maintained` | both | Architecture | `templates/designs-maintained.md` | KA5 Requirements Lifecycle | Designs [maintained] | shipped |
 | 2 | `designs-prioritized` | both | GAP: lifecycle governance | `templates/designs-prioritized.md` | KA5 Requirements Lifecycle | Designs [prioritized] | shipped |
 | 2 | `designs-traced` | both | Architecture | `templates/designs-traced.md` | KA5 Requirements Lifecycle | Designs [traced] | shipped |
-| 2 | `enterprise-limitation` | both | Synthesis & Drafting | `templates/enterprise-limitation.md` | KA6 Strategy Analysis | Enterprise Limitation | not-started |
-| 2 | `identified-risks` | rubric | Synthesis (produce) / risk-challenger audits |  | KA6 Strategy Analysis | Identified Risks | not-started |
-| 2 | `metrics-and-kpis` | rubric | Synthesis & Drafting |  | KA10 Techniques; KA6 Strategy Analysis | Metrics & KPIs (definitions, targets, reporting) ; Metrics and Key Performance Indicators [KPIs] (merged) | not-started |
+| 2 | `enterprise-limitation` | both | Synthesis & Drafting | `templates/enterprise-limitation.md` | KA6 Strategy Analysis | Enterprise Limitation | rubric shipped |
+| 2 | `identified-risks` | rubric | Synthesis (produce) / risk-challenger audits |  | KA6 Strategy Analysis | Identified Risks | rubric shipped |
+| 2 | `metrics-and-kpis` | rubric | Synthesis & Drafting |  | KA10 Techniques; KA6 Strategy Analysis | Metrics & KPIs (definitions, targets, reporting) ; Metrics and Key Performance Indicators [KPIs] (merged) | rubric shipped |
 | 2 | `requirements-approved` | rubric | GAP: lifecycle governance |  | KA5 Requirements Lifecycle | Requirements [approved] | rubric shipped |
 | 2 | `requirements-change-assessment` | both | GAP: lifecycle governance | `templates/requirements-change-assessment.md` | KA5 Requirements Lifecycle | Requirements Change Assessment | shipped |
 | 2 | `requirements-maintained` | rubric | Architecture |  | KA5 Requirements Lifecycle | Requirements [maintained] | rubric shipped |
 | 2 | `requirements-package` | rubric | Synthesis & Drafting |  | KA6 Packaging & Representation | Requirements package (requirements document) | rubric shipped |
 | 2 | `requirements-prioritized` | rubric | GAP: lifecycle governance |  | KA5 Requirements Lifecycle | Requirements [prioritized] | rubric shipped |
 | 2 | `requirements-traced` | rubric | Architecture |  | KA5 Requirements Lifecycle | Requirements [traced] | rubric shipped |
-| 2 | `solution-limitation` | both | Synthesis & Drafting | `templates/solution-limitation.md` | KA6 Strategy Analysis | Solution Limitation | not-started |
-| 2 | `solution-performance-goals` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Performance Goals | not-started |
-| 2 | `solution-performance-measures` | both | Synthesis & Drafting | `templates/solution-performance-measures.md` | KA6 Strategy Analysis | Solution Performance Measures | not-started |
-| 2 | `solution-recommendations` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Recommendations | not-started |
-| 2 | `solution-scope` | both | Synthesis & Drafting | `templates/solution-scope.md` | KA6 Strategy Analysis | Solution Scope | not-started |
-| 2 | `stakeholder-analysis` | rubric | Elicitation |  | KA6 Strategy Analysis; KA9 Analysis/Assessment/Review/Test | Stakeholder Analysis Results ; Stakeholder analysis (merged) | not-started |
+| 2 | `solution-limitation` | both | Synthesis & Drafting | `templates/solution-limitation.md` | KA6 Strategy Analysis | Solution Limitation | rubric shipped |
+| 2 | `solution-performance-goals` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Performance Goals | rubric shipped |
+| 2 | `solution-performance-measures` | both | Synthesis & Drafting | `templates/solution-performance-measures.md` | KA6 Strategy Analysis | Solution Performance Measures | rubric shipped |
+| 2 | `solution-recommendations` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Recommendations | rubric shipped |
+| 2 | `solution-scope` | both | Synthesis & Drafting | `templates/solution-scope.md` | KA6 Strategy Analysis | Solution Scope | rubric shipped |
+| 2 | `stakeholder-analysis` | rubric | Elicitation |  | KA6 Strategy Analysis; KA9 Analysis/Assessment/Review/Test | Stakeholder Analysis Results ; Stakeholder analysis (merged) | rubric shipped |
 | 3 | `activity-diagram` | rubric | Visual Modeling |  | Named Forms | Activity diagram | not-started |
 | 3 | `affinity-diagram` | rubric | Elicitation |  | Named Forms | Affinity diagram | not-started |
 | 3 | `bpmn-model` | rubric | Visual Modeling |  | Named Forms | BPMN model | not-started |
