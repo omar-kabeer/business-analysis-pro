@@ -47,20 +47,20 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 1 | `transition-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Transition requirements | rubric shipped |
 | 2 | `business-analysis-package` | rubric | Synthesis & Drafting |  | KA6 Packaging & Representation | Business analysis package | not-started |
 | 2 | `design-options` | both | Synthesis & Drafting | `templates/design-options.md` | KA6 Strategy Analysis | Design Options | not-started |
-| 2 | `designs-approved` | both | GAP: lifecycle governance | `templates/designs-approved.md` | KA5 Requirements Lifecycle | Designs [approved] | not-started |
-| 2 | `designs-change-assessment` | both | GAP: lifecycle governance | `templates/designs-change-assessment.md` | KA5 Requirements Lifecycle | Designs Change Assessment | not-started |
-| 2 | `designs-maintained` | both | Architecture | `templates/designs-maintained.md` | KA5 Requirements Lifecycle | Designs [maintained] | not-started |
-| 2 | `designs-prioritized` | both | GAP: lifecycle governance | `templates/designs-prioritized.md` | KA5 Requirements Lifecycle | Designs [prioritized] | not-started |
-| 2 | `designs-traced` | both | Architecture | `templates/designs-traced.md` | KA5 Requirements Lifecycle | Designs [traced] | not-started |
+| 2 | `designs-approved` | both | GAP: lifecycle governance | `templates/designs-approved.md` | KA5 Requirements Lifecycle | Designs [approved] | rubric shipped |
+| 2 | `designs-change-assessment` | both | GAP: lifecycle governance | `templates/designs-change-assessment.md` | KA5 Requirements Lifecycle | Designs Change Assessment | rubric shipped |
+| 2 | `designs-maintained` | both | Architecture | `templates/designs-maintained.md` | KA5 Requirements Lifecycle | Designs [maintained] | rubric shipped |
+| 2 | `designs-prioritized` | both | GAP: lifecycle governance | `templates/designs-prioritized.md` | KA5 Requirements Lifecycle | Designs [prioritized] | rubric shipped |
+| 2 | `designs-traced` | both | Architecture | `templates/designs-traced.md` | KA5 Requirements Lifecycle | Designs [traced] | rubric shipped |
 | 2 | `enterprise-limitation` | both | Synthesis & Drafting | `templates/enterprise-limitation.md` | KA6 Strategy Analysis | Enterprise Limitation | not-started |
 | 2 | `identified-risks` | rubric | Synthesis (produce) / risk-challenger audits |  | KA6 Strategy Analysis | Identified Risks | not-started |
 | 2 | `metrics-and-kpis` | rubric | Synthesis & Drafting |  | KA10 Techniques; KA6 Strategy Analysis | Metrics & KPIs (definitions, targets, reporting) ; Metrics and Key Performance Indicators [KPIs] (merged) | not-started |
-| 2 | `requirements-approved` | rubric | GAP: lifecycle governance |  | KA5 Requirements Lifecycle | Requirements [approved] | not-started |
-| 2 | `requirements-change-assessment` | both | GAP: lifecycle governance | `templates/requirements-change-assessment.md` | KA5 Requirements Lifecycle | Requirements Change Assessment | not-started |
-| 2 | `requirements-maintained` | rubric | Architecture |  | KA5 Requirements Lifecycle | Requirements [maintained] | not-started |
+| 2 | `requirements-approved` | rubric | GAP: lifecycle governance |  | KA5 Requirements Lifecycle | Requirements [approved] | rubric shipped |
+| 2 | `requirements-change-assessment` | both | GAP: lifecycle governance | `templates/requirements-change-assessment.md` | KA5 Requirements Lifecycle | Requirements Change Assessment | rubric shipped |
+| 2 | `requirements-maintained` | rubric | Architecture |  | KA5 Requirements Lifecycle | Requirements [maintained] | rubric shipped |
 | 2 | `requirements-package` | rubric | Synthesis & Drafting |  | KA6 Packaging & Representation | Requirements package (requirements document) | not-started |
-| 2 | `requirements-prioritized` | rubric | GAP: lifecycle governance |  | KA5 Requirements Lifecycle | Requirements [prioritized] | not-started |
-| 2 | `requirements-traced` | rubric | Architecture |  | KA5 Requirements Lifecycle | Requirements [traced] | not-started |
+| 2 | `requirements-prioritized` | rubric | GAP: lifecycle governance |  | KA5 Requirements Lifecycle | Requirements [prioritized] | rubric shipped |
+| 2 | `requirements-traced` | rubric | Architecture |  | KA5 Requirements Lifecycle | Requirements [traced] | rubric shipped |
 | 2 | `solution-limitation` | both | Synthesis & Drafting | `templates/solution-limitation.md` | KA6 Strategy Analysis | Solution Limitation | not-started |
 | 2 | `solution-performance-goals` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Performance Goals | not-started |
 | 2 | `solution-performance-measures` | both | Synthesis & Drafting | `templates/solution-performance-measures.md` | KA6 Strategy Analysis | Solution Performance Measures | not-started |
