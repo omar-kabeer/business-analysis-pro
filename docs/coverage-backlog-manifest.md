@@ -245,6 +245,17 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | frontend-design; figma:figma-design-to-code | Synthesis & Drafting; Visual Modeling | author BA-OS equivalent OR bind external plugin as pool member | Evolutionary (functional) prototype, Prototype (mock-up, wireframe, storyboard), Throw-away (rapid) prototype, Wireframe / mock-up / storyboard | resolved |
 | legal:review-contract | Analytics & Performance | author BA-OS equivalent OR bind external plugin as pool member | Service Level Agreement (SLA) | resolved |
 
+## Register-parity additions (beyond the backlog)
+
+A later audit of `BABOK_v3_Artefacts_Register.xlsx` against the shipped files found two rubric-able artefacts that the generated backlog omitted from Section A. Both are BABOK Analyze Current State (6.1) outputs. They are authored to close register parity.
+
+| Canonical slug | Register artefact | BABOK | Status |
+| --- | --- | --- | --- |
+| `current-state-description` | Current State Description | 6.1 | shipped (deepened) |
+| `business-requirements` | Business Requirements | 6.1 | shipped (deepened) |
+
+The same audit found that the register's column L binds a wider set of external plugin skills than the backlog's Section C surfaced. The full set is recorded in `docs/skill-bindings.md`.
+
 ## Dedup log (merged groups, auditable)
 
 Each row below is one canonical slug that absorbed more than one register row. Review before Phase 0 sign-off.
