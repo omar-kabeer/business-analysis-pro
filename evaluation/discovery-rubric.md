@@ -25,6 +25,31 @@ For each dimension score 0 to 3:
 | 8 | Constraints and risks | Constraints such as time, budget, compliance, and systems are captured, with the main risks and their impact. |
 | 9 | Next step | A clear recommendation on the next step and the deliverable it should produce, or an explicit stopping point. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Framed as a solution, or no reason it matters now. | Stated as an outcome, with why it matters now. |
+| 2 | No underlying need or value named. | Need explicit and tied to a value the organisation cares about. |
+| 3 | Stakeholders unidentified. | Affected stakeholders identified with interests and the decisions they own. |
+| 4 | Current state assumed, not evidenced. | Current situation described with enough evidence to be trusted. |
+| 5 | No desired outcome or measures. | Future outcome and success described, with early measures. |
+| 6 | Scope undrawn, so the work can sprawl. | In and out of scope drawn. |
+| 7 | Assumptions and unknowns hidden. | Assumptions, open questions, and missing information listed. |
+| 8 | Constraints and risks ignored. | Constraints and main risks captured with impact. |
+| 9 | No next step. | A clear recommendation on the next step, or an explicit stopping point. |
+
+## Common failure modes
+
+- Solution in disguise: the problem is written as "we need system X" rather than the outcome sought.
+- Assumed current state: the as-is is described from memory, with no evidence.
+- Stakeholder blind spot: an affected group is missing, so a key interest is unheard.
+- No measure of success: the desired outcome has no way to tell whether it was reached.
+- Unbounded scope: nothing says what is out, so discovery sprawls.
+- Hidden unknowns: open questions are glossed over instead of listed as risks to the framing.
+
 ## Result
 
 Total the scores (maximum 27). Record a verdict:
