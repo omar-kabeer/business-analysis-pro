@@ -67,18 +67,18 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 2 | `solution-recommendations` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Recommendations | rubric shipped |
 | 2 | `solution-scope` | both | Synthesis & Drafting | `templates/solution-scope.md` | KA6 Strategy Analysis | Solution Scope | shipped |
 | 2 | `stakeholder-analysis` | rubric | Elicitation |  | KA6 Strategy Analysis; KA9 Analysis/Assessment/Review/Test | Stakeholder Analysis Results ; Stakeholder analysis (merged) | rubric shipped |
-| 3 | `activity-diagram` | rubric | Visual Modeling |  | Named Forms | Activity diagram | not-started |
-| 3 | `affinity-diagram` | rubric | Elicitation |  | Named Forms | Affinity diagram | not-started |
-| 3 | `bpmn-model` | rubric | Visual Modeling |  | Named Forms | BPMN model | not-started |
-| 3 | `class-model-class-diagram` | rubric | Visual Modeling |  | Named Forms | Class model / class diagram | not-started |
-| 3 | `crud-matrix` | rubric | Visual Modeling |  | Named Forms | CRUD matrix | not-started |
+| 3 | `activity-diagram` | rubric | Visual Modeling |  | Named Forms | Activity diagram | rubric shipped |
+| 3 | `affinity-diagram` | rubric | Elicitation |  | Named Forms | Affinity diagram | rubric shipped |
+| 3 | `bpmn-model` | rubric | Visual Modeling |  | Named Forms | BPMN model | rubric shipped |
+| 3 | `class-model-class-diagram` | rubric | Visual Modeling |  | Named Forms | Class model / class diagram | rubric shipped |
+| 3 | `crud-matrix` | rubric | Visual Modeling |  | Named Forms | CRUD matrix | rubric shipped |
 | 3 | `decision-matrix` | rubric | Visual Modeling | `templates/decision-matrix.md` | KA10 Techniques; Named Forms | Decision analysis (decision matrix / expected-value model) ; Decision matrix (simple & weighted) (merged) | not-started |
-| 3 | `entity-relationship-diagram` | rubric | Visual Modeling |  | Named Forms | Entity Relationship Diagram (ERD) | not-started |
-| 3 | `escalation-matrix` | rubric | Visual Modeling |  | Named Forms | Escalation matrix | not-started |
-| 3 | `fishbone-ishikawa-diagram` | rubric | Visual Modeling |  | Named Forms | Fishbone / Ishikawa diagram | not-started |
-| 3 | `flowchart` | rubric | Visual Modeling |  | Named Forms | Flowchart | not-started |
-| 3 | `onion-diagram` | rubric | Elicitation |  | Named Forms | Onion diagram | not-started |
-| 3 | `organizational-chart` | rubric | Visual Modeling |  | Named Forms | Organizational chart (functional/matrix) | not-started |
+| 3 | `entity-relationship-diagram` | rubric | Visual Modeling |  | Named Forms | Entity Relationship Diagram (ERD) | rubric shipped |
+| 3 | `escalation-matrix` | rubric | Visual Modeling |  | Named Forms | Escalation matrix | rubric shipped |
+| 3 | `fishbone-ishikawa-diagram` | rubric | Visual Modeling |  | Named Forms | Fishbone / Ishikawa diagram | rubric shipped |
+| 3 | `flowchart` | rubric | Visual Modeling |  | Named Forms | Flowchart | rubric shipped |
+| 3 | `onion-diagram` | rubric | Elicitation |  | Named Forms | Onion diagram | rubric shipped |
+| 3 | `organizational-chart` | rubric | Visual Modeling |  | Named Forms | Organizational chart (functional/matrix) | rubric shipped |
 | 3 | `request-for-information` | rubric | Elicitation |  | KA8 Procurement | Request for Information (RFI) | not-started |
 | 3 | `request-for-proposal` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Proposal (RFP) | not-started |
 | 3 | `request-for-quote` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Quote (RFQ) | not-started |
