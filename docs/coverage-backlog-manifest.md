@@ -83,18 +83,18 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 3 | `request-for-proposal` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Proposal (RFP) | rubric shipped |
 | 3 | `request-for-quote` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Quote (RFQ) | rubric shipped |
 | 3 | `request-for-tender` | rubric | Analytics & Performance |  | KA8 Procurement | Request for Tender (RFT) | rubric shipped |
-| 3 | `requirements-architecture` | both | Synthesis & Drafting | `templates/requirements-architecture.md` | KA7 RADD | Requirements Architecture | not-started |
-| 3 | `requirements-specified-and-modelled` | rubric | Synthesis & Drafting |  | KA7 RADD | Requirements [specified and modelled] | not-started |
+| 3 | `requirements-architecture` | both | Synthesis & Drafting | `templates/requirements-architecture.md` | KA7 RADD | Requirements Architecture | rubric shipped |
+| 3 | `requirements-specified-and-modelled` | rubric | Synthesis & Drafting |  | KA7 RADD | Requirements [specified and modelled] | rubric shipped |
 | 3 | `requirements-traceability-matrix` | rubric | Visual Modeling | `templates/requirements-traceability-matrix.md` | Named Forms | Requirements traceability matrix | rubric shipped |
-| 3 | `requirements-validated` | rubric | Quality & Audit |  | KA7 RADD | Requirements [validated] | not-started |
-| 3 | `requirements-verified` | rubric | Quality & Audit |  | KA7 RADD | Requirements [verified] | not-started |
+| 3 | `requirements-validated` | rubric | Quality & Audit |  | KA7 RADD | Requirements [validated] | rubric shipped |
+| 3 | `requirements-verified` | rubric | Quality & Audit |  | KA7 RADD | Requirements [verified] | rubric shipped |
 | 3 | `scope-model` | rubric | Visual Modeling |  | KA10 Techniques; Named Forms | Scope model (context diagram / boundary model) ; Context diagram (merged) | rubric shipped |
 | 3 | `scope-statement` | rubric | Analytics & Performance |  | KA8 Procurement | Scope statement | rubric shipped |
 | 3 | `sequence-diagram` | rubric | Visual Modeling |  | Named Forms | Sequence diagram | rubric shipped |
 | 3 | `service-level-agreement` | rubric | Analytics & Performance | `templates/service-level-agreement.md` | KA8 Procurement | Service Level Agreement (SLA) | rubric shipped |
 | 3 | `sipoc-diagram` | rubric | Visual Modeling |  | Named Forms | SIPOC diagram | rubric shipped |
-| 3 | `solution-performance-analysis` | both | Analytics & Performance | `templates/solution-performance-analysis.md` | KA8 Solution Evaluation | Solution Performance Analysis | not-started |
-| 3 | `solution-recommendation` | both | Synthesis & Drafting | `templates/solution-recommendation.md` | KA7 RADD | Solution Recommendation | not-started |
+| 3 | `solution-performance-analysis` | both | Analytics & Performance | `templates/solution-performance-analysis.md` | KA8 Solution Evaluation | Solution Performance Analysis | rubric shipped |
+| 3 | `solution-recommendation` | both | Synthesis & Drafting | `templates/solution-recommendation.md` | KA7 RADD | Solution Recommendation | rubric via solution-recommendations; template pending |
 | 3 | `state-model` | rubric | Visual Modeling |  | Named Forms | State diagram ; State table (merged) | rubric shipped |
 | 3 | `statement-of-work` | rubric | Analytics & Performance | `templates/statement-of-work.md` | KA8 Procurement | Statement of Work (SOW) | rubric shipped |
 | 3 | `swimlane-diagram` | rubric | Visual Modeling |  | Named Forms | Swimlane diagram | rubric shipped |
