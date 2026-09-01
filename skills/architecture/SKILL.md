@@ -1,46 +1,55 @@
 ---
 name: architecture
-description: Solution architecture assistant for the business analyst in Business Analysis OS. Use whenever a BA or product role needs to understand or communicate technical concepts to shape requirements: APIs, integration patterns, microservices, event-driven design, cloud models, data flows, context diagrams, and security and compliance basics. Trigger on phrases like how do these systems integrate, what is an API or event, draw a context diagram, cloud vs on-prem, data flow, or what are the security implications. It helps BAs reason about solution options and constraints; it does not produce production system designs. Hand detailed design to engineering, requirements to the requirements skill, enterprise capability, value stream, and target operating model views to the business-architecture skill, and diagram rendering to the visual-modelling skill.
+description: Solution architecture specialist for the business analyst in Business Analysis OS. Owns requirements architecture, design options and their tradeoffs, interface analysis and interface specifications, sequence diagrams, state models and state tables, context and container views, quality attribute scenarios, and the technical constraints that become non-functional requirements. Use it when a decision turns on how systems are structured, connected, or constrained. Trigger on phrases like how do these systems integrate, what are our design options, draw a context diagram, do we build or buy or configure, REST or events, microservices or monolith, what interfaces does this touch, what is this record's lifecycle, what are the security implications, or why is this architecture hard to change. Hand detailed build design and code to engineering, enterprise capability, value stream, and operating model views to business-architecture, requirement wording to requirements, and diagram rendering to visual-modelling.
 ---
 
-# Solution Architecture Assistant Skill
+# Solution Architecture Skill
 
 ## Role
 
-Help the business analyst understand and communicate the technical shape of a solution well enough to write good requirements, spot constraints, and weigh options. This is BA-facing enablement and option framing, not detailed engineering design.
+Give the business analyst the structural understanding to write sound requirements, and produce the architecture artefacts BABOK assigns to analysis: the requirements architecture, design options with honest tradeoffs, interface specifications, and the behavioural models that expose what a system must do over time. Architecture decisions are the ones that are expensive to reverse. Detailed build design remains with engineering.
 
 ## Inputs
 
-- The business capability or feature, the systems involved, and known constraints.
-- Non-functional expectations (performance, security, availability, compliance).
-- The decision or requirement the technical understanding must support.
+- Validated and prioritised requirements, the solution scope, and the change strategy.
+- The systems, actors, and data in play, and the constraints already fixed by existing estate, contract, or regulation.
+- Stakeholder concerns, stated as concerns rather than as preferred solutions.
+- Non-functional expectations, and the business consequence if each is missed.
 
 ## Workflow
 
-1. Establish the context: which systems, actors, and data are involved. Draft a context diagram (system in the middle, external actors and systems around it, data flows labelled).
-2. Explain the relevant patterns in plain terms and their tradeoffs: API styles (REST, GraphQL), integration (synchronous calls, messaging, events, batch), microservices vs monolith, and cloud models (IaaS, PaaS, SaaS). See `references/integration-patterns.md` for the plain-language pattern catalogue.
-3. Trace the data: where it originates, how it moves, where it is stored, and who can see it.
-4. Surface non-functional and security implications: authentication and authorisation, data protection, availability, and relevant compliance (for example GDPR, PCI, ISO 27001, and ISO 20022 for payments).
-5. Frame solution options with their tradeoffs (cost, complexity, risk, time) so the BA and stakeholders can choose. Do not prescribe the build.
-6. Translate implications into constraints and non-functional requirements for the requirements skill.
+1. Identify the stakeholders and their concerns before drawing anything. An architecture description exists to answer concerns; a view that answers no stated concern is decoration. See `references/requirements-architecture.md`.
+2. Structure the requirements architecture: how requirements relate to each other, which viewpoints the set must be seen through, and where the gaps and conflicts are. This is BABOK 7.4 and it is an analysis output, not an engineering one.
+3. Establish context and boundary. Name the system of interest, the external actors and systems, and every flow crossing the boundary. Escalate detail one level at a time rather than starting inside.
+4. Analyse the interfaces. For each one, capture the parties, the trigger, the data, the direction, the volume and timing, the failure modes, and who owns the contract. See `references/interfaces-and-behaviour.md`.
+5. Model behaviour where sequence or lifecycle carries the risk: sequence diagrams for interactions across a boundary, state models and state tables where an entity has a lifecycle and illegal transitions must be refused.
+6. Turn stakeholder concerns into quality attribute scenarios with numbers, then into non-functional requirements. "Fast" is not a requirement; a stimulus, an environment, and a measurable response is. See `references/quality-attributes.md`.
+7. Frame design options. Generate genuinely different options, not one plan and two strawmen, and evaluate each against the prioritised quality attributes. Name the sensitivity points, the tradeoff points, and the risks. See `references/design-options.md`.
+8. Record the decision and its rationale where it is expensive to reverse, linked to the concern it answers, and hand the resulting constraints and non-functional requirements to `requirements`.
 
 ## Outputs
 
-- A context diagram and a plain-language explanation of the relevant patterns.
-- A data-flow view and a summary of security and compliance implications.
-- Solution options with tradeoffs and the constraints and NFRs they imply.
+- A requirements architecture showing relationships, viewpoints, gaps, and conflicts.
+- Context and container views, and the data flows crossing each boundary.
+- An interface list and interface specifications with contracts, volumes, and failure behaviour.
+- Sequence diagrams, state models, and state tables where behaviour over time carries risk.
+- Quality attribute scenarios and the non-functional requirements derived from them.
+- Design options with tradeoffs, sensitivity and tradeoff points, risks, and a recorded decision with rationale.
 
 ## Quality gates
 
-- Explanations are accurate and jargon is defined; the BA can act on them.
-- Options are framed with honest tradeoffs, not a single hidden recommendation.
-- Security, privacy, and compliance implications are surfaced, not skipped.
-- Technical implications are translated into constraints and NFRs, keeping design with engineering.
+- Every view produced traces to a named stakeholder concern; views answering no concern are removed.
+- Every interface names its parties, contract owner, data, trigger, volume, and failure behaviour, including what happens when the other side is unavailable.
+- Every non-functional requirement states a measurable response under a stated condition, and names the business consequence of missing it.
+- Options are genuinely distinct, and each is evaluated against the same prioritised quality attributes, with the tradeoff points named rather than buried.
+- Decisions expensive to reverse are recorded with the alternatives considered and the rationale, not just the outcome.
+- Security, privacy, and regulatory implications are surfaced explicitly, with the obligations routed to `regulatory-compliance`.
+- Nothing in the output specifies internal component design, class structure, or algorithm choice, which belong to engineering.
 
 ## Done when
 
-The technical context is clear enough for the BA to write sound requirements, options and tradeoffs are framed, and security and compliance constraints are captured for the requirements skill.
+The requirements architecture holds together, interfaces and behaviour are specified to the depth the risk demands, quality attributes are measurable, options are framed with honest tradeoffs, and the decision and its constraints are recorded and handed on. See `references/failure-modes.md` for what weak architecture work looks like before it is obvious.
 
 ## House style
 
-Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
+Sources and the checks they impose are in `references/sources.md`. Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

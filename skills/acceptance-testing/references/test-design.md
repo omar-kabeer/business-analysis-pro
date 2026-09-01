@@ -1,10 +1,12 @@
-# Test Design and Review Reference
+# Test Design
 
-## From requirement to test
+How an acceptance criterion becomes a set of cases that survive contact with a real business.
 
-An acceptance criterion is already most of a test. The work is turning it into cases that cover the ways it can fail.
+## From requirement to test condition to test case
 
-For a rule such as "refunds above 50,000 require dual approval":
+ISO/IEC/IEEE 29119-3 separates three things, and keeping them separate is what makes coverage measurable. The **test basis** is the requirement, rule, or model being tested. A **test condition** is a testable aspect of that basis. A **test case** is the executable instance with data, steps, and an expected result.
+
+For the rule "refunds above 50,000 require dual approval":
 
 | Case | Type | Expected |
 | --- | --- | --- |
@@ -12,58 +14,72 @@ For a rule such as "refunds above 50,000 require dual approval":
 | Refund of 50,000 by one approver | Boundary, at | Requires second approver |
 | Refund of 50,001 by one approver | Boundary, above | Requires second approver |
 | Refund of 60,000 with two approvers | Positive | Completes |
-| Refund of 60,000 with the same person approving twice | Negative | Rejected |
+| Refund of 60,000, same person approving twice | Negative | Rejected, single-person rule cited |
 | Refund of 60,000, second approver lacks authority | Negative | Rejected with a clear message |
-| Approval given, then withdrawn before completion | Exception | Refund held |
+| Approval given then withdrawn before completion | Exception | Refund held, not released |
 
-One criterion, seven cases. This is why coverage counted in requirements is misleading and coverage counted in cases is what protects you.
+One criterion, seven cases. This is why coverage counted in requirements flatters you and coverage counted in cases protects you.
 
-## Design techniques
+## Selecting a design technique
 
-- Equivalence partitioning: one case per class of input that behaves the same way.
-- Boundary value analysis: at, just below, and just above every threshold. Most defects live here.
-- Decision tables: for combinations of conditions, especially where rules interact. Hand complex rule sets to `decision-analysis` for the table, then test every reachable rule.
-- State transition: every valid transition once, plus the invalid ones that must be refused.
-- Scenario or end-to-end: real business tasks crossing several requirements. This is where integration defects appear.
-- Exploratory: time-boxed, charter-based, run by someone who knows the business. Catches what scripted tests were designed to miss.
+| Technique | Use it when | Stop using it when |
+| --- | --- | --- |
+| Equivalence partitioning | Inputs fall into classes that behave identically, and exhaustive testing is impossible | Classes interact, so behaviour depends on combinations rather than single values |
+| Boundary value analysis | Any threshold, limit, range, or cut-off exists. Most defects sit here | The value is categorical with no ordering |
+| Decision tables | Several conditions combine to select an outcome, especially where rules interact or overlap | There is one condition, or the table exceeds roughly 16 reachable rules and should be decomposed |
+| State transition | The entity has a lifecycle and illegal transitions must be refused | The object is stateless within the scope under test |
+| Scenario and end-to-end | Real business tasks cross several requirements and systems. Where integration and handoff defects live | You are proving a single rule, where an end-to-end run only adds noise |
+| Pairwise or combinatorial | Many independent configuration parameters, and full factorial coverage is unaffordable | Interactions are known to be higher order than pairs, for example tax by jurisdiction by product class |
+| Exploratory, charter-based | The specification is evolving, or you want to find what scripted tests were designed to miss | You need repeatable regression evidence for an audit trail |
 
-## Severity from business impact
+Hand complex rule sets to `decision-analysis` to build the decision table, then test every reachable rule and the rules the table says are unreachable.
 
-Set severity by consequence, not by how broken it looks.
+## Writing the case
 
-| Severity | Meaning |
-| --- | --- |
-| Critical | Business cannot operate, data is lost or corrupted, or a compliance breach occurs. No workaround. |
-| High | Core process blocked, workaround exists but is costly or manual. |
-| Medium | Function impaired, acceptable workaround, limited users affected. |
-| Low | Cosmetic or minor inconvenience, no process impact. |
+Each case carries a unique stable identifier, the test basis it traces to, preconditions, inputs and data, steps, and an expected result. Identifiers must not be renumbered when cases are inserted or deleted, because the coverage matrix and the defect log both point at them.
 
-Keep severity (business impact) separate from priority (fix order). The two diverge often and conflating them is how low-severity, high-visibility defects jump the queue.
+Expected results are specific. "Order total is 1,207.50 including 7.5 percent tax, and the confirmation email is queued within 5 seconds" is an expected result. "Order processes correctly" is a wish. Where tolerance is legitimate, state the tolerance rather than dropping the precision: "P95 response under 800 ms across a 30 minute soak".
 
-## Entry and exit criteria
+## Executable acceptance criteria
 
-**Entry**: requirements baselined, build deployed and smoke-tested, environment stable, test data loaded, cases reviewed and approved, testers trained and available, defect process agreed.
+Where the team runs BDD, express criteria in Given, When, Then form so the same statement serves as the criterion and the automated test. This works well for rule-shaped behaviour and badly for subjective quality.
 
-**Exit**: planned coverage executed, zero open critical, zero open high or an accepted written exception per defect, all mediums triaged with owners and dates, non-functional requirements verified, and sign-off from the named business owner.
+```gherkin
+Feature: High-value wire transfer sanctions gating
 
-Agree exit criteria before execution begins. Criteria negotiated after the results are in are not criteria.
+  Scenario Outline: Route wires by amount and sanctions status
+    Given a corporate account with status active and balance <Balance>
+    And the sanctions screening service is available
+    When a wire of <Amount> is submitted to beneficiary <BIC>
+    Then the transaction routes to <Destination>
+    And an audit entry <Code> is written within 200 ms
+
+  Examples:
+    | Balance   | Amount  | BIC         | Destination            | Code     |
+    | 1,000,000 | 50,000  | BOFAUS3NXXX | AUTOMATED_CLEARING     | AUD_2001 |
+    | 1,000,000 | 150,000 | CHASUS33XXX | COMPLIANCE_HOLD_QUEUE  | AUD_2002 |
+    | 1,000,000 | 250,000 | SANCTIONED  | REJECT_SANCTION_BLOCK  | AUD_2003 |
+```
+
+Two cautions from practice. Gherkin written after the code is documentation, not specification, and it will drift. Gherkin written for user interface mechanics ("When I click the blue button") is brittle and states the wrong thing; write the business outcome instead.
+
+## Coverage that means something
+
+Track four numbers and report them together, because any one alone can be gamed:
+
+1. Requirement coverage: in-scope requirements with at least one case. Target 100 percent before execution starts.
+2. Condition coverage: identified test conditions with at least one case. This exposes the requirement that has one happy-path case and six untested rules.
+3. Execution coverage: cases run against cases planned, by risk band.
+4. Orphan count: cases tracing to no valid requirement. Target zero. Orphans are either scope creep or a missing requirement, and both need a decision.
 
 ## Test data
 
-- Realistic volume, realistic mess. Perfect data proves nothing.
-- Cover the awkward cases deliberately: long names, non-Latin characters, missing optional values, expired records, duplicate entities, maximum values, historical records under old rules.
-- If production data is used, state the masking or anonymisation applied, and route the privacy handling to `regulatory-compliance`.
+Realistic volume, realistic mess. Clean data proves nothing, because production is not clean.
 
-## Formal reviews of work products
+Cover the awkward cases deliberately: long names, non-Latin characters and combining marks, missing optional values, expired and archived records, duplicate entities, maximum and minimum permitted values, records created under a previous version of the rules, and time-zone and daylight-saving boundaries.
 
-BABOK's review types, useful before anything is built:
+Where production data is used, state the masking or anonymisation applied and route the privacy handling and lawful basis to `regulatory-compliance`. Where synthetic data is generated, state the rules and schemas it was generated from, because synthetic data that ignores a real correlation will hide the defect that correlation causes.
 
-- Walkthrough: the author leads, the group follows, aimed at shared understanding.
-- Peer review: a colleague checks against criteria, informal, fast.
-- Inspection: formal, with defined roles (moderator, author, reader, recorder), entry criteria, a checklist, and a logged defect list. Slowest and by far the most effective at finding requirement defects.
+## What this skill does not design
 
-A defect found in an inspection of the requirements costs a fraction of the same defect found in UAT. Where a document is expensive to get wrong, run the inspection.
-
-## Acceptance recommendation
-
-State three things and nothing else: what passed, what remains open with its business consequence, and the recommendation with its conditions. If the recommendation is accept with conditions, each condition needs an owner and a date, or it is not a condition.
+Unit, component, contract, and system integration tests belong to engineering. Formal inspections, walkthroughs, and peer reviews of documents before anything is built belong to `quality`. This skill starts where there is a built thing to accept, and it stops at the acceptance decision.

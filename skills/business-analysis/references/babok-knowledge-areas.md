@@ -6,23 +6,7 @@ BABOK describes generally accepted practice, not a mandatory process. Tasks can 
 
 ## Contents
 
-1. What business analysis is
-2. Business Analysis Core Concept Model (BACCM)
-3. Requirements classification schema
-4. Requirements and designs
-5. Stakeholders (generic roles)
-6. The standard task structure
-7. Knowledge Area 1: Business Analysis Planning and Monitoring
-8. Knowledge Area 2: Elicitation and Collaboration
-9. Knowledge Area 3: Requirements Life Cycle Management
-10. Knowledge Area 4: Strategy Analysis
-11. Knowledge Area 5: Requirements Analysis and Design Definition (RADD)
-12. Knowledge Area 6: Solution Evaluation
-13. Underlying competencies
-14. Techniques catalogue (the 50 BABOK techniques)
-15. Perspectives
-16. Technique-to-task quick guide
-17. How to run a BABOK-grade analysis in this OS
+1 what business analysis is, 2 core concept model, 3 requirements classification, 4 requirements and designs, 5 stakeholder roles, 6 task structure, 7 to 12 the six knowledge areas in order, 13 underlying competencies, 14 the fifty techniques, 15 perspectives, 16 technique ownership, 17 running an analysis in this OS.
 
 ## 1. What business analysis is
 
@@ -171,14 +155,7 @@ Tasks:
 
 ## 13. Underlying competencies
 
-The behaviours, knowledge, and characteristics that support effective business analysis. Draw on them as needed:
-
-- Analytical Thinking and Problem Solving: creative and critical thinking, decision making, learning, problem solving, systems thinking, conceptual thinking, visual thinking.
-- Behavioural Characteristics: ethics, personal accountability, trustworthiness, organisation and time management, adaptability.
-- Business Knowledge: business acumen, industry knowledge, organisation knowledge, solution knowledge, methodology knowledge.
-- Communication Skills: verbal, non-verbal, written, and listening.
-- Interaction Skills: facilitation, leadership and influencing, teamwork, negotiation and conflict resolution, teaching.
-- Tools and Technology: office productivity, business analysis tools, and communication technology.
+Six groups of behaviour and knowledge that support the work rather than constitute it: analytical thinking and problem solving; behavioural characteristics such as ethics, accountability, and adaptability; business knowledge spanning acumen, industry, organisation, solution, and methodology; communication; interaction skills including facilitation, influence, negotiation, and teaching; and tools and technology. They are competencies to develop, not artefacts to produce, so they inform how a task is performed rather than what it outputs.
 
 ## 14. Techniques catalogue (the 50 BABOK techniques)
 
@@ -245,26 +222,22 @@ Perspectives are lenses that adapt business analysis to a context. One or many c
 - Business Architecture: enterprise-level capabilities, value streams, and alignment of strategy to operating model.
 - Business Process Management: end-to-end processes, their design, automation, and continuous improvement.
 
-## 16. Technique-to-task quick guide
+## 16. Technique ownership
 
-- Frame the problem and current state: Root Cause Analysis, Business Capability Analysis, Process Analysis and Modelling, SWOT, Document Analysis, Scope Modelling.
-- Understand stakeholders: Stakeholder List Map or Personas, Organizational Modelling, Roles and Permissions Matrix, Interviews.
-- Define the future state and strategy: Business Model Canvas, Balanced Scorecard, Decision Analysis, Financial Analysis, Business Cases, Benchmarking and Market Analysis.
-- Elicit: Interviews, Workshops, Observation, Survey or Questionnaire, Prototyping, Focus Groups, Brainstorming, Collaborative Games.
-- Specify and model: Use Cases and Scenarios, User Stories, Data Modelling, Data Flow Diagrams, State Modelling, Sequence Diagrams, Business Rules Analysis, Decision Modelling, Concept Modelling, Non-Functional Requirements Analysis, Data Dictionary, Functional Decomposition, Interface Analysis.
-- Manage the life cycle: Backlog Management, Prioritization, Item Tracking, Reviews, Acceptance and Evaluation Criteria, Metrics and KPIs.
-- Evaluate the solution: Metrics and KPIs, Acceptance and Evaluation Criteria, Risk Analysis, Decision Analysis, Lessons Learned.
+Every one of the fifty techniques has an owning skill and, where one exists, a producing template. That mapping is maintained in `docs/technique-index.md` rather than duplicated here, so there is a single place to change it when ownership moves.
 
-## 17. How to run a BABOK-grade analysis in this OS
+## 17. Running a BABOK-grade analysis in this OS
 
-1. Frame with the BACCM: state the need, the value, the stakeholders, the context, and the change and solution under consideration. Note any concept you cannot yet answer.
-2. Establish the current state and the business need (Strategy Analysis). Separate symptom from root cause.
-3. Define the future state and the measures of success. Assess risk and outline a change strategy.
-4. Plan the analysis and stakeholder engagement proportionate to the initiative (Planning and Monitoring). Do not over-govern a small change or under-govern a large one.
-5. Elicit and confirm information with fit-for-purpose techniques (Elicitation and Collaboration). Separate fact from opinion and attribute sources.
-6. Specify and model requirements, classify them (business, stakeholder, solution functional and non-functional, transition), verify and validate them, and keep them traceable (RADD and Requirements Life Cycle Management).
-7. Define and compare design options, estimate value, and recommend a solution with explicit trade-offs.
-8. After delivery, measure solution performance and recommend actions to increase value (Solution Evaluation).
-9. Throughout, maintain traceability from need to requirement to design to solution component to test, and tailor rigour to context. Traceability and tailoring are what make the analysis auditable and professional.
+1. Frame with the six core concepts and record the ones you cannot yet answer. That list is the analysis plan.
+2. Establish the current state and separate symptom from root cause (`business-analysis`).
+3. Define the future state, its measures and baselines, and the capability gap (`business-analysis`, with `strategy` for the strategic frame).
+4. Plan the analysis and stakeholder engagement proportionate to the initiative (`ba-planning`).
+5. Elicit and confirm information with fit-for-purpose techniques, separating fact from opinion and attributing sources (`elicitation`, `document-analysis`).
+6. Specify, classify, verify, and validate requirements, and keep them traceable (`requirements`, `quality`, `information-management`).
+7. Define and compare design options, estimate value, and recommend with explicit trade-offs (`architecture`, `decision-analysis`, `finance`).
+8. Prove the built solution against the requirements and decide acceptance (`acceptance-testing`).
+9. After delivery, measure performance against the captured baseline and recommend actions to increase value (`solution-evaluation`).
 
-Run the natural-prose-editor pass on any narrative output and use no em dashes, per docs/methodology/editorial-style.md.
+Throughout, maintain traceability from need to requirement to design to solution component to test, and tailor rigour to context. Traceability and tailoring are what make the analysis auditable rather than merely tidy.
+
+Run the natural-prose-editor pass on any narrative output and use no em dashes, per `docs/methodology/editorial-style.md`.

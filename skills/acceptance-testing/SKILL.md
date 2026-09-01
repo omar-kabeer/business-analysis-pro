@@ -1,52 +1,56 @@
 ---
 name: acceptance-testing
-description: Acceptance and validation testing specialist for Business Analysis OS. Use whenever requirements need to be turned into evidence that the solution works: user acceptance test planning and scripts, test scenarios and test cases derived from acceptance criteria, requirement to test coverage traceability, entry and exit criteria, defect logging and triage from a business perspective, formal reviews and inspections of work products, and go or no-go recommendations from a testing standpoint. Trigger on phrases like write the UAT plan, how do we test this, test scenarios, are we ready for UAT, who signs off the testing, test coverage, log the defects, run an inspection, or prove the requirement is met. Produces test artefacts traceable to requirements. Take requirement wording from requirements, defect risk from risk-analysis, and technical test strategy from engineering.
+description: Acceptance and validation testing specialist for Business Analysis OS. Owns the acceptance strategy, the UAT plan, test conditions and cases derived from acceptance criteria, the requirement to test coverage matrix, entry and exit criteria, quality gates, business-severity defect triage, and the go or no-go recommendation. Use it when a built solution must be proved before the business accepts it, across business, user, functional, non-functional, integration, data, security, operational, compliance, and AI acceptance. Trigger on phrases like write the UAT plan, how do we test this, are we ready for UAT, who signs off, what is our test coverage, log and triage these defects, define entry and exit criteria, is this release ready, should we go live, or turn these acceptance criteria into tests. Take requirement wording from requirements, pre-build document reviews and inspections from quality, defect likelihood and exposure from risk-analysis, and unit, integration, and technical test strategy from engineering.
 ---
 
 # Acceptance Testing Skill
 
 ## Role
 
-Turn agreed requirements into evidence. Design the business-facing tests that prove the solution meets the need, keep coverage traceable, and give a defensible recommendation on whether the business can accept what has been built.
+Turn agreed requirements into evidence. Design the business-facing tests that prove the solution meets the need, keep coverage traceable in both directions, and give a defensible recommendation on whether the business can accept what has been built. Acceptance is a governance decision about value and risk, not an engineering search for bugs.
 
 ## Inputs
 
-- Approved requirements and acceptance criteria.
-- The solution scope, the release contents, and the environments available.
-- Business processes, real data characteristics, and the users who will run the tests.
+- Approved requirements, acceptance criteria, and business rules, with their identifiers.
+- Solution scope, release contents, architecture style, and the environments and data available.
+- Risk exposure per requirement or feature, and the regulatory obligations the solution must satisfy.
+- The business users who will execute the tests and the named owner who will sign the acceptance decision.
 
 ## Workflow
 
-1. Set the frame: what is being accepted, by whom, against what, and what acceptance permits to happen next.
-2. Derive scenarios from requirements, not from screens. Every requirement with acceptance criteria yields at least one positive scenario, and every rule yields boundary and negative scenarios. See `references/test-design.md`.
-3. Write test cases: preconditions, data, steps, expected result, and the requirement ID they prove. Expected results are specific values, never "works correctly".
-4. Build the coverage matrix: requirement to scenario to case to result. Uncovered requirements are a finding before testing starts, not after.
-5. Define entry and exit criteria, the environment and data needs, roles, and the schedule. State what blocks entry rather than discovering it on day one.
-6. Prepare the participants: real business users running realistic end-to-end tasks, not analysts clicking through screens they designed.
-7. Run and record: pass, fail, blocked, or not run, with evidence. Log defects with severity from the business impact, and triage against the exit criteria.
-8. Recommend: accept, accept with conditions, or reject, with the outstanding defects, the workarounds, and the residual risk stated.
+1. Set the frame. Decide what is being accepted, by whom, against what basis, and what acceptance permits to happen next. Select the acceptance types in scope using `references/acceptance-types.md`; do not default to UAT alone.
+2. Score risk before designing tests. Rank requirements and features by likelihood and business impact, then set test depth, execution frequency, and automation coverage from the score. See `references/planning-and-gates.md`.
+3. Derive test conditions from requirements and rules, not from screens. Every acceptance criterion yields at least one positive condition, and every rule yields boundary, negative, and exception conditions. See `references/test-design.md`.
+4. Write test cases with a stable identifier, preconditions, data, steps, a specific expected result, and the requirement identifier they prove. Expected results state values and observable outcomes, never "works correctly".
+5. Build the coverage matrix in both directions: every in-scope requirement reaches at least one case, and every case traces back to a valid requirement. Uncovered requirements and orphan cases are findings raised before execution starts.
+6. Fix entry and exit criteria, environments, data provenance, roles, schedule, and the quality gates each stage must pass. Agree them in writing before the first test runs.
+7. Execute and record. Log pass, fail, blocked, or not run against each case with evidence, and raise defects with severity set from business consequence and priority set separately. See `references/quality-bar.md`.
+8. Triage against the exit criteria rather than against sentiment, then recommend accept, accept with conditions, or reject, stating open defects, workarounds, conditions with owners and dates, and residual risk.
 
 ## Outputs
 
-- A UAT plan with scope, approach, roles, environments, data, schedule, and entry and exit criteria.
-- Test scenarios and test cases traced to requirement IDs.
-- A requirement to test coverage matrix.
-- A defect log with business severity and triage decisions.
-- A test summary and an acceptance recommendation with residual risk.
+- An acceptance strategy and UAT plan covering scope, types, approach, roles, environments, data, schedule, and entry and exit criteria. Use `templates/uat-plan.md`.
+- Test conditions and test cases traced to requirement identifiers.
+- A requirement to test coverage matrix. Use `templates/requirements-traceability-matrix.md`.
+- A defect log with business severity, priority, and triage decisions.
+- A test summary, a release readiness view against the gates, and an acceptance recommendation with residual risk. See `templates/release-readiness-checklist.md`.
+
+For a full worked run of this sequence at practitioner scale, including the defects, the disputed threshold, and the conditional recommendation, see `references/worked-example.md`.
 
 ## Quality gates
 
-- Every in-scope requirement has at least one test case, and every test case names the requirement it proves.
-- Expected results are specific and objectively checkable.
-- Negative, boundary, and exception paths are covered, not only the happy path.
-- Non-functional requirements have tests, including performance, security, and accessibility where they were specified.
-- Test data is realistic, including the awkward cases, and its provenance and privacy handling are stated.
-- Exit criteria are agreed before testing starts and are not renegotiated once results arrive.
+- Every in-scope requirement has at least one test case, and every test case names the requirement it proves. Orphans in either direction are zero.
+- Every test case carries a unique stable identifier, preconditions, inputs, and an expected result that a reader can objectively check.
+- Negative, boundary, and exception paths are covered, not only the happy path, and every business rule threshold is tested at, just below, and just above.
+- Non-functional acceptance is planned and executed where those requirements exist, including performance, security, accessibility, and operational recovery.
+- Test data is realistic in volume and mess, and its provenance, masking, and privacy handling are stated.
+- Entry and exit criteria and gate thresholds are agreed and dated before execution begins, and are not renegotiated once results arrive.
+- Any information item omitted from the test documentation is recorded with its rationale, the risk accepted, and who agreed it.
 
 ## Done when
 
-Coverage is complete and traced, tests have been executed and recorded with evidence, defects are triaged against the exit criteria, and an acceptance recommendation with residual risk has been made.
+Coverage is complete and traced both ways, tests have been executed and recorded with retained evidence, defects are triaged against the agreed exit criteria, the gates have been evaluated, and an acceptance recommendation with conditions and residual risk has been made to the named business owner.
 
 ## House style
 
-Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
+Conformance authorities for test documentation and acceptance criteria, with the checks each one imposes, are recorded in `references/sources.md`. Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
