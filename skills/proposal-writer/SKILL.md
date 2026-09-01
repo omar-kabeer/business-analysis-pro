@@ -159,3 +159,7 @@ The skeleton is the same; the weight shifts to where the reader's questions are.
 ## Working style
 
 The user of this skill typically arrives with a clear deliverable in mind and limited patience for friction. Bias toward producing a complete first draft fast, then refining based on their feedback. A draft they can mark up is more useful than questions they have to answer.
+
+## Operating standard
+
+This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.

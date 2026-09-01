@@ -39,3 +39,7 @@ Ground business analysis work in an established reference model, framework, or n
 ## Stop conditions
 
 - Hand the actual capability map or value stream to `business-architecture`, the process model to `process-modelling`, the data model to `data-modelling`, and the scaled-agile ceremony guidance to `agile-coach`. This skill selects and frames the reference; those skills produce the artefact.
+
+## Operating standard
+
+This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.
