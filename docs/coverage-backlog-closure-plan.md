@@ -1,7 +1,7 @@
 # Coverage Backlog Closure Plan
 
 Plan version: 1.1.0
-Plan status: Phase 2 in progress (Batch 2.1: 10 KA5 rubrics)
+Plan status: Phase 2 shipped; Phase 3 next
 Source of truth for scope: [`COVERAGE_BACKLOG.md`](../COVERAGE_BACKLOG.md) (generated 2026-09-01 from `BABOK_v3_Artefacts_Register.xlsx`)
 Authoring reference: [`BABOK_v3_Deliverables_Artefacts_Documents_Catalogue.md`](../BABOK_v3_Deliverables_Artefacts_Documents_Catalogue.md)
 Primary source (copyrighted, consult sparingly): `sources/babok/babok-3.0-2015.pdf`
@@ -324,7 +324,7 @@ Counts are from `docs/coverage-backlog-manifest.md` v1.0.0: 217 register rows re
 | --- | --- | --- | --- |
 | 0 | Manifest, plan, authoring guide | 3 files | shipped |
 | 1 | KA2, KA3, KA4 rubrics (7 also templates) | 21 | shipped (21 rubrics, 7 templates) |
-| 2 | KA5, KA6 rubrics (some also templates) | 22 | in-progress (2.1-2.3: 22 rubrics, 6 templates) |
+| 2 | KA5, KA6 rubrics (some also templates) | 22 | shipped (22 rubrics, 10 templates) |
 | 3 | KA7, KA8, Named Forms rubrics (some also templates) | 36 | not-started |
 | 4 | KA9 rubrics | 30 | not-started |
 | 5 | KA10 technique rubrics | 45 | not-started |

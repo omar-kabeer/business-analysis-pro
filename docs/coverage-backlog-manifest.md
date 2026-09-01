@@ -27,8 +27,8 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 1 | `business-analysis-approach` | both | Approach | `templates/business-analysis-approach.md` | KA3 Planning & Monitoring | Business Analysis Approach | shipped |
 | 1 | `business-analysis-information-communicated` | both | Elicitation | `templates/business-analysis-information-communicated.md` | KA4 Elicitation | Business Analysis Information [communicated] | shipped |
 | 1 | `business-analysis-performance-assessment` | both | Quality & Audit | `templates/business-analysis-performance-assessment.md` | KA3 Planning & Monitoring | Business Analysis Performance Assessment | shipped |
-| 1 | `business-objectives` | both | Elicitation | `templates/business-objectives.md` | KA4 Elicitation | Business Objectives | rubric shipped |
-| 1 | `change-strategy` | both | Approach | `templates/change-strategy.md` | KA3 Planning & Monitoring | Change Strategy | rubric shipped |
+| 1 | `business-objectives` | both | Elicitation | `templates/business-objectives.md` | KA4 Elicitation | Business Objectives | shipped |
+| 1 | `change-strategy` | both | Approach | `templates/change-strategy.md` | KA3 Planning & Monitoring | Change Strategy | shipped |
 | 1 | `designs` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Designs | rubric shipped |
 | 1 | `elicitation-activity-plan` | both | Elicitation | `templates/elicitation-activity-plan.md` | KA4 Elicitation | Elicitation Activity Plan | shipped |
 | 1 | `elicitation-results-confirmed` | rubric | Elicitation |  | KA4 Elicitation | Elicitation Results [confirmed] | rubric shipped |
@@ -38,7 +38,7 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 1 | `governance-approach` | both | Approach | `templates/governance-approach.md` | KA3 Planning & Monitoring | Governance Approach | shipped |
 | 1 | `information-management-approach` | both | Approach | `templates/information-management-approach.md` | KA3 Planning & Monitoring | Information Management Approach | shipped |
 | 1 | `non-functional-requirements` | rubric | Synthesis & Drafting |  | KA11 Perspectives; KA2 Key Concepts | Non-functional (quality-of-service) requirements ; Non-functional requirements (merged) | rubric shipped |
-| 1 | `potential-value` | both | Elicitation | `templates/potential-value.md` | KA4 Elicitation | Potential Value | rubric shipped |
+| 1 | `potential-value` | both | Elicitation | `templates/potential-value.md` | KA4 Elicitation | Potential Value | shipped |
 | 1 | `recommended-actions` | both | Elicitation | `templates/recommended-actions.md` | KA4 Elicitation | Recommended Actions | rubric shipped |
 | 1 | `risk-analysis-results` | rubric | Elicitation |  | KA4 Elicitation | Risk Analysis Results | rubric shipped |
 | 1 | `solution-requirements` | rubric | Synthesis & Drafting |  | KA2 Key Concepts | Solution requirements | rubric shipped |
@@ -65,7 +65,7 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 2 | `solution-performance-goals` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Performance Goals | rubric shipped |
 | 2 | `solution-performance-measures` | both | Synthesis & Drafting | `templates/solution-performance-measures.md` | KA6 Strategy Analysis | Solution Performance Measures | rubric shipped |
 | 2 | `solution-recommendations` | rubric | Synthesis & Drafting |  | KA6 Strategy Analysis | Solution Recommendations | rubric shipped |
-| 2 | `solution-scope` | both | Synthesis & Drafting | `templates/solution-scope.md` | KA6 Strategy Analysis | Solution Scope | rubric shipped |
+| 2 | `solution-scope` | both | Synthesis & Drafting | `templates/solution-scope.md` | KA6 Strategy Analysis | Solution Scope | shipped |
 | 2 | `stakeholder-analysis` | rubric | Elicitation |  | KA6 Strategy Analysis; KA9 Analysis/Assessment/Review/Test | Stakeholder Analysis Results ; Stakeholder analysis (merged) | rubric shipped |
 | 3 | `activity-diagram` | rubric | Visual Modeling |  | Named Forms | Activity diagram | not-started |
 | 3 | `affinity-diagram` | rubric | Elicitation |  | Named Forms | Affinity diagram | not-started |
