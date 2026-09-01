@@ -1,7 +1,7 @@
 # Coverage Backlog Closure Plan
 
 Plan version: 1.1.0
-Plan status: Phase 6 shipped; Phase 7 next
+Plan status: All phases shipped; backlog closed
 Source of truth for scope: [`COVERAGE_BACKLOG.md`](../COVERAGE_BACKLOG.md) (generated 2026-09-01 from `BABOK_v3_Artefacts_Register.xlsx`)
 Authoring reference: [`BABOK_v3_Deliverables_Artefacts_Documents_Catalogue.md`](../BABOK_v3_Deliverables_Artefacts_Documents_Catalogue.md)
 Primary source (copyrighted, consult sparingly): `sources/babok/babok-3.0-2015.pdf`
@@ -329,7 +329,7 @@ Counts are from `docs/coverage-backlog-manifest.md` v1.0.0: 217 register rows re
 | 4 | KA9 rubrics | 30 | shipped (30 rubrics) |
 | 5 | KA10 technique rubrics | 45 | shipped (41 rubrics, 4 aliased) |
 | 6 | KA11 perspective rubrics | 47 | shipped (38 rubrics, 9 aliased) |
-| 7 | 2 capabilities, 7 bindings | 9 refs | not-started |
+| 7 | 2 capabilities, 7 bindings | 9 refs | shipped (reference-standards authored, estimation confirmed, 7 bindings registered) |
 
 ---
 

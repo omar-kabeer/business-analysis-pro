@@ -235,15 +235,15 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 
 | Register skill ref | Owning agent(s) | Decision | Artefacts it unblocks | Status |
 | --- | --- | --- | --- | --- |
-| (reference standard / knowledge base) | Synthesis & Drafting [under Perspectives lens]; Visual Modeling [under Perspectives lens] | author BA-OS capability | Lightweight documentation, Reference models & frameworks (Zachman, TOGAF, Archimate, APQC PCF, SCOR, VRM, FEA), Repository of reference models, SAFe program/portfolio artefacts, Supporting notations (BPMN, SIPOC, swimlane, FMEA) | not-started |
-| (technique skill) | Synthesis & Drafting | author BA-OS capability | Estimate(s) ,  cost/effort forecasts with ranges | not-started |
-| data:statistical-analysis; data:analyze | Visual Modeling | author BA-OS equivalent OR bind external plugin as pool member | Data-mining model / findings (patterns & insights) | not-started |
-| design:user-research | Visual Modeling [under Perspectives lens] | author BA-OS equivalent OR bind external plugin as pool member | Customer journey map | not-started |
-| figma:figma-generate-diagram | Visual Modeling | author BA-OS equivalent OR bind external plugin as pool member | Diagrams (representation form), Mind map | not-started |
-| frontend-design | Synthesis & Drafting | author BA-OS equivalent OR bind external plugin as pool member | Horizontal prototype, Vertical prototype | not-started |
-| frontend-design; engineering:architecture | Synthesis & Drafting | author BA-OS equivalent OR bind external plugin as pool member | Proof of concept | not-started |
-| frontend-design; figma:figma-design-to-code | Synthesis & Drafting; Visual Modeling | author BA-OS equivalent OR bind external plugin as pool member | Evolutionary (functional) prototype, Prototype (mock-up, wireframe, storyboard), Throw-away (rapid) prototype, Wireframe / mock-up / storyboard | not-started |
-| legal:review-contract | Analytics & Performance | author BA-OS equivalent OR bind external plugin as pool member | Service Level Agreement (SLA) | not-started |
+| (reference standard / knowledge base) | Synthesis & Drafting [under Perspectives lens]; Visual Modeling [under Perspectives lens] | author BA-OS capability | Lightweight documentation, Reference models & frameworks (Zachman, TOGAF, Archimate, APQC PCF, SCOR, VRM, FEA), Repository of reference models, SAFe program/portfolio artefacts, Supporting notations (BPMN, SIPOC, swimlane, FMEA) | resolved |
+| (technique skill) | Synthesis & Drafting | author BA-OS capability | Estimate(s) ,  cost/effort forecasts with ranges | resolved |
+| data:statistical-analysis; data:analyze | Visual Modeling | author BA-OS equivalent OR bind external plugin as pool member | Data-mining model / findings (patterns & insights) | resolved |
+| design:user-research | Visual Modeling [under Perspectives lens] | author BA-OS equivalent OR bind external plugin as pool member | Customer journey map | resolved |
+| figma:figma-generate-diagram | Visual Modeling | author BA-OS equivalent OR bind external plugin as pool member | Diagrams (representation form), Mind map | resolved |
+| frontend-design | Synthesis & Drafting | author BA-OS equivalent OR bind external plugin as pool member | Horizontal prototype, Vertical prototype | resolved |
+| frontend-design; engineering:architecture | Synthesis & Drafting | author BA-OS equivalent OR bind external plugin as pool member | Proof of concept | resolved |
+| frontend-design; figma:figma-design-to-code | Synthesis & Drafting; Visual Modeling | author BA-OS equivalent OR bind external plugin as pool member | Evolutionary (functional) prototype, Prototype (mock-up, wireframe, storyboard), Throw-away (rapid) prototype, Wireframe / mock-up / storyboard | resolved |
+| legal:review-contract | Analytics & Performance | author BA-OS equivalent OR bind external plugin as pool member | Service Level Agreement (SLA) | resolved |
 
 ## Dedup log (merged groups, auditable)
 
