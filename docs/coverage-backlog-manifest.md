@@ -178,53 +178,53 @@ Phase is the earliest phase the concept appears in; a concept spanning phases is
 | 5 | `user-story` | rubric | Synthesis & Drafting |  | KA10 Techniques; KA11 Perspectives | User story ; User stories (merged) | rubric shipped |
 | 5 | `vendor-assessment-evaluation-report` | rubric | Synthesis & Drafting |  | KA10 Techniques | Vendor assessment / evaluation report | rubric shipped |
 | 5 | `workshop-outputs` | rubric | Elicitation |  | KA10 Techniques | Workshop outputs (decisions, agreed deliverables, models) | rubric shipped |
-| 6 | `balanced-scorecards-kpi-scorecards` | rubric | Visual Modeling |  | KA11 Perspectives | Balanced scorecards / KPI scorecards | not-started |
-| 6 | `business-capability-map` | rubric | Visual Modeling | `templates/business-capability-map.md` | KA11 Perspectives | Business capability map | not-started |
+| 6 | `balanced-scorecards-kpi-scorecards` | rubric | Visual Modeling |  | KA11 Perspectives | Balanced scorecards / KPI scorecards | rubric via balanced-scorecard |
+| 6 | `business-capability-map` | rubric | Visual Modeling | `templates/business-capability-map.md` | KA11 Perspectives | Business capability map | rubric via business-capability-map-capability-model |
 | 6 | `business-motivation-model` | rubric | Visual Modeling |  | KA11 Perspectives | Business Motivation Model (BMM) | rubric shipped |
-| 6 | `business-process-models` | rubric | Visual Modeling |  | KA11 Perspectives | Business process models (as-is & to-be) | not-started |
+| 6 | `business-process-models` | rubric | Visual Modeling |  | KA11 Perspectives | Business process models (as-is & to-be) | rubric via process-model |
 | 6 | `customer-journey-map` | rubric | Visual Modeling |  | KA11 Perspectives | Customer journey map | rubric shipped |
 | 6 | `dashboards` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Dashboards | rubric shipped |
 | 6 | `data-marts-design` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Data marts design | rubric shipped |
 | 6 | `data-matching-data-quality-specifications` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Data-matching / data-quality specifications | rubric shipped |
 | 6 | `data-sources-inventory` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Data sources inventory | rubric shipped |
 | 6 | `data-warehouse-design` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Data warehouse design | rubric shipped |
-| 6 | `end-to-end-process-model-value-chain` | rubric | Visual Modeling |  | KA11 Perspectives | End-to-end process model / value chain | not-started |
+| 6 | `end-to-end-process-model-value-chain` | rubric | Visual Modeling |  | KA11 Perspectives | End-to-end process model / value chain | rubric via value-chain |
 | 6 | `enterprise-core-diagram` | rubric | Visual Modeling |  | KA11 Perspectives | Enterprise core diagram | rubric shipped |
 | 6 | `epics` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Epics | rubric shipped |
-| 6 | `estimates` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Estimates (story points) | not-started |
+| 6 | `estimates` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Estimates (story points) | rubric via estimate-cost-effort-forecasts-with-ranges |
 | 6 | `etl-design` | rubric | Synthesis & Drafting |  | KA11 Perspectives | ETL design | rubric shipped |
 | 6 | `features` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Features | rubric shipped |
-| 6 | `future-state-description-and-gap-analysis` | rubric | Visual Modeling |  | KA11 Perspectives | Future state description & gap analysis | not-started |
+| 6 | `future-state-description-and-gap-analysis` | rubric | Visual Modeling |  | KA11 Perspectives | Future state description & gap analysis | rubric via future-state-description |
 | 6 | `information-map` | rubric | Visual Modeling |  | KA11 Perspectives | Information map | rubric shipped |
 | 6 | `lightweight-documentation` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Lightweight documentation | rubric shipped |
 | 6 | `logical-data-model` | rubric | Visual Modeling | `templates/logical-data-model.md` | KA11 Perspectives | Source logical data model ; Target logical data model (merged) | rubric shipped |
 | 6 | `metadata-definitions` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Metadata definitions | rubric shipped |
-| 6 | `moscow-prioritization-output` | rubric | Synthesis & Drafting |  | KA11 Perspectives | MoSCoW prioritization output | not-started |
+| 6 | `moscow-prioritization-output` | rubric | Synthesis & Drafting |  | KA11 Perspectives | MoSCoW prioritization output | rubric via prioritized-list-ranking |
 | 6 | `organizational-map` | rubric | Visual Modeling |  | KA11 Perspectives | Organizational map | rubric shipped |
 | 6 | `personas` | rubric | Elicitation |  | KA11 Perspectives | Personas | rubric shipped |
 | 6 | `physical-data-models` | rubric | Visual Modeling |  | KA11 Perspectives | Physical data models | rubric shipped |
-| 6 | `process-architecture` | rubric | Visual Modeling |  | KA11 Perspectives | Business Process Architecture ; Process architecture (merged) | not-started |
-| 6 | `process-performance-assessment` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Process performance assessment | not-started |
-| 6 | `process-performance-measures` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Process performance measures | not-started |
+| 6 | `process-architecture` | rubric | Visual Modeling |  | KA11 Perspectives | Business Process Architecture ; Process architecture (merged) | rubric shipped |
+| 6 | `process-performance-assessment` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Process performance assessment | rubric shipped |
+| 6 | `process-performance-measures` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Process performance measures | rubric shipped |
 | 6 | `product-roadmap` | rubric | Visual Modeling | `templates/product-roadmap.md` | KA11 Perspectives | Product roadmap | rubric shipped |
 | 6 | `product-vision-statement` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Product vision statement | rubric shipped |
-| 6 | `project-portfolio-analysis` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Project Portfolio Analysis | not-started |
+| 6 | `project-portfolio-analysis` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Project Portfolio Analysis | rubric shipped |
 | 6 | `purpose-alignment-model` | rubric | Visual Modeling |  | KA11 Perspectives | Purpose Alignment Model | rubric shipped |
 | 6 | `reference-models-and-frameworks` | rubric | Visual Modeling |  | KA11 Perspectives | Reference models & frameworks (Zachman, TOGAF, Archimate, APQC PCF, SCOR, VRM, FEA) | rubric shipped |
 | 6 | `release-plan-release-backlog` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Release plan / release backlog | rubric shipped |
 | 6 | `reporting-and-information-delivery-requirements` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Reporting & information-delivery requirements | rubric shipped |
 | 6 | `reports-and-charts` | rubric | Visual Modeling |  | KA11 Perspectives | Reports & charts | rubric shipped |
-| 6 | `repository-of-reference-models` | rubric | Visual Modeling |  | KA11 Perspectives | Repository of reference models | not-started |
+| 6 | `repository-of-reference-models` | rubric | Visual Modeling |  | KA11 Perspectives | Repository of reference models | rubric shipped |
 | 6 | `roadmap` | rubric | Visual Modeling |  | KA11 Perspectives | Roadmap | rubric shipped |
-| 6 | `roles-and-permissions-data-security-specifications` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Roles and permissions / data-security specifications | not-started |
+| 6 | `roles-and-permissions-data-security-specifications` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Roles and permissions / data-security specifications | rubric via roles-and-permissions-matrix |
 | 6 | `safe-program-portfolio-artefacts` | rubric | Synthesis & Drafting |  | KA11 Perspectives | SAFe program/portfolio artefacts | rubric shipped |
-| 6 | `service-oriented-analysis` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Service-Oriented Analysis | not-started |
-| 6 | `software-technical-design-or-blueprint` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Software/technical design or blueprint | not-started |
+| 6 | `service-oriented-analysis` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Service-Oriented Analysis | rubric shipped |
+| 6 | `software-technical-design-or-blueprint` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Software/technical design or blueprint | rubric shipped |
 | 6 | `solution-architecture` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Solution architecture (BI) | rubric shipped |
 | 6 | `spikes` | rubric | Synthesis & Drafting |  | KA11 Perspectives | Spikes | rubric shipped |
 | 6 | `story-map` | rubric | Visual Modeling |  | KA11 Perspectives | Story map | rubric shipped |
-| 6 | `supporting-notations` | rubric | Visual Modeling |  | KA11 Perspectives | Supporting notations (BPMN, SIPOC, swimlane, FMEA) | not-started |
-| 6 | `value-stream-value-stream-map` | rubric | Visual Modeling |  | KA11 Perspectives | Value stream / value stream map | not-started |
+| 6 | `supporting-notations` | rubric | Visual Modeling |  | KA11 Perspectives | Supporting notations (BPMN, SIPOC, swimlane, FMEA) | rubric shipped |
+| 6 | `value-stream-value-stream-map` | rubric | Visual Modeling |  | KA11 Perspectives | Value stream / value stream map | rubric via value-stream-map |
 
 ## Template-only artefacts (Section B, no rubric row)
 
