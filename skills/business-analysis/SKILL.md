@@ -56,3 +56,7 @@ The problem is framed and its causes separated from its symptoms, current and fu
 ## House style
 
 The shared BABOK v3 map, including the core concept model, the requirements classification schema, the six knowledge areas, the fifty techniques, and the perspectives, is in `references/babok-knowledge-areas.md`. Sources are in `references/sources.md`. Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
+
+## Operating standard
+
+This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.

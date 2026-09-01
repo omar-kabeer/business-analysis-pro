@@ -50,3 +50,7 @@ The request has been classified, routed, completed, integrated, validated agains
 ## House style
 
 Any prose in the final deliverable passes the house style in `docs/methodology/editorial-style.md`: run the `natural-prose-editor` skill as the last step and use no em dashes.
+
+## Operating standard
+
+This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.
