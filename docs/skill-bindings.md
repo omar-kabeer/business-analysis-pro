@@ -1,6 +1,6 @@
 # Skill Bindings
 
-Registry version: 1.1.0
+Registry version: 1.2.0
 
 This registry resolves Section C of the coverage backlog: the skill references in `BABOK_v3_Artefacts_Register.xlsx` that point at capabilities not compiled into the Business Analysis OS. Each row records how the gap is closed, either by an OS skill that already covers the need, a new OS capability authored for it, or an external plugin bound as an optional pool member of the owning agent.
 
@@ -53,6 +53,19 @@ The nine rows above are the distinct references the coverage backlog surfaced. C
 | `product-management:roadmap-update` | `product-manager` | Product roadmap maintenance. |
 
 Placeholder references in column L are not skills: `(reference standard / knowledge base)`, `(reference standard)`, and `(reference)` resolve to the authored `reference-standards` capability; `(technique skill)` resolves to `estimation`; `(tool / MCP)`, `(tool / MCP connector)`, and `(external system - tool/MCP integration)` denote a tool or connector rather than a skill; `(SME / knowledge base)` and `(human-in-the-loop)` denote human-led work; `(none)` denotes no skill.
+
+## Format generation bindings
+
+These bindings serve the `deliverable-packager` skill and the `frameworks/delivery-formats.md` mapping. They are the build capability that turns a finished Markdown artefact into the file format its class calls for. Each is an optional external plugin bound as a pool member: when it is present the packager uses it, and when it is absent the packager delivers the Markdown fallback for that class. The delivery itself is never blocked by an absent plugin.
+
+| Artefact class | Target format | External plugin to bind (optional) | Fallback when unbound |
+| --- | --- | --- | --- |
+| Prose document; procurement document | `.docx` | `docx` | `.md` file |
+| Register, matrix, log, catalogue, dictionary | `.xlsx` | `xlsx` | `.md` table |
+| Model or diagram | Rendered diagram plus editable source | `dataviz`, `figma:figma-generate-diagram` (owned by `visual-modelling`) | Mermaid or ASCII in an `.md` file |
+| Canvas | Rendered visual or `.xlsx` | `dataviz`, `xlsx` | `.md` file |
+| Presentation | `.pptx` | `pptx` | `.docx` outline |
+| Conversational output | Inline chat prose | none | not applicable |
 
 ## Notes
 
