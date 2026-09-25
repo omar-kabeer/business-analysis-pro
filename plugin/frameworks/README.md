@@ -7,3 +7,4 @@ Reusable analysis and delivery frameworks, defined once and referenced by many s
 - `strategy.md`: SWOT, PESTLE, Porter's Five Forces, Business Model Canvas, Value Proposition Canvas, OKRs, Balanced Scorecard.
 - `decision.md`: options analysis, decision matrix, cost of delay.
 - `requirements-and-delivery.md`: INVEST, definition of ready and done, traceability.
+- `delivery-formats.md`: the inline-versus-file decision and the artefact-class-to-format mapping used by the `deliverable-packager` skill.

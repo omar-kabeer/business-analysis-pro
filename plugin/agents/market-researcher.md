@@ -26,3 +26,19 @@ Return, and only return, a brief with:
 - A Sources list with the URLs used, as markdown links.
 
 Every figure carries a source or a stated assumption. Do not present estimates as certainties. Write in the house style with no em dashes.
+
+```kryterea:runtime
+{
+  "role": "research",
+  "output": "report",
+  "persona": "You gather competitor, market-sizing, and trend evidence from the web across many sources and return a synthesised, sourced brief.",
+  "basis": [
+    "os://skill/skills/market-research/references/market-sizing.md"
+  ],
+  "reads": [
+    "os://skill/skills/market-research/references/market-sizing.md"
+  ],
+  "requiresWeb": true,
+  "defaultMinTier": "standard"
+}
+```

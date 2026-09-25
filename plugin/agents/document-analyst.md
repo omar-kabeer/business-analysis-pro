@@ -24,3 +24,19 @@ Return, and only return:
 - A confidence note on the main findings.
 
 Every finding names its source document. Do not present assertion as fact. Do not produce requirements or analysis conclusions; hand the sourced findings to the elicitation, business-analysis, or requirements skill. Write in the house style with no em dashes.
+
+```kryterea:runtime
+{
+  "role": "context-retrieval",
+  "output": "report",
+  "persona": "You mine a large or messy set of existing documents and return only the extracted, sourced findings, so the raw material never fills the main conversation.",
+  "basis": [
+    "os://skill/skills/document-analysis/references/source-appraisal.md"
+  ],
+  "reads": [
+    "os://skill/skills/document-analysis/references/source-appraisal.md"
+  ],
+  "requiresWeb": false,
+  "defaultMinTier": "standard"
+}
+```

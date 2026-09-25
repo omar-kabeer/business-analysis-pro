@@ -25,6 +25,32 @@ For each dimension score 0 to 3:
 | 8 | Compliance and control | Relevant policy and regulatory needs are captured with the evidence required and an owner. |
 | 9 | Sign-off readiness | The decision required is explicit, and the sign-off section names the approvers. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Whole template sections missing or empty. | Every section present and populated, from context to sign-off. |
+| 2 | The reader must ask the author what is meant. | Executive summary states need, recommendation, and decision; a reader can act unaided. |
+| 3 | Objectives are activities, or have no measure. | Outcome-focused objectives, each with a measure and target. |
+| 4 | Requirements are vague and untestable. | Atomic, unambiguous, testable, with acceptance criteria and quantified NFRs. |
+| 5 | No traceability. | Requirements trace to objectives and to a source, linked in the traceability section. |
+| 6 | Assumptions and dependencies are hidden. | Explicit, owned, each with an impact if wrong. |
+| 7 | Risks absent or unmitigated. | Key risks identified with impact and a mitigation or action. |
+| 8 | Policy and regulatory needs ignored. | Captured with the evidence required and an owner. |
+| 9 | The decision and approvers are unstated. | The decision required is explicit and the sign-off names the approvers. |
+
+## Common failure modes
+
+- Template filled, not thought through: every heading has text, but the content is generic boilerplate.
+- Solution-first: the BRD specifies a chosen system instead of the business requirements.
+- Unmeasurable objectives: "improve efficiency" with no measure, baseline, or target.
+- Requirements without acceptance criteria: functional items that cannot be tested.
+- Traceability gap: requirements that serve no objective, or objectives no requirement meets.
+- Unowned assumptions: assumptions listed with no owner and no impact if they prove false.
+- Sign-off vacuum: the document is "ready" but no decision or approver is named.
+
 ## Result
 
 Total the scores (maximum 27). Record a verdict:
