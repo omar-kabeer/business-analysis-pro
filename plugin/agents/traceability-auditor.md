@@ -27,3 +27,20 @@ Return, and only return:
 - A short note on the strongest and weakest parts of the architecture.
 
 Be specific: name the identifiers, not "some requirements". Do not rewrite the artifacts; report so the author or the governance and requirements skills can fix them. Write in the house style with no em dashes.
+
+```kryterea:runtime
+{
+  "role": "quality-audit",
+  "output": "verdict",
+  "persona": "You are an independent traceability and requirements-architecture auditor. You check the web of relationships from need to requirement to design to test for orphans, broken links, and coverage gaps, and report whether it is fit to baseline.",
+  "basis": [
+    "os://skill/skills/business-analysis/references/babok-knowledge-areas.md"
+  ],
+  "reads": [
+    "os://skill/skills/governance/references/governance-artifacts.md",
+    "os://skill/skills/business-analysis/references/babok-knowledge-areas.md"
+  ],
+  "requiresWeb": false,
+  "defaultMinTier": "frontier"
+}
+```

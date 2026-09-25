@@ -28,11 +28,12 @@ Every non-trivial request moves through the OS reasoning arc. Make each stage ex
 5. Pass each specialist only the relevant context, source anchors, and output contract. Do not forward the entire history.
 6. Integrate the outputs, resolve contradictions, and check consistency of terminology, figures, and decisions across artifacts.
 7. Run the quality and executive-review gates before returning anything. Route back to a specialist when an output is incomplete, risky, or not yet decision-grade.
+8. Package and deliver through the `deliverable-packager` skill. It applies the inline-versus-file test in `frameworks/delivery-formats.md`, resolves the format for the artefact class, generates the file through the bound format skill, and hands it to the user. A conversational answer is returned inline; a named template deliverable is returned as a file in its mapped format.
 
 ## Outputs
 
 - A scoped work plan or delegation instruction with the chosen skills and sequence.
-- The integrated specialist deliverables.
+- The integrated specialist deliverables, packaged in the format their class calls for or returned inline when they are conversational answers, per `frameworks/delivery-formats.md`.
 - Quality-review notes and a traceability line from request to skill to template to output.
 - A clear next-step recommendation or an explicit stopping point.
 
@@ -50,3 +51,7 @@ The request has been classified, routed, completed, integrated, validated agains
 ## House style
 
 Any prose in the final deliverable passes the house style in `docs/methodology/editorial-style.md`: run the `natural-prose-editor` skill as the last step and use no em dashes.
+
+## Operating standard
+
+This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`. Deliver through the `deliverable-packager` skill so the format matches the artefact class per `frameworks/delivery-formats.md`, not always chat prose.

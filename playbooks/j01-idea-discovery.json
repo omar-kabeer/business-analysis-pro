@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "J01",
+  "title": "Idea Discovery",
+  "outcome": "Explore an idea as an exploratory vision brief and a first learning experiment. Users, value and metrics may remain hypotheses; no build commitment is implied.",
+  "minimumInputs": [
+    {
+      "key": "idea",
+      "prompt": "The idea or possibility in the user's words"
+    },
+    {
+      "key": "exploration_goal",
+      "prompt": "What the user wants to explore or learn"
+    }
+  ],
+  "components": [],
+  "allowAdditionalOutputs": true,
+  "slots": [
+    {
+      "slotId": "J01-D01",
+      "artefactName": "Product Vision Brief",
+      "artefactType": "product-vision-brief",
+      "creationOrder": 1,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "idea",
+          "prompt": "Idea or need in the user's words"
+        },
+        {
+          "key": "exploration_goal",
+          "prompt": "Exploration or product scope; unknown users, value and metrics remain hypotheses"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/product-vision-brief.md",
+        "contentHash": "727b2e801f93bfaa1c26352074bee608ce865826c9bece8ff7a9736ac12e876d"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/product-vision-brief-rubric.md",
+          "contentHash": "dd16af29f04ac35362a22d9a1fd458e25c374457c7abe73515d130924b9ae75e"
+        }
+      }
+    },
+    {
+      "slotId": "J01-D02",
+      "artefactName": "Experiment and Post-Mortem Log",
+      "artefactType": "experiment-log",
+      "creationOrder": 2,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "hypothesis",
+          "prompt": "Hypothesis or learning question"
+        },
+        {
+          "key": "test",
+          "prompt": "Proposed test or actual experiment, with planned work kept apart from observed results"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/experiment-log.md",
+        "contentHash": "e3892a39c7e753882d70f53296b838c8a3970da3e6672626421550b5d5c6fb45"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/experiment-log-rubric.md",
+          "contentHash": "c031c95bdacbebd8abebff53baa04ab91361dca6721520c77f47defe64a50dfb"
+        }
+      }
+    },
+    {
+      "slotId": "J01-O01",
+      "artefactName": "Business Objectives",
+      "artefactType": "business-objectives",
+      "creationOrder": 3,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "need",
+          "prompt": "Need, problem or opportunity"
+        },
+        {
+          "key": "desired_change",
+          "prompt": "Desired change and affected scope; unknown targets remain proposed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/business-objectives.md",
+        "contentHash": "63b198ceb9ddd3eca84a2837bc95b711c6468ccfe0a6ffea8837771f8c2f6ec7"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/business-objectives-rubric.md",
+          "contentHash": "ce0800fb9b81d2da0d993ab50bf84c12ff00bf7eeda23b9de35d9f9964edb8e0"
+        }
+      }
+    },
+    {
+      "slotId": "J01-O02",
+      "artefactName": "Stakeholder Register",
+      "artefactType": "stakeholder-register",
+      "creationOrder": 4,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "scope",
+          "prompt": "Scope of the work"
+        },
+        {
+          "key": "affected_group",
+          "prompt": "At least one known affected group or person, or an explicit candidate group"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/stakeholder-register.md",
+        "contentHash": "d239b1f603403d6e95b15f8636808ba9aec0655a707732d1bfb7ff4bfb7c210a"
+      },
+      "quality": {
+        "mode": "no_applicable_check",
+        "reason": "No whole-output stakeholder register rubric is published yet."
+      }
+    },
+    {
+      "slotId": "J01-O03",
+      "artefactName": "Risk Register",
+      "artefactType": "risk-register",
+      "creationOrder": 5,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "scope",
+          "prompt": "Scope or objective"
+        },
+        {
+          "key": "uncertainties",
+          "prompt": "Known uncertainties and their basis; scales and ratings are proposed if not supplied"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/risk-register.md",
+        "contentHash": "248acb74c5a8f67b8ca4d61a034868e3a5c22ce6d45df550a1829a6a9ea4ba48"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/risk-register-rubric.md",
+          "contentHash": "2e7a01d313bd0251147944a5613e6b051ce8ba94b92c7502ac0c25f1c3666e36"
+        }
+      }
+    }
+  ]
+}
