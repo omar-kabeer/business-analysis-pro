@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+- Added the governed `playbooks/` source tree. Each playbook is one JSON definition (schema version 1) listing ordered output slots with stable slot IDs, per-slot minimum inputs, start mode, and template and quality references pinned by registry key and SHA-256. A definition must be updated whenever a referenced template or rubric changes. The first definition is `playbooks/j01-idea-discovery.json` (Idea Discovery).
+- Added whole-output rubrics `evaluation/product-vision-brief-rubric.md` and `evaluation/experiment-log-rubric.md` for the two automatic Idea Discovery outputs. The narrower product vision statement rubric remains separate.
 - Initialized Business Analysis OS repository structure.
 - Rewrote all 14 specialist skills to the skill-authoring standard: pushy trigger-rich single-line descriptions, structured bodies (role, inputs, workflow, outputs, quality gates, stop conditions), BABOK and modern product-management alignment, and progressive-disclosure `references/` files.
 - Added four skills to the OS: `natural-prose-editor`, `technical-writer`, `proposal-writer`, and `prompt-master` (adapted to the repository validator).
