@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "P18",
+  "title": "Requirements specification",
+  "outcome": "Requirements specification",
+  "minimumInputs": [
+    {
+      "key": "confirmed_findings",
+      "prompt": "Confirmed findings"
+    },
+    {
+      "key": "scope",
+      "prompt": "Scope"
+    },
+    {
+      "key": "stakeholders",
+      "prompt": "Stakeholders"
+    },
+    {
+      "key": "terminology",
+      "prompt": "Terminology"
+    }
+  ],
+  "components": [],
+  "allowAdditionalOutputs": true,
+  "slots": [
+    {
+      "slotId": "P18-D01",
+      "artefactName": "Business Requirements Document",
+      "artefactType": "brd",
+      "creationOrder": 1,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "business_need",
+          "prompt": "Business need"
+        },
+        {
+          "key": "desired_outcome",
+          "prompt": "Desired outcome"
+        },
+        {
+          "key": "bounded_initiative",
+          "prompt": "Bounded initiative"
+        },
+        {
+          "key": "known_stakeholder_needs",
+          "prompt": "Known stakeholder needs or explicit hypotheses"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/brd.md",
+        "contentHash": "6e0f7e2b67f6a97db44a58076cb978cebebd7ec44c4e48e1da215bf343c8a84a"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/brd-rubric.md",
+          "contentHash": "6776d79ec2535f1a8c050ff31571290ef61a73a7a4d928e2587a953eeb3b6579"
+        }
+      }
+    },
+    {
+      "slotId": "P18-D02",
+      "artefactName": "Functional Requirements Document (FRD)",
+      "artefactType": "frd",
+      "creationOrder": 2,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "bounded_needscope",
+          "prompt": "Bounded need/scope"
+        },
+        {
+          "key": "actors",
+          "prompt": "Actor(s)"
+        },
+        {
+          "key": "required_behaviour_source",
+          "prompt": "Required behaviour and source assertions"
+        },
+        {
+          "key": "gaps_remain_explicit",
+          "prompt": "Gaps remain explicit"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/frd.md",
+        "contentHash": "8d383ac21cc8df0fe183f2d6989c0d21fbd55aeb93f61bc5d5c8ae1e493e5446"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/functional-requirements-rubric.md",
+          "contentHash": "c1668dbb747a29f24b423f80dd7cf31de9e67972524b2972d34605e909961eb2"
+        }
+      }
+    },
+    {
+      "slotId": "P18-D03",
+      "artefactName": "Use Case Specification",
+      "artefactType": "use-case-specification",
+      "creationOrder": 3,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "actor",
+          "prompt": "Actor"
+        },
+        {
+          "key": "goal",
+          "prompt": "Goal"
+        },
+        {
+          "key": "scope",
+          "prompt": "Scope"
+        },
+        {
+          "key": "known_main_behaviour",
+          "prompt": "Known main behaviour and conditions"
+        },
+        {
+          "key": "proposed_flows_marked",
+          "prompt": "Proposed flows marked"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/use-case-specification.md",
+        "contentHash": "031b1652a170fd8f5fad41d897a836b681aac5c7379f3842bd5701b36a05091f"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/use-case-rubric.md",
+          "contentHash": "73a52fb6fb2a7adfe01fe696cfe49d4dd4d22b6b9bc6d1778cfdd45eadd885c2"
+        }
+      }
+    },
+    {
+      "slotId": "P18-O01",
+      "artefactName": "Non-Functional Requirements Specification",
+      "artefactType": "nfr-specification",
+      "creationOrder": 4,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "solution_boundary",
+          "prompt": "Solution boundary"
+        },
+        {
+          "key": "affected_usersdataoperating_context",
+          "prompt": "Affected users/data/operating context"
+        },
+        {
+          "key": "relevant_quality_concerns",
+          "prompt": "Relevant quality concerns"
+        },
+        {
+          "key": "unsupported_thresholds_remain",
+          "prompt": "Unsupported thresholds remain proposed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/nfr-specification.md",
+        "contentHash": "289f5eba78c8b8cfc3342268e51809a1a5c1e456cdcc1de61b555055aab3514f"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/non-functional-requirements-rubric.md",
+          "contentHash": "c4df08debc8185b210aaa5b73d6acf907499b22c352528c0a07a7a9c02b88e8f"
+        }
+      }
+    },
+    {
+      "slotId": "P18-O02",
+      "artefactName": "Software Requirements Specification (SRS)",
+      "artefactType": "srs",
+      "creationOrder": 5,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "software_scope",
+          "prompt": "Software scope"
+        },
+        {
+          "key": "usersystem_context",
+          "prompt": "User/system context"
+        },
+        {
+          "key": "sourced_behaviour_quality",
+          "prompt": "Sourced behaviour and quality constraints or explicit gaps"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/srs.md",
+        "contentHash": "797e5373f33750fddf0a40e4b978016d38c50b1127d8c353cf4dc599de4201c7"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/solution-requirements-rubric.md",
+          "contentHash": "8333441005bca55a89ec122d6832428470ce3c6ff893cec8ee9d7fe52e82b735"
+        }
+      }
+    },
+    {
+      "slotId": "P18-O03",
+      "artefactName": "Requirements Architecture",
+      "artefactType": "requirements-architecture",
+      "creationOrder": 6,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "known_requirements_draft",
+          "prompt": "Known requirements or draft statements with identifiers"
+        },
+        {
+          "key": "solution_scope",
+          "prompt": "Solution scope"
+        },
+        {
+          "key": "viewpointsconstraints",
+          "prompt": "Viewpoints/constraints"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/requirements-architecture.md",
+        "contentHash": "3148758027333ab1603f64de29df000d035445661a467b8aa05f94a87d432143"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/requirements-architecture-rubric.md",
+          "contentHash": "674ce7bee4e631cea7ad1163d635a6c9b9dbbd7a5e292f5573972d84b2852298"
+        }
+      }
+    }
+  ]
+}

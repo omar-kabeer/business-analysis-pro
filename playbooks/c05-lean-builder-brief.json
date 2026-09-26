@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "C05",
+  "title": "Lean Builder Brief",
+  "outcome": "Use one PRD as the lean builder brief; integrate vision/scope references there instead of automatically generating duplicate documents.",
+  "minimumInputs": [
+    {
+      "key": "needoutcome",
+      "prompt": "Need/outcome"
+    },
+    {
+      "key": "builder_audience",
+      "prompt": "Builder audience"
+    },
+    {
+      "key": "known_flows_constraints",
+      "prompt": "Known flows and constraints"
+    }
+  ],
+  "components": [],
+  "allowAdditionalOutputs": true,
+  "slots": [
+    {
+      "slotId": "C05-D01",
+      "artefactName": "Product Requirements Document (PRD)",
+      "artefactType": "prd",
+      "creationOrder": 1,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "problem",
+          "prompt": "Problem"
+        },
+        {
+          "key": "target_user",
+          "prompt": "Target user"
+        },
+        {
+          "key": "intended_outcome",
+          "prompt": "Intended outcome"
+        },
+        {
+          "key": "proposed_scope",
+          "prompt": "Proposed scope"
+        },
+        {
+          "key": "available_discovery_evidence",
+          "prompt": "Available discovery evidence and constraints"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/prd.md",
+        "contentHash": "4007f807e05273f23ba78a15bfd0365671f5abb3914a72f6e7b43b46fd92efa0"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/prd-rubric.md",
+          "contentHash": "d1b41db3e233936ba893025c71a6c37817eb9e58c969ade38fd50c1c19da2cf3"
+        }
+      }
+    },
+    {
+      "slotId": "C05-D02",
+      "artefactName": "Use Case Specification",
+      "artefactType": "use-case-specification",
+      "creationOrder": 2,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "actor",
+          "prompt": "Actor"
+        },
+        {
+          "key": "goal",
+          "prompt": "Goal"
+        },
+        {
+          "key": "scope",
+          "prompt": "Scope"
+        },
+        {
+          "key": "known_main_behaviour",
+          "prompt": "Known main behaviour and conditions"
+        },
+        {
+          "key": "proposed_flows_marked",
+          "prompt": "Proposed flows marked"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/use-case-specification.md",
+        "contentHash": "031b1652a170fd8f5fad41d897a836b681aac5c7379f3842bd5701b36a05091f"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/use-case-rubric.md",
+          "contentHash": "73a52fb6fb2a7adfe01fe696cfe49d4dd4d22b6b9bc6d1778cfdd45eadd885c2"
+        }
+      }
+    },
+    {
+      "slotId": "C05-D03",
+      "artefactName": "Experiment and Post-Mortem Log",
+      "artefactType": "experiment-log",
+      "creationOrder": 3,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "hypothesis_learning_question",
+          "prompt": "Hypothesis or learning question"
+        },
+        {
+          "key": "proposed_test_actual",
+          "prompt": "Proposed test or actual experiment"
+        },
+        {
+          "key": "distinguish_planned_work",
+          "prompt": "Distinguish planned work from observed results"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/experiment-log.md",
+        "contentHash": "e3892a39c7e753882d70f53296b838c8a3970da3e6672626421550b5d5c6fb45"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/experiment-log-rubric.md",
+          "contentHash": "c031c95bdacbebd8abebff53baa04ab91361dca6721520c77f47defe64a50dfb"
+        }
+      }
+    },
+    {
+      "slotId": "C05-O01",
+      "artefactName": "Non-Functional Requirements Specification",
+      "artefactType": "nfr-specification",
+      "creationOrder": 4,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "solution_boundary",
+          "prompt": "Solution boundary"
+        },
+        {
+          "key": "affected_usersdataoperating_context",
+          "prompt": "Affected users/data/operating context"
+        },
+        {
+          "key": "relevant_quality_concerns",
+          "prompt": "Relevant quality concerns"
+        },
+        {
+          "key": "unsupported_thresholds_remain",
+          "prompt": "Unsupported thresholds remain proposed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/nfr-specification.md",
+        "contentHash": "289f5eba78c8b8cfc3342268e51809a1a5c1e456cdcc1de61b555055aab3514f"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/non-functional-requirements-rubric.md",
+          "contentHash": "c4df08debc8185b210aaa5b73d6acf907499b22c352528c0a07a7a9c02b88e8f"
+        }
+      }
+    },
+    {
+      "slotId": "C05-O02",
+      "artefactName": "Prototype Brief and Findings",
+      "artefactType": "prototype-brief",
+      "creationOrder": 5,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "question_test",
+          "prompt": "Question to test"
+        },
+        {
+          "key": "intended_userscenario",
+          "prompt": "Intended user/scenario"
+        },
+        {
+          "key": "prototype_boundary",
+          "prompt": "Prototype boundary"
+        },
+        {
+          "key": "no_findings_without",
+          "prompt": "No findings without test evidence"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/prototype-brief.md",
+        "contentHash": "00c233ef1bb8eb4fc933fcbb82685cbef6845f0ef3ede24dcabf1265d5d9aeb2"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/prototype-rubric.md",
+          "contentHash": "0cc00ed643873e64b39fd8cee447a9a0cc5b9dc2e9a80000c76d6656808e3f27"
+        }
+      }
+    },
+    {
+      "slotId": "C05-O03",
+      "artefactName": "User Acceptance Test Plan",
+      "artefactType": "uat-plan",
+      "creationOrder": 6,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "scoperequirements_explicit_draft",
+          "prompt": "Scope/requirements or explicit draft acceptance goals"
+        },
+        {
+          "key": "intended_tester_roles",
+          "prompt": "Intended tester roles"
+        },
+        {
+          "key": "environment_unknowns_recorded",
+          "prompt": "Environment unknowns recorded"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/uat-plan.md",
+        "contentHash": "fbbaae35a3318a8d121f3bcef268ebabf322bd3ea933b29d230458ba3e063fd8"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/user-acceptance-test-rubric.md",
+          "contentHash": "c4c0a15eca218cf0df9ec488d178650e6e855f6d3b14cc49dcd760cb89b75aed"
+        }
+      }
+    }
+  ]
+}

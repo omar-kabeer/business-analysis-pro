@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "J10",
+  "title": "Lean Founder",
+  "outcome": "Only the compact Product Vision Brief and Experiment Log are automatic. Other useful sections can be linked views; do not expand into a five-document suite.",
+  "minimumInputs": [
+    {
+      "key": "needidea",
+      "prompt": "Need/idea"
+    },
+    {
+      "key": "desired_progress",
+      "prompt": "Desired progress"
+    },
+    {
+      "key": "stated_constraints_without",
+      "prompt": "Stated constraints without inferring budget or team size"
+    }
+  ],
+  "components": [],
+  "allowAdditionalOutputs": true,
+  "slots": [
+    {
+      "slotId": "J10-D01",
+      "artefactName": "Product Vision Brief",
+      "artefactType": "product-vision-brief",
+      "creationOrder": 1,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "idea_need_users",
+          "prompt": "Idea or need in the user's words"
+        },
+        {
+          "key": "explorationproduct_scope",
+          "prompt": "Exploration/product scope"
+        },
+        {
+          "key": "unknown_usersvaluemetrics_remain",
+          "prompt": "Unknown users/value/metrics remain hypotheses"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/product-vision-brief.md",
+        "contentHash": "727b2e801f93bfaa1c26352074bee608ce865826c9bece8ff7a9736ac12e876d"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/product-vision-brief-rubric.md",
+          "contentHash": "dd16af29f04ac35362a22d9a1fd458e25c374457c7abe73515d130924b9ae75e"
+        }
+      }
+    },
+    {
+      "slotId": "J10-D02",
+      "artefactName": "Experiment and Post-Mortem Log",
+      "artefactType": "experiment-log",
+      "creationOrder": 2,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "hypothesis_learning_question",
+          "prompt": "Hypothesis or learning question"
+        },
+        {
+          "key": "proposed_test_actual",
+          "prompt": "Proposed test or actual experiment"
+        },
+        {
+          "key": "distinguish_planned_work",
+          "prompt": "Distinguish planned work from observed results"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/experiment-log.md",
+        "contentHash": "e3892a39c7e753882d70f53296b838c8a3970da3e6672626421550b5d5c6fb45"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/experiment-log-rubric.md",
+          "contentHash": "c031c95bdacbebd8abebff53baa04ab91361dca6721520c77f47defe64a50dfb"
+        }
+      }
+    },
+    {
+      "slotId": "J10-O01",
+      "artefactName": "Epic and User Stories",
+      "artefactType": "user-story-epic",
+      "creationOrder": 3,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "target_user",
+          "prompt": "Target user"
+        },
+        {
+          "key": "desired_capabilityoutcome",
+          "prompt": "Desired capability/outcome"
+        },
+        {
+          "key": "bounded_scope",
+          "prompt": "Bounded scope"
+        },
+        {
+          "key": "acceptance_expectations_proposed",
+          "prompt": "Acceptance expectations proposed where not confirmed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/user-story-epic.md",
+        "contentHash": "d99ae04605ca18ba1b2e5c0d0f4f9f462c667c07c76c5450eb20d66e6c9e49fa"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/user-story-rubric.md",
+          "contentHash": "95514e34fee5e7208d1631ccdd899e3e507ec756265538703cbba691b3c18bfc"
+        }
+      }
+    },
+    {
+      "slotId": "J10-O02",
+      "artefactName": "Decision Log",
+      "artefactType": "decision-log",
+      "creationOrder": 4,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "least_one_explicit",
+          "prompt": "At least one explicit decision question or actual recorded decision"
+        },
+        {
+          "key": "sourceactor_if_known",
+          "prompt": "Source/actor if known"
+        },
+        {
+          "key": "unanswered_questions_remain",
+          "prompt": "Unanswered questions remain pending"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/decision-log.md",
+        "contentHash": "416b83d03957031d81cb5f737560845e3f28f1a3fe26ee5b650617ebc5bfe441"
+      },
+      "quality": {
+        "mode": "no_applicable_check",
+        "reason": "No governed rubric for this output yet."
+      }
+    },
+    {
+      "slotId": "J10-O03",
+      "artefactName": "Solution Performance Measures",
+      "artefactType": "solution-performance-measures",
+      "creationOrder": 5,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "desired_outcome",
+          "prompt": "Desired outcome"
+        },
+        {
+          "key": "relevant_solutionprocess_scope",
+          "prompt": "Relevant solution/process scope"
+        },
+        {
+          "key": "candidate_measurable_signals",
+          "prompt": "Candidate measurable signals"
+        },
+        {
+          "key": "targets_proposed_if",
+          "prompt": "Targets proposed if absent"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/solution-performance-measures.md",
+        "contentHash": "8fb1e484643e0e68063f076e9f3320d6d57fe191b88fe9c33b710c77a9a5c488"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/solution-performance-measures-rubric.md",
+          "contentHash": "b6f0b7402e30ff90878b7e91ee47aa8b90a32de98815d3c574dfcecdcf962299"
+        }
+      }
+    },
+    {
+      "slotId": "J10-O04",
+      "artefactName": "Risk Register",
+      "artefactType": "risk-register",
+      "creationOrder": 6,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "scopeobjective",
+          "prompt": "Scope/objective"
+        },
+        {
+          "key": "known_uncertainties_basis",
+          "prompt": "Known uncertainties and basis"
+        },
+        {
+          "key": "scalesratings_proposed_if",
+          "prompt": "Scales/ratings proposed if not supplied"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/risk-register.md",
+        "contentHash": "248acb74c5a8f67b8ca4d61a034868e3a5c22ce6d45df550a1829a6a9ea4ba48"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/risk-register-rubric.md",
+          "contentHash": "2e7a01d313bd0251147944a5613e6b051ce8ba94b92c7502ac0c25f1c3666e36"
+        }
+      }
+    }
+  ]
+}

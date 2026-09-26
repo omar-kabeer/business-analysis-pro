@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "P17",
+  "title": "Backlog and release slicing",
+  "outcome": "Backlog and release slicing",
+  "minimumInputs": [
+    {
+      "key": "objectives",
+      "prompt": "Objectives"
+    },
+    {
+      "key": "current_backlog",
+      "prompt": "Current backlog"
+    },
+    {
+      "key": "capacitydependency_evidence",
+      "prompt": "Capacity/dependency evidence"
+    }
+  ],
+  "components": [],
+  "allowAdditionalOutputs": true,
+  "slots": [
+    {
+      "slotId": "P17-D01",
+      "artefactName": "Epic and User Stories",
+      "artefactType": "user-story-epic",
+      "creationOrder": 1,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "target_user",
+          "prompt": "Target user"
+        },
+        {
+          "key": "desired_capabilityoutcome",
+          "prompt": "Desired capability/outcome"
+        },
+        {
+          "key": "bounded_scope",
+          "prompt": "Bounded scope"
+        },
+        {
+          "key": "acceptance_expectations_proposed",
+          "prompt": "Acceptance expectations proposed where not confirmed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/user-story-epic.md",
+        "contentHash": "d99ae04605ca18ba1b2e5c0d0f4f9f462c667c07c76c5450eb20d66e6c9e49fa"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/user-story-rubric.md",
+          "contentHash": "95514e34fee5e7208d1631ccdd899e3e507ec756265538703cbba691b3c18bfc"
+        }
+      }
+    },
+    {
+      "slotId": "P17-D02",
+      "artefactName": "Prioritization Matrix",
+      "artefactType": "prioritization-matrix",
+      "creationOrder": 2,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "candidate_work_items",
+          "prompt": "Candidate work items"
+        },
+        {
+          "key": "explicit_objective",
+          "prompt": "Explicit objective"
+        },
+        {
+          "key": "prioritization_criteriamethod",
+          "prompt": "Prioritization criteria/method"
+        },
+        {
+          "key": "unknown_estimates_remain",
+          "prompt": "Unknown estimates remain unset"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/prioritization-matrix.md",
+        "contentHash": "f362364a3becc22690cae4104750f7c903101020856a434b8ab3a31e4f386b93"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/prioritization-matrix-rubric.md",
+          "contentHash": "f29f1bfa6cd3be5288ffc361b534fe9fd3393767f75c750148da211eba2ac8a6"
+        }
+      }
+    },
+    {
+      "slotId": "P17-D03",
+      "artefactName": "Release Plan and Notes",
+      "artefactType": "release-plan-and-notes",
+      "creationOrder": 3,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "planned_release_scope",
+          "prompt": "Planned release scope and dependencies"
+        },
+        {
+          "key": "actual_release_evidence",
+          "prompt": "Actual release evidence required for delivered notes"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/release-plan-and-notes.md",
+        "contentHash": "bd1df4959c40cb87a91412ae54f59ba5e1bee992a9610b7fad3c615c5f037af9"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/release-plan-release-backlog-rubric.md",
+          "contentHash": "f4aab012f47db27a98755fcc56ac26dc207a9446d876b40887190e4d4d4b1637"
+        }
+      }
+    },
+    {
+      "slotId": "P17-O01",
+      "artefactName": "Product Roadmap",
+      "artefactType": "product-roadmap",
+      "creationOrder": 4,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "product_outcome",
+          "prompt": "Product outcome"
+        },
+        {
+          "key": "candidate_initiatives",
+          "prompt": "Candidate initiatives"
+        },
+        {
+          "key": "prioritydependency_evidence",
+          "prompt": "Priority/dependency evidence"
+        },
+        {
+          "key": "uncertain_dates_not",
+          "prompt": "Uncertain dates not committed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/product-roadmap.md",
+        "contentHash": "608726f4aed70e68732818217bf6401b66a733633159cac0e6958aeaddeebff5"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/product-roadmap-rubric.md",
+          "contentHash": "58005557c28566f0e3070095dfd6c54ad9692fc140aeda8746aa967efa3e1d8d"
+        }
+      }
+    },
+    {
+      "slotId": "P17-O02",
+      "artefactName": "Non-Functional Requirements Specification",
+      "artefactType": "nfr-specification",
+      "creationOrder": 5,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "solution_boundary",
+          "prompt": "Solution boundary"
+        },
+        {
+          "key": "affected_usersdataoperating_context",
+          "prompt": "Affected users/data/operating context"
+        },
+        {
+          "key": "relevant_quality_concerns",
+          "prompt": "Relevant quality concerns"
+        },
+        {
+          "key": "unsupported_thresholds_remain",
+          "prompt": "Unsupported thresholds remain proposed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/nfr-specification.md",
+        "contentHash": "289f5eba78c8b8cfc3342268e51809a1a5c1e456cdcc1de61b555055aab3514f"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/non-functional-requirements-rubric.md",
+          "contentHash": "c4df08debc8185b210aaa5b73d6acf907499b22c352528c0a07a7a9c02b88e8f"
+        }
+      }
+    },
+    {
+      "slotId": "P17-O03",
+      "artefactName": "Estimation Basis",
+      "artefactType": "estimation-basis",
+      "creationOrder": 6,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "explicit_work_scope",
+          "prompt": "Explicit work scope"
+        },
+        {
+          "key": "estimation_method_basis",
+          "prompt": "Estimation method or basis"
+        },
+        {
+          "key": "constraints_available_evidence",
+          "prompt": "Constraints and available evidence"
+        },
+        {
+          "key": "unsupported_numbers_stay",
+          "prompt": "Unsupported numbers stay unset"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/estimation-basis.md",
+        "contentHash": "995239bc9c50c9b910441f10b570a60a8fea25b016d0d8228dd029f9e16b30e0"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/estimate-cost-effort-forecasts-with-ranges-rubric.md",
+          "contentHash": "254d81ae01aaa991b65565b204141c7cc76ec9ee8fe4736c94aad24e32213e98"
+        }
+      }
+    }
+  ]
+}

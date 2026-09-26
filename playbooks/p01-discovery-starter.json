@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "P01",
+  "title": "Discovery starter",
+  "outcome": "Discovery starter",
+  "minimumInputs": [
+    {
+      "key": "problem_users_words",
+      "prompt": "Problem in the user's words"
+    },
+    {
+      "key": "intended_audience",
+      "prompt": "Intended audience"
+    },
+    {
+      "key": "known_constraints",
+      "prompt": "Known constraints"
+    }
+  ],
+  "components": [],
+  "allowAdditionalOutputs": true,
+  "slots": [
+    {
+      "slotId": "P01-D01",
+      "artefactName": "Business Objectives",
+      "artefactType": "business-objectives",
+      "creationOrder": 1,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "needproblem_opportunity",
+          "prompt": "Need/problem or opportunity"
+        },
+        {
+          "key": "desired_change",
+          "prompt": "Desired change"
+        },
+        {
+          "key": "affected_scope",
+          "prompt": "Affected scope"
+        },
+        {
+          "key": "unknown_targets_remain",
+          "prompt": "Unknown targets remain proposed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/business-objectives.md",
+        "contentHash": "63b198ceb9ddd3eca84a2837bc95b711c6468ccfe0a6ffea8837771f8c2f6ec7"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/business-objectives-rubric.md",
+          "contentHash": "ce0800fb9b81d2da0d993ab50bf84c12ff00bf7eeda23b9de35d9f9964edb8e0"
+        }
+      }
+    },
+    {
+      "slotId": "P01-D02",
+      "artefactName": "Solution Scope",
+      "artefactType": "solution-scope",
+      "creationOrder": 2,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "needoutcome",
+          "prompt": "Need/outcome"
+        },
+        {
+          "key": "named_solutionchange_boundary",
+          "prompt": "Named solution/change boundary"
+        },
+        {
+          "key": "known_constraints",
+          "prompt": "Known constraints"
+        },
+        {
+          "key": "exclusions_may_be",
+          "prompt": "Exclusions may be proposed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/solution-scope.md",
+        "contentHash": "ca0d3a195737407a3717e73ddacc33742e0490516362ba62e716d35f3fb3e1ef"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/solution-scope-rubric.md",
+          "contentHash": "dc017d2c9a52c6351c5cb417d65f88d9307fa0358f0501144dbf4dde7d4aaf3d"
+        }
+      }
+    },
+    {
+      "slotId": "P01-D03",
+      "artefactName": "Stakeholder Register",
+      "artefactType": "stakeholder-register",
+      "creationOrder": 3,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "scope_plus_least",
+          "prompt": "Scope plus at least one known affected group/person or explicit candidate group"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/stakeholder-register.md",
+        "contentHash": "d239b1f603403d6e95b15f8636808ba9aec0655a707732d1bfb7ff4bfb7c210a"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/stakeholder-list-stakeholder-map-personas-rubric.md",
+          "contentHash": "8eb9c0d1aa532c49f4b4316024716d5fe9f29de90fa97023a446753509e97bf3"
+        }
+      }
+    },
+    {
+      "slotId": "P01-O01",
+      "artefactName": "Current State Assessment",
+      "artefactType": "current-state-assessment",
+      "creationOrder": 4,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "described_problemsituation",
+          "prompt": "A described problem/situation"
+        },
+        {
+          "key": "affected_scope",
+          "prompt": "Affected scope"
+        },
+        {
+          "key": "least_user_assertion",
+          "prompt": "At least a user assertion or identifiable source"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/current-state-assessment.md",
+        "contentHash": "ba80cd6f0f830178a37480589038e16b9e788ae563614e1ec5712e7f49ec9501"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/current-state-description-rubric.md",
+          "contentHash": "50396910b6a7a86e93a4dcdd41e597cd5a13adae7c1b93298e130b55e7efa12a"
+        }
+      }
+    },
+    {
+      "slotId": "P01-O02",
+      "artefactName": "Risk Register",
+      "artefactType": "risk-register",
+      "creationOrder": 5,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "scopeobjective",
+          "prompt": "Scope/objective"
+        },
+        {
+          "key": "known_uncertainties_basis",
+          "prompt": "Known uncertainties and basis"
+        },
+        {
+          "key": "scalesratings_proposed_if",
+          "prompt": "Scales/ratings proposed if not supplied"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/risk-register.md",
+        "contentHash": "248acb74c5a8f67b8ca4d61a034868e3a5c22ce6d45df550a1829a6a9ea4ba48"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/risk-register-rubric.md",
+          "contentHash": "2e7a01d313bd0251147944a5613e6b051ce8ba94b92c7502ac0c25f1c3666e36"
+        }
+      }
+    },
+    {
+      "slotId": "P01-O03",
+      "artefactName": "Business Case",
+      "artefactType": "business-case",
+      "creationOrder": 6,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "need",
+          "prompt": "Need"
+        },
+        {
+          "key": "feasible_candidate_options",
+          "prompt": "Feasible candidate options"
+        },
+        {
+          "key": "known_costvalue_assumptions",
+          "prompt": "Known cost/value assumptions"
+        },
+        {
+          "key": "decision_horizon",
+          "prompt": "Decision horizon"
+        },
+        {
+          "key": "missing_quantities_remain",
+          "prompt": "Missing quantities remain unknown"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/business-case.md",
+        "contentHash": "84fa60b735429d8aa9c533aa9792303bfc9550061dfb56d8adf83468c5ca70fc"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/business-case-rubric.md",
+          "contentHash": "7efdb57a6e206e1df23514b81a226298197d40fb0b4d7fc89e2a4a0e40696596"
+        }
+      }
+    }
+  ]
+}
