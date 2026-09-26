@@ -1,0 +1,218 @@
+{
+  "schemaVersion": 1,
+  "id": "J03",
+  "title": "Problem Discovery",
+  "outcome": "Problem Discovery",
+  "minimumInputs": [
+    {
+      "key": "symptomsituation_affected_context",
+      "prompt": "A symptom/situation and affected context"
+    },
+    {
+      "key": "any_example_source",
+      "prompt": "Any example or source assertion"
+    }
+  ],
+  "components": [],
+  "allowAdditionalOutputs": true,
+  "slots": [
+    {
+      "slotId": "J03-D01",
+      "artefactName": "Current State Assessment",
+      "artefactType": "current-state-assessment",
+      "creationOrder": 1,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "described_problemsituation",
+          "prompt": "A described problem/situation"
+        },
+        {
+          "key": "affected_scope",
+          "prompt": "Affected scope"
+        },
+        {
+          "key": "least_user_assertion",
+          "prompt": "At least a user assertion or identifiable source"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/current-state-assessment.md",
+        "contentHash": "ba80cd6f0f830178a37480589038e16b9e788ae563614e1ec5712e7f49ec9501"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/current-state-description-rubric.md",
+          "contentHash": "50396910b6a7a86e93a4dcdd41e597cd5a13adae7c1b93298e130b55e7efa12a"
+        }
+      }
+    },
+    {
+      "slotId": "J03-D02",
+      "artefactName": "Business Objectives",
+      "artefactType": "business-objectives",
+      "creationOrder": 2,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "needproblem_opportunity",
+          "prompt": "Need/problem or opportunity"
+        },
+        {
+          "key": "desired_change",
+          "prompt": "Desired change"
+        },
+        {
+          "key": "affected_scope",
+          "prompt": "Affected scope"
+        },
+        {
+          "key": "unknown_targets_remain",
+          "prompt": "Unknown targets remain proposed"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/business-objectives.md",
+        "contentHash": "63b198ceb9ddd3eca84a2837bc95b711c6468ccfe0a6ffea8837771f8c2f6ec7"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/business-objectives-rubric.md",
+          "contentHash": "ce0800fb9b81d2da0d993ab50bf84c12ff00bf7eeda23b9de35d9f9964edb8e0"
+        }
+      }
+    },
+    {
+      "slotId": "J03-D03",
+      "artefactName": "Elicitation Activity Plan",
+      "artefactType": "elicitation-activity-plan",
+      "creationOrder": 3,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "questiondecision_inform",
+          "prompt": "Question/decision to inform"
+        },
+        {
+          "key": "known_evidence_gaps",
+          "prompt": "Known evidence gaps"
+        },
+        {
+          "key": "candidate_source_stakeholder",
+          "prompt": "Candidate source or stakeholder group"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/elicitation-activity-plan.md",
+        "contentHash": "e47bdaa61d6a273b82e1ef1f8f57aef05f00e44a209a423bf307f40473297f8a"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/elicitation-activity-plan-rubric.md",
+          "contentHash": "eeb3b7ec5a477ab158000c40fbc0c96b4fec9cc33e46f9dea2063e31d1470232"
+        }
+      }
+    },
+    {
+      "slotId": "J03-O01",
+      "artefactName": "Stakeholder Register",
+      "artefactType": "stakeholder-register",
+      "creationOrder": 4,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "scope_plus_least",
+          "prompt": "Scope plus at least one known affected group/person or explicit candidate group"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/stakeholder-register.md",
+        "contentHash": "d239b1f603403d6e95b15f8636808ba9aec0655a707732d1bfb7ff4bfb7c210a"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/stakeholder-list-stakeholder-map-personas-rubric.md",
+          "contentHash": "8eb9c0d1aa532c49f4b4316024716d5fe9f29de90fa97023a446753509e97bf3"
+        }
+      }
+    },
+    {
+      "slotId": "J03-O02",
+      "artefactName": "Process Model",
+      "artefactType": "process-model",
+      "creationOrder": 5,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "process_boundary",
+          "prompt": "Process boundary"
+        },
+        {
+          "key": "actors",
+          "prompt": "Actors"
+        },
+        {
+          "key": "known_sequence_explicitly",
+          "prompt": "Known sequence or explicitly proposed sequence"
+        },
+        {
+          "key": "actualproposed_states_labelled",
+          "prompt": "Actual/proposed states labelled"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/process-model.md",
+        "contentHash": "4c73b952a66d58528b8bb8168b9d4863d0bd9f3c18f27361d4db8e1c8db98753"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/process-model-rubric.md",
+          "contentHash": "b383438682842b995f2dcee7361a5d19cfc15f8723945b00d8bc0bfc97e16e64"
+        }
+      }
+    },
+    {
+      "slotId": "J03-O03",
+      "artefactName": "Interview Guide",
+      "artefactType": "interview-guide",
+      "creationOrder": 6,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "learning_objective",
+          "prompt": "Learning objective"
+        },
+        {
+          "key": "intended_participant_group",
+          "prompt": "Intended participant group"
+        },
+        {
+          "key": "known_context_unanswered",
+          "prompt": "Known context and unanswered topics"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/interview-guide.md",
+        "contentHash": "230173bc1927ecff1c4fac6139800ae7f8c26431bebef4dc1fb6b6b9d5096550"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/interview-guide-rubric.md",
+          "contentHash": "1b4b48395c7a3f2fc6d1f6f2c74f120fb67138e68a0626d36e91351e7bd59d87"
+        }
+      }
+    }
+  ]
+}

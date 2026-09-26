@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "id": "P16",
+  "title": "Product discovery and validation",
+  "outcome": "Product discovery and validation",
+  "minimumInputs": [
+    {
+      "key": "user_evidence",
+      "prompt": "User evidence"
+    },
+    {
+      "key": "desired_outcomes",
+      "prompt": "Desired outcomes"
+    },
+    {
+      "key": "constraints",
+      "prompt": "Constraints"
+    }
+  ],
+  "components": [],
+  "allowAdditionalOutputs": true,
+  "slots": [
+    {
+      "slotId": "P16-D01",
+      "artefactName": "Product Vision Brief",
+      "artefactType": "product-vision-brief",
+      "creationOrder": 1,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "idea_need_users",
+          "prompt": "Idea or need in the user's words"
+        },
+        {
+          "key": "explorationproduct_scope",
+          "prompt": "Exploration/product scope"
+        },
+        {
+          "key": "unknown_usersvaluemetrics_remain",
+          "prompt": "Unknown users/value/metrics remain hypotheses"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/product-vision-brief.md",
+        "contentHash": "727b2e801f93bfaa1c26352074bee608ce865826c9bece8ff7a9736ac12e876d"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/product-vision-brief-rubric.md",
+          "contentHash": "dd16af29f04ac35362a22d9a1fd458e25c374457c7abe73515d130924b9ae75e"
+        }
+      }
+    },
+    {
+      "slotId": "P16-D02",
+      "artefactName": "Persona",
+      "artefactType": "persona",
+      "creationOrder": 2,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "target_group_attributed",
+          "prompt": "Target group and attributed evidence or explicitly labelled hypotheses"
+        },
+        {
+          "key": "no_fabricated_demographicresearch",
+          "prompt": "No fabricated demographic/research facts"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/persona.md",
+        "contentHash": "bcbb2eab30408a78f0d152b503f82a5ad77959d548cca5429449575aa5674ec0"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/personas-rubric.md",
+          "contentHash": "4ac0cdf8998a8a2970b5898091e006d5caf238b36ab4a4ed455d3fcf8de63d62"
+        }
+      }
+    },
+    {
+      "slotId": "P16-D03",
+      "artefactName": "Customer Journey Map",
+      "artefactType": "journey-map",
+      "creationOrder": 3,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "usergroup",
+          "prompt": "User/group"
+        },
+        {
+          "key": "scenariooutcome",
+          "prompt": "Scenario/outcome"
+        },
+        {
+          "key": "known_touchpoints_explicitly",
+          "prompt": "Known touchpoints or explicitly hypothetical flow"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/journey-map.md",
+        "contentHash": "0d73b3e5410a1cbbc06885c6fd54ed29bbc1766b8fe612baafc4feacd9436663"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/customer-journey-map-rubric.md",
+          "contentHash": "aa19ce5bfad81b38e8937c3dff300a084fe862ec03bba997acc5b2c85602a406"
+        }
+      }
+    },
+    {
+      "slotId": "P16-D04",
+      "artefactName": "Experiment and Post-Mortem Log",
+      "artefactType": "experiment-log",
+      "creationOrder": 4,
+      "startMode": "automatic_after_explicit_playbook_start",
+      "minimumInputs": [
+        {
+          "key": "hypothesis_learning_question",
+          "prompt": "Hypothesis or learning question"
+        },
+        {
+          "key": "proposed_test_actual",
+          "prompt": "Proposed test or actual experiment"
+        },
+        {
+          "key": "distinguish_planned_work",
+          "prompt": "Distinguish planned work from observed results"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/experiment-log.md",
+        "contentHash": "e3892a39c7e753882d70f53296b838c8a3970da3e6672626421550b5d5c6fb45"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/experiment-log-rubric.md",
+          "contentHash": "c031c95bdacbebd8abebff53baa04ab91361dca6721520c77f47defe64a50dfb"
+        }
+      }
+    },
+    {
+      "slotId": "P16-O01",
+      "artefactName": "Opportunity Solution Tree",
+      "artefactType": "opportunity-solution-tree",
+      "creationOrder": 5,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "desired_outcome",
+          "prompt": "Desired outcome"
+        },
+        {
+          "key": "user_needsopportunities_evidence",
+          "prompt": "User needs/opportunities with evidence or explicit hypotheses"
+        },
+        {
+          "key": "candidate_solutions_experiment",
+          "prompt": "Candidate solutions and experiment questions"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/opportunity-solution-tree.md",
+        "contentHash": "c0bab30a31ad69016e7ac0801090d9e05fbdc9569513f7857a873c92f1f0bb8a"
+      },
+      "quality": {
+        "mode": "no_applicable_check",
+        "reason": "No governed rubric for this output yet."
+      }
+    },
+    {
+      "slotId": "P16-O02",
+      "artefactName": "Prototype Brief and Findings",
+      "artefactType": "prototype-brief",
+      "creationOrder": 6,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "question_test",
+          "prompt": "Question to test"
+        },
+        {
+          "key": "intended_userscenario",
+          "prompt": "Intended user/scenario"
+        },
+        {
+          "key": "prototype_boundary",
+          "prompt": "Prototype boundary"
+        },
+        {
+          "key": "no_findings_without",
+          "prompt": "No findings without test evidence"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/prototype-brief.md",
+        "contentHash": "00c233ef1bb8eb4fc933fcbb82685cbef6845f0ef3ede24dcabf1265d5d9aeb2"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/prototype-rubric.md",
+          "contentHash": "0cc00ed643873e64b39fd8cee447a9a0cc5b9dc2e9a80000c76d6656808e3f27"
+        }
+      }
+    },
+    {
+      "slotId": "P16-O03",
+      "artefactName": "Product Requirements Document (PRD)",
+      "artefactType": "prd",
+      "creationOrder": 7,
+      "startMode": "optional_on_explicit_selection",
+      "minimumInputs": [
+        {
+          "key": "problem",
+          "prompt": "Problem"
+        },
+        {
+          "key": "target_user",
+          "prompt": "Target user"
+        },
+        {
+          "key": "intended_outcome",
+          "prompt": "Intended outcome"
+        },
+        {
+          "key": "proposed_scope",
+          "prompt": "Proposed scope"
+        },
+        {
+          "key": "available_discovery_evidence",
+          "prompt": "Available discovery evidence and constraints"
+        }
+      ],
+      "dependsOn": [],
+      "template": {
+        "key": "business-analysis.template.templates/prd.md",
+        "contentHash": "4007f807e05273f23ba78a15bfd0365671f5abb3914a72f6e7b43b46fd92efa0"
+      },
+      "quality": {
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/prd-rubric.md",
+          "contentHash": "d1b41db3e233936ba893025c71a6c37817eb9e58c969ade38fd50c1c19da2cf3"
+        }
+      }
+    }
+  ]
+}
