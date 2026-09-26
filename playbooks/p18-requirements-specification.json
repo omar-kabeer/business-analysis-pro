@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "P18",
   "title": "Requirements specification",
-  "outcome": "Requirements specification",
+  "outcome": "Specify what the solution must do, from business requirements through functional requirements to detailed use cases, ready for design and build.",
   "minimumInputs": [
     {
       "key": "confirmed_findings",

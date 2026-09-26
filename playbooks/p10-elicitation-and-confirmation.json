@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "P10",
   "title": "Elicitation and confirmation",
-  "outcome": "Interview Guide and Workshop Plan are instruments. They do not assert that either activity took place; capture/confirmation remains in the lifecycle elicitation records.",
+  "outcome": "Plan how you will gather and confirm requirements, with an elicitation plan, an interview guide and a workshop plan ready to use with stakeholders.",
   "minimumInputs": [
     {
       "key": "decision_support",

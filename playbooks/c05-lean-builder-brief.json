@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "C05",
   "title": "Lean Builder Brief",
-  "outcome": "Use one PRD as the lean builder brief; integrate vision/scope references there instead of automatically generating duplicate documents.",
+  "outcome": "A lean builder brief: one product requirements document with use cases and a learning log, so a small team can build with confidence.",
   "minimumInputs": [
     {
       "key": "needoutcome",
