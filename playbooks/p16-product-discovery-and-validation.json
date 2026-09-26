@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "P16",
   "title": "Product discovery and validation",
-  "outcome": "Product discovery and validation",
+  "outcome": "Test whether a product idea is worth building: shape the vision, understand the people and their journey, and plan the experiments that will prove or disprove it.",
   "minimumInputs": [
     {
       "key": "user_evidence",

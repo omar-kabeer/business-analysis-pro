@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "J09",
   "title": "Founder MVP",
-  "outcome": "Founder MVP",
+  "outcome": "Define a first product release as a founder: the vision, a bounded scope, the stories to build, the quality needs and the experiments to validate it.",
   "minimumInputs": [
     {
       "key": "target_useroutcome",

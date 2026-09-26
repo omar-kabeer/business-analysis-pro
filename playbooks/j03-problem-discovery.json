@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "J03",
   "title": "Problem Discovery",
-  "outcome": "Problem Discovery",
+  "outcome": "Understand the problem before solving it: assess the current state, agree what success looks like and plan how to learn more from the people involved.",
   "minimumInputs": [
     {
       "key": "symptomsituation_affected_context",

@@ -4,6 +4,7 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+- Regenerated the 12 W1-batch playbook definitions with user-facing `outcome` copy sourced from `tasks/ba-playbooks-agent-system/playbook-outcomes.json`, replacing internal authoring notes that had leaked into the field.
 - Added 12 W1-batch governed playbook definitions (`playbooks/p01-discovery-starter.json`, `p10-elicitation-and-confirmation.json`, `p16-product-discovery-and-validation.json`, `p17-backlog-and-release-slicing.json`, `p18-requirements-specification.json`, `j03-problem-discovery.json`, `j09-founder-mvp.json`, `j10-lean-founder.json`, `c01-idea-explorer.json`, `c03-first-mvp.json`, `c04-lean-founder-mvp.json`, `c05-lean-builder-brief.json`), generated reproducibly from `tasks/ba-playbooks-agent-system/starting-specifications.json` and validated against `PlaybookDefinitionV1`.
 - Added whole-output rubrics `evaluation/interview-guide-rubric.md`, `evaluation/workshop-plan-rubric.md`, and `evaluation/prioritization-matrix-rubric.md`, grounded in their matching templates and the BABOK Interviews (10.25), Workshops (10.50), and Prioritization (10.33) techniques.
 

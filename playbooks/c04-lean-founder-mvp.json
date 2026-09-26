@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "C04",
   "title": "Lean Founder MVP",
-  "outcome": "One shared vision, scope, backlog and experiment log. NFR/UAT become necessary when applicable risks or release criteria demand them; optional does not waive controls.",
+  "outcome": "A lean path to an MVP: one shared vision, scope, backlog and experiment log, with quality and acceptance work added when the release needs it.",
   "minimumInputs": [
     {
       "key": "useroutcome",

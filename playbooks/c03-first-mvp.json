@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "C03",
   "title": "First MVP",
-  "outcome": "First MVP",
+  "outcome": "Take an idea to a first MVP: validate it with experiments, then shape the vision, scope, stories and quality needs for the first release.",
   "minimumInputs": [
     {
       "key": "target_useroutcome",

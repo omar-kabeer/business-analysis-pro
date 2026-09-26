@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "J10",
   "title": "Lean Founder",
-  "outcome": "Only the compact Product Vision Brief and Experiment Log are automatic. Other useful sections can be linked views; do not expand into a five-document suite.",
+  "outcome": "Keep it lean: a compact vision brief and a first learning experiment, with more documents only when you choose to add them.",
   "minimumInputs": [
     {
       "key": "needidea",

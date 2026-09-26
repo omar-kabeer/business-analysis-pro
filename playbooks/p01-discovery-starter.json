@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "P01",
   "title": "Discovery starter",
-  "outcome": "Discovery starter",
+  "outcome": "Frame a new initiative: agree the business objectives, set the solution scope and identify who is affected, so the work starts on a clear footing.",
   "minimumInputs": [
     {
       "key": "problem_users_words",
