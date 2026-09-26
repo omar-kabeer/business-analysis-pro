@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+- Added whole-output rubrics `evaluation/interview-guide-rubric.md`, `evaluation/workshop-plan-rubric.md`, and `evaluation/prioritization-matrix-rubric.md`, grounded in their matching templates and the BABOK Interviews (10.25), Workshops (10.50), and Prioritization (10.33) techniques.
+
 - Added the governed `playbooks/` source tree. Each playbook is one JSON definition (schema version 1) listing ordered output slots with stable slot IDs, per-slot minimum inputs, start mode, and template and quality references pinned by registry key and SHA-256. A definition must be updated whenever a referenced template or rubric changes. The first definition is `playbooks/j01-idea-discovery.json` (Idea Discovery).
 - Added whole-output rubrics `evaluation/product-vision-brief-rubric.md` and `evaluation/experiment-log-rubric.md` for the two automatic Idea Discovery outputs. The narrower product vision statement rubric remains separate.
 - Initialized Business Analysis OS repository structure.
