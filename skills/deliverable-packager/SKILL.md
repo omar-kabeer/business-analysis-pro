@@ -48,4 +48,4 @@ Any prose in the delivered file passes the house style in `docs/methodology/edit
 
 ## Operating standard
 
-This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`. It is the delivery end of the produce-validate-deliver arc: the specialist produces the artefact on its template, the quality skill and rubric validate it, and the packager delivers it. Format generation is bound through `docs/skill-bindings.md`; absence of a bound plugin degrades the format, never blocks the delivery.
+This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`. It is the delivery end of the produce-validate-deliver arc: the specialist produces the artefact on its template, the quality skill and rubric validate it, and the packager delivers it. Delivery is the BABOK v3 task Communicate Business Analysis Information (4.4): the right information, in the form and at the level of detail the audience needs. Format generation is bound through `docs/skill-bindings.md`; absence of a bound plugin degrades the format, never blocks the delivery.
