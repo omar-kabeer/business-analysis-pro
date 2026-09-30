@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "artefactType": "prototype-brief",
-  "rubric": "evaluation/prototype-rubric.md",
-  "rubricSha256": "0cc00ed643873e64b39fd8cee447a9a0cc5b9dc2e9a80000c76d6656808e3f27",
+  "rubric": "evaluation/prototype-brief-rubric.md",
+  "rubricSha256": "9fe7b6c1a400a1b59caf1aed3ee12007e38efffaa3ee52e0c4c88340965283b8",
   "status": "provisional",
   "tolerance": 1,
   "references": [
@@ -12,11 +12,11 @@
       "scores": {
         "1": 3,
         "2": 3,
-        "3": 3,
+        "3": 2,
         "4": 3,
-        "5": 3,
+        "5": 2,
         "6": 3,
-        "7": 3
+        "7": 1
       }
     },
     {
@@ -25,11 +25,11 @@
       "scores": {
         "1": 2,
         "2": 2,
-        "3": 2,
-        "4": 1,
-        "5": 2,
+        "3": 1,
+        "4": 2,
+        "5": 1,
         "6": 2,
-        "7": 1
+        "7": 2
       }
     },
     {
@@ -41,7 +41,7 @@
         "3": 0,
         "4": 0,
         "5": 0,
-        "6": 1,
+        "6": 0,
         "7": 0
       }
     }

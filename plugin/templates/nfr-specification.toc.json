@@ -1,0 +1,25 @@
+{
+  "$comment": "Table of contents for templates/nfr-specification.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "nfr-specification",
+  "sections": [
+    { "id": "purpose", "heading": "Purpose", "tier": "core", "purpose": "Why the specification exists and what grades it.", "artefactStandard": "purpose" },
+    { "id": "document-control", "heading": "Document Control", "tier": "core", "purpose": "Owner, reviewer, version and status." },
+    { "id": "scope", "heading": "Scope", "tier": "core", "purpose": "What the requirements apply to and what another specification covers.", "artefactStandard": "scope", "evidences": [1] },
+    { "id": "inputs", "heading": "Inputs", "tier": "core", "purpose": "Where the requirements come from.", "artefactStandard": "inputs", "evidences": [5] },
+    { "id": "how-to-write", "heading": "How to write a good non-functional requirement", "tier": "standard", "purpose": "The pattern for a testable requirement.", "evidences": [2, 3, 6] },
+    { "id": "requirements", "heading": "Requirements by category", "tier": "core", "purpose": "The quantified requirements, one row each.", "evidences": [1, 2, 3, 4, 5, 6, 7] },
+    { "id": "category-prompts", "heading": "Category prompts", "tier": "standard", "purpose": "What each quality category means.", "evidences": [1] },
+    { "id": "verification", "heading": "Verification plan", "tier": "standard", "purpose": "How, when and by whom each requirement is verified.", "evidences": [4] },
+    { "id": "trade-offs", "heading": "Trade-offs and conflicts", "tier": "standard", "purpose": "Conflicts between qualities and how they were resolved.", "evidences": [7] },
+    { "id": "sla", "heading": "Service level detail", "tier": "extended", "purpose": "Full terms for contracted service levels.", "when": { "formality": ["formal"] }, "requires": ["requirements"], "evidences": [5] },
+    { "id": "security-privacy", "heading": "Security and privacy controls", "tier": "extended", "purpose": "Obligations mapped to controls and evidence.", "when": { "regulated": [true], "audience": ["regulator"] }, "requires": ["requirements"], "evidences": [5] },
+    { "id": "capacity", "heading": "Capacity model", "tier": "extended", "purpose": "Demand assumptions behind performance targets.", "when": { "risk": ["high"] }, "evidences": [3, 8] },
+    { "id": "assumptions", "heading": "Assumptions", "tier": "core", "purpose": "What the requirements take as true.", "artefactStandard": "assumptions", "evidences": [8] },
+    { "id": "risks", "heading": "Risks", "tier": "core", "purpose": "Risks that targets cannot be met or cost too much.", "artefactStandard": "risks", "evidences": [8] },
+    { "id": "outputs", "heading": "Outputs", "tier": "core", "purpose": "What the specification hands on.", "artefactStandard": "outputs" },
+    { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the specification.", "artefactStandard": "review-criteria" },
+    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
+  ]
+}

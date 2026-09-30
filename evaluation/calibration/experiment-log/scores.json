@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "artefactType": "experiment-log",
   "rubric": "evaluation/experiment-log-rubric.md",
-  "rubricSha256": "c031c95bdacbebd8abebff53baa04ab91361dca6721520c77f47defe64a50dfb",
+  "rubricSha256": "25642d69dfce3d17081f628fcc7d6c566912807868c7f29e17db5e71096da748",
   "status": "provisional",
   "tolerance": 1,
   "references": [

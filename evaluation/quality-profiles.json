@@ -250,7 +250,11 @@
       "template": "templates/experiment-log.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/experiment-log-rubric.md"
+        "rubric": "evaluation/experiment-log-rubric.md",
+        "blocking": [
+          3,
+          5
+        ]
       }
     },
     "frd": {
@@ -339,7 +343,11 @@
       "template": "templates/nfr-specification.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/non-functional-requirements-rubric.md"
+        "rubric": "evaluation/nfr-specification-rubric.md",
+        "blocking": [
+          2,
+          4
+        ]
       }
     },
     "okrs": {
@@ -418,14 +426,22 @@
       "template": "templates/product-vision-brief.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/product-vision-brief-rubric.md"
+        "rubric": "evaluation/product-vision-brief-rubric.md",
+        "blocking": [
+          1,
+          7
+        ]
       }
     },
     "prototype-brief": {
       "template": "templates/prototype-brief.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/prototype-rubric.md"
+        "rubric": "evaluation/prototype-brief-rubric.md",
+        "blocking": [
+          1,
+          5
+        ]
       }
     },
     "raid-log": {
@@ -558,7 +574,11 @@
       "template": "templates/solution-scope.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/solution-scope-rubric.md"
+        "rubric": "evaluation/solution-scope-rubric.md",
+        "blocking": [
+          1,
+          4
+        ]
       },
       "reviewers": [
         "strategy-analyst"
@@ -598,7 +618,11 @@
       "template": "templates/stakeholder-register.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/stakeholder-list-stakeholder-map-personas-rubric.md"
+        "rubric": "evaluation/stakeholder-register-rubric.md",
+        "blocking": [
+          1,
+          2
+        ]
       },
       "reviewers": [
         "stakeholder-coverage-auditor"
@@ -629,7 +653,11 @@
       "template": "templates/uat-plan.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/user-acceptance-test-rubric.md"
+        "rubric": "evaluation/uat-plan-rubric.md",
+        "blocking": [
+          3,
+          7
+        ]
       }
     },
     "use-case-specification": {
@@ -643,7 +671,11 @@
       "template": "templates/user-story-epic.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/user-story-rubric.md"
+        "rubric": "evaluation/user-story-epic-rubric.md",
+        "blocking": [
+          2,
+          4
+        ]
       }
     },
     "win-loss-report": {

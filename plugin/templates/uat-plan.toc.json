@@ -1,0 +1,31 @@
+{
+  "$comment": "Table of contents for templates/uat-plan.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "uat-plan",
+  "sections": [
+    { "id": "purpose", "heading": "Purpose", "tier": "core", "purpose": "Why the plan exists and what grades it.", "artefactStandard": "purpose" },
+    { "id": "document-control", "heading": "Document Control", "tier": "core", "purpose": "Owners, version and status." },
+    { "id": "scope", "heading": "Scope", "tier": "core", "purpose": "What is and is not tested, and why.", "artefactStandard": "scope", "evidences": [1] },
+    { "id": "inputs", "heading": "Inputs", "tier": "core", "purpose": "What the plan is built from.", "artefactStandard": "inputs", "evidences": [3] },
+    { "id": "approach", "heading": "Approach", "tier": "standard", "purpose": "How the business will test.", "evidences": [4] },
+    { "id": "roles", "heading": "Roles", "tier": "core", "purpose": "Who tests, triages and signs.", "evidences": [4, 7] },
+    { "id": "environment-data", "heading": "Environment and data", "tier": "standard", "purpose": "Where and with what data testing runs.", "evidences": [5] },
+    { "id": "entry-criteria", "heading": "Entry criteria", "tier": "core", "purpose": "When testing may start.", "evidences": [2] },
+    { "id": "exit-criteria", "heading": "Exit criteria", "tier": "core", "purpose": "When testing ends and acceptance can be recommended.", "evidences": [2] },
+    { "id": "coverage", "heading": "Coverage matrix", "tier": "core", "purpose": "Every requirement mapped to scenarios or cases.", "evidences": [3] },
+    { "id": "scenarios", "heading": "Test scenarios", "tier": "core", "purpose": "End-to-end business tasks.", "evidences": [4] },
+    { "id": "cases", "heading": "Test cases", "tier": "standard", "purpose": "Rule-level cases for boundaries and exceptions.", "evidences": [4] },
+    { "id": "defects", "heading": "Defect log", "tier": "core", "purpose": "Defects with severity, priority and owner.", "evidences": [6] },
+    { "id": "schedule", "heading": "Schedule", "tier": "standard", "purpose": "Cycles, dates and owners." },
+    { "id": "assumptions", "heading": "Assumptions", "tier": "core", "purpose": "What the plan takes as true.", "artefactStandard": "assumptions", "evidences": [5] },
+    { "id": "risks", "heading": "Risks", "tier": "core", "purpose": "Risks to meaningful, timely acceptance.", "artefactStandard": "risks", "evidences": [5] },
+    { "id": "nfr-acceptance", "heading": "Non-functional acceptance", "tier": "extended", "purpose": "How quality requirements are verified in acceptance.", "when": { "perspective": ["information-technology"], "risk": ["medium", "high"] }, "evidences": [3] },
+    { "id": "operational-readiness", "heading": "Operational readiness checks", "tier": "extended", "purpose": "Support, training, runbooks and rollback.", "when": { "formality": ["formal"], "risk": ["high"] }, "evidences": [7] },
+    { "id": "regulatory-evidence", "heading": "Regulatory evidence", "tier": "extended", "purpose": "Tests that evidence controls and obligations.", "when": { "regulated": [true], "audience": ["regulator"] }, "evidences": [3] },
+    { "id": "recommendation", "heading": "Acceptance recommendation", "tier": "core", "purpose": "The recommendation, its evidence and conditions.", "artefactStandard": "outputs", "evidences": [7] },
+    { "id": "outputs", "heading": "Outputs", "tier": "standard", "purpose": "What the plan produces.", "evidences": [7] },
+    { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the plan.", "artefactStandard": "review-criteria" },
+    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
+  ]
+}

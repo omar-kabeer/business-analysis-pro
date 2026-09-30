@@ -1,0 +1,26 @@
+{
+  "$comment": "Table of contents for templates/user-story-epic.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "user-story-epic",
+  "sections": [
+    { "id": "purpose", "heading": "Purpose", "tier": "core", "purpose": "Why the document exists and what grades it.", "artefactStandard": "purpose" },
+    { "id": "document-control", "heading": "Document Control", "tier": "core", "purpose": "Owner, version and status." },
+    { "id": "scope", "heading": "Scope", "tier": "core", "purpose": "The epic covered and its boundary.", "artefactStandard": "scope", "evidences": [1] },
+    { "id": "inputs", "heading": "Inputs", "tier": "core", "purpose": "What the stories come from.", "artefactStandard": "inputs", "evidences": [5] },
+    { "id": "epic", "heading": "Epic", "tier": "core", "purpose": "Outcome, boundary and success measure.", "evidences": [1] },
+    { "id": "stories", "heading": "Stories", "tier": "core", "purpose": "Stories with acceptance criteria.", "artefactStandard": "outputs", "evidences": [2, 3, 4, 5, 6] },
+    { "id": "story-map", "heading": "Story map", "tier": "standard", "purpose": "Stories arranged under the user journey.", "evidences": [3] },
+    { "id": "splitting", "heading": "Story splitting patterns", "tier": "standard", "purpose": "How to split large stories vertically.", "evidences": [3] },
+    { "id": "invest", "heading": "INVEST checklist", "tier": "standard", "purpose": "The quality checks for a story.", "evidences": [3] },
+    { "id": "nfr-rule-links", "heading": "Non-functional and business rule links", "tier": "standard", "purpose": "The rules and qualities each story respects.", "evidences": [5] },
+    { "id": "dor-dod", "heading": "Definition of Ready and Definition of Done", "tier": "standard", "purpose": "Entry and exit definitions for stories.", "evidences": [4] },
+    { "id": "assumptions", "heading": "Assumptions", "tier": "core", "purpose": "What the stories take as true.", "artefactStandard": "assumptions", "evidences": [7] },
+    { "id": "risks", "heading": "Risks", "tier": "core", "purpose": "Risks to the epic's outcome.", "artefactStandard": "risks", "evidences": [7] },
+    { "id": "spikes", "heading": "Spikes", "tier": "extended", "purpose": "Time-boxed investigations for uncertain work.", "when": { "risk": ["medium", "high"], "approach": ["adaptive"] }, "evidences": [7] },
+    { "id": "release-slicing", "heading": "Release slicing", "tier": "extended", "purpose": "Stories grouped into releases with their outcome.", "when": { "approach": ["adaptive", "hybrid"] }, "requires": ["stories"], "evidences": [6] },
+    { "id": "outputs", "heading": "Outputs", "tier": "standard", "purpose": "What the document hands on.", "evidences": [5] },
+    { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the epic and stories.", "artefactStandard": "review-criteria" },
+    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK techniques and perspective." },
+    { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
+  ]
+}

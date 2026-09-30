@@ -19,6 +19,29 @@ For each dimension score 0 to 3: 0 absent or misleading, 1 weak, 2 adequate for 
 | 7 | Evidence honesty | Assumptions and hypotheses are distinguishable from observed facts; no customer finding or metric is fabricated. |
 | 8 | Internal coherence | Vision, customer, value, measures, pillars and non-goals support one another without material contradiction. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | The vision is a feature list or a slogan with no outcome. | The vision describes a durable customer or business outcome without prescribing features. |
+| 2 | No customer, or a customer with no situation, motivation, or outcome. | The customer or segment, situation, motivation and desired outcome are clear, with uncertainty labelled. |
+| 3 | No current alternative, or a value proposition unconnected to the job. | The current alternative, its shortfall and the proposed differentiated value connect to the stated job. |
+| 4 | No measure, or measures with invented baselines. | One north-star measure and supporting signals are defined; unavailable baselines or targets are marked as proposed or unknown. |
+| 5 | No pillars, or pillars that are features. | Two to four coherent pillars explain how the initiative may advance the vision. |
+| 6 | No horizon or non-goals, so scope is unbounded. | Now, next and later describe outcome-level direction, and deliberate non-goals constrain scope. |
+| 7 | Invented research, validated demand, or measured results. | Assumptions and hypotheses are distinguishable from observed facts; no customer finding or metric is fabricated. |
+| 8 | Sections contradict each other. | Vision, customer, value, measures, pillars and non-goals support one another without material contradiction. |
+
+## Common failure modes
+
+- A vision that names the technology.
+- "Everyone" as the target customer.
+- A north-star metric that measures activity, not customer value.
+- Assumptions presented as findings.
+- No non-goals, so every request fits the vision.
+
 ## Result
 
 Total the scores (maximum 24):
@@ -27,7 +50,7 @@ Total the scores (maximum 24):
 - Pass with changes: 14 to 19, or 20 or higher with a dimension at 0.
 - Fail: below 14.
 
-Record findings by severity with specific fixes. A draft may be useful for exploration even when it does not pass; its quality state must remain visible.
+Dimensions 1 (outcome-first vision) and 7 (evidence honesty) are blocking: a score of 0 on either fails the brief whatever the total. Record findings by severity with specific fixes. A draft may be useful for exploration even when it does not pass; its quality state must remain visible.
 
 ## Findings template
 

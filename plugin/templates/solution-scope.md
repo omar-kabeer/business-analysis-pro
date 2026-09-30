@@ -2,46 +2,127 @@
 type: deliverable
 domain: strategy
 status: draft
-version: 1.0.0
+version: 2.0.0
 ---
 
 # Solution Scope
 
 ## Purpose
 
-Define the boundaries of the solution and show how it enables the future state's goals. This is the working form of the Solution Scope output of the BABOK Define Change Strategy task (6.4). Describe out-of-scope components as well, for clarity.
+Define the boundary of the solution: the capabilities the change will deliver, what it will not, and how the in-scope solution enables the future state's goals. This is the working form of the Solution Scope output of BABOK Define Change Strategy (6.4). A scope with a stated out-of-scope list prevents most scope disputes before they start. Graded by `evaluation/solution-scope-rubric.md`.
+
+This template is a superset. Its table-of-contents manifest, `templates/solution-scope.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
 ## Document Control
 
 | Field | Value |
 | --- | --- |
-| Initiative |  |
-| Sponsor |  |
-| Business Analyst |  |
-| Version | 1.0.0 |
-| Status | Draft |
-| Last Updated |  |
+| Initiative | Supplier invoice approval |
+| Sponsor | Finance Director |
+| Business analyst | Ana Costa |
+| Version | 1.2.0 |
+| Status | Baselined |
+| Last updated | 2026-06-10 |
+
+## Document scope
+
+Say which change this scope belongs to and which release or phase it defines, if the change is delivered in stages.
+
+Example: release 1 of the supplier invoice approval change, covering the UK entity.
 
 ## Inputs
 
-The future state description and the change strategy.
+List what the scope is built from: the future state description, the business objectives, the change strategy, the gap analysis, and any constraints (budget, time, regulation, technology).
 
-## 1. In scope
+## In scope
 
-Describe the new capabilities the change will deliver, using the views that fit, such as capabilities, functions, processes, data, locations, or business rules.
+Describe the capabilities the change will deliver. Use the views that fit the change, and give each element an ID so requirements can trace to it.
 
-| Scope element | View | Description |
+| ID | Scope element | View | Description | Objective served |
+| --- | --- | --- | --- | --- |
+| SC-001 | Invoice approval routing | Capability | Route each invoice to the right approver by cost centre and amount | OBJ-1 |
+| SC-002 | Three-way match exceptions | Process | Show why a match failed and route the exception | OBJ-1 |
+
+## Out of scope
+
+State what is deliberately not in the solution, and why, so the boundary is not one-sided.
+
+| ID | Excluded element | Reason | Where it is handled |
+| --- | --- | --- | --- |
+| OS-001 | Supplier invoice submission portal | Owned by the e-invoicing programme | Separate initiative |
+
+## Scope views
+
+Where a single table is not enough, describe the scope through further views: processes, data, locations, organisational units, systems, or business rules. Use the view that makes the boundary unambiguous for the audience.
+
+| View | In scope | Out of scope |
 | --- | --- | --- |
-|  |  |  |
+| Locations | UK entity | EU entities (release 2) |
+| Systems | Workflow tool, ERP invoice module | Payroll, expenses |
 
-## 2. Out of scope
+## How the scope enables the future state
 
-State the components that are out of scope, to remove ambiguity.
+Explain, for each objective, which scope elements move it and how. An element that serves no objective is scope creep or a missing objective.
 
-## 3. How the scope enables the future state
+| Objective | Scope elements | How they enable it |
+| --- | --- | --- |
+| OBJ-1 Cut approval time from 14 to 5 days | SC-001, SC-002 | Removes email routing and manual exception chasing |
 
-Explain how the solution scope enables the future state's goals.
+## Alignment with the change strategy
 
-## 4. Boundaries and assumptions
+State how the scope fits the chosen change strategy and its transition states, and confirm it respects the constraints the strategy set.
 
-State the boundaries of the solution and any assumptions, noting that the scope may evolve as more is discovered. Evaluate a completed scope with `evaluation/solution-scope-rubric.md`.
+## Release and transition boundaries
+
+For adaptive or staged delivery, show which scope elements land in which release or transition state, and the smallest slice that delivers value.
+
+| Release | Scope elements | Value delivered |
+| --- | --- | --- |
+| R1 (MVP) | SC-001 | Routing replaces email approvals |
+| R2 | SC-002 | Exceptions resolved in the tool |
+
+## Assumptions and constraints
+
+Record what the scope takes as true and the limits it works within, each with the impact if it changes.
+
+| ID | Assumption or constraint | Impact if it changes | Owner |
+| --- | --- | --- | --- |
+| A-001 | ERP API supports real-time status posting | SC-002 moves to R3 | Tom Reyes |
+
+## Risks
+
+Risks to the scope: ambiguity, dependencies on other programmes, and elements likely to grow.
+
+| Risk | Response | Owner |
+| --- | --- | --- |
+| E-invoicing programme slips and suppliers expect this change to fill the gap | Communicate OS-001 to suppliers at kickoff | Ana Costa |
+
+## Scope change control
+
+State how the scope may change: who can request a change, who decides, and how it is recorded. The scope is expected to evolve as discovery continues; control makes that evolution visible.
+
+## Context diagram
+
+For formally governed or integration-heavy work, attach or link a context diagram showing the solution boundary and the external actors and systems it exchanges data with.
+
+## Outputs
+
+A baselined solution scope that requirements, the release plan, and the business case trace to.
+
+## Review criteria
+
+- The in-scope boundary is defined through capabilities or other suitable views, with IDs.
+- Out-of-scope elements are stated with reasons.
+- Every scope element traces to a future-state objective.
+- The scope is consistent with the change strategy and its constraints.
+- The level of detail lets stakeholders act without over-specifying design.
+- Nothing is ambiguous about what is in and what is out.
+- The scope is controlled and expected to evolve.
+
+## BABOK anchor
+
+Define Change Strategy (6.4); Define Future State (6.2); Scope Modelling (10.41). Owned by the strategy skill.
+
+## House style
+
+Write any narrative with the natural-prose-editor pass and no em dashes. See `docs/methodology/editorial-style.md`.

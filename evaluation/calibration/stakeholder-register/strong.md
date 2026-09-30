@@ -13,3 +13,4 @@ Scope: everyone who approves, submits, pays, audits, or supports supplier invoic
 
 Map: STK-001 and STK-005 manage closely; STK-002 and STK-003 keep satisfied and involved; STK-004 keep informed; STK-006 monitor.
 Assumption: STK-003 resistance is inferred from 5 interviews; confirm with the survey (due 14 June).
+Persona: "Busy budget holder" represents STK-003, based on 5 interviews and a survey of 42 approvers: wants to approve between meetings; unsure what to check.

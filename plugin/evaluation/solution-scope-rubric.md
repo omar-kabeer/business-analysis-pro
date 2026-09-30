@@ -50,7 +50,7 @@ Total the scores (maximum 24):
 - Pass with changes: 14 to 19, or a single quick-to-fix dimension at 1.
 - Fail: below 14, or any dimension at 0.
 
-Record findings by severity with a specific fix, and route material issues back to the strategy skill.
+Dimensions 1 (boundaries clear) and 4 (out of scope) are blocking: a score of 0 on either fails the scope whatever the total. Record findings by severity with a specific fix, and route material issues back to the strategy skill.
 
 ## Findings template
 

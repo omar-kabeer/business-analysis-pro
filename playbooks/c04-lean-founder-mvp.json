@@ -47,13 +47,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-vision-brief.md",
-        "contentHash": "727b2e801f93bfaa1c26352074bee608ce865826c9bece8ff7a9736ac12e876d"
+        "contentHash": "3093443c2af7f2d1d82db7014b50d580c48bed84b1a3cbc85052501ad89d6ac0"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/product-vision-brief-rubric.md",
-          "contentHash": "dd16af29f04ac35362a22d9a1fd458e25c374457c7abe73515d130924b9ae75e"
+          "contentHash": "ca217a6e277fd828980ac81cae5d5c451a60a73a118e829c37ce816e2ab567e2"
         }
       }
     },
@@ -84,13 +84,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/solution-scope.md",
-        "contentHash": "ca0d3a195737407a3717e73ddacc33742e0490516362ba62e716d35f3fb3e1ef"
+        "contentHash": "8ed6ed8452a24b29a4d6b330907965fc71d8a7d73c072ebd319821791d09120a"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/solution-scope-rubric.md",
-          "contentHash": "dc017d2c9a52c6351c5cb417d65f88d9307fa0358f0501144dbf4dde7d4aaf3d"
+          "contentHash": "bd09f256316db17fd1ba8a7ff7a1138d08a0cafa05f68768179fc692106c6096"
         }
       }
     },
@@ -121,13 +121,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/user-story-epic.md",
-        "contentHash": "d99ae04605ca18ba1b2e5c0d0f4f9f462c667c07c76c5450eb20d66e6c9e49fa"
+        "contentHash": "eab44ce3ab9b5f5cb7894980b8d31435e1b9f54f554e7dd51259cdcc71027849"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/user-story-rubric.md",
-          "contentHash": "95514e34fee5e7208d1631ccdd899e3e507ec756265538703cbba691b3c18bfc"
+          "key": "business-analysis.rubric.evaluation/user-story-epic-rubric.md",
+          "contentHash": "2e60bcb7ace02a6fcdc12950df7eba5fe8d8bcb2be0b9b0b97c1b2a5e763eb45"
         }
       }
     },
@@ -154,13 +154,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/experiment-log.md",
-        "contentHash": "e3892a39c7e753882d70f53296b838c8a3970da3e6672626421550b5d5c6fb45"
+        "contentHash": "1379690f9c3ba2dbb325d3ec0fb3f8a364999e859c688364a824a303e3d40ea7"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/experiment-log-rubric.md",
-          "contentHash": "c031c95bdacbebd8abebff53baa04ab91361dca6721520c77f47defe64a50dfb"
+          "contentHash": "25642d69dfce3d17081f628fcc7d6c566912807868c7f29e17db5e71096da748"
         }
       }
     },
@@ -191,13 +191,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/nfr-specification.md",
-        "contentHash": "289f5eba78c8b8cfc3342268e51809a1a5c1e456cdcc1de61b555055aab3514f"
+        "contentHash": "257f71d72fad3270c05e3ffdf396fc19188e80a3e37e623aa6150670f2f1c503"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/non-functional-requirements-rubric.md",
-          "contentHash": "c4df08debc8185b210aaa5b73d6acf907499b22c352528c0a07a7a9c02b88e8f"
+          "key": "business-analysis.rubric.evaluation/nfr-specification-rubric.md",
+          "contentHash": "e3c9c10c5b56a647de60231904de9d5b67e52ffe0bbec7991af1585cd3af8a87"
         }
       }
     },
@@ -228,13 +228,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prototype-brief.md",
-        "contentHash": "00c233ef1bb8eb4fc933fcbb82685cbef6845f0ef3ede24dcabf1265d5d9aeb2"
+        "contentHash": "25a52896554751103fe688d795a32832eafa3a598049f297b4265c320f852307"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/prototype-rubric.md",
-          "contentHash": "0cc00ed643873e64b39fd8cee447a9a0cc5b9dc2e9a80000c76d6656808e3f27"
+          "key": "business-analysis.rubric.evaluation/prototype-brief-rubric.md",
+          "contentHash": "9fe7b6c1a400a1b59caf1aed3ee12007e38efffaa3ee52e0c4c88340965283b8"
         }
       }
     },
@@ -261,13 +261,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/uat-plan.md",
-        "contentHash": "fbbaae35a3318a8d121f3bcef268ebabf322bd3ea933b29d230458ba3e063fd8"
+        "contentHash": "b98090ee02835c5f7ea47982d00ec8b14847914057b2f42e6e3617be7f606746"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/user-acceptance-test-rubric.md",
-          "contentHash": "c4c0a15eca218cf0df9ec488d178650e6e855f6d3b14cc49dcd760cb89b75aed"
+          "key": "business-analysis.rubric.evaluation/uat-plan-rubric.md",
+          "contentHash": "778673133d37cd70c25668a4004d9d27d8e6694c5725f3e96c894831bc22be38"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "artefactType": "stakeholder-register",
-  "rubric": "evaluation/stakeholder-list-stakeholder-map-personas-rubric.md",
-  "rubricSha256": "8eb9c0d1aa532c49f4b4316024716d5fe9f29de90fa97023a446753509e97bf3",
+  "rubric": "evaluation/stakeholder-register-rubric.md",
+  "rubricSha256": "1e27d32203cd525186f583281b1d7f75c2d67a15fad6307c13fe20c7ca12810a",
   "status": "provisional",
   "tolerance": 1,
   "references": [
@@ -11,12 +11,12 @@
       "expectedVerdict": "pass",
       "scores": {
         "1": 3,
-        "2": 3,
+        "2": 2,
         "3": 3,
-        "4": 2,
+        "4": 3,
         "5": 3,
         "6": 3,
-        "7": 3
+        "7": 2
       }
     },
     {
@@ -25,11 +25,11 @@
       "scores": {
         "1": 2,
         "2": 2,
-        "3": 2,
-        "4": 1,
+        "3": 1,
+        "4": 2,
         "5": 2,
-        "6": 2,
-        "7": 1
+        "6": 1,
+        "7": 2
       }
     },
     {

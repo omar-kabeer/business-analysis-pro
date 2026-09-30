@@ -1,0 +1,28 @@
+{
+  "$comment": "Table of contents for templates/product-vision-brief.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "product-vision-brief",
+  "sections": [
+    { "id": "purpose", "heading": "Purpose", "tier": "core", "purpose": "Why the brief exists and what grades it.", "artefactStandard": "purpose" },
+    { "id": "document-control", "heading": "Document Control", "tier": "core", "purpose": "Owner, version and status." },
+    { "id": "scope", "heading": "Scope", "tier": "core", "purpose": "Product, horizon and what the brief leaves to other documents.", "artefactStandard": "scope", "evidences": [6] },
+    { "id": "inputs", "heading": "Inputs", "tier": "core", "purpose": "The evidence the brief is built from.", "artefactStandard": "inputs", "evidences": [7] },
+    { "id": "vision", "heading": "Vision", "tier": "core", "purpose": "The durable outcome the product works toward.", "evidences": [1, 8] },
+    { "id": "customer-job", "heading": "Target customer and job to be done", "tier": "core", "purpose": "Who the product serves and the job it does.", "evidences": [2, 7] },
+    { "id": "alternative", "heading": "Current alternative and its shortfall", "tier": "core", "purpose": "What customers do today and why it falls short.", "evidences": [3] },
+    { "id": "value", "heading": "Value proposition", "tier": "core", "purpose": "The value delivered and why it is different.", "evidences": [3, 8] },
+    { "id": "measures", "heading": "North-star metric and supporting signals", "tier": "core", "purpose": "How value will be measured.", "evidences": [4] },
+    { "id": "pillars", "heading": "Strategic pillars", "tier": "core", "purpose": "The durable bets the strategy rests on.", "evidences": [5, 8] },
+    { "id": "horizons", "heading": "Horizon outlook", "tier": "standard", "purpose": "Now, next and later outcomes.", "evidences": [6] },
+    { "id": "non-goals", "heading": "What we are not doing", "tier": "core", "purpose": "Deliberate exclusions and why.", "evidences": [6] },
+    { "id": "assumptions", "heading": "Assumptions and evidence", "tier": "core", "purpose": "What is known against what is believed.", "artefactStandard": "assumptions", "evidences": [7] },
+    { "id": "risks", "heading": "Risks", "tier": "core", "purpose": "Risks to value, usability, feasibility and viability.", "artefactStandard": "risks", "evidences": [7] },
+    { "id": "market", "heading": "Competitive and market context", "tier": "extended", "purpose": "How alternatives answer the same job.", "when": { "audience": ["executive"] }, "evidences": [3] },
+    { "id": "business-model", "heading": "Business model and viability", "tier": "extended", "purpose": "Value to the business and investment needed.", "when": { "audience": ["executive"], "formality": ["formal"] }, "evidences": [8] },
+    { "id": "sign-off", "heading": "Alignment and sign-off", "tier": "extended", "purpose": "Who reviewed and endorsed the vision.", "when": { "formality": ["formal"] }, "evidences": [8] },
+    { "id": "outputs", "heading": "Outputs", "tier": "core", "purpose": "What the brief feeds.", "artefactStandard": "outputs" },
+    { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the brief.", "artefactStandard": "review-criteria" },
+    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
+  ]
+}

@@ -167,13 +167,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/stakeholder-register.md",
-        "contentHash": "d239b1f603403d6e95b15f8636808ba9aec0655a707732d1bfb7ff4bfb7c210a"
+        "contentHash": "7597a6f93593988711dbfbab0f7fc62eb85fbb8d945b920ef4b48787853f03ff"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/stakeholder-list-stakeholder-map-personas-rubric.md",
-          "contentHash": "8eb9c0d1aa532c49f4b4316024716d5fe9f29de90fa97023a446753509e97bf3"
+          "key": "business-analysis.rubric.evaluation/stakeholder-register-rubric.md",
+          "contentHash": "1e27d32203cd525186f583281b1d7f75c2d67a15fad6307c13fe20c7ca12810a"
         }
       }
     }

@@ -1,0 +1,27 @@
+{
+  "$comment": "Table of contents for templates/prototype-brief.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "prototype-brief",
+  "sections": [
+    { "id": "purpose", "heading": "Purpose", "tier": "core", "purpose": "Why the brief exists and what grades it.", "artefactStandard": "purpose" },
+    { "id": "document-control", "heading": "Document Control", "tier": "core", "purpose": "Owner, version and status." },
+    { "id": "scope", "heading": "Scope", "tier": "core", "purpose": "What is included, stubbed and absent.", "artefactStandard": "scope", "evidences": [3] },
+    { "id": "inputs", "heading": "Inputs", "tier": "core", "purpose": "The requirements and research the prototype explores.", "artefactStandard": "inputs", "evidences": [6] },
+    { "id": "question", "heading": "The question", "tier": "core", "purpose": "The uncertainty, the question and the decision it informs.", "evidences": [1] },
+    { "id": "type-fidelity", "heading": "Type and fidelity", "tier": "core", "purpose": "The kind of prototype and why it fits.", "evidences": [2] },
+    { "id": "content-data", "heading": "Content and data", "tier": "standard", "purpose": "Realistic content including edge cases.", "evidences": [4] },
+    { "id": "session-plan", "heading": "Session plan", "tier": "core", "purpose": "Participants, tasks and consent.", "evidences": [4] },
+    { "id": "findings", "heading": "Findings", "tier": "core", "purpose": "Observations, interpretations and what each becomes.", "artefactStandard": "outputs", "evidences": [5] },
+    { "id": "traceability", "heading": "Traceability to requirements", "tier": "standard", "purpose": "Which requirements were explored and their outcome.", "evidences": [6] },
+    { "id": "open-questions", "heading": "Open questions", "tier": "standard", "purpose": "What is still unresolved and how it will be.", "evidences": [5] },
+    { "id": "assumptions", "heading": "Assumptions", "tier": "core", "purpose": "What the prototype takes as true.", "artefactStandard": "assumptions", "evidences": [2] },
+    { "id": "risks", "heading": "Risks", "tier": "core", "purpose": "Risks the prototype creates.", "artefactStandard": "risks", "evidences": [7] },
+    { "id": "disposition", "heading": "Disposition", "tier": "core", "purpose": "Discard, evolve or retain, and why.", "evidences": [7] },
+    { "id": "poc", "heading": "Technical proof of concept", "tier": "extended", "purpose": "The technical question and what was proven.", "when": { "perspective": ["information-technology"], "risk": ["high"] }, "evidences": [1, 5] },
+    { "id": "accessibility", "heading": "Accessibility check", "tier": "extended", "purpose": "Accessibility issues found and their handling.", "when": { "audience": ["customer"], "regulated": [true] }, "evidences": [5] },
+    { "id": "outputs", "heading": "Outputs", "tier": "standard", "purpose": "What the prototype hands on.", "evidences": [5] },
+    { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the brief.", "artefactStandard": "review-criteria" },
+    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK techniques." },
+    { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
+  ]
+}

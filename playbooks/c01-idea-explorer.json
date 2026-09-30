@@ -43,13 +43,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-vision-brief.md",
-        "contentHash": "727b2e801f93bfaa1c26352074bee608ce865826c9bece8ff7a9736ac12e876d"
+        "contentHash": "3093443c2af7f2d1d82db7014b50d580c48bed84b1a3cbc85052501ad89d6ac0"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/product-vision-brief-rubric.md",
-          "contentHash": "dd16af29f04ac35362a22d9a1fd458e25c374457c7abe73515d130924b9ae75e"
+          "contentHash": "ca217a6e277fd828980ac81cae5d5c451a60a73a118e829c37ce816e2ab567e2"
         }
       }
     },
@@ -76,13 +76,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/experiment-log.md",
-        "contentHash": "e3892a39c7e753882d70f53296b838c8a3970da3e6672626421550b5d5c6fb45"
+        "contentHash": "1379690f9c3ba2dbb325d3ec0fb3f8a364999e859c688364a824a303e3d40ea7"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/experiment-log-rubric.md",
-          "contentHash": "c031c95bdacbebd8abebff53baa04ab91361dca6721520c77f47defe64a50dfb"
+          "contentHash": "25642d69dfce3d17081f628fcc7d6c566912807868c7f29e17db5e71096da748"
         }
       }
     },
@@ -101,13 +101,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/stakeholder-register.md",
-        "contentHash": "d239b1f603403d6e95b15f8636808ba9aec0655a707732d1bfb7ff4bfb7c210a"
+        "contentHash": "7597a6f93593988711dbfbab0f7fc62eb85fbb8d945b920ef4b48787853f03ff"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/stakeholder-list-stakeholder-map-personas-rubric.md",
-          "contentHash": "8eb9c0d1aa532c49f4b4316024716d5fe9f29de90fa97023a446753509e97bf3"
+          "key": "business-analysis.rubric.evaluation/stakeholder-register-rubric.md",
+          "contentHash": "1e27d32203cd525186f583281b1d7f75c2d67a15fad6307c13fe20c7ca12810a"
         }
       }
     },

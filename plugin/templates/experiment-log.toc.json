@@ -1,0 +1,25 @@
+{
+  "$comment": "Table of contents for templates/experiment-log.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "experiment-log",
+  "sections": [
+    { "id": "purpose", "heading": "Purpose", "tier": "core", "purpose": "Why the log exists and what grades it.", "artefactStandard": "purpose" },
+    { "id": "document-control", "heading": "Document Control", "tier": "core", "purpose": "Owner, version and status." },
+    { "id": "scope", "heading": "Scope", "tier": "core", "purpose": "The outcome or opportunity the experiments serve.", "artefactStandard": "scope", "evidences": [4] },
+    { "id": "inputs", "heading": "Inputs", "tier": "core", "purpose": "Where experiments come from.", "artefactStandard": "inputs", "evidences": [1] },
+    { "id": "how-to-run", "heading": "How to run an experiment", "tier": "standard", "purpose": "The method from hypothesis to decision.", "evidences": [1, 3] },
+    { "id": "log", "heading": "Experiment log", "tier": "core", "purpose": "One row per experiment with thresholds set before running.", "evidences": [1, 2, 3, 4, 5, 6] },
+    { "id": "design-detail", "heading": "Experiment design detail", "tier": "standard", "purpose": "Sample, duration, confounders and ethics for larger tests.", "evidences": [2, 3] },
+    { "id": "evidence", "heading": "Evidence record", "tier": "standard", "purpose": "Observed evidence kept apart from interpretation.", "evidences": [5] },
+    { "id": "assumptions", "heading": "Assumptions under test", "tier": "core", "purpose": "The assumptions the experiments test and their status.", "artefactStandard": "assumptions", "evidences": [1, 4] },
+    { "id": "decisions", "heading": "Decisions and learnings", "tier": "core", "purpose": "Decision and learning for each completed test.", "artefactStandard": "outputs", "evidences": [6] },
+    { "id": "risks", "heading": "Risks and ethics", "tier": "core", "purpose": "Risks experiments create and their controls.", "artefactStandard": "risks", "evidences": [2] },
+    { "id": "post-mortem", "heading": "Launch post-mortem", "tier": "standard", "purpose": "Expected against actual after a launch.", "evidences": [7] },
+    { "id": "portfolio", "heading": "Portfolio view", "tier": "extended", "purpose": "Leadership summary by risk type and outcome.", "when": { "audience": ["executive"] }, "requires": ["log"], "evidences": [6] },
+    { "id": "approvals", "heading": "Research approvals", "tier": "extended", "purpose": "Approvals for regulated or personal-data experiments.", "when": { "regulated": [true], "formality": ["formal"] }, "requires": ["risks"], "evidences": [2] },
+    { "id": "outputs", "heading": "Outputs", "tier": "standard", "purpose": "Where decisions and learnings go next.", "evidences": [6] },
+    { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the log.", "artefactStandard": "review-criteria" },
+    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK techniques and perspective." },
+    { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
+  ]
+}
