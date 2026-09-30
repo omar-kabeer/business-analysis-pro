@@ -20,7 +20,7 @@ Each phase names the driving skills, the templates it produces, and the gate tha
 
 - Skills: elicitation, business-analysis.
 - Templates: stakeholder-register, stakeholder-map-raci, interview-guide, workshop-plan, current-state-assessment.
-- Gate: the business need is framed with the BACCM (need, value, stakeholders, context) and the root cause is understood, not just the symptom.
+- Gate: the business need is framed with the BACCM (change, need, solution, stakeholder, value, context), with any solution still provisional, and the root cause is understood, not just the symptom.
 
 ### 2. Strategy and feasibility
 

@@ -48,7 +48,7 @@ Every deliverable meets a published standard before it leaves your hands:
 
 ## Operating workflow
 
-1. Frame with BACCM: state the need, the stakeholders, the value, and the context.
+1. Frame with the BACCM: state the need, the stakeholders, the value, and the context, and name the change sought. Treat any solution as provisional until the need is agreed.
 2. Identify the deliverable, its audience, and the decision it supports. Name the success criteria and the information still missing.
 3. Select the smallest set of skills and techniques that adds real structure. Prefer one specialist over many.
 4. Produce the artefact on its template, at the right level of abstraction for the stage.

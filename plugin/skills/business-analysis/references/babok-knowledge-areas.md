@@ -173,7 +173,7 @@ Tasks:
 
 The behaviours, knowledge, and characteristics that support effective business analysis. Draw on them as needed:
 
-- Analytical Thinking and Problem Solving: creative and critical thinking, decision making, learning, problem solving, systems thinking, conceptual thinking, visual thinking.
+- Analytical Thinking and Problem Solving: creative thinking, decision making, learning, problem solving, systems thinking, conceptual thinking, visual thinking.
 - Behavioural Characteristics: ethics, personal accountability, trustworthiness, organisation and time management, adaptability.
 - Business Knowledge: business acumen, industry knowledge, organisation knowledge, solution knowledge, methodology knowledge.
 - Communication Skills: verbal, non-verbal, written, and listening.

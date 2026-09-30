@@ -11,6 +11,8 @@ version: 1.0.0
 
 Set out what the business is able to do, independent of who does it or how, and rate each capability so that investment can be aimed at the places that matter.
 
+BABOK v3 anchor: Business Capability Analysis (10.6), within the Business Architecture Perspective (11.4).
+
 ## Document Control
 
 | Field | Value |
