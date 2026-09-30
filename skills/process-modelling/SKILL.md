@@ -44,6 +44,10 @@ Process modelling (BPMN, flowcharts), swimlane diagrams, SIPOC, value stream map
 
 The process is modelled to the needed depth, analysed for improvement, and the opportunities and resulting requirements are handed on.
 
+## Method reference
+
+For the full method, read `references/process-analysis-playbook.md`: framing with SIPOC, notation and level, current-state modelling from evidence, analysis and root cause, future-state design, and turning the model into requirements (10.34, 10.35, 10.40). It ends with a worked example.
+
 ## House style
 
 Run the natural-prose-editor pass on any narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

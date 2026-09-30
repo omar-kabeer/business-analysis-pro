@@ -45,6 +45,10 @@ Stakeholder update, status and steering committee report, project email, change 
 
 The message is tailored, leads with its point, states any ask, and is honest about status and risk.
 
+## Method reference
+
+For the full method, read `references/stakeholder-communication-playbook.md`: audience analysis, purpose and key message, answer first, plain language, format and channel, honest status, and closing the loop (4.4, 4.5). It ends with a worked example.
+
 ## House style
 
 Run the natural-prose-editor skill as the final language pass. No em dashes. See `docs/methodology/editorial-style.md`.

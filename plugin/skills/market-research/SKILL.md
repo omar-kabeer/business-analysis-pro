@@ -45,6 +45,10 @@ Top-down and bottom-up sizing, TAM/SAM/SOM, competitor and substitute mapping, F
 
 The market is bounded and sized with reconciled methods, competition and trends are mapped, and an opportunity assessment with sources and confidence is ready to inform strategy or finance.
 
+## Method reference
+
+For the full method, read `references/market-analysis-playbook.md`: market definition, triangulated sizing, competition including the do-nothing alternative, environment scans, segmentation, and synthesis into a position (10.4, 10.46). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

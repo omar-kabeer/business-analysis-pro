@@ -41,6 +41,10 @@ Keep delivery controlled, transparent, and auditable. Maintain the artifacts tha
 
 The relevant governance artifacts are populated, owned, scored where applicable, and traceable, and any readiness decision is recorded with its conditions.
 
+## Method reference
+
+For the full method, read `references/delivery-governance-playbook.md`: decision rights, the RAID log, risk to ISO 31000, the decision log, change control, traceability, escalation rules, and release readiness (3.3, 5.4, 5.5). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

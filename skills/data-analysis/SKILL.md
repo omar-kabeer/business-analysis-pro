@@ -44,6 +44,10 @@ Metrics and KPIs, data dictionary, data modelling (entity relationship), data fl
 
 The measures, definitions, and any models are agreed and decision-ready, and interpretation is honest about its limits.
 
+## Method reference
+
+For the full method, read `references/measurement-and-analysis-playbook.md`: measures derived from decisions and objectives, precise definitions, baselines before targets, validity guards, the CRISP-DM cycle, and honest reporting (10.28, 8.1, 8.2). It ends with a worked example.
+
 ## House style
 
 Run the natural-prose-editor pass on any narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

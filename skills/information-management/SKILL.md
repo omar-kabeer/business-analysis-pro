@@ -45,6 +45,10 @@ Make business analysis information findable, current, and reusable. Own the regi
 
 Every artefact the initiative produces is registered, named to convention, versioned, owned, and locatable, and the baseline rules are agreed.
 
+## Method reference
+
+For the full method, read `references/information-management-playbook.md`: repository, identifiers, attributes, versions and baselines, traceability depth, classification and retention, and maintenance for reuse (3.4, 5.1, 5.2). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

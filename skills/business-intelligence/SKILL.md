@@ -48,6 +48,10 @@ Specify how data becomes a decision. Cover the path from source systems through 
 
 Sources are inventoried, mappings and transformations are specified, storage and quality rules are defined, and every delivery artefact is traced to a decision with an owner.
 
+## Method reference
+
+For the full method, read `references/bi-delivery-playbook.md`: decisions and questions first, measure definitions, source profiling, dimensional design, source-to-target mapping, output and non-functional specification, reconciliation, and governance (11.2). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
