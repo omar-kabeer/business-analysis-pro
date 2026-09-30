@@ -105,13 +105,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/journey-map.md",
-        "contentHash": "0d73b3e5410a1cbbc06885c6fd54ed29bbc1766b8fe612baafc4feacd9436663"
+        "contentHash": "00f7677abdde20d41fe22e76332e65d12cf5a1ff2c207028cfb13c62ce105636"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/customer-journey-map-rubric.md",
-          "contentHash": "aa19ce5bfad81b38e8937c3dff300a084fe862ec03bba997acc5b2c85602a406"
+          "contentHash": "18993673c0cdc5640e22b6681dd7d98c21800d683c521d950649d3e3c2f64eee"
         }
       }
     },
@@ -249,13 +249,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prd.md",
-        "contentHash": "4007f807e05273f23ba78a15bfd0365671f5abb3914a72f6e7b43b46fd92efa0"
+        "contentHash": "37a0bf5dd6dc72f35551f3dfaf61c38482dbe8d40ee260cdf89f51c30e6b6941"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/prd-rubric.md",
-          "contentHash": "d1b41db3e233936ba893025c71a6c37817eb9e58c969ade38fd50c1c19da2cf3"
+          "contentHash": "13d2099dcfe48c9f860a6c032a3b87fbacf0c594dc6c37d250a7986df6eea77e"
         }
       }
     }

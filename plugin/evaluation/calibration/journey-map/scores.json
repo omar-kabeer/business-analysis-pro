@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "artefactType": "journey-map",
+  "rubric": "evaluation/customer-journey-map-rubric.md",
+  "rubricSha256": "18993673c0cdc5640e22b6681dd7d98c21800d683c521d950649d3e3c2f64eee",
+  "status": "provisional",
+  "tolerance": 1,
+  "references": [
+    {
+      "file": "strong.md",
+      "expectedVerdict": "pass",
+      "scores": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 3
+      }
+    },
+    {
+      "file": "borderline.md",
+      "expectedVerdict": "pass_with_changes",
+      "scores": {
+        "1": 3,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 1,
+        "6": 2,
+        "7": 2
+      }
+    },
+    {
+      "file": "failing.md",
+      "expectedVerdict": "fail",
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0
+      }
+    }
+  ]
+}

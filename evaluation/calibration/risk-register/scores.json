@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "artefactType": "risk-register",
+  "rubric": "evaluation/risk-register-rubric.md",
+  "rubricSha256": "d5775ba95db6c0c18237b09821ce7cd92854104915ee08b8ca099f32f7593935",
+  "status": "provisional",
+  "tolerance": 1,
+  "references": [
+    {
+      "file": "strong.md",
+      "expectedVerdict": "pass",
+      "scores": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 3
+      }
+    },
+    {
+      "file": "borderline.md",
+      "expectedVerdict": "pass_with_changes",
+      "scores": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 1,
+        "7": 2
+      }
+    },
+    {
+      "file": "failing.md",
+      "expectedVerdict": "fail",
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 1
+      }
+    }
+  ]
+}

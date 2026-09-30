@@ -1,0 +1,170 @@
+{
+  "$comment": "Table of contents for templates/elicitation-activity-plan.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "elicitation-activity-plan",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the plan exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the plan covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the plan is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "outcomes",
+      "heading": "Desired outcomes",
+      "tier": "core",
+      "purpose": "What each activity must produce and what it feeds.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "activities",
+      "heading": "Activities and techniques",
+      "tier": "core",
+      "purpose": "Techniques matched to outcomes and people.",
+      "evidences": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "participants",
+      "heading": "Participants",
+      "tier": "core",
+      "purpose": "Who takes part and their availability.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "logistics",
+      "heading": "Logistics",
+      "tier": "standard",
+      "purpose": "Schedule, place and resources.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "materials",
+      "heading": "Supporting materials",
+      "tier": "standard",
+      "purpose": "Materials with owners and dates.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "collaboration",
+      "heading": "Collaboration conditions",
+      "tier": "standard",
+      "purpose": "What helps people take part openly.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the plan and their responses.",
+      "artefactStandard": "risks"
+    },
+    {
+      "id": "fit",
+      "heading": "Fit with the approach",
+      "tier": "standard",
+      "purpose": "Fit with the BA and engagement approaches.",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "remote",
+      "heading": "Remote and distributed elicitation",
+      "tier": "standard",
+      "purpose": "Tools, time zones and equal participation.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "confidentiality",
+      "heading": "Confidentiality and data handling",
+      "tier": "extended",
+      "purpose": "Storage and access for recordings and notes.",
+      "when": {
+        "regulated": [
+          true
+        ]
+      },
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the plan produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the plan.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

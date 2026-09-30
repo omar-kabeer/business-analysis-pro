@@ -1,0 +1,178 @@
+{
+  "$comment": "Table of contents for templates/journey-map.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "journey-map",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the map exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the map covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the map is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "persona",
+      "heading": "Persona summary",
+      "tier": "standard",
+      "purpose": "Who the journey is for and what matters to them.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "stages",
+      "heading": "Journey stages",
+      "tier": "core",
+      "purpose": "Actions, touchpoints, thoughts, emotions and pains per stage.",
+      "evidences": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "moments",
+      "heading": "Moments that matter",
+      "tier": "core",
+      "purpose": "The moments that most shape the experience.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "opportunities",
+      "heading": "Opportunities",
+      "tier": "core",
+      "purpose": "Prioritised opportunities and their hand-offs.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the map and their responses.",
+      "artefactStandard": "risks"
+    },
+    {
+      "id": "back-stage",
+      "heading": "Back-stage view",
+      "tier": "extended",
+      "purpose": "Internal actions and systems behind each stage.",
+      "when": {
+        "perspective": [
+          "business-process-management"
+        ]
+      },
+      "requires": [
+        "stages"
+      ],
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "future-state",
+      "heading": "Future-state journey",
+      "tier": "extended",
+      "purpose": "The intended journey and what enables it.",
+      "when": {
+        "approach": [
+          "adaptive",
+          "hybrid"
+        ]
+      },
+      "requires": [
+        "stages"
+      ],
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "metrics",
+      "heading": "Journey metrics",
+      "tier": "extended",
+      "purpose": "Metric per stage with baseline and target.",
+      "when": {
+        "perspective": [
+          "business-intelligence"
+        ]
+      },
+      "requires": [
+        "stages"
+      ],
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the map produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the map.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

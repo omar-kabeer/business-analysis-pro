@@ -220,13 +220,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/interview-guide.md",
-        "contentHash": "230173bc1927ecff1c4fac6139800ae7f8c26431bebef4dc1fb6b6b9d5096550"
+        "contentHash": "70d32b0750f3e3764eeb710cee9d48f88c011d32baac685f68daf55a273fcef9"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/interview-guide-rubric.md",
-          "contentHash": "1b4b48395c7a3f2fc6d1f6f2c74f120fb67138e68a0626d36e91351e7bd59d87"
+          "contentHash": "ac700079bcbf9d7702891bfe68ac4608c4ac07184ccf94510effd6488cf88cb1"
         }
       }
     },
