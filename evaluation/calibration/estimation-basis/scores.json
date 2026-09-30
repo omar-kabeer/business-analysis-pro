@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "artefactType": "estimation-basis",
+  "rubric": "evaluation/estimate-cost-effort-forecasts-with-ranges-rubric.md",
+  "rubricSha256": "e223baadcce21e2378ac712bdf2af2fd0580996810696d2ffd2962236af29936",
+  "status": "provisional",
+  "tolerance": 1,
+  "references": [
+    {
+      "file": "strong.md",
+      "expectedVerdict": "pass",
+      "scores": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 3
+      }
+    },
+    {
+      "file": "borderline.md",
+      "expectedVerdict": "pass_with_changes",
+      "scores": {
+        "1": 2,
+        "2": 1,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 1,
+        "7": 2
+      }
+    },
+    {
+      "file": "failing.md",
+      "expectedVerdict": "fail",
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 1,
+        "7": 0
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "$comment": "Table of contents for templates/solution-performance-measures.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "solution-performance-measures",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the measures exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the measures covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the measures is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "measures",
+      "heading": "Measures",
+      "tier": "core",
+      "purpose": "Measures, what they indicate and KPIs.",
+      "evidences": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "baselines",
+      "heading": "Baselines and targets",
+      "tier": "core",
+      "purpose": "Baseline, source and target per measure.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "validity",
+      "heading": "Validity check",
+      "tier": "core",
+      "purpose": "How each measure could mislead.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "collection",
+      "heading": "Collection",
+      "tier": "standard",
+      "purpose": "Source, frequency and effort.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "reporting",
+      "heading": "Reporting",
+      "tier": "standard",
+      "purpose": "Audience, frequency and triggers.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the measures and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "qualitative",
+      "heading": "Qualitative measures",
+      "tier": "extended",
+      "purpose": "Evidence for hard-to-count value.",
+      "when": {
+        "audience": [
+          "customer"
+        ],
+        "perspective": [
+          "business-intelligence"
+        ]
+      },
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "scorecard",
+      "heading": "Enterprise scorecard link",
+      "tier": "extended",
+      "purpose": "Roll-up to the enterprise scorecard.",
+      "when": {
+        "audience": [
+          "executive"
+        ]
+      },
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the measures produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the measures.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

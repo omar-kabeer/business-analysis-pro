@@ -1,6 +1,6 @@
 # Process Model Evaluation Rubric
 
-A repeatable rubric for judging whether a process model represents a process correctly and usably. A process model, in a notation such as a flowchart, BPMN, or swimlane, shows the steps, decisions, and flow of a process. Used by the process-modelling and visual-modelling skills. Based on BABOK Process Modelling (10.35).
+A repeatable rubric for judging whether a process model represents a process correctly and usably. A process model, in a notation such as a flowchart, BPMN, or swimlane, shows the steps, decisions, and flow of a process. Used by the process-modelling and visual-modelling skills. Based on BABOK Process Modelling (10.35). Applied to models produced from `templates/process-model.md`.
 
 ## Scoring scale
 
@@ -49,7 +49,7 @@ Total the scores (maximum 21):
 - Pass with changes: 12 to 16, or a single quick-to-fix dimension at 1.
 - Fail: below 12, or any dimension at 0.
 
-Record findings by severity with a specific fix, and route material issues back to the process-modelling skill.
+Dimensions 2 (start and end events) and 3 (no dangling paths) are blocking: a score of 0 on either fails the document whatever the total. Record findings by severity with a specific fix, and route material issues back to the process-modelling skill.
 
 ## Findings template
 

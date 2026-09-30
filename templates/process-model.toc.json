@@ -1,0 +1,200 @@
+{
+  "$comment": "Table of contents for templates/process-model.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "process-model",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the model exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the model covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the model is built from.",
+      "artefactStandard": "inputs"
+    },
+    {
+      "id": "sipoc",
+      "heading": "SIPOC",
+      "tier": "core",
+      "purpose": "The process boundary.",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "notation",
+      "heading": "Notation and level",
+      "tier": "core",
+      "purpose": "Notation, conventions and level of detail.",
+      "evidences": [
+        1,
+        6
+      ]
+    },
+    {
+      "id": "summary",
+      "heading": "Process summary",
+      "tier": "core",
+      "purpose": "Start and end events, roles and volume.",
+      "evidences": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "current",
+      "heading": "Current-state flow",
+      "tier": "core",
+      "purpose": "Ordered steps, decisions and handoffs.",
+      "evidences": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "analysis",
+      "heading": "Analysis",
+      "tier": "standard",
+      "purpose": "Delays, rework and root causes."
+    },
+    {
+      "id": "future",
+      "heading": "Future-state flow",
+      "tier": "core",
+      "purpose": "The improved flow and what changes.",
+      "evidences": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "checks",
+      "heading": "Model checks",
+      "tier": "core",
+      "purpose": "Validity and readability checks.",
+      "evidences": [
+        1,
+        2,
+        3,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the model and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "diagram",
+      "heading": "Diagram",
+      "tier": "extended",
+      "purpose": "The flow drawn in the chosen notation.",
+      "when": {
+        "audience": [
+          "executive",
+          "customer"
+        ],
+        "perspective": [
+          "business-process-management"
+        ]
+      },
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "metrics",
+      "heading": "Process metrics",
+      "tier": "extended",
+      "purpose": "Measures per step.",
+      "when": {
+        "perspective": [
+          "business-process-management",
+          "business-intelligence"
+        ]
+      },
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "controls",
+      "heading": "Controls and compliance",
+      "tier": "extended",
+      "purpose": "Controls in the flow and their evidence.",
+      "when": {
+        "regulated": [
+          true
+        ]
+      },
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the model produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the model.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

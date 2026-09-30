@@ -183,13 +183,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/solution-performance-measures.md",
-        "contentHash": "8fb1e484643e0e68063f076e9f3320d6d57fe191b88fe9c33b710c77a9a5c488"
+        "contentHash": "8804a6f84b69637e4cad64b9596e4dd5fd24100d8177035c3dcc0893a16a33a3"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/solution-performance-measures-rubric.md",
-          "contentHash": "b6f0b7402e30ff90878b7e91ee47aa8b90a32de98815d3c574dfcecdcf962299"
+          "contentHash": "c1ecacdf741303ca25b4b7af76710c33ea8cd91c47f42a450de99a53d1b0cf87"
         }
       }
     },

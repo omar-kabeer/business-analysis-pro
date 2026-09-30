@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "artefactType": "business-case",
+  "rubric": "evaluation/business-case-rubric.md",
+  "rubricSha256": "0a2a838d786503c163ed93e3ed1234063d66532c572774f6579e351db09c1043",
+  "status": "provisional",
+  "tolerance": 1,
+  "references": [
+    {
+      "file": "strong.md",
+      "expectedVerdict": "pass",
+      "scores": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 3,
+        "8": 3,
+        "9": 3
+      }
+    },
+    {
+      "file": "borderline.md",
+      "expectedVerdict": "pass_with_changes",
+      "scores": {
+        "1": 2,
+        "2": 2,
+        "3": 2,
+        "4": 2,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 2,
+        "9": 2
+      }
+    },
+    {
+      "file": "failing.md",
+      "expectedVerdict": "fail",
+      "scores": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 1,
+        "8": 0,
+        "9": 1
+      }
+    }
+  ]
+}

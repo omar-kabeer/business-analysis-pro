@@ -171,13 +171,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/process-model.md",
-        "contentHash": "4c73b952a66d58528b8bb8168b9d4863d0bd9f3c18f27361d4db8e1c8db98753"
+        "contentHash": "c63fd6570f0f533e51fa3fbcfcf9b9a7a6311453d24266e80523157a6ca297e2"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/process-model-rubric.md",
-          "contentHash": "b383438682842b995f2dcee7361a5d19cfc15f8723945b00d8bc0bfc97e16e64"
+          "contentHash": "f5834383fa86c68f68c284a52aa6ab8024ffc87edccf4e984a9d21aab6d42b75"
         }
       }
     },

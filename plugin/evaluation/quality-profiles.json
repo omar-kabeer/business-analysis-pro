@@ -67,7 +67,11 @@
       "template": "templates/business-case.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/business-case-rubric.md"
+        "rubric": "evaluation/business-case-rubric.md",
+        "blocking": [
+          4,
+          9
+        ]
       },
       "reviewers": [
         "deliverable-critic",
@@ -253,7 +257,11 @@
       "template": "templates/estimation-basis.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/estimate-cost-effort-forecasts-with-ranges-rubric.md"
+        "rubric": "evaluation/estimate-cost-effort-forecasts-with-ranges-rubric.md",
+        "blocking": [
+          1,
+          3
+        ]
       }
     },
     "executive-summary": {
@@ -454,7 +462,11 @@
       "template": "templates/process-model.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/process-model-rubric.md"
+        "rubric": "evaluation/process-model-rubric.md",
+        "blocking": [
+          2,
+          3
+        ]
       },
       "reviewers": [
         "model-verifier"
@@ -464,7 +476,11 @@
       "template": "templates/product-roadmap.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/product-roadmap-rubric.md"
+        "rubric": "evaluation/product-roadmap-rubric.md",
+        "blocking": [
+          1,
+          5
+        ]
       }
     },
     "product-strategy": {
@@ -521,7 +537,11 @@
       "template": "templates/release-plan-and-notes.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/release-plan-release-backlog-rubric.md"
+        "rubric": "evaluation/release-plan-release-backlog-rubric.md",
+        "blocking": [
+          1,
+          6
+        ]
       }
     },
     "release-readiness-checklist": {
@@ -535,7 +555,11 @@
       "template": "templates/requirements-architecture.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/requirements-architecture-rubric.md"
+        "rubric": "evaluation/requirements-architecture-rubric.md",
+        "blocking": [
+          1,
+          2
+        ]
       },
       "reviewers": [
         "requirements-verifier",
@@ -613,7 +637,11 @@
       "template": "templates/solution-performance-measures.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/solution-performance-measures-rubric.md"
+        "rubric": "evaluation/solution-performance-measures-rubric.md",
+        "blocking": [
+          3,
+          5
+        ]
       },
       "reviewers": [
         "solution-value-auditor"
@@ -753,7 +781,11 @@
       "template": "templates/workshop-plan.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/workshop-plan-rubric.md"
+        "rubric": "evaluation/workshop-plan-rubric.md",
+        "blocking": [
+          1,
+          8
+        ]
       }
     }
   }

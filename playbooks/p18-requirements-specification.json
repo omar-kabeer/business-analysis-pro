@@ -232,13 +232,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/requirements-architecture.md",
-        "contentHash": "3148758027333ab1603f64de29df000d035445661a467b8aa05f94a87d432143"
+        "contentHash": "453a64f7fa471c7bb3b3cf5c4e327278309a792b2e09a964ec42484e728b6950"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/requirements-architecture-rubric.md",
-          "contentHash": "674ce7bee4e631cea7ad1163d635a6c9b9dbbd7a5e292f5573972d84b2852298"
+          "contentHash": "2c77eeac34c7ccaa5568510b55139526f5c993083d6b9424eea126e01d72ffd1"
         }
       }
     }

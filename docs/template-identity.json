@@ -1,0 +1,330 @@
+{
+  "$comment": "Title and frontmatter domain of every template. Kryterea's document catalogue reads both (scripts/compile-document-catalogue.mjs), so a change moves the type in the product. Change a value here only on purpose; the validator fails when a template drifts from this file.",
+  "schemaVersion": 1,
+  "templates": {
+    "README": {
+      "title": "Templates",
+      "domain": null
+    },
+    "artefact-register": {
+      "title": "Artefact Register",
+      "domain": "information-management"
+    },
+    "bi-report-specification": {
+      "title": "Report and Dashboard Specification",
+      "domain": "data"
+    },
+    "brd": {
+      "title": "Business Requirements Document",
+      "domain": "business-analysis"
+    },
+    "business-analysis-approach": {
+      "title": "Business Analysis Approach",
+      "domain": "ba-planning"
+    },
+    "business-analysis-information-communicated": {
+      "title": "Business Analysis Information (communicated)",
+      "domain": "communication"
+    },
+    "business-analysis-performance-assessment": {
+      "title": "Business Analysis Performance Assessment",
+      "domain": "quality"
+    },
+    "business-capability-map": {
+      "title": "Business Capability Map",
+      "domain": "architecture"
+    },
+    "business-case": {
+      "title": "Business Case",
+      "domain": "finance"
+    },
+    "business-model-canvas": {
+      "title": "Business Model Canvas",
+      "domain": "strategy"
+    },
+    "business-objectives": {
+      "title": "Business Objectives",
+      "domain": "strategy"
+    },
+    "business-rules-catalogue": {
+      "title": "Business Rules Catalogue",
+      "domain": "requirements"
+    },
+    "change-request": {
+      "title": "Change Request and Impact Assessment",
+      "domain": "governance"
+    },
+    "change-strategy": {
+      "title": "Change Strategy",
+      "domain": "strategy"
+    },
+    "compliance-obligation-register": {
+      "title": "Compliance Obligation Register",
+      "domain": "compliance"
+    },
+    "context-diagram": {
+      "title": "Context Diagram",
+      "domain": "architecture"
+    },
+    "current-state-assessment": {
+      "title": "Current State Assessment",
+      "domain": "business-analysis"
+    },
+    "data-dictionary": {
+      "title": "Data Dictionary",
+      "domain": "requirements"
+    },
+    "decision-log": {
+      "title": "Decision Log",
+      "domain": "governance"
+    },
+    "decision-matrix": {
+      "title": "Weighted Decision Matrix",
+      "domain": "decision"
+    },
+    "design-options": {
+      "title": "Design Options",
+      "domain": "architecture"
+    },
+    "designs-approved": {
+      "title": "Designs (approved)",
+      "domain": "governance"
+    },
+    "designs-change-assessment": {
+      "title": "Designs Change Assessment",
+      "domain": "change-control"
+    },
+    "designs-maintained": {
+      "title": "Designs (maintained)",
+      "domain": "architecture"
+    },
+    "designs-prioritized": {
+      "title": "Designs (prioritized)",
+      "domain": "architecture"
+    },
+    "designs-traced": {
+      "title": "Designs (traced)",
+      "domain": "architecture"
+    },
+    "elicitation-activity-plan": {
+      "title": "Elicitation Activity Plan",
+      "domain": "elicitation"
+    },
+    "empathy-map": {
+      "title": "Empathy Map",
+      "domain": "ux"
+    },
+    "enterprise-limitation": {
+      "title": "Enterprise Limitation",
+      "domain": "solution-evaluation"
+    },
+    "estimation-basis": {
+      "title": "Estimation Basis",
+      "domain": "planning"
+    },
+    "executive-summary": {
+      "title": "Executive Summary",
+      "domain": "executive-review"
+    },
+    "experiment-log": {
+      "title": "Experiment and Post-Mortem Log",
+      "domain": "product-management"
+    },
+    "frd": {
+      "title": "Functional Requirements Document (FRD)",
+      "domain": "requirements"
+    },
+    "future-state-definition": {
+      "title": "Future State Definition",
+      "domain": "business-analysis"
+    },
+    "gap-analysis": {
+      "title": "Gap Analysis",
+      "domain": "business-analysis"
+    },
+    "go-to-market-plan": {
+      "title": "Go-to-Market Plan",
+      "domain": "product-management"
+    },
+    "governance-approach": {
+      "title": "Governance Approach",
+      "domain": "governance"
+    },
+    "information-management-approach": {
+      "title": "Information Management Approach",
+      "domain": "information-management"
+    },
+    "interview-guide": {
+      "title": "Interview Guide",
+      "domain": "business-analysis"
+    },
+    "journey-map": {
+      "title": "Customer Journey Map",
+      "domain": "ux"
+    },
+    "logical-data-model": {
+      "title": "Logical Data Model",
+      "domain": "data"
+    },
+    "meeting-notes": {
+      "title": "Meeting Notes",
+      "domain": "communication"
+    },
+    "nfr-specification": {
+      "title": "Non-Functional Requirements Specification",
+      "domain": "requirements"
+    },
+    "okrs": {
+      "title": "OKRs",
+      "domain": "strategy"
+    },
+    "opportunity-solution-tree": {
+      "title": "Opportunity Solution Tree",
+      "domain": "product-management"
+    },
+    "persona": {
+      "title": "Persona",
+      "domain": "ux"
+    },
+    "potential-value": {
+      "title": "Potential Value",
+      "domain": "strategy"
+    },
+    "prd": {
+      "title": "Product Requirements Document (PRD)",
+      "domain": "product-management"
+    },
+    "prioritization-matrix": {
+      "title": "Prioritization Matrix",
+      "domain": "product-management"
+    },
+    "process-model": {
+      "title": "Process Model",
+      "domain": "business-analysis"
+    },
+    "product-roadmap": {
+      "title": "Product Roadmap",
+      "domain": "product-management"
+    },
+    "product-strategy": {
+      "title": "Product Strategy Document",
+      "domain": "product-management"
+    },
+    "product-vision-brief": {
+      "title": "Product Vision Brief",
+      "domain": "product-management"
+    },
+    "prototype-brief": {
+      "title": "Prototype Brief and Findings",
+      "domain": "design"
+    },
+    "raid-log": {
+      "title": "RAID Log",
+      "domain": "governance"
+    },
+    "recommended-actions": {
+      "title": "Recommended Actions",
+      "domain": "solution-evaluation"
+    },
+    "release-plan-and-notes": {
+      "title": "Release Plan and Notes",
+      "domain": "product-management"
+    },
+    "release-readiness-checklist": {
+      "title": "Release Readiness Checklist",
+      "domain": "quality"
+    },
+    "requirements-architecture": {
+      "title": "Requirements Architecture",
+      "domain": "architecture"
+    },
+    "requirements-change-assessment": {
+      "title": "Requirements Change Assessment",
+      "domain": "change-control"
+    },
+    "requirements-traceability-matrix": {
+      "title": "Requirements Traceability Matrix",
+      "domain": "governance"
+    },
+    "rfp": {
+      "title": "Request for Proposal (RFP)",
+      "domain": "procurement"
+    },
+    "risk-register": {
+      "title": "Risk Register",
+      "domain": "governance"
+    },
+    "service-level-agreement": {
+      "title": "Service Level Agreement",
+      "domain": "procurement"
+    },
+    "solution-limitation": {
+      "title": "Solution Limitation",
+      "domain": "solution-evaluation"
+    },
+    "solution-performance-analysis": {
+      "title": "Solution Performance Analysis",
+      "domain": "solution-evaluation"
+    },
+    "solution-performance-measures": {
+      "title": "Solution Performance Measures",
+      "domain": "solution-evaluation"
+    },
+    "solution-recommendation": {
+      "title": "Solution Recommendation",
+      "domain": "solution-evaluation"
+    },
+    "solution-scope": {
+      "title": "Solution Scope",
+      "domain": "strategy"
+    },
+    "srs": {
+      "title": "Software Requirements Specification (SRS)",
+      "domain": "requirements"
+    },
+    "stakeholder-engagement-approach": {
+      "title": "Stakeholder Engagement Approach",
+      "domain": "elicitation"
+    },
+    "stakeholder-map-raci": {
+      "title": "Stakeholder Map and RACI Matrix",
+      "domain": "business-analysis"
+    },
+    "stakeholder-register": {
+      "title": "Stakeholder Register",
+      "domain": "business-analysis"
+    },
+    "statement-of-work": {
+      "title": "Statement of Work",
+      "domain": "procurement"
+    },
+    "status-report": {
+      "title": "Status Report",
+      "domain": "communication"
+    },
+    "swot-analysis": {
+      "title": "SWOT Analysis",
+      "domain": "strategy"
+    },
+    "uat-plan": {
+      "title": "User Acceptance Test Plan",
+      "domain": "quality"
+    },
+    "use-case-specification": {
+      "title": "Use Case Specification",
+      "domain": "requirements"
+    },
+    "user-story-epic": {
+      "title": "Epic and User Stories",
+      "domain": "product-ownership"
+    },
+    "win-loss-report": {
+      "title": "Win/Loss Report",
+      "domain": "product-management"
+    },
+    "workshop-plan": {
+      "title": "Workshop Plan",
+      "domain": "business-analysis"
+    }
+  }
+}

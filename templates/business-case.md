@@ -2,158 +2,210 @@
 type: deliverable
 domain: finance
 status: draft
-version: 1.0.0
+version: 2.0.0
 ---
 
 # Business Case
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Benefits realisation plan (standard or formal governance, or written for executive readers); Funding and procurement (formal governance, or high risk). The full rules are in `templates/business-case.toc.json`.
+
 ## Purpose
 
-Justify a course of action by comparing the benefits of a proposed solution against the cost, effort, and risk of acquiring and living with it. This is the working form of the BABOK Business Cases technique (10.7), with the financial section built on Financial Analysis (10.20). Keep the effort proportional to the size and importance of the decision. Give decision makers enough to approve without specifying the implementation method.
+Justify a course of action by comparing the benefits of a proposed solution against the cost, effort, and risk of acquiring and living with it. This is the working form of the BABOK Business Cases technique (10.7), with the financial section built on Financial Analysis (10.20). Keep the effort proportional to the size and importance of the decision, and give decision makers enough to approve without specifying the implementation method. Graded by `evaluation/business-case-rubric.md`.
+
+This template is a superset. Its table-of-contents manifest, `templates/business-case.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
 ## Document Control
 
 | Field | Value |
 | --- | --- |
-| Initiative |  |
-| Sponsor |  |
-| Business Analyst |  |
-| Finance reviewer |  |
+| Initiative | Supplier invoice approval |
+| Sponsor | Finance Director |
+| Business analyst | Omar Haddad |
+| Finance reviewer | Management accountant |
 | Version | 1.0.0 |
-| Status | Draft |
-| Last Updated |  |
+| Status | For approval |
 
-## 1. Executive summary
+## Executive summary
 
-Lead with the decision. State the situation, the complication that forces a choice, the recommended option, the quantified value, the main risks, and the specific approval requested. A reader should grasp the ask from this section alone. Draft it last, from the analysis below.
+Lead with the decision. State the situation, the complication that forces a choice, the recommended option, the quantified value, the main risks, and the approval requested. Draft it last, from the analysis below.
 
-## 2. Need assessment
+Example: invoices take 14 days to approve, so 38 percent are paid late and about 60,000 pounds a year of discount is lost. We recommend configuring the ERP's licensed workflow module (option A) for 150,000 pounds up front. Over three years it returns an NPV of about 82,000 pounds at 8 percent, with payback in about 20 months; the main risk is approvers bypassing the tool. We ask the sponsor to approve funding by 2026-06-30.
 
-State the business need that drives the case: the problem or opportunity, expressed from the enterprise perspective, and its link to strategy. Quantify the impact of the current situation and the cost of doing nothing.
+## Scope
+
+State the decision this case supports and its boundary.
+
+Example: funding for release 1 (UK approval workflow). EU entities and the supplier portal will need their own cases.
+
+## Inputs
+
+List the sources behind the numbers, so each can be checked.
+
+| ID | Source | Use |
+| --- | --- | --- |
+| IN-031 | ERP payment report, January to April 2026 | Discount lost; baseline |
+| IN-032 | Estimation basis 1.0.0 | Internal effort |
+| IN-034 | Vendor configuration quote VQ-07 | Configuration cost |
+| IN-033 | AP time study, May 2026 | Staff time released |
+
+## Need assessment
+
+State the business need from the enterprise perspective, its link to strategy, and the cost of doing nothing.
 
 | Item | Detail |
 | --- | --- |
-| Business need |  |
-| Strategic alignment (goal or objective) |  |
-| Problem or opportunity |  |
-| Impact today (quantified) |  |
-| Cost of doing nothing |  |
+| Business need | Suppliers are paid late because approvals are slow |
+| Strategic alignment | Finance strategy goal 2: be a customer suppliers want |
+| Impact today | 38 percent paid late; about 60,000 pounds a year of lost discount; two supplier holds this year |
+| Cost of doing nothing | Losses grow with volume; supply risk on critical parts |
 
-## 3. Desired outcomes
+## Desired outcomes
 
-Describe the state that should result if the need is met. Outcomes must be measurable and independent of any specific solution, so they can be used to compare options and to judge success after delivery.
+Outcomes are measurable and independent of any solution.
 
 | ID | Desired outcome | Measure | Baseline | Target | Review point |
 | --- | --- | --- | --- | --- | --- |
-| OUT-001 |  |  |  |  |  |
+| OUT-001 | Suppliers are approved quickly | Average days to approval | 14 | 5 | 2026-12-31 |
+| OUT-002 | Suppliers are paid on terms | Share paid within terms | 62 percent | 95 percent | 2027-03-31 |
 
-## 4. Options considered
+## Options considered
 
-Identify and assess alternative solutions. Always include the do-nothing option. Assess each option on scope, feasibility, and its assumptions, risks, and constraints, with an indicative cost and benefit.
+Always include doing nothing. Assess each option on scope, feasibility, and its assumptions, risks, and constraints.
 
-| Option | Scope (in and out) | Feasibility (organisational and technical) | Key assumptions, risks, constraints | Indicative cost | Indicative benefit |
+| Option | Scope | Feasibility | Key assumptions and risks | Indicative cost (3 years) | Indicative benefit (3 years) |
 | --- | --- | --- | --- | --- | --- |
-| Do nothing |  |  |  |  |  |
-| Option A |  |  |  |  |  |
-| Option B |  |  |  |  |  |
+| Do nothing | Email approvals continue | Not applicable | Losses continue and grow | 0 | 0 |
+| A: ERP workflow module | Routing, reminders, escalation, posting | High: licensed, vendor-supported | Real-time API (A-001); adoption (RSK-001) | 210,000 pounds | 330,000 pounds |
+| B: Standalone workflow tool | As A, plus a separate interface | Medium: needs integration | Integration effort; second system to support | 320,000 pounds | 330,000 pounds |
 
-## 5. Financial analysis
+## Financial assumptions
 
-Run the financial analysis for the recommended option and any close alternative, over a time horizon long enough for the solution to be in full use and the value to be realised.
-
-### 5.1 Assumptions
-
-State every assumption so the numbers can be reviewed and challenged. At minimum record the discount rate, the time horizon, and the total cost of ownership period.
+State every assumption so the numbers can be reviewed and challenged.
 
 | Assumption | Value | Source or basis |
 | --- | --- | --- |
-| Discount rate (hurdle rate) |  |  |
-| Time horizon (years) |  |  |
-| Total cost of ownership period |  |  |
-| Key volume, price, or adoption assumptions |  |  |
+| Discount rate | 8 percent | Group hurdle rate |
+| Time horizon | 3 years | Useful life before the ERP upgrade |
+| Discount captured | 60,000 pounds a year | IN-031: discounts missed on late invoices |
+| AP time released | 50,000 pounds a year | IN-033: about 1.4 FTE at 35,000 pounds |
 
-### 5.2 Cost-benefit analysis
+## Cost-benefit analysis
 
-Lay out benefits and costs by period. Net benefit is benefits minus costs; cumulative net benefit shows when the investment turns positive (the payback point).
+Benefits and costs by year for option A, in thousands of pounds.
 
 | Line | Year 0 | Year 1 | Year 2 | Year 3 |
 | --- | --- | --- | --- | --- |
-| Benefit: new or protected revenue |  |  |  |  |
-| Benefit: reduced operating cost |  |  |  |  |
-| Benefit: time savings |  |  |  |  |
-| Benefit: reduced cost of errors or risk |  |  |  |  |
-| Total benefits |  |  |  |  |
-| Cost: build or acquire (project) |  |  |  |  |
-| Cost: ongoing support and operation |  |  |  |  |
-| Cost: transition (data, training, rollout) |  |  |  |  |
-| Total costs |  |  |  |  |
-| Net benefit |  |  |  |  |
-| Cumulative net benefit |  |  |  |  |
+| Benefit: discount captured | 0 | 60 | 60 | 60 |
+| Benefit: AP time released | 0 | 50 | 50 | 50 |
+| Total benefits | 0 | 110 | 110 | 110 |
+| Cost: configuration and integration (IN-032, IN-034) | 120 | 0 | 0 | 0 |
+| Cost: transition (training, cutover) | 30 | 0 | 0 | 0 |
+| Cost: support and operation | 0 | 20 | 20 | 20 |
+| Total costs | 150 | 20 | 20 | 20 |
+| Net benefit | -150 | 90 | 90 | 90 |
+| Cumulative net benefit | -150 | -60 | 30 | 120 |
 
-### 5.3 Investment metrics
+## Investment metrics
 
-Use a combination of measures, since each gives a different view. Interpret them honestly.
+Use several measures, since each gives a different view, and interpret them honestly.
 
 | Metric | Definition | Result | Interpretation |
 | --- | --- | --- | --- |
-| Total cost of ownership | Cost to acquire, use, and support the solution over the horizon |  |  |
-| ROI | (Total benefits minus cost of investment) divided by cost of investment |  | Higher is better; compare options over the same period |
-| Payback period | Time until cumulative net benefit turns positive |  | Ignores value after payback; use as a secondary lens |
-| Present value | Sum of net benefit per period divided by (1 plus discount rate) to the power of the period |  | In today's currency |
-| NPV | Present value minus cost of investment |  | Greater than zero beats the discount rate; primary metric |
-| IRR | The rate at which NPV equals zero |  | Compare to the hurdle rate; below it, do not invest |
+| Total cost of ownership | All costs over the horizon | 210,000 pounds | Includes support, not only the project |
+| ROI | (Total benefits minus total costs) divided by total costs | 57 percent over 3 years | Compare options over the same period |
+| Payback | Time until cumulative net benefit turns positive | About 20 months | A secondary lens: ignores value after payback |
+| NPV | Discounted net benefits minus the investment, at 8 percent | About 82,000 pounds | Positive, so the case beats the hurdle rate; primary metric |
+| IRR | Rate at which NPV is zero | About 36 percent | Well above the 8 percent hurdle |
 
-### 5.4 Sensitivity and scenario analysis
+## Sensitivity and scenario analysis
 
-Test the result against the assumptions that matter most. Show a base, downside, and upside case, and state the break-even point for the key driver.
+Test the result against the assumptions that matter most, and state the break-even for the key driver.
 
-| Scenario | Key changed assumptions | NPV | IRR | Payback |
+| Scenario | Changed assumption | NPV | IRR | Payback |
 | --- | --- | --- | --- | --- |
-| Base |  |  |  |  |
-| Downside |  |  |  |  |
-| Upside |  |  |  |  |
+| Base | As above | About 82,000 pounds | About 36 percent | About 20 months |
+| Downside | Discount captured halves to 30,000 pounds a year | About 5,000 pounds | About 10 percent | 30 months |
+| Upside | Discount captured rises to 80,000 pounds a year | About 134,000 pounds | About 53 percent | About 16 months |
 
-Break-even: state the value of the critical driver (price, volume, adoption, cost) at which NPV equals zero.
+Break-even: NPV is zero when discount captured falls to about 28,000 pounds a year, 47 percent of the base assumption.
 
-### 5.5 Non-financial value
+## Non-financial value
 
-Record benefits and costs that resist quantification (reputation, staff morale, flexibility, customer satisfaction, reduced risk exposure, compliance). Relate them back to strategic goals so they are not lost in a numbers-only view.
+Record benefits and costs that resist counting, tied to strategy.
 
-## 6. Recommended solution
+Example: better supplier relationships and published payment performance (strategy goal 2); an audit trail for segregation of duties that closes finding AF-2025-04.
 
-Describe the most desirable option and why it wins on outcomes, value, feasibility, and risk. Include an estimate of cost and duration to implement, and the measurable benefits and outcomes that will be tracked after go-live.
+## Recommended solution
 
-## 7. Risks and mitigations
+Say why the recommended option wins on outcomes, value, feasibility, and risk.
 
-| ID | Risk | Probability | Impact | Response (avoid, reduce, transfer, accept) | Owner |
+Example: option A delivers the same benefits as B for 110,000 pounds less over three years, uses a licensed and supported module, and avoids a second system.
+
+## Risks and mitigations
+
+Key risks to the case's value, each scored, with a response and an owner.
+
+| ID | Risk | Probability | Impact | Response | Owner |
 | --- | --- | --- | --- | --- | --- |
-| RSK-001 |  |  |  |  |  |
+| RSK-001 | Approvers keep approving by email, so benefits slip | Likely | Major | Reduce: disable email approval at go-live | Financial Controller |
+| RSK-002 | ERP API fails at month-end volume | Unlikely | Severe | Reduce: load test at 3 times peak | Tom Reyes |
 
-## 8. Assumptions and constraints
+## Assumptions
 
-List the assumptions the case depends on and the constraints on any solution (budget, time, technology, policy, regulatory). Flag assumptions for confirmation.
+List the assumptions the case depends on, beyond the financial ones, with who confirms them.
 
-## 9. Implementation overview
+| ID | Assumption | Effect if wrong | Confirm with |
+| --- | --- | --- | --- |
+| A-001 | The ERP API supports real-time posting | Integration cost rises by about 11,000 pounds | Tom Reyes |
 
-Give a high-level view of how the change would be delivered (phases, timeline, major dependencies). Do not specify the detailed method; that belongs to delivery.
+## Implementation overview
 
-## 10. Decision required
+Give a high-level view of delivery: phases, timeline, and major dependencies.
 
-State exactly what is being asked of whom and by when (approve funding, approve to proceed to the next stage, or decline), and the conditions attached.
+Example: configure and integrate in July and August; UAT in early September; go live mid September; benefits tracked from October.
+
+## Decision required
+
+State exactly what is asked of whom and by when, with any conditions.
+
+Example: the Finance Director is asked to approve 150,000 pounds for release 1 by 2026-06-30, on condition that the load test passes before go-live.
+
+## Benefits realisation plan
+
+For funded cases, say who tracks each benefit, how, and when.
+
+| Benefit | Owner | Measure | First review |
+| --- | --- | --- | --- |
+| Discount captured | Financial Controller | Monthly discount report | 2026-12-31 |
+
+## Funding and procurement
+
+For cases that trigger procurement or phased funding, state the funding stages and gates.
+
+| Stage | Amount | Gate |
+| --- | --- | --- |
+| Release 1 | 150,000 pounds | Load test passed |
+
+## Outputs
+
+A decision-ready case, with a recommendation that follows from the analysis, an explicit ask, and outcomes that benefits tracking can measure after go-live.
 
 ## Review criteria
 
-- The need is stated from the enterprise perspective and linked to strategy.
+- The need is stated from the enterprise perspective, linked to strategy, and the cost of doing nothing is quantified.
 - Desired outcomes are measurable and solution-independent.
-- Alternatives, including do-nothing, are assessed on scope, feasibility, and risk.
-- Every cost and benefit has a stated assumption; the model is internally consistent.
-- Metrics are computed correctly and interpreted honestly, and the result is stress-tested.
-- Non-financial value and risks are acknowledged, not omitted to flatter the case.
-- The recommendation follows from the analysis and the ask is explicit.
+- Real alternatives, including doing nothing, are assessed on scope, feasibility, and risk.
+- Every cost and benefit has a stated assumption and source, and the model is internally consistent.
+- NPV, IRR, payback, ROI, and total cost of ownership are computed correctly and interpreted honestly.
+- Sensitivity is tested, with a break-even for the key driver.
+- Non-financial value is recorded and tied to strategy.
+- Key risks have responses and owners.
+- The recommendation follows from the analysis, and the decision and approver are explicit.
 
 ## BABOK anchor
 
-Business Cases (10.7); Financial Analysis (10.20); desired outcomes trace to Define Future State (6.2) and Analyze Potential Value and Recommend Solution (7.6).
+Business Cases (10.7); Financial Analysis (10.20); Define Future State (6.2); Analyze Potential Value and Recommend Solution (7.6). Owned by the finance skill.
 
 ## House style
 
