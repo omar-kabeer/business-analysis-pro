@@ -2,6 +2,7 @@ import { createHash } from 'node:crypto'
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, basename } from 'node:path'
 import { noteFor, withNote } from './sync-template-notes.mjs'
+import { loadInputs, sectionFor, withSection } from './sync-skill-artefacts.mjs'
 
 const root = process.cwd()
 const errors = []
@@ -370,6 +371,33 @@ function validateTemplateIdentity() {
   }
 }
 
+// docs/template-ownership.json names the owning skills of every profiled artefact
+// type, and each skill's "Templates and rubrics" section is generated from it.
+function validateSkillArtefacts() {
+  if (!existsSync(join(root, 'docs', 'template-ownership.json'))) return
+  const { ownership, profiles } = loadInputs(root)
+  const skills = new Set(
+    readdirSync(join(root, 'skills')).filter((entry) => statSync(join(root, 'skills', entry)).isDirectory()),
+  )
+  for (const type of Object.keys(profiles)) {
+    if (!ownership[type]?.length) errors.push(`docs/template-ownership.json: ${type} has no owning skill`)
+  }
+  for (const [type, owners] of Object.entries(ownership)) {
+    if (!profiles[type]) errors.push(`docs/template-ownership.json: ${type} is not a profiled artefact type`)
+    for (const owner of owners) {
+      if (!skills.has(owner)) errors.push(`docs/template-ownership.json: ${type} names unknown skill ${owner}`)
+    }
+  }
+  for (const skill of skills) {
+    const path = join(root, 'skills', skill, 'SKILL.md')
+    if (!existsSync(path)) continue
+    const text = readText(path)
+    if (withSection(text, sectionFor(skill, ownership, profiles)) !== text) {
+      errors.push(`skills/${skill}/SKILL.md: "Templates and rubrics" section is missing or stale; run node scripts/sync-skill-artefacts.mjs`)
+    }
+  }
+}
+
 function validateTemplateTocs() {
   const profiles = JSON.parse(readText(join(root, 'evaluation', 'quality-profiles.json'))).profiles ?? {}
   for (const file of readdirSync(join(root, 'templates')).filter((name) => name.endsWith('.toc.json'))) {
@@ -489,6 +517,7 @@ validateQualityProfiles()
 validateCalibration()
 validateTemplateTocs()
 validateTemplateIdentity()
+validateSkillArtefacts()
 validateBlockingDimensions()
 validateFrontmatterDir('checklists', 'checklist')
 validateAgents()

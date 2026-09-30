@@ -1,0 +1,258 @@
+{
+  "$comment": "Owning skills for every artefact type in evaluation/quality-profiles.json. The first skill named is the primary owner. scripts/sync-skill-artefacts.mjs writes each skill's 'Templates and rubrics' section from this file and the profiles; the validator fails when a section is stale.",
+  "schemaVersion": 1,
+  "owners": {
+    "artefact-register": [
+      "information-management"
+    ],
+    "bi-report-specification": [
+      "business-intelligence"
+    ],
+    "brd": [
+      "requirements"
+    ],
+    "business-analysis-approach": [
+      "ba-planning"
+    ],
+    "business-analysis-information-communicated": [
+      "communication"
+    ],
+    "business-analysis-performance-assessment": [
+      "ba-planning",
+      "quality"
+    ],
+    "business-capability-map": [
+      "business-architecture"
+    ],
+    "business-case": [
+      "finance"
+    ],
+    "business-model-canvas": [
+      "strategy"
+    ],
+    "business-objectives": [
+      "strategy"
+    ],
+    "business-rules-catalogue": [
+      "requirements"
+    ],
+    "change-request": [
+      "change-control"
+    ],
+    "change-strategy": [
+      "strategy"
+    ],
+    "compliance-obligation-register": [
+      "regulatory-compliance"
+    ],
+    "context-diagram": [
+      "architecture"
+    ],
+    "current-state-assessment": [
+      "strategy"
+    ],
+    "data-dictionary": [
+      "data-analysis",
+      "data-modelling"
+    ],
+    "decision-log": [
+      "governance"
+    ],
+    "decision-matrix": [
+      "decision-analysis"
+    ],
+    "design-options": [
+      "architecture"
+    ],
+    "designs-approved": [
+      "governance"
+    ],
+    "designs-change-assessment": [
+      "change-control"
+    ],
+    "designs-maintained": [
+      "information-management"
+    ],
+    "designs-prioritized": [
+      "requirements"
+    ],
+    "designs-traced": [
+      "information-management"
+    ],
+    "elicitation-activity-plan": [
+      "elicitation"
+    ],
+    "empathy-map": [
+      "ux"
+    ],
+    "enterprise-limitation": [
+      "solution-evaluation"
+    ],
+    "estimation-basis": [
+      "estimation"
+    ],
+    "executive-summary": [
+      "executive-review"
+    ],
+    "experiment-log": [
+      "product-manager"
+    ],
+    "frd": [
+      "requirements"
+    ],
+    "future-state-definition": [
+      "strategy"
+    ],
+    "gap-analysis": [
+      "strategy"
+    ],
+    "go-to-market-plan": [
+      "product-manager",
+      "market-research"
+    ],
+    "governance-approach": [
+      "governance"
+    ],
+    "information-management-approach": [
+      "information-management"
+    ],
+    "interview-guide": [
+      "elicitation"
+    ],
+    "journey-map": [
+      "ux"
+    ],
+    "logical-data-model": [
+      "data-modelling"
+    ],
+    "meeting-notes": [
+      "communication",
+      "elicitation"
+    ],
+    "nfr-specification": [
+      "requirements"
+    ],
+    "okrs": [
+      "strategy",
+      "product-manager"
+    ],
+    "opportunity-solution-tree": [
+      "product-manager"
+    ],
+    "persona": [
+      "ux"
+    ],
+    "potential-value": [
+      "strategy",
+      "finance"
+    ],
+    "prd": [
+      "product-manager"
+    ],
+    "prioritization-matrix": [
+      "product-manager"
+    ],
+    "process-model": [
+      "process-modelling"
+    ],
+    "product-roadmap": [
+      "product-manager"
+    ],
+    "product-strategy": [
+      "product-manager"
+    ],
+    "product-vision-brief": [
+      "product-manager"
+    ],
+    "prototype-brief": [
+      "prototyping",
+      "ux"
+    ],
+    "raid-log": [
+      "governance"
+    ],
+    "recommended-actions": [
+      "solution-evaluation"
+    ],
+    "release-plan-and-notes": [
+      "product-manager",
+      "product-owner"
+    ],
+    "release-readiness-checklist": [
+      "quality"
+    ],
+    "requirements-architecture": [
+      "requirements"
+    ],
+    "requirements-change-assessment": [
+      "change-control"
+    ],
+    "requirements-traceability-matrix": [
+      "information-management"
+    ],
+    "rfp": [
+      "vendor-evaluation",
+      "procurement-contracts"
+    ],
+    "risk-register": [
+      "risk-analysis"
+    ],
+    "service-level-agreement": [
+      "procurement-contracts"
+    ],
+    "solution-limitation": [
+      "solution-evaluation"
+    ],
+    "solution-performance-analysis": [
+      "solution-evaluation"
+    ],
+    "solution-performance-measures": [
+      "solution-evaluation"
+    ],
+    "solution-recommendation": [
+      "solution-evaluation"
+    ],
+    "solution-scope": [
+      "strategy"
+    ],
+    "srs": [
+      "requirements"
+    ],
+    "stakeholder-engagement-approach": [
+      "ba-planning"
+    ],
+    "stakeholder-map-raci": [
+      "ba-planning"
+    ],
+    "stakeholder-register": [
+      "elicitation",
+      "business-analysis"
+    ],
+    "statement-of-work": [
+      "procurement-contracts"
+    ],
+    "status-report": [
+      "communication"
+    ],
+    "swot-analysis": [
+      "strategy"
+    ],
+    "uat-plan": [
+      "acceptance-testing"
+    ],
+    "use-case-specification": [
+      "requirements"
+    ],
+    "user-story-epic": [
+      "product-owner",
+      "product-manager"
+    ],
+    "win-loss-report": [
+      "product-manager",
+      "market-research"
+    ],
+    "workshop-plan": [
+      "elicitation"
+    ]
+  }
+}

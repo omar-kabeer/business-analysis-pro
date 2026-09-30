@@ -46,6 +46,10 @@ The artefact has been classified as inline or file, delivered in the correct for
 
 Any prose in the delivered file passes the house style in `docs/methodology/editorial-style.md`, with no em dashes. The packager verifies this gate has run; it does not replace it.
 
+## Templates and rubrics
+
+This skill owns no artefact type. The deliverables it helps produce are graded by the rubric their own quality profile names in `evaluation/quality-profiles.json`, and their templates are listed with their owning skills in `docs/template-ownership.json`.
+
 ## Operating standard
 
 This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`. It is the delivery end of the produce-validate-deliver arc: the specialist produces the artefact on its template, the quality skill and rubric validate it, and the packager delivers it. Delivery is the BABOK v3 task Communicate Business Analysis Information (4.4): the right information, in the form and at the level of detail the audience needs. Format generation is bound through `docs/skill-bindings.md`; absence of a bound plugin degrades the format, never blocks the delivery.

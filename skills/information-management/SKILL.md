@@ -49,6 +49,18 @@ Every artefact the initiative produces is registered, named to convention, versi
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
 
+## Templates and rubrics
+
+This skill owns the artefact types below. Produce each on its template, tailor it with the template's table-of-contents manifest, and grade it with the rubric its quality profile names in `evaluation/quality-profiles.json`.
+
+| Artefact type | Template | Rubric | Role |
+| --- | --- | --- | --- |
+| artefact-register | `templates/artefact-register.md` | `evaluation/artefact-register-rubric.md` | Primary |
+| designs-maintained | `templates/designs-maintained.md` | `evaluation/designs-maintained-rubric.md` | Primary |
+| designs-traced | `templates/designs-traced.md` | `evaluation/designs-traced-rubric.md` | Primary |
+| information-management-approach | `templates/information-management-approach.md` | `evaluation/information-management-approach-rubric.md` | Primary |
+| requirements-traceability-matrix | `templates/requirements-traceability-matrix.md` | `evaluation/requirements-traceability-matrix-rubric.md` | Primary |
+
 ## Operating standard
 
 This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.

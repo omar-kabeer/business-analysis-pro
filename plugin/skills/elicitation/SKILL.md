@@ -53,6 +53,18 @@ For the full method, read `references/elicitation-and-collaboration-playbook.md`
 
 Run the `natural-prose-editor` pass on written instruments and summaries and use no em dashes. See `docs/methodology/editorial-style.md`.
 
+## Templates and rubrics
+
+This skill owns the artefact types below. Produce each on its template, tailor it with the template's table-of-contents manifest, and grade it with the rubric its quality profile names in `evaluation/quality-profiles.json`.
+
+| Artefact type | Template | Rubric | Role |
+| --- | --- | --- | --- |
+| elicitation-activity-plan | `templates/elicitation-activity-plan.md` | `evaluation/elicitation-activity-plan-rubric.md` | Primary |
+| interview-guide | `templates/interview-guide.md` | `evaluation/interview-guide-rubric.md` | Primary |
+| meeting-notes | `templates/meeting-notes.md` | `evaluation/meeting-notes-rubric.md` | Shared |
+| stakeholder-register | `templates/stakeholder-register.md` | `evaluation/stakeholder-register-rubric.md` | Primary |
+| workshop-plan | `templates/workshop-plan.md` | `evaluation/workshop-plan-rubric.md` | Primary |
+
 ## Operating standard
 
 This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.
