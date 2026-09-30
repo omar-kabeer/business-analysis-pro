@@ -1,3 +1,4 @@
+import { createHash } from 'node:crypto'
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, basename } from 'node:path'
 
@@ -220,9 +221,88 @@ function validateQualityProfiles() {
   }
 }
 
+// Rubric bands, parsed the way Kryterea's rubric ingest parses them.
+function parseRubricBands(markdown) {
+  const dimensions = []
+  for (const line of markdown.split(/\r?\n/)) {
+    const row = line.match(/^\|\s*(\d+)\s*\|/)
+    if (!row) {
+      if (dimensions.length) break
+      continue
+    }
+    dimensions.push(row[1])
+  }
+  return {
+    dimensions,
+    scaleMax: Number(markdown.match(/score\s+0\s+to\s+(\d+)/i)?.[1] ?? 3),
+    pass: Number(markdown.match(/Pass:\s*(\d+)\s+or higher/i)?.[1] ?? 0),
+    partial: Number(markdown.match(/(?:Pass with changes|changes):\s*(\d+)\s+to/i)?.[1] ?? 0),
+    noZeroForPass: /no dimension at 0/i.test(markdown),
+  }
+}
+
+function verdictFor(bands, scores) {
+  const total = scores.reduce((sum, score) => sum + score, 0)
+  const hasZero = scores.includes(0)
+  if (total >= bands.pass && !(bands.noZeroForPass && hasZero)) return 'pass'
+  if (total >= bands.partial) return 'pass_with_changes'
+  return 'fail'
+}
+
+// Calibration sets: scored reference outputs that prove a rubric grades as an expert would.
+// Each set pins its rubric by SHA-256, so editing the rubric forces recalibration.
+function validateCalibration() {
+  const dir = join(root, 'evaluation', 'calibration')
+  if (!existsSync(dir)) return
+  const profiles = JSON.parse(readText(join(root, 'evaluation', 'quality-profiles.json'))).profiles ?? {}
+  for (const type of readdirSync(dir).filter((entry) => statSync(join(dir, entry)).isDirectory())) {
+    const scoresPath = join('evaluation', 'calibration', type, 'scores.json')
+    if (!existsSync(join(root, scoresPath))) {
+      errors.push(`${scoresPath}: missing`)
+      continue
+    }
+    const set = JSON.parse(readText(join(root, scoresPath)))
+    const profileRubric = profiles[type]?.gate?.rubric
+    if (!profileRubric) errors.push(`${scoresPath}: ${type} has no rubric gate in its quality profile`)
+    if (set.artefactType !== type) errors.push(`${scoresPath}: artefactType must be ${type}`)
+    if (set.rubric !== profileRubric) errors.push(`${scoresPath}: rubric ${set.rubric} is not the profile rubric ${profileRubric}`)
+    if (!['provisional', 'confirmed'].includes(set.status)) errors.push(`${scoresPath}: status must be provisional or confirmed`)
+    if (!set.rubric || !existsSync(join(root, set.rubric))) continue
+    const rubricBytes = readFileSync(join(root, set.rubric))
+    if (createHash('sha256').update(rubricBytes).digest('hex') !== set.rubricSha256) {
+      errors.push(`${scoresPath}: ${set.rubric} changed since calibration; rescore the references and update rubricSha256`)
+    }
+    const bands = parseRubricBands(rubricBytes.toString('utf8'))
+    const verdicts = new Set()
+    for (const reference of set.references ?? []) {
+      const label = `${scoresPath} (${reference.file})`
+      if (!existsSync(join(root, 'evaluation', 'calibration', type, reference.file))) errors.push(`${label}: reference file missing`)
+      const keys = Object.keys(reference.scores ?? {})
+      if (keys.sort().join() !== [...bands.dimensions].sort().join()) {
+        errors.push(`${label}: scores must cover exactly dimensions ${bands.dimensions.join(', ')}`)
+        continue
+      }
+      const scores = keys.map((key) => reference.scores[key])
+      if (scores.some((score) => !Number.isInteger(score) || score < 0 || score > bands.scaleMax)) {
+        errors.push(`${label}: every score must be an integer from 0 to ${bands.scaleMax}`)
+        continue
+      }
+      const verdict = verdictFor(bands, scores)
+      if (verdict !== reference.expectedVerdict) {
+        errors.push(`${label}: scores give ${verdict}, but expectedVerdict is ${reference.expectedVerdict}`)
+      }
+      verdicts.add(reference.expectedVerdict)
+    }
+    for (const needed of ['pass', 'pass_with_changes', 'fail']) {
+      if (!verdicts.has(needed)) errors.push(`${scoresPath}: needs at least one ${needed} reference`)
+    }
+  }
+}
+
 validateSkills()
 validateFrontmatterDir('templates', 'deliverable')
 validateQualityProfiles()
+validateCalibration()
 validateFrontmatterDir('checklists', 'checklist')
 validateAgents()
 validateEditorialStyle()
@@ -234,4 +314,4 @@ if (errors.length) {
   process.exit(1)
 }
 
-console.log('Validation passed: skills, agents, templates, quality profiles, checklists, and MVP assets are sound.')
+console.log('Validation passed: skills, agents, templates, quality profiles, calibration sets, checklists, and MVP assets are sound.')

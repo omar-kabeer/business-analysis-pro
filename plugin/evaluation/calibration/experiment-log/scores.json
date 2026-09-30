@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "artefactType": "experiment-log",
+  "rubric": "evaluation/experiment-log-rubric.md",
+  "rubricSha256": "c031c95bdacbebd8abebff53baa04ab91361dca6721520c77f47defe64a50dfb",
+  "status": "provisional",
+  "tolerance": 1,
+  "references": [
+    {
+      "file": "strong.md",
+      "expectedVerdict": "pass",
+      "scores": {
+        "1": 3,
+        "2": 3,
+        "3": 3,
+        "4": 3,
+        "5": 3,
+        "6": 3,
+        "7": 2
+      }
+    },
+    {
+      "file": "borderline.md",
+      "expectedVerdict": "pass_with_changes",
+      "scores": {
+        "1": 2,
+        "2": 2,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 2,
+        "7": 1
+      }
+    },
+    {
+      "file": "failing.md",
+      "expectedVerdict": "fail",
+      "scores": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 1,
+        "7": 0
+      }
+    }
+  ]
+}
