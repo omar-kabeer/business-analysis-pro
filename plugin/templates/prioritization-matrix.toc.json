@@ -1,0 +1,183 @@
+{
+  "$comment": "Table of contents for templates/prioritization-matrix.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "prioritization-matrix",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the matrix exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the matrix covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the matrix is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "target",
+      "heading": "Target outcome",
+      "tier": "core",
+      "purpose": "The outcome every score judges.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "Method selection",
+      "tier": "core",
+      "purpose": "One method and why it fits.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "scales",
+      "heading": "Scales",
+      "tier": "core",
+      "purpose": "What each factor means, so scores reproduce.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "scoring",
+      "heading": "Scoring",
+      "tier": "core",
+      "purpose": "Every candidate scored the same way.",
+      "evidences": [
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "decision",
+      "heading": "Decision",
+      "tier": "core",
+      "purpose": "The order or cut, with overrides explained.",
+      "evidences": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the matrix and their responses.",
+      "artefactStandard": "risks"
+    },
+    {
+      "id": "value-effort",
+      "heading": "Value versus effort view",
+      "tier": "extended",
+      "purpose": "Quadrant view for quick triage.",
+      "when": {
+        "formality": [
+          "light"
+        ]
+      },
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "moscow",
+      "heading": "MoSCoW for scope agreement",
+      "tier": "extended",
+      "purpose": "Scope agreement for fixed-date releases.",
+      "when": {
+        "approach": [
+          "predictive",
+          "hybrid"
+        ]
+      },
+      "requires": [
+        "scoring"
+      ],
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "weighted",
+      "heading": "Weighted scoring for governed decisions",
+      "tier": "extended",
+      "purpose": "Explicit weights and who agreed them.",
+      "when": {
+        "formality": [
+          "formal"
+        ],
+        "audience": [
+          "executive"
+        ]
+      },
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the matrix produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the matrix.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

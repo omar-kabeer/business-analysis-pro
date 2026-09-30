@@ -53,7 +53,7 @@ Total the scores (maximum 27):
 - Pass with changes: 16 to 21, or a single quick-to-fix dimension at 1.
 - Fail: below 16, or any dimension at 0.
 
-Record findings by severity with a specific fix, and route material issues back to the product-manager and requirements skills.
+Dimensions 1 (problem and evidence) and 5 (requirement quality) are blocking: a score of 0 on either fails the document whatever the total. Record findings by severity with a specific fix, and route material issues back to the product-manager and requirements skills.
 
 ## Findings template
 

@@ -81,7 +81,11 @@
       "template": "templates/business-objectives.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/business-objectives-rubric.md"
+        "rubric": "evaluation/business-objectives-rubric.md",
+        "blocking": [
+          1,
+          2
+        ]
       },
       "reviewers": [
         "strategy-analyst"
@@ -133,7 +137,11 @@
       "template": "templates/current-state-assessment.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/current-state-description-rubric.md"
+        "rubric": "evaluation/current-state-description-rubric.md",
+        "blocking": [
+          1,
+          9
+        ]
       },
       "reviewers": [
         "strategy-analyst"
@@ -212,7 +220,11 @@
       "template": "templates/elicitation-activity-plan.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/elicitation-activity-plan-rubric.md"
+        "rubric": "evaluation/elicitation-activity-plan-rubric.md",
+        "blocking": [
+          1,
+          2
+        ]
       }
     },
     "empathy-map": {
@@ -312,14 +324,22 @@
       "template": "templates/interview-guide.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/interview-guide-rubric.md"
+        "rubric": "evaluation/interview-guide-rubric.md",
+        "blocking": [
+          2,
+          8
+        ]
       }
     },
     "journey-map": {
       "template": "templates/journey-map.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/customer-journey-map-rubric.md"
+        "rubric": "evaluation/customer-journey-map-rubric.md",
+        "blocking": [
+          1,
+          7
+        ]
       }
     },
     "logical-data-model": {
@@ -385,7 +405,11 @@
       "template": "templates/prd.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/prd-rubric.md"
+        "rubric": "evaluation/prd-rubric.md",
+        "blocking": [
+          1,
+          5
+        ]
       },
       "reviewers": [
         "requirements-verifier"
@@ -395,7 +419,11 @@
       "template": "templates/prioritization-matrix.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/prioritization-matrix-rubric.md"
+        "rubric": "evaluation/prioritization-matrix-rubric.md",
+        "blocking": [
+          3,
+          5
+        ]
       }
     },
     "process-model": {
@@ -523,7 +551,11 @@
       "template": "templates/risk-register.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/risk-register-rubric.md"
+        "rubric": "evaluation/risk-register-rubric.md",
+        "blocking": [
+          1,
+          5
+        ]
       },
       "reviewers": [
         "risk-challenger"

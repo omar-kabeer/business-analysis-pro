@@ -39,13 +39,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/current-state-assessment.md",
-        "contentHash": "ba80cd6f0f830178a37480589038e16b9e788ae563614e1ec5712e7f49ec9501"
+        "contentHash": "fbf1d9b6582ae7d41cf5691ee6b1426a007a9eee30d2ca7927e783ac82aa9a64"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/current-state-description-rubric.md",
-          "contentHash": "50396910b6a7a86e93a4dcdd41e597cd5a13adae7c1b93298e130b55e7efa12a"
+          "contentHash": "6907cb4d4a34eb57f65091722b620a1389782133af355d0b9cf2a585f9712365"
         }
       }
     },
@@ -76,13 +76,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/business-objectives.md",
-        "contentHash": "63b198ceb9ddd3eca84a2837bc95b711c6468ccfe0a6ffea8837771f8c2f6ec7"
+        "contentHash": "93a2191b00ca1cd8a02a88b1b289c978d843b11031b48b0e01e0da24bcf6906e"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/business-objectives-rubric.md",
-          "contentHash": "ce0800fb9b81d2da0d993ab50bf84c12ff00bf7eeda23b9de35d9f9964edb8e0"
+          "contentHash": "2f09e26d3c0b148fd58bbb446f7b31d5d1db07bda31d17e9dc72b337934daf8d"
         }
       }
     },
@@ -109,13 +109,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/elicitation-activity-plan.md",
-        "contentHash": "e47bdaa61d6a273b82e1ef1f8f57aef05f00e44a209a423bf307f40473297f8a"
+        "contentHash": "43257af2de47990b16c0edec003ac88c00905319f24f2b867af9cff4321a9c53"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/elicitation-activity-plan-rubric.md",
-          "contentHash": "eeb3b7ec5a477ab158000c40fbc0c96b4fec9cc33e46f9dea2063e31d1470232"
+          "contentHash": "94fa72b1c147e986e95a85953db9d7fe1b3caee9b591937002c53a6903fbd40e"
         }
       }
     },
@@ -204,13 +204,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/interview-guide.md",
-        "contentHash": "230173bc1927ecff1c4fac6139800ae7f8c26431bebef4dc1fb6b6b9d5096550"
+        "contentHash": "70d32b0750f3e3764eeb710cee9d48f88c011d32baac685f68daf55a273fcef9"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/interview-guide-rubric.md",
-          "contentHash": "1b4b48395c7a3f2fc6d1f6f2c74f120fb67138e68a0626d36e91351e7bd59d87"
+          "contentHash": "ac700079bcbf9d7702891bfe68ac4608c4ac07184ccf94510effd6488cf88cb1"
         }
       }
     }

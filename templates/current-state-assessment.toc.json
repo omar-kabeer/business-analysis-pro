@@ -1,0 +1,227 @@
+{
+  "$comment": "Table of contents for templates/current-state-assessment.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "current-state-assessment",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the assessment exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the assessment covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the assessment is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "business-need",
+      "heading": "Business need",
+      "tier": "core",
+      "purpose": "The need, its impact, and its root cause.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "capabilities",
+      "heading": "Capabilities and processes",
+      "tier": "core",
+      "purpose": "Capabilities today with performance and pains.",
+      "evidences": [
+        3,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "structure",
+      "heading": "Organisational structure and culture",
+      "tier": "standard",
+      "purpose": "Reporting lines and culture that aid or limit change.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "technology",
+      "heading": "Technology and infrastructure",
+      "tier": "standard",
+      "purpose": "Supporting systems and their limits.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "policies",
+      "heading": "Policies and business rules",
+      "tier": "standard",
+      "purpose": "Rules the solution must respect or change.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "architecture",
+      "heading": "Business architecture",
+      "tier": "standard",
+      "purpose": "How capabilities, processes and systems fit together.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "assets",
+      "heading": "Internal assets",
+      "tier": "standard",
+      "purpose": "Resources the enterprise can draw on."
+    },
+    {
+      "id": "external",
+      "heading": "External influencers",
+      "tier": "standard",
+      "purpose": "External forces shaping the current state.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "baseline",
+      "heading": "Current performance baseline",
+      "tier": "core",
+      "purpose": "Measures the future state is compared with.",
+      "evidences": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "description",
+      "heading": "Current state description",
+      "tier": "core",
+      "purpose": "Summary baseline for future-state work.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the assessment and their responses.",
+      "artefactStandard": "risks"
+    },
+    {
+      "id": "root-cause",
+      "heading": "Root cause analysis",
+      "tier": "extended",
+      "purpose": "Analysis showing how the root cause was reached.",
+      "when": {
+        "risk": [
+          "high"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "requires": [
+        "business-need"
+      ],
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "heat-map",
+      "heading": "Capability heat map",
+      "tier": "extended",
+      "purpose": "Performance and importance per capability.",
+      "when": {
+        "audience": [
+          "executive"
+        ],
+        "perspective": [
+          "business-architecture"
+        ]
+      },
+      "requires": [
+        "capabilities"
+      ],
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "regulatory",
+      "heading": "Regulatory and control environment",
+      "tier": "extended",
+      "purpose": "Controls and obligations in force today.",
+      "when": {
+        "regulated": [
+          true
+        ]
+      },
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the assessment produces and feeds.",
+      "artefactStandard": "outputs"
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the assessment.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

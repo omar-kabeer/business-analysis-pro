@@ -261,13 +261,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prioritization-matrix.md",
-        "contentHash": "f362364a3becc22690cae4104750f7c903101020856a434b8ab3a31e4f386b93"
+        "contentHash": "0f7e8c81989d0f7a4bc420b3579c3e10d1332212e3a5a615e196de0f64b62757"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/prioritization-matrix-rubric.md",
-          "contentHash": "f29f1bfa6cd3be5288ffc361b534fe9fd3393767f75c750148da211eba2ac8a6"
+          "contentHash": "6880d333adf7569e592eef58ac2c3a4aa472650dd8e1b0918f1b1113802cb752"
         }
       }
     },

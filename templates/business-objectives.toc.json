@@ -1,0 +1,166 @@
+{
+  "$comment": "Table of contents for templates/business-objectives.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "business-objectives",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the objectives exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the objectives covers and what it leaves out.",
+      "artefactStandard": "scope"
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the objectives is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "objectives",
+      "heading": "Objectives",
+      "tier": "core",
+      "purpose": "Measurable outcomes with baseline, target, date and owner.",
+      "evidences": [
+        1,
+        2,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "alignment",
+      "heading": "Alignment to strategy",
+      "tier": "core",
+      "purpose": "How each objective serves strategy and the need.",
+      "evidences": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "priority",
+      "heading": "Priority and trade-offs",
+      "tier": "standard",
+      "purpose": "Relative importance and conflict rules.",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "achievability",
+      "heading": "Achievability check",
+      "tier": "standard",
+      "purpose": "Objectives tested against constraints.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "measurement",
+      "heading": "Measurement plan",
+      "tier": "standard",
+      "purpose": "How progress is measured and reported.",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the objectives and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "okrs",
+      "heading": "Objectives and key results",
+      "tier": "extended",
+      "purpose": "OKR form for adaptive teams.",
+      "when": {
+        "approach": [
+          "adaptive"
+        ]
+      },
+      "requires": [
+        "objectives"
+      ],
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "benefits",
+      "heading": "Benefits link",
+      "tier": "extended",
+      "purpose": "Benefit and value per objective.",
+      "when": {
+        "audience": [
+          "executive"
+        ]
+      },
+      "requires": [
+        "objectives"
+      ],
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the objectives produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the objectives.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

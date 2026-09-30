@@ -1,0 +1,216 @@
+{
+  "$comment": "Table of contents for templates/prd.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "prd",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the PRD exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the PRD is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "problem",
+      "heading": "Problem and context",
+      "tier": "core",
+      "purpose": "The customer problem and its evidence.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "users",
+      "heading": "Target users and jobs",
+      "tier": "core",
+      "purpose": "Users and their jobs to be done.",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "goals",
+      "heading": "Goals, non-goals, and success metrics",
+      "tier": "core",
+      "purpose": "Outcome goals, metrics and non-goals.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "Scope and release phases",
+      "tier": "core",
+      "purpose": "What is in and out, and how it is phased.",
+      "artefactStandard": "scope",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "requirements",
+      "heading": "Requirements",
+      "tier": "core",
+      "purpose": "Testable requirements traced to goals.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "ux",
+      "heading": "User experience and flows",
+      "tier": "standard",
+      "purpose": "Key flows, states and edge cases.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "nfr",
+      "heading": "Non-functional requirements",
+      "tier": "standard",
+      "purpose": "The qualities that matter most.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "dependencies",
+      "heading": "Dependencies",
+      "tier": "core",
+      "purpose": "Systems, teams and decisions depended on.",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the PRD and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "rollout",
+      "heading": "Rollout and measurement",
+      "tier": "core",
+      "purpose": "Launch, instrumentation and go criteria.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "open-questions",
+      "heading": "Open questions",
+      "tier": "standard",
+      "purpose": "Owned questions with dates."
+    },
+    {
+      "id": "transition",
+      "heading": "Transition requirements",
+      "tier": "extended",
+      "purpose": "What is needed to move from the current state.",
+      "when": {
+        "approach": [
+          "predictive",
+          "hybrid"
+        ]
+      },
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "analytics",
+      "heading": "Analytics and experimentation",
+      "tier": "extended",
+      "purpose": "Experiments for the riskiest assumptions.",
+      "when": {
+        "approach": [
+          "adaptive"
+        ]
+      },
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "compliance",
+      "heading": "Compliance and privacy",
+      "tier": "extended",
+      "purpose": "Obligations and how they are met.",
+      "when": {
+        "regulated": [
+          true
+        ]
+      },
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the PRD produces and feeds.",
+      "artefactStandard": "outputs"
+    },
+    {
+      "id": "quality-gate",
+      "heading": "Quality gate",
+      "tier": "standard",
+      "purpose": "Requirement quality characteristics.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the PRD.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "$comment": "Table of contents for templates/risk-register.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "risk-register",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the register exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the register covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the register is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "scales",
+      "heading": "Scoring scales",
+      "tier": "standard",
+      "purpose": "Agreed probability and impact scales and tolerance.",
+      "evidences": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "register",
+      "heading": "Register",
+      "tier": "core",
+      "purpose": "Each risk with cause, event, effect, scores, response and owner.",
+      "evidences": [
+        1,
+        2,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "top-risks",
+      "heading": "Top risks summary",
+      "tier": "standard",
+      "purpose": "Highest-severity risks for the sponsor.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "heat-map",
+      "heading": "Risk heat map",
+      "tier": "standard",
+      "purpose": "Open risks by probability and impact.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks to the register itself",
+      "tier": "core",
+      "purpose": "Risks to the register and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "closed",
+      "heading": "Closed risks",
+      "tier": "standard",
+      "purpose": "Closed risks and how they closed.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "quantitative",
+      "heading": "Quantitative analysis",
+      "tier": "extended",
+      "purpose": "Expected value or simulation for top risks.",
+      "when": {
+        "risk": [
+          "high"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "requires": [
+        "register"
+      ],
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "regulatory",
+      "heading": "Regulatory and compliance risks",
+      "tier": "extended",
+      "purpose": "Risks tied to obligations and their controls.",
+      "when": {
+        "regulated": [
+          true
+        ]
+      },
+      "requires": [
+        "register"
+      ],
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the register produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the register.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

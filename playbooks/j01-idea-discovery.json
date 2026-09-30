@@ -93,13 +93,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/business-objectives.md",
-        "contentHash": "63b198ceb9ddd3eca84a2837bc95b711c6468ccfe0a6ffea8837771f8c2f6ec7"
+        "contentHash": "93a2191b00ca1cd8a02a88b1b289c978d843b11031b48b0e01e0da24bcf6906e"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/business-objectives-rubric.md",
-          "contentHash": "ce0800fb9b81d2da0d993ab50bf84c12ff00bf7eeda23b9de35d9f9964edb8e0"
+          "contentHash": "2f09e26d3c0b148fd58bbb446f7b31d5d1db07bda31d17e9dc72b337934daf8d"
         }
       }
     },
@@ -151,13 +151,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/risk-register.md",
-        "contentHash": "248acb74c5a8f67b8ca4d61a034868e3a5c22ce6d45df550a1829a6a9ea4ba48"
+        "contentHash": "6bcf44fb21f21c6858a43bb6c966d967846d3ec2c4967ff59bf8244acd2284d0"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/risk-register-rubric.md",
-          "contentHash": "2e7a01d313bd0251147944a5613e6b051ce8ba94b92c7502ac0c25f1c3666e36"
+          "contentHash": "d5775ba95db6c0c18237b09821ce7cd92854104915ee08b8ca099f32f7593935"
         }
       }
     }
