@@ -149,8 +149,11 @@
         "contentHash": "416b83d03957031d81cb5f737560845e3f28f1a3fe26ee5b650617ebc5bfe441"
       },
       "quality": {
-        "mode": "no_applicable_check",
-        "reason": "No governed rubric for this output yet."
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/decision-log-rubric.md",
+          "contentHash": "7959acb56f42d649884eba6b73b5fac11b9939b3d1326cc7f4aed2dab02b36b9"
+        }
       }
     },
     {

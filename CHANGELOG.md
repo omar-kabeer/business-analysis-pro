@@ -4,6 +4,9 @@ All notable changes to this project will be documented in this file.
 
 ## Unreleased
 
+- Turned on rubric grading for the last four playbook slots marked `no_applicable_check`: `J01-O02` (stakeholder-register), `J10-O02` (decision-log), `P10-O01` (meeting-notes), and `P16-O01` (opportunity-solution-tree). The W1 definitions were regenerated with Kryterea's generator, which now reads `evaluation/quality-profiles.json`; J01 was updated to its profile rubric. Every shipped playbook slot is now rubric-graded.
+- Listed the 13 template-driven rubrics from 1.17.0 as shipped in `docs/coverage-backlog-manifest.md`, in their own section outside the register backlog counts.
+- Added `docs/world-class-content-plan.md`: the measured depth baseline, the world-class bar per asset type, the dynamic table-of-contents design, and the phased plan for every open item.
 - Version 1.17.0. Synced the version and description across `package.json`, `.claude-plugin/plugin.json`, and the distributed `plugin/.claude-plugin/plugin.json` (which still read 1.14.0 and 25 skills), and the plugin README with the repository README.
 - Added method playbooks to the eight most heavily used skills: `strategy` (Strategy Analysis 6.1 to 6.4), `elicitation` (4.1 to 4.5), `requirements` (7.1 to 7.6, 5.1, 5.2), `quality` (reviews, scoring, calibration), `ba-planning` (3.1 to 3.5), `solution-evaluation` (8.1 to 8.5), `finance` (financial analysis with a worked NPV, IRR, payback, and ROI example), and `executive-review`. Each is linked from its SKILL.md and points at the rubrics in the quality profiles.
 - Added the `strategy-analyst` agent, an independent quality-audit agent for the Strategy Analysis chain, named as a reviewer in six quality profiles. The `lead-analyst` agent now reads the quality profiles to choose each output's gate and reviewers.
