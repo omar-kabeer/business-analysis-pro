@@ -1,7 +1,7 @@
 # World-Class Content Plan
 
 Plan version: 1.0.0
-Plan status: Proposed, not started
+Plan status: Phase 0 shipped; Phase 1 in progress
 Date: 2026-09-30
 Scope: Business Analysis OS (this repository) and the Kryterea app that consumes it (`kryterea/kryterea-app`)
 
@@ -49,7 +49,7 @@ One sidecar file per template: `templates/<type>.toc.json`. Keeping it beside th
 
 | Field | Meaning |
 | --- | --- |
-| `id` | Stable section ID, matching an anchor on the heading in the template (`## Risks {#risks}`) |
+| `id` | Stable section ID. The manifest also carries the exact `heading` text, so templates need no anchor syntax |
 | `title`, `purpose` | Heading and one line on why the section exists |
 | `tier` | `core` (always included), `standard` (included by default), or `extended` (included only when a condition or preference asks for it) |
 | `when` | Conditions that include the section: approach (`predictive`, `adaptive`, `hybrid`), formality (`light`, `standard`, `formal`), audience (`executive`, `delivery`, `regulator`, `customer`), risk or size (`low`, `medium`, `high`), regulated (`true`), domain pack (for example `payments-iso20022`), BABOK perspective |
@@ -69,7 +69,7 @@ One sidecar file per template: `templates/<type>.toc.json`. Keeping it beside th
 ### Validation
 
 `scripts/validate-assets.mjs` fails when:
-- a manifest section has no matching heading anchor, or a heading has no manifest entry;
+- a manifest section's heading is not in the template, or a template heading has no manifest entry;
 - core sections miss a CLAUDE.md element;
 - a rubric dimension maps to no section;
 - a blocking dimension maps only to non-core sections;

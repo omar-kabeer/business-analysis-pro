@@ -432,7 +432,11 @@
       "template": "templates/raid-log.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/raid-log-rubric.md"
+        "rubric": "evaluation/raid-log-rubric.md",
+        "blocking": [
+          2,
+          6
+        ]
       },
       "reviewers": [
         "risk-challenger"

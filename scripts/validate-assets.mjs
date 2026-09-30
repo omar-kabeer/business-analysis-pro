@@ -299,10 +299,133 @@ function validateCalibration() {
   }
 }
 
+// Template tables of contents (docs/depth-standard.md): a manifest per template names every
+// section, its tier, when it applies, and the rubric dimensions it evidences.
+const ARTEFACT_STANDARD = ['purpose', 'scope', 'inputs', 'outputs', 'assumptions', 'risks', 'review-criteria']
+const TOC_WHEN = {
+  approach: ['predictive', 'adaptive', 'hybrid'],
+  formality: ['light', 'standard', 'formal'],
+  audience: ['executive', 'delivery', 'regulator', 'customer'],
+  risk: ['low', 'medium', 'high'],
+  regulated: [true],
+  domainPack: null,
+  perspective: ['agile', 'business-intelligence', 'information-technology', 'business-architecture', 'business-process-management'],
+}
+
+function rubricDimensions(rubricPath) {
+  if (!rubricPath || !existsSync(join(root, rubricPath))) return []
+  return parseRubricBands(readText(join(root, rubricPath))).dimensions.map(Number)
+}
+
+function validateTemplateTocs() {
+  const profiles = JSON.parse(readText(join(root, 'evaluation', 'quality-profiles.json'))).profiles ?? {}
+  for (const file of readdirSync(join(root, 'templates')).filter((name) => name.endsWith('.toc.json'))) {
+    const type = file.slice(0, -'.toc.json'.length)
+    const label = `templates/${file}`
+    const templatePath = join(root, 'templates', `${type}.md`)
+    if (!existsSync(templatePath)) {
+      errors.push(`${label}: no template templates/${type}.md`)
+      continue
+    }
+    let toc
+    try {
+      toc = JSON.parse(readText(join(root, 'templates', file)))
+    } catch (error) {
+      errors.push(`${label}: invalid JSON (${error.message})`)
+      continue
+    }
+    if (toc.schemaVersion !== 1) errors.push(`${label}: schemaVersion must be 1`)
+    if (toc.artefactType !== type) errors.push(`${label}: artefactType must be ${type}`)
+    const sections = Array.isArray(toc.sections) ? toc.sections : []
+    const headings = [...readText(templatePath).matchAll(/^#{2,3} (.+?)\s*$/gm)].map((m) => m[1])
+    const topHeadings = [...readText(templatePath).matchAll(/^## (.+?)\s*$/gm)].map((m) => m[1])
+    const ids = new Map()
+    for (const section of sections) {
+      const where = `${label} (${section.id ?? '?'})`
+      if (!/^[a-z0-9][a-z0-9-]*$/.test(section.id ?? '')) errors.push(`${where}: id must be kebab-case`)
+      if (ids.has(section.id)) errors.push(`${where}: duplicate id`)
+      ids.set(section.id, section)
+      if (!headings.includes(section.heading)) errors.push(`${where}: heading "${section.heading}" is not in the template`)
+      if (!['core', 'standard', 'extended'].includes(section.tier)) errors.push(`${where}: tier must be core, standard or extended`)
+      if (!section.purpose) errors.push(`${where}: purpose is required`)
+      if (section.artefactStandard && !ARTEFACT_STANDARD.includes(section.artefactStandard)) {
+        errors.push(`${where}: unknown artefactStandard ${section.artefactStandard}`)
+      }
+      for (const [key, values] of Object.entries(section.when ?? {})) {
+        if (!(key in TOC_WHEN)) errors.push(`${where}: unknown when key ${key}`)
+        else if (!Array.isArray(values) || (TOC_WHEN[key] && values.some((v) => !TOC_WHEN[key].includes(v)))) {
+          errors.push(`${where}: invalid when.${key} values`)
+        }
+      }
+      if (section.tier === 'extended' && !section.when) errors.push(`${where}: an extended section needs a when condition`)
+    }
+    for (const heading of topHeadings) {
+      if (!sections.some((section) => section.heading === heading)) errors.push(`${label}: template heading "${heading}" has no section`)
+    }
+    for (const section of sections) {
+      for (const dependency of section.requires ?? []) {
+        if (!ids.has(dependency)) errors.push(`${label} (${section.id}): requires unknown section ${dependency}`)
+      }
+    }
+    const visiting = new Set()
+    const done = new Set()
+    const cyclic = (id) => {
+      if (done.has(id)) return false
+      if (visiting.has(id)) return true
+      visiting.add(id)
+      const found = (ids.get(id)?.requires ?? []).some(cyclic)
+      visiting.delete(id)
+      done.add(id)
+      return found
+    }
+    if ([...ids.keys()].some(cyclic)) errors.push(`${label}: requires has a cycle`)
+    const core = sections.filter((section) => section.tier === 'core')
+    for (const element of ARTEFACT_STANDARD) {
+      if (!core.some((section) => section.artefactStandard === element)) {
+        errors.push(`${label}: core sections do not cover the artefact standard element "${element}"`)
+      }
+    }
+    const gate = profiles[type]?.gate
+    const dimensions = rubricDimensions(gate?.rubric)
+    if (gate?.mode === 'rubric') {
+      for (const section of sections) {
+        for (const dimension of section.evidences ?? []) {
+          if (!dimensions.includes(dimension)) errors.push(`${label} (${section.id}): evidences ${dimension}, not a dimension of ${gate.rubric}`)
+        }
+      }
+      for (const dimension of dimensions) {
+        if (!sections.some((section) => (section.evidences ?? []).includes(dimension))) {
+          errors.push(`${label}: rubric dimension ${dimension} is evidenced by no section`)
+        }
+      }
+      for (const dimension of gate.blocking ?? []) {
+        if (!core.some((section) => (section.evidences ?? []).includes(dimension))) {
+          errors.push(`${label}: blocking dimension ${dimension} is evidenced by no core section`)
+        }
+      }
+    }
+  }
+}
+
+// Blocking dimensions: a profile may name rubric dimensions that fail the gate at 0.
+function validateBlockingDimensions() {
+  const profiles = JSON.parse(readText(join(root, 'evaluation', 'quality-profiles.json'))).profiles ?? {}
+  for (const [type, profile] of Object.entries(profiles)) {
+    const blocking = profile.gate?.blocking
+    if (blocking === undefined) continue
+    const dimensions = rubricDimensions(profile.gate?.rubric)
+    if (!Array.isArray(blocking) || blocking.length === 0 || blocking.some((d) => !dimensions.includes(d))) {
+      errors.push(`evaluation/quality-profiles.json: ${type} gate.blocking must list dimensions of ${profile.gate?.rubric}`)
+    }
+  }
+}
+
 validateSkills()
 validateFrontmatterDir('templates', 'deliverable')
 validateQualityProfiles()
 validateCalibration()
+validateTemplateTocs()
+validateBlockingDimensions()
 validateFrontmatterDir('checklists', 'checklist')
 validateAgents()
 validateEditorialStyle()
@@ -314,4 +437,4 @@ if (errors.length) {
   process.exit(1)
 }
 
-console.log('Validation passed: skills, agents, templates, quality profiles, calibration sets, checklists, and MVP assets are sound.')
+console.log('Validation passed: skills, agents, templates, quality profiles, calibration sets, tables of contents, checklists, and MVP assets are sound.')

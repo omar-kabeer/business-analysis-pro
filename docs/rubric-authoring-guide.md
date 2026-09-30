@@ -1,6 +1,6 @@
 # Rubric Authoring Guide
 
-Guide version: 1.0.0
+Guide version: 1.1.0
 
 A one-page checklist for authoring an evaluation rubric under `evaluation/`. It distils the conventions in `docs/coverage-backlog-closure-plan.md` section 1.1 into the steps to follow per file. The plan section is the authority; if the two disagree, the plan wins and this guide is corrected.
 
@@ -17,7 +17,9 @@ A one-page checklist for authoring an evaluation rubric under `evaluation/`. It 
 3. `## Scoring scale`: score each dimension 0 to 3: 0 absent, 1 weak, 2 adequate, 3 strong.
 4. `## Dimensions`: a table with columns `#`, `Dimension`, `What good looks like`. Seven to nine dimensions, each a distinct testable quality phrased as what strong looks like.
 5. `## Result`: verdict bands against a maximum of three times the dimension count. For nine dimensions the maximum is 27, pass at 22 or higher with no dimension at 0, pass with changes at 16 to 21 or a single quick-to-fix dimension at 1, fail below 16 or any dimension at 0. For a different dimension count, scale the bands proportionally and state the maximum.
-6. A closing sentence routing material issues back to the owning skill by name.
+6. A closing sentence routing material issues back to the owning skill by name, and naming the blocking dimensions.
+7. `## Scoring anchors`, placed after `## Dimensions`: a table with columns `#`, `Score 0 (absent)`, `Score 3 (strong)`, one row per dimension, with the same numbers as the Dimensions table.
+8. `## Common failure modes`: the mistakes this artefact most often shows, as a short list.
 7. `## Findings template`: a table with columns `Dimension`, `Score`, `Evidence`, `Gap and fix`, and one empty row.
 
 ## Quality bar
@@ -33,3 +35,13 @@ Specialise the dimensions to the artefact. A process model scores notation valid
 - Run the `natural-prose-editor` pass on the prose before commit.
 - Run `scripts/validate-assets.mjs`; a single em dash fails it.
 - Update the artefact's row in `docs/coverage-backlog-manifest.md` to `shipped`.
+
+## Depth standard (version 1.1.0 of this guide)
+
+Every rubric is held to the rubric bar in `docs/depth-standard.md` (checks R1 to R8), and `npm run audit:depth` measures it.
+
+- **R1:** name the template the rubric grades, as `templates/<type>.md`. A rubric used by more than one template names each of them.
+- **R3, R4:** include the anchors and failure modes sections above.
+- **R5:** declare the blocking dimensions in the template's quality profile, as `gate.blocking` in `evaluation/quality-profiles.json`. Those are the dimensions that fail the gate at 0 whatever the total.
+- **R6:** map every dimension to the sections that evidence it through the `evidences` field of the template's table-of-contents manifest.
+- **R7, R8:** add a calibration set under `evaluation/calibration/<type>/`, and have a BA reviewer confirm it.
