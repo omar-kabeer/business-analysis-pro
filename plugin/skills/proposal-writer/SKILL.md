@@ -160,6 +160,10 @@ The skeleton is the same; the weight shifts to where the reader's questions are.
 
 The user of this skill typically arrives with a clear deliverable in mind and limited patience for friction. Bias toward producing a complete first draft fast, then refining based on their feedback. A draft they can mark up is more useful than questions they have to answer.
 
+## Method reference
+
+For the full method, read `references/decision-grade-proposal-playbook.md`: intent extraction, top-down argument, structure by document type, evidence, honest cost and risk, the explicit ask, and the final pass (10.7, 7.6). It ends with a worked example.
+
 ## Templates and rubrics
 
 This skill owns no artefact type. The deliverables it helps produce are graded by the rubric their own quality profile names in `evaluation/quality-profiles.json`, and their templates are listed with their owning skills in `docs/template-ownership.json`.

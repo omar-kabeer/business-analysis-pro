@@ -66,3 +66,27 @@ Report the total, the band, the dimension scores with evidence, and findings wit
 - Giving credit for content that is promised ("to be confirmed") rather than present.
 - Reviewing only what is there and not noticing what is missing.
 - Merging verification and validation findings, so no one owns the fix.
+
+## Worked example
+
+Reviewing the FRD for supplier invoice approval, version 0.9.
+
+1. Standard: the profile for `frd` names `evaluation/functional-requirements-rubric.md`, with dimensions 4 (unambiguous) and 5 (testable) blocking.
+2. Format: an inspection, because the FRD will be baselined and three teams build from it.
+3. Scoring with evidence, three dimensions shown:
+
+| Dimension | Score | Evidence | Gap and fix |
+| --- | --- | --- | --- |
+| 4 Unambiguous | 1 | FR-022 says approvers are "reminded promptly" | State the timing: one reminder after 2 working days, escalation after 4 |
+| 5 Testable | 2 | 11 of 14 requirements have Given, When, Then criteria | Add criteria to FR-025 to FR-027 |
+| 7 Traceability | 3 | Every requirement names its source and a test ID | None |
+
+4. Severity: FR-022 is blocking, because dimension 4 at its current wording would let two builds both claim to meet it.
+5. Verification against validation: this review verifies the FRD against the quality characteristics of requirements (ISO/IEC/IEEE 29148, clause 5.2.5, lists them: necessary, implementation free, unambiguous, complete, singular, feasible, verifiable, and more). Validation, whether the requirements meet the business need, happens in the walkthrough with the AP manager next week.
+6. Verdict: pass with changes, total 21 of 27, one blocking finding. Returned to the requirements skill with the fixes listed.
+
+## Sources
+
+- `babok-3.0-2015`: Verify Requirements (7.2), Validate Requirements (7.3), and Reviews (10.37).
+- `iso-29148`: the quality characteristics of individual requirements and sets of requirements.
+- `iso-29119-3`: test documentation conventions used when a review checks acceptance criteria and test traces.

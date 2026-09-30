@@ -47,6 +47,8 @@ The analysis approach, stakeholder engagement, governance, and information manag
 
 For the full method, read `references/planning-playbook.md`: tailoring the working style, the five planning tasks (3.1 to 3.5), and proportionate planning by initiative size.
 
+Also read `references/approach-selection-guide.md`: choosing and justifying a predictive, adaptive, or hybrid approach (3.1).
+
 ## House style
 
 Run the natural-prose-editor pass on any narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

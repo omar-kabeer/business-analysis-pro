@@ -42,7 +42,8 @@
       },
       "skills": [
         "process-modelling",
-        "visual-modelling"
+        "visual-modelling",
+        "reference-standards"
       ],
       "notes": "Also published as ISO/IEC 19510.",
       "authority": "normative",
@@ -94,7 +95,9 @@
       },
       "skills": [
         "decision-analysis",
-        "process-modelling"
+        "process-modelling",
+        "requirements",
+        "reference-standards"
       ],
       "authority": "normative",
       "constrains": [
@@ -119,7 +122,8 @@
       },
       "skills": [
         "strategy",
-        "business-architecture"
+        "business-architecture",
+        "reference-standards"
       ],
       "authority": "normative",
       "constrains": [
@@ -145,7 +149,8 @@
       "skills": [
         "business-architecture",
         "visual-modelling",
-        "architecture"
+        "architecture",
+        "reference-standards"
       ],
       "authority": "normative",
       "constrains": [
@@ -169,7 +174,8 @@
       },
       "skills": [
         "business-architecture",
-        "process-modelling"
+        "process-modelling",
+        "reference-standards"
       ],
       "version": "8.0",
       "notes": "Identity confirmed 2026-08-07 from the cover and copyright page: Cross-Industry PCF version 8.0, February 2026. Open standard: APQC grants a royalty-free licence to use and create derivative works provided the APQC attribution statement is carried on every copy and derivative. The PCF governs process-taxonomy well; it is an ill-fitting authority for capability-map (a process framework, not a capability model), which produces no check. See conformance file.",
@@ -249,7 +255,8 @@
       },
       "skills": [
         "risk-analysis",
-        "governance"
+        "governance",
+        "strategy"
       ],
       "notes": "Genuine ISO 31000:2018, confirmed from the title page. PROVENANCE PROBLEM: the copy carries a Clarivate Techstreet watermark licensing it to a University of Toronto user, dated 2018-03-11, and states that no further reproduction or distribution is permitted. It is not licensed to us. Replace with an owned copy before this underpins client deliverables.",
       "authority": "normative",
@@ -328,7 +335,9 @@
         "verified": false
       },
       "skills": [
-        "requirements"
+        "requirements",
+        "quality",
+        "elicitation"
       ],
       "authority": "normative",
       "constrains": [
@@ -433,7 +442,9 @@
       },
       "skills": [
         "ux",
-        "prototyping"
+        "prototyping",
+        "solution-evaluation",
+        "elicitation"
       ],
       "notes": "A 2019 revision supersedes this edition. Cite the edition held, not the standard in general. Identity confirmed 2026-08-07 from the title page: first edition, 2010-03-15.",
       "authority": "normative",
@@ -460,7 +471,8 @@
       },
       "skills": [
         "product-owner",
-        "agile-coach"
+        "agile-coach",
+        "ba-planning"
       ],
       "notes": "Creative Commons Attribution ShareAlike 4.0. Confirm the year on the copy held.",
       "authority": "normative",
@@ -488,7 +500,9 @@
       "skills": [
         "governance",
         "change-control",
-        "information-management"
+        "information-management",
+        "solution-evaluation",
+        "ba-planning"
       ],
       "notes": "Eight files: executive summary, overview, differences from COBIT 5, FAQ, laminate, objectives and practices workbook, management awareness diagnostic, RACI by role. Treat the workbooks as reference data, not prose to paraphrase.",
       "authority": "normative",
@@ -540,7 +554,8 @@
       },
       "skills": [
         "executive-review",
-        "communication"
+        "communication",
+        "proposal-writer"
       ],
       "notes": "Commercial book, all rights reserved. Verify provenance before citing. Paraphrase only.",
       "authority": "supporting",
@@ -629,7 +644,8 @@
       },
       "skills": [
         "business-architecture",
-        "architecture"
+        "architecture",
+        "reference-standards"
       ],
       "notes": "NOT the TOGAF standard. A 2003 conference slide deck. Cannot serve as the conformance authority for architecture work. Acquire the TOGAF Standard itself.",
       "year": 2003,
@@ -653,7 +669,8 @@
       "skills": [
         "communication",
         "technical-writer",
-        "natural-prose-editor"
+        "natural-prose-editor",
+        "deliverable-packager"
       ],
       "notes": "NOT part 2 of ISO 24495. A third-party companion pattern library, and a development draft. Supporting only.",
       "year": 2025,

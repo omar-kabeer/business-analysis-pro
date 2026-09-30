@@ -162,6 +162,10 @@ This entry works because:
 - The error case has a direct fix and a cross-reference
 - No theory, no filler
 
+## Method reference
+
+For the full method, read `references/documentation-playbook.md`: reader and task analysis, document types, verifying facts, structure for finding and doing, step writing, testing by doing, and maintenance. It ends with a worked example.
+
 ## Templates and rubrics
 
 This skill owns no artefact type. The deliverables it helps produce are graded by the rubric their own quality profile names in `evaluation/quality-profiles.json`, and their templates are listed with their owning skills in `docs/template-ownership.json`.

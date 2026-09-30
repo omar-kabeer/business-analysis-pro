@@ -29,9 +29,9 @@ State the notation and level in the model. Mixing levels in one diagram (a strat
 
 Model what happens, not what the procedure says. Use Observation (10.31) and system logs first, interviews second, documents last. For each step record the actor, the action, the decision and all its branches, and the handoff.
 
-Apply the BPMN discipline:
+Apply BPMN's own rules, listed as checks in `sources/conformance/bpmn-2.0.md` (for example, sequence flows stay within one pool and events carry flows in the right direction), together with these house modelling rules from `evaluation/process-model-rubric.md`:
 
-- one start event and named end events for every outcome, including failures;
+- a clear start event and a named end event for every outcome, including failures;
 - every gateway has exclusive, complete branches with labelled conditions;
 - every path reaches an end event, with no orphan or dead-end steps;
 - every task is labelled verb and object ("Review invoice");

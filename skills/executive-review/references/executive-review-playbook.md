@@ -57,3 +57,28 @@ Return a verdict (ready, ready with changes, not ready), the findings in order o
 ## Quality gates
 
 Grade the summary with the rubric named in its quality profile (`evaluation/quality-profiles.json`), `executive-summary`, and any business case it fronts with `business-case`. The deliverable-critic agent provides an independent skeptical read.
+
+## Worked example
+
+A draft board paper asks the Finance Committee to fund release 1 of supplier invoice approval. Its first page opens with three paragraphs on the history of accounts payable and states the ask on page four.
+
+Review against the procedure:
+
+1. The reader: the Finance Committee decides funding in a 20-minute slot and reads the first page closely, the rest selectively.
+2. Skeptical-reader questions: "What happens if we do nothing?" is answered only on page six. "What could make this fail?" is not answered at all; approver adoption is the main risk and it is missing.
+3. Red flags: the benefit (about 60,000 pounds a year of discount) has no source, and the payback figure (20 months) is quoted without the cost it depends on.
+
+Findings, in priority order:
+- Blocking: move the ask to the first paragraph: approve 150,000 pounds by 30 June for release 1, on condition that the load test passes.
+- Blocking: add the adoption risk and its response (email approval switched off at go-live).
+- Major: cite the discount figure to the ERP payment report, January to April 2026, and show the cost beside the payback.
+- Minor: cut the history to two sentences.
+
+The revised first page reads: "The Committee is asked to approve 150,000 pounds for release 1 of supplier invoice approval by 30 June. Invoices now take 14 days to approve, so 38 percent are paid late and about 60,000 pounds a year of discount is lost. The ERP's licensed workflow module cuts approval to 5 days, with payback in about 20 months. The main risk, approvers bypassing the tool, is handled by switching off email approval at go-live."
+
+## Sources
+
+- `babok-3.0-2015`: Communicate Business Analysis Information (4.4) and Business Cases (10.7).
+- `minto-pyramid-principle`: answer first, supported by grouped reasons, paraphrased.
+- `consultingmethodology-pyramid-whitepaper`: a practitioner summary of the same structure.
+- ISO 24495-1: the plain language principles, applied without claiming conformance until the library holds the standard (see the `iso-24495-1` entry in `sources/manifest.json`).

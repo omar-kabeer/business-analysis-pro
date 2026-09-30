@@ -40,6 +40,10 @@ Ground business analysis work in an established reference model, framework, or n
 
 - Hand the actual capability map or value stream to `business-architecture`, the process model to `process-modelling`, the data model to `data-modelling`, and the scaled-agile ceremony guidance to `agile-coach`. This skill selects and frames the reference; those skills produce the artefact.
 
+## Method reference
+
+For the full method, read `references/reference-model-selection-playbook.md`: naming the kind of reference, the fit test, adapting rather than copying, conformance obligations, and citing with a locator and within the licence. It ends with a worked example.
+
 ## Templates and rubrics
 
 This skill owns no artefact type. The deliverables it helps produce are graded by the rubric their own quality profile names in `evaluation/quality-profiles.json`, and their templates are listed with their owning skills in `docs/template-ownership.json`.

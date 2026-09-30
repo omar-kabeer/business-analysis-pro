@@ -85,3 +85,22 @@ Output: recommended actions.
 ## Quality gates
 
 Grade each output with the rubric named in its quality profile (`evaluation/quality-profiles.json`): `solution-performance-measures`, `solution-performance-analysis`, `solution-limitation`, `enterprise-limitation`, and `recommended-actions`. The solution-value-auditor agent checks that delivered value ties back to the objectives and potential value that justified the change.
+
+## Worked example
+
+Supplier invoice approval, three months after go-live.
+
+- Promise: OBJ-001, approval in 5 days by December 2026, with an interim target of 8 days by the end of the first quarter.
+- 8.1 Measure: median days to approval, from the ERP workflow log, weekly. The quarter ends at 7.5 days, down from 14.
+- 8.2 Analyse: the median hides variation. Three departments run at 12 days; the other nine average 6. In-tool approval share is 97 percent overall but 71 percent in those three.
+- 8.3 Solution limitations: approvers in the three departments approve mainly from site locations on phones, and the mobile layout needs four taps to reach Approve. Confirmed by observation of two approvers.
+- 8.4 Enterprise limitations: the three departments have no delegate cover during site visits, so invoices wait for the approver's return. Delegation exists in the tool but was never set up.
+- 8.5 Recommend actions: set delegates in the three departments (quick, no cost), and simplify the mobile approval screen in release 1.1 (vendor estimate 5 days). Expected effect: those departments reach the 8-day interim target within one month.
+
+The evaluation separates a solution limitation (the mobile screen) from an enterprise one (no delegate cover), because they need different owners and different fixes.
+
+## Sources
+
+- `babok-3.0-2015`: Solution Evaluation tasks 8.1 to 8.5.
+- `cobit-2019`: monitoring and evaluating performance against goals.
+- `iso-9241-210-2010`: evaluating designs against user requirements, used when assessing solution limitations with users.

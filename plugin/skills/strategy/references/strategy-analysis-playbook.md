@@ -91,3 +91,20 @@ The strategy-analyst agent checks these links independently. Run it before the c
 ## Quality gates
 
 Grade each output with the rubric named in its quality profile (`evaluation/quality-profiles.json`): `current-state-assessment`, `future-state-definition`, `gap-analysis`, `change-strategy`, `business-objectives`, `solution-scope`, and `potential-value`.
+
+## Worked example
+
+Supplier invoice approval, run as one Strategy Analysis chain.
+
+- 6.1 Current state: approval takes 14 days (ERP log, January to April 2026); 38 percent of invoices are paid late; about 60,000 pounds a year of discount is lost. Root cause, by five whys: approval sits outside any system with routing, reminders, or escalation. Recorded in `templates/current-state-assessment.md`.
+- 6.2 Future state: objectives OBJ-001 (approval in 5 days by December 2026) and OBJ-002 (95 percent paid on terms by March 2027), each with a baseline and an owner, in `templates/business-objectives.md`. The solution space is bounded: UK only, licensed tools preferred, no change to the payment run.
+- 6.3 Risks: the largest is approvers bypassing any new tool (probability 4, impact 4). The organisation's tolerance is severity 15, so it is treated before the change strategy is fixed, following ISO 31000's sequence of analysis, evaluation against tolerance, then treatment.
+- 6.4 Change strategy: configure the ERP's licensed workflow module, UK first and EU in release 2, with email approval switched off at go-live. Solution scope in `templates/solution-scope.md`; transition by entity.
+
+How the links hold: the root cause (no routing) is what the chosen capability (rule-based routing) removes; the objectives measure the need stated in 6.1; the top risk shapes the transition choice (switching email off) rather than being logged and forgotten.
+
+## Sources
+
+- `babok-3.0-2015`: Strategy Analysis tasks 6.1 to 6.4 and the techniques they use.
+- `bmm-1.3`: ends (goals and objectives), means (strategies and tactics), and influencers, for structuring 6.2 and 6.4.
+- `iso-31000-2018`: risk analysis, evaluation against criteria, and treatment, for 6.3.
