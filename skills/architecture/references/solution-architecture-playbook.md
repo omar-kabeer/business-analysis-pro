@@ -102,6 +102,6 @@ Security requirement raised early: approval records are financial data retained 
 ## Sources
 
 - `babok-3.0-2015`: tasks 6.1, 7.4, and 7.5 and techniques 10.13, 10.24, 10.41, and 10.42 set the method.
-- `archimate-3.1`: layer and viewpoint conventions for placing requirements in the enterprise architecture.
+- `archimate-3.1`: layer and viewpoint conventions for placing requirements in the enterprise architecture. The library holds the ArchiMate 3.1 reference cards, not the full specification, so treat it as a summary until the specification is acquired.
 - `uml-2.5`: notation for sequence and component views.
-- `opengroup-togaf-presentation-2003`: the architecture development context the analyst works within.
+- `opengroup-togaf-presentation-2003`: the architecture development context the analyst works within. It is a 2003 conference deck, not the TOGAF standard.

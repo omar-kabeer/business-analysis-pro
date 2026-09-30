@@ -42,6 +42,10 @@ Take a finished, quality-passed artefact and deliver it in a usable form. The sp
 
 The artefact has been classified as inline or file, delivered in the correct format for its class or a stated fallback, and handed to the user with a clear name and a one-line delivery note.
 
+## Method reference
+
+For the full method, read `references/delivery-packaging-playbook.md`: the inline or file decision, class mapping, build capability and fallback, content-preserving generation, the gate checks, and naming and delivery (4.4). It ends with a worked example.
+
 ## House style
 
 Any prose in the delivered file passes the house style in `docs/methodology/editorial-style.md`, with no em dashes. The packager verifies this gate has run; it does not replace it.

@@ -91,3 +91,21 @@ Stop when the next session is unlikely to change the decision the elicitation se
 ## Quality gates
 
 Grade each output with the rubric named in its quality profile (`evaluation/quality-profiles.json`): `elicitation-activity-plan`, `interview-guide`, `workshop-plan`, `stakeholder-register`, `stakeholder-map-raci`, and `stakeholder-engagement-approach`. The stakeholder-coverage-auditor agent audits the stakeholder outputs. The elicitation-facilitator agent decides whether a request has enough input to proceed.
+
+## Worked example
+
+Supplier invoice approval: eliciting why approvals take 14 days.
+
+- 4.1 Prepare: the desired outcome is a confirmed as-is approval process with timings, feeding the current state assessment. Techniques are chosen for the people: observation for AP clerks, because procedures differ from practice; interviews for budget holders, because they are spread across sites; a focus group with clerks for exception causes. Planned in `templates/elicitation-activity-plan.md`.
+- 4.2 Conduct: the observation on 6 May found clerks chasing approvals by phone for 40 percent of their morning. Interview INT-004 with a budget holder found that approval emails often lack the purchase order, so approvers ask before deciding. Statements are recorded as said, with fact separated from opinion, in `templates/interview-guide.md`.
+- 4.3 Confirm: each interviewee received a summary within a day and confirmed it; one corrected "half the emails" to "about half". The observation findings were checked with two clerks who were not observed.
+- 4.4 Communicate: the confirmed findings went to the product owner as a one-page summary: three causes, each with its evidence.
+- 4.5 Collaborate: one budget holder resisted, seeing the project as surveillance of approvers. A follow-up conversation reframed the goal as fewer interruptions, and they joined the design workshop.
+
+When to stop: the three causes appeared in every source, and new interviews added no new cause, so elicitation for the current state was enough.
+
+## Sources
+
+- `babok-3.0-2015`: Elicitation and Collaboration tasks 4.1 to 4.5 and the techniques they use.
+- `iso-29148`: the stakeholder needs and requirements definition process that elicitation feeds.
+- `iso-9241-210-2010`: understanding and specifying the context of use, for eliciting with the people who do the work.

@@ -90,5 +90,5 @@ Priority: MoSCoW for release 1, with STORY-041 and STORY-042 as Must, because to
 
 - `babok-3.0-2015`: techniques 10.1, 10.2, 10.33, and 10.48, task 5.3, and the Agile Perspective (11.1).
 - `scrum-guide-2020`: product goal, product backlog, refinement, and the definition of done.
-- `agile-practice-guide`: iteration planning, release planning, and flow-based prioritisation.
-- `effective-user-stories`: story form, INVEST, and splitting patterns.
+- `agile-practice-guide`: iteration planning, release planning, and flow-based prioritisation. The identity of the held copy is not yet verified in `sources/manifest.json`; paraphrase only.
+- `effective-user-stories`: story form, INVEST, and splitting patterns. A one-page reference with no named author, so it supports rather than governs.

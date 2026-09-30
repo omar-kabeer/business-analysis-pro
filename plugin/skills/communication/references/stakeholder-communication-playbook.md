@@ -1,6 +1,6 @@
 # Stakeholder Communication Playbook
 
-How to package business analysis information so each audience understands it, trusts it, and can act on it. This playbook applies BABOK Communicate Business Analysis Information (4.4), Manage Stakeholder Collaboration (4.5), Plan Stakeholder Engagement (3.2), and Confirm Elicitation Results (4.3). Writing follows the plain language principles of ISO 24495-1 (`iso-24495-1`) and its design patterns (`iiid-24495-document-design-patterns-draft`); messages for senior readers follow the Pyramid Principle (`minto-pyramid-principle`).
+How to package business analysis information so each audience understands it, trusts it, and can act on it. This playbook applies BABOK Communicate Business Analysis Information (4.4), Manage Stakeholder Collaboration (4.5), Plan Stakeholder Engagement (3.2), and Confirm Elicitation Results (4.3). Writing follows the four plain language principles that ISO 24495-1 sets out (relevant, findable, understandable, usable) and the companion design patterns in `iiid-24495-document-design-patterns-draft`; messages for senior readers follow the Pyramid Principle (`minto-pyramid-principle`), paraphrased. The library does not yet hold the standard itself: `iso-24495-1` is flagged in `sources/manifest.json` because the held file is third-party guidance, not the standard. Apply the principles, but do not claim conformance to ISO 24495-1.
 
 ## When this playbook applies
 
@@ -29,7 +29,7 @@ Structure the message top down (the Pyramid Principle). The answer or the ask co
 
 ## Step 4: Write in plain language
 
-Apply the ISO 24495-1 principles: the reader can find what they need, understand it, and use it. In practice:
+Apply the plain language principles: the content is relevant to the reader, and they can find what they need, understand it, and use it. In practice:
 
 - short sentences, one idea each;
 - the reader's words, not the project's jargon, with any necessary term defined once;
@@ -83,6 +83,6 @@ Each message leads with what that reader needs, uses their terms, and says what,
 ## Sources
 
 - `babok-3.0-2015`: tasks 3.2, 4.3, 4.4, and 4.5.
-- `iso-24495-1`: plain language principles: relevant, findable, understandable, usable.
+- `iso-24495-1`: the four plain language principles, relevant, findable, understandable, and usable, as paraphrased by the guidance the library holds. The standard itself is still to be acquired.
 - `iiid-24495-document-design-patterns-draft`: document design patterns that apply those principles.
 - `minto-pyramid-principle`: top-down structure for messages to senior readers.

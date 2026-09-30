@@ -48,6 +48,8 @@ The requirement set passes the quality rules, every item is traceable and testab
 
 For the full method, read `references/requirements-specification-playbook.md`: classification, modelling choices, verification probes, validation, requirements architecture, and trace relationships (7.1 to 7.6, 5.1, 5.2).
 
+Also read `references/business-rules-and-decisions.md`: business rules and decision tables, kept apart from the requirements that enforce them (10.9, 10.17).
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative sections and use no em dashes. See `docs/methodology/editorial-style.md`.

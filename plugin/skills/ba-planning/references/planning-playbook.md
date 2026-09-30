@@ -88,3 +88,20 @@ Output: the business analysis performance assessment.
 ## Quality gates
 
 Grade each output with the rubric named in its quality profile (`evaluation/quality-profiles.json`): `business-analysis-approach`, `stakeholder-engagement-approach`, `governance-approach`, `information-management-approach`, `artefact-register`, and `business-analysis-performance-assessment`.
+
+## Worked example
+
+Supplier invoice approval: planning the business analysis work.
+
+- Tailoring: a medium change, eight weeks of analysis, one release, a regulated control (segregation of duties). The plan is proportionate: standard templates, formal approval only for the BRD and FRD.
+- 3.1 Approach: hybrid. The requirements that the control and the ERP integration depend on are specified and baselined up front, because they are hard to change later; the approver experience is refined in two-week iterations with prototypes. Choice recorded in `templates/business-analysis-approach.md`, with the reasons.
+- 3.2 Stakeholder engagement: 14 stakeholder groups in the register; budget holders consulted by one-to-one interview, AP by workshop, the sponsor by a fortnightly half hour. Recorded in `templates/stakeholder-engagement-approach.md`.
+- 3.3 Governance: the sponsor approves scope; the product owner approves requirement changes within a release; changes to baselined items go through change assessment. Recorded in `templates/governance-approach.md`.
+- 3.4 Information management: one repository, typed identifiers, baselines at BRD and FRD approval, and full-depth traceability for the segregation-of-duties control. Recorded in `templates/information-management-approach.md`.
+- 3.5 Performance: two measures of the analysis itself: requirement defects found after baseline (target under 5), and time from question to confirmed answer in elicitation (target 3 working days). Reviewed at the end of each iteration; after the first, the elicitation answer time was 5 days, so interviews were booked in blocks.
+
+## Sources
+
+- `babok-3.0-2015`: Business Analysis Planning and Monitoring tasks 3.1 to 3.5.
+- `scrum-guide-2020`: iteration, review, and retrospective as the adaptive part of a hybrid approach.
+- `cobit-2019`: governance components and decision rights, for Plan Business Analysis Governance (3.3).

@@ -49,6 +49,8 @@ The discovery objective is covered, instruments are ready or sessions are captur
 
 For the full method, read `references/elicitation-and-collaboration-playbook.md`: the five Elicitation and Collaboration tasks (4.1 to 4.5), technique selection, the states of elicited information, and when to stop.
 
+Also read `references/question-design-and-bias.md`: question design and the biases that distort elicitation (4.2).
+
 ## House style
 
 Run the `natural-prose-editor` pass on written instruments and summaries and use no em dashes. See `docs/methodology/editorial-style.md`.

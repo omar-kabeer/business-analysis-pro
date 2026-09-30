@@ -125,7 +125,9 @@ function auditSkill(name) {
   const all = `${body}\n${refText}`
   return {
     S1: refs.some((f) => f.endsWith('-playbook.md')),
-    S2: sources.filter((s) => (s.skills ?? []).includes(name) || (s.skills ?? []).includes('*')).length >= 3,
+    S2: sources.filter(
+      (s) => s.identityVerified === true && ((s.skills ?? []).includes(name) || (s.skills ?? []).includes('*')),
+    ).length >= 3,
     S3: words >= Math.max(800, 60 * (owned[name] ?? 0)),
     S4: /worked example|^#+ .*example/im.test(all) || /examples\/[a-z0-9-]+\//.test(all),
     S5: /templates\/[a-z0-9-]+\.md|quality-profiles\.json/.test(all) && /evaluation\/|quality-profiles\.json/.test(all),
