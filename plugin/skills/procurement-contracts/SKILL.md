@@ -48,6 +48,10 @@ Turn what the business needs into obligations a supplier can be measured against
 
 The engagement model is set, the statement of work and service levels are written with testable criteria, change and exit terms exist, requirement coverage is checked, and the package has gone to legal review.
 
+## Method reference
+
+For the full method, read `references/procurement-contracts-playbook.md`: obligations from requirements, sustainability criteria, the statement of work, service levels, payment tied to acceptance, supplier security, and change and exit. It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

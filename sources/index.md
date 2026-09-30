@@ -120,10 +120,10 @@ Because we conform rather than quote, licence position rarely blocks use. It doe
 | `iso-20400` | Sustainable procurement, guidance 20400 (ISO) | Normative, outputs must pass | procurement-document, vendor-assessment | vendor-evaluation, procurement-contracts |
 | `iso-24495-1` | Plain language, governing principles and guidelines 24495-1 (ISO) | Normative, outputs must pass Identity unconfirmed. | prose-deliverable | communication, natural-prose-editor, executive-review |
 | `iso-27001-2022` | Information security management systems 27001:2022 (ISO/IEC) | Normative, outputs must pass | security-requirement, compliance-matrix | regulatory-compliance, risk-analysis, information-management |
-| `iso-27002` | Information security controls 27002:2022 (ISO/IEC) | Normative, outputs must pass | security-control, compliance-matrix | regulatory-compliance, risk-analysis |
+| `iso-27002` | Information security controls 27002:2022 (ISO/IEC) | Normative, outputs must pass | security-control, compliance-matrix | regulatory-compliance, risk-analysis, change-control, procurement-contracts, vendor-evaluation |
 | `iso-29119-3` | Software testing, test documentation 29119-3 (ISO/IEC/IEEE) | Normative, outputs must pass | test-specification, acceptance-criteria | acceptance-testing, quality |
-| `iso-29148` | Systems and software engineering, requirements engineering 29148 (ISO/IEC/IEEE) | Normative, outputs must pass | requirement-statement, requirements-package | requirements, quality, elicitation |
-| `iso-31000-2018` | Risk management, guidelines 31000:2018 (ISO) | Normative, outputs must pass | risk-register, risk-assessment | risk-analysis, governance, strategy |
+| `iso-29148` | Systems and software engineering, requirements engineering 29148 (ISO/IEC/IEEE) | Normative, outputs must pass | requirement-statement, requirements-package | requirements, quality, elicitation, acceptance-testing |
+| `iso-31000-2018` | Risk management, guidelines 31000:2018 (ISO) | Normative, outputs must pass | risk-register, risk-assessment | risk-analysis, governance, strategy, decision-analysis, estimation |
 | `iso-9241-210-2010` | Ergonomics of human-system interaction, human-centred design for interactive systems 9241-210:2010 (ISO) | Normative, outputs must pass | design-process, prototype | ux, prototyping, solution-evaluation, elicitation |
 | `scrum-guide-2020` | The Scrum Guide 2020 (Schwaber and Sutherland) | Normative, outputs must pass | sprint-artefact, product-backlog | product-owner, agile-coach, ba-planning |
 | `uml-2.5` | Unified Modeling Language 2.5 (OMG) | Normative, outputs must pass | system-diagram, class-model, sequence-diagram | visual-modelling, data-modelling, architecture |
@@ -160,22 +160,22 @@ Counts are of standards and practitioner items mapped to the skill in the manife
 
 | Skill | Normative standards | Supporting material | Ids |
 | --- | --- | --- | --- |
-| acceptance-testing | 1 | 0 | `iso-29119-3` |
+| acceptance-testing | 2 | 0 | `iso-29148`, `iso-29119-3` |
 | agile-coach | 1 | 2 | `scrum-guide-2020`, `agile-practice-guide`, `europeanscrum-agile-guide-2025` |
 | architecture | 2 | 1 | `uml-2.5`, `archimate-3.1`, `opengroup-togaf-presentation-2003` |
 | ba-planning | 2 | 0 | `scrum-guide-2020`, `cobit-2019` |
 | business-analysis | 0 | 0 | none |
 | business-architecture | 3 | 1 | `bmm-1.3`, `archimate-3.1`, `apqc-pcf`, `opengroup-togaf-presentation-2003` |
 | business-intelligence | 1 | 3 | `crisp-dm-1.0`, `kimball-dimensional-modelling`, `datasciencepm-evaluating-crisp-dm`, `horvath-crisp-dm-lecture` |
-| change-control | 1 | 0 | `cobit-2019` |
+| change-control | 2 | 0 | `iso-27002`, `cobit-2019` |
 | communication | 1 | 2 | `iso-24495-1`, `minto-pyramid-principle`, `iiid-24495-document-design-patterns-draft` |
 | data-analysis | 1 | 2 | `crisp-dm-1.0`, `datasciencepm-evaluating-crisp-dm`, `horvath-crisp-dm-lecture` |
 | data-modelling | 1 | 1 | `uml-2.5`, `kimball-dimensional-modelling` |
-| decision-analysis | 1 | 0 | `dmn-1.3` |
+| decision-analysis | 2 | 0 | `dmn-1.3`, `iso-31000-2018` |
 | deliverable-packager | 0 | 1 | `iiid-24495-document-design-patterns-draft` |
 | document-analysis | 0 | 0 | none |
 | elicitation | 2 | 0 | `iso-29148`, `iso-9241-210-2010` |
-| estimation | 1 | 0 | `cocomo-ii-2.1` |
+| estimation | 2 | 0 | `iso-31000-2018`, `cocomo-ii-2.1` |
 | executive-review | 1 | 2 | `iso-24495-1`, `minto-pyramid-principle`, `consultingmethodology-pyramid-whitepaper` |
 | finance | 0 | 0 | none |
 | governance | 2 | 1 | `iso-31000-2018`, `cobit-2019`, `cobit-ai-governance` |
@@ -184,7 +184,7 @@ Counts are of standards and practitioner items mapped to the skill in the manife
 | natural-prose-editor | 1 | 1 | `iso-24495-1`, `iiid-24495-document-design-patterns-draft` |
 | orchestrator | 0 | 0 | none |
 | process-modelling | 3 | 0 | `bpmn-2.0`, `dmn-1.3`, `apqc-pcf` |
-| procurement-contracts | 1 | 0 | `iso-20400` |
+| procurement-contracts | 2 | 0 | `iso-27002`, `iso-20400` |
 | product-manager | 0 | 1 | `agile-practice-guide` |
 | product-owner | 1 | 2 | `scrum-guide-2020`, `agile-practice-guide`, `effective-user-stories` |
 | project-intake | 0 | 0 | none |
@@ -200,7 +200,7 @@ Counts are of standards and practitioner items mapped to the skill in the manife
 | strategy | 2 | 0 | `bmm-1.3`, `iso-31000-2018` |
 | technical-writer | 0 | 1 | `iiid-24495-document-design-patterns-draft` |
 | ux | 3 | 0 | `wcag-2.1`, `wcag-2.2`, `iso-9241-210-2010` |
-| vendor-evaluation | 1 | 0 | `iso-20400` |
+| vendor-evaluation | 2 | 0 | `iso-27002`, `iso-20400` |
 | visual-modelling | 3 | 0 | `bpmn-2.0`, `uml-2.5`, `archimate-3.1` |
 
 <!-- /generated:skills -->

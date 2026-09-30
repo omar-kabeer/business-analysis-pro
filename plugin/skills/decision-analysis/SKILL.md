@@ -49,6 +49,10 @@ Make the basis of a choice visible. Structure the options and criteria, apply a 
 
 Options are framed and constrained, criteria are weighted before scoring, the analysis is complete with sensitivity tested, and the decision and its rationale are recorded.
 
+## Method reference
+
+For the full method, read `references/decision-analysis-playbook.md`: one-off decisions with criteria set before scoring, evidence, uncertainty, and sensitivity, and repeatable decisions modelled in DMN (10.16, 10.17). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
