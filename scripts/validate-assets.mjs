@@ -150,8 +150,61 @@ function validateMvp() {
   }
 }
 
+// Template to rubric bindings: every template is graded by exactly one existing rubric,
+// its own-name rubric wins when one exists, and every playbook slot agrees with the binding.
+function validateRubricBindings() {
+  const bindingsPath = 'evaluation/template-rubric-bindings.json'
+  if (!existsSync(join(root, bindingsPath))) {
+    errors.push(`${bindingsPath}: missing template to rubric bindings`)
+    return
+  }
+  let bindings
+  try {
+    bindings = JSON.parse(readText(join(root, bindingsPath))).bindings ?? {}
+  } catch (error) {
+    errors.push(`${bindingsPath}: invalid JSON (${error.message})`)
+    return
+  }
+
+  const templates = readdirSync(join(root, 'templates'))
+    .filter((entry) => entry.endsWith('.md') && entry !== 'README.md')
+    .map((entry) => `templates/${entry}`)
+  for (const template of templates) {
+    const rubric = bindings[template]
+    if (!rubric) {
+      errors.push(`${bindingsPath}: ${template} has no rubric binding`)
+      continue
+    }
+    if (!/^evaluation\/[a-z0-9-]+-rubric\.md$/.test(rubric) || !existsSync(join(root, rubric))) {
+      errors.push(`${bindingsPath}: ${template} binds to missing rubric ${rubric}`)
+    }
+    const ownName = `evaluation/${basename(template, '.md')}-rubric.md`
+    if (existsSync(join(root, ownName)) && rubric !== ownName) {
+      errors.push(`${bindingsPath}: ${template} must bind to its own-name rubric ${ownName}`)
+    }
+  }
+  for (const template of Object.keys(bindings)) {
+    if (!templates.includes(template)) errors.push(`${bindingsPath}: binding for unknown template ${template}`)
+  }
+
+  const playbooksDir = join(root, 'playbooks')
+  if (!existsSync(playbooksDir)) return
+  for (const entry of readdirSync(playbooksDir).filter((name) => name.endsWith('.json'))) {
+    const slots = JSON.parse(readText(join(playbooksDir, entry))).slots ?? []
+    for (const slot of slots) {
+      if (slot.quality?.mode !== 'rubric') continue
+      const template = slot.template?.key?.split('.template.')[1]
+      const rubric = slot.quality.reference?.key?.split('.rubric.')[1]
+      if (template && bindings[template] && rubric !== bindings[template]) {
+        errors.push(`playbooks/${entry}: ${slot.slotId} grades ${template} with ${rubric}, but the binding is ${bindings[template]}`)
+      }
+    }
+  }
+}
+
 validateSkills()
 validateFrontmatterDir('templates', 'deliverable')
+validateRubricBindings()
 validateFrontmatterDir('checklists', 'checklist')
 validateAgents()
 validateEditorialStyle()
@@ -163,4 +216,4 @@ if (errors.length) {
   process.exit(1)
 }
 
-console.log('Validation passed: skills, agents, templates, checklists, and MVP assets are sound.')
+console.log('Validation passed: skills, agents, templates, rubric bindings, checklists, and MVP assets are sound.')
