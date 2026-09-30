@@ -40,6 +40,10 @@ Be the independent critic. Review deliverables against recognised standards and 
 
 The artifact has been checked for completeness, correctness, consistency, and testability, assumptions and edge cases are challenged, and a prioritised set of fixes and a clear verdict are delivered.
 
+## Method reference
+
+For the full method, read `references/review-and-verification-playbook.md`: finding the standard through the quality profile, review formats, evidence-based scoring, severity, calibration, and the verdict.
+
 ## House style
 
 Check the artifact for em dashes and stock AI phrasing as part of the review, and run the `natural-prose-editor` pass on your own findings. See `docs/methodology/editorial-style.md`.

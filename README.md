@@ -1,6 +1,6 @@
 # Business Analysis OS (Claude Code plugin)
 
-An enterprise Business Analysis and Product Management operating system for Claude Code. It installs 40 skills that turn Claude into a senior business analyst, product manager, and executive reviewer, coordinated by an orchestrator and held to a strict editorial house style. Version 1.15.0 closes the plugin against the full BABOK v3 artefact register, so every artefact the guide defines has exactly one owning skill.
+An enterprise Business Analysis and Product Management operating system for Claude Code. It installs 43 skills and 22 subagents that turn Claude into a senior business analyst, product manager, and executive reviewer, coordinated by an orchestrator and held to a strict editorial house style. Version 1.15.0 closed the plugin against the full BABOK v3 artefact register, so every artefact the guide defines has exactly one owning skill. Version 1.17.0 adds a quality profile for every artefact type (`evaluation/quality-profiles.json`), rubric calibration sets, method playbooks for the eight most heavily used skills, and the strategy-analyst auditor for Strategy Analysis.
 
 This directory is the distributable plugin. It is generated from the repository by `scripts/build-plugin.mjs`; edit skills under the repository `skills/` folder, not here.
 

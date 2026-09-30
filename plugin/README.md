@@ -1,16 +1,24 @@
 # Business Analysis OS (Claude Code plugin)
 
-An enterprise Business Analysis and Product Management operating system for Claude Code. It installs 18 skills that turn Claude into a senior business analyst, product manager, and executive reviewer, coordinated by an orchestrator and held to a strict editorial house style.
+An enterprise Business Analysis and Product Management operating system for Claude Code. It installs 43 skills and 22 subagents that turn Claude into a senior business analyst, product manager, and executive reviewer, coordinated by an orchestrator and held to a strict editorial house style. Version 1.15.0 closed the plugin against the full BABOK v3 artefact register, so every artefact the guide defines has exactly one owning skill. Version 1.17.0 adds a quality profile for every artefact type (`evaluation/quality-profiles.json`), rubric calibration sets, method playbooks for the eight most heavily used skills, and the strategy-analyst auditor for Strategy Analysis.
 
 This directory is the distributable plugin. It is generated from the repository by `scripts/build-plugin.mjs`; edit skills under the repository `skills/` folder, not here.
 
 ## What you get
 
-- Orchestrator that classifies a request and routes it to the right specialist.
-- BABOK v3-aligned analysis: business-analysis, requirements, elicitation, governance, quality.
-- Product and strategy: strategy, product-manager, product-owner, market-research, finance, ux, architecture, executive-review.
-- Writing: natural-prose-editor (house-style editor), technical-writer, proposal-writer, prompt-master.
+- Orchestrator that classifies a request and routes it to the right specialist, with boundary rules that keep the skills from overlapping.
+- Framing and evidence: elicitation, document-analysis, business-analysis, ba-planning, market-research, strategy.
+- Specification: requirements, product-manager, product-owner, agile-coach, ux, prototyping.
+- Modelling and representation: visual-modelling, process-modelling, data-modelling, business-intelligence, data-analysis, architecture, business-architecture.
+- Decision and evaluation: decision-analysis, estimation, finance, vendor-evaluation, procurement-contracts, acceptance-testing, quality, solution-evaluation.
+- Control: risk-analysis, change-control, regulatory-compliance, information-management, governance.
+- Communication: communication, executive-review, technical-writer, proposal-writer, natural-prose-editor, prompt-master.
+- Maintenance: skill-upgrader, which upgrades a skill against BABOK and the curated source library in `sources/`. See `docs/skill-upgrade-program.md`.
 - A hard no em dash house style, applied automatically through the natural-prose-editor skill and a SessionStart hook.
+
+## Coverage
+
+The skill set is derived from a line-by-line reading of the BABOK v3 artefact register (410 rows covering task inputs and outputs, guidelines and tools, requirement and design classes, packaging and representation forms, named diagram and matrix forms, procurement documents, analysis and review artefacts, all 50 technique work products, and the five perspectives). Every row resolves to exactly one owning skill. The layers above are mutually exclusive and collectively exhaustive: framing, evidence, specification, representation, decision, control, and communication.
 
 ## Install
 

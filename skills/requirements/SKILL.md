@@ -44,6 +44,10 @@ Functional requirements describe behaviour. Non-functional requirements describe
 
 The requirement set passes the quality rules, every item is traceable and testable, and the target document is assembled and ready for validation.
 
+## Method reference
+
+For the full method, read `references/requirements-specification-playbook.md`: classification, modelling choices, verification probes, validation, requirements architecture, and trace relationships (7.1 to 7.6, 5.1, 5.2).
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative sections and use no em dashes. See `docs/methodology/editorial-style.md`.

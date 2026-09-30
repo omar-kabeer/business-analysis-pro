@@ -1,0 +1,660 @@
+{
+  "$comment": "Quality profile per artefact type: the template that produces it, the gate that grades it, and the independent reviewer agents that audit it. Artefact type is the template file stem. A type with an own-name rubric uses it; the others use the BABOK-named rubric for the same artefact. Reviewers mirror the app's quality-audit agent bindings, which select an agent when its trigger is a substring of the artefact type. Checked by scripts/validate-assets.mjs, including agreement with every rubric reference pinned in playbooks/.",
+  "schemaVersion": 1,
+  "gateModes": [
+    "rubric",
+    "approved_review",
+    "no_applicable_check"
+  ],
+  "profiles": {
+    "artefact-register": {
+      "template": "templates/artefact-register.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/artefact-register-rubric.md"
+      }
+    },
+    "bi-report-specification": {
+      "template": "templates/bi-report-specification.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/reporting-and-information-delivery-requirements-rubric.md"
+      }
+    },
+    "brd": {
+      "template": "templates/brd.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/brd-rubric.md"
+      },
+      "reviewers": [
+        "requirements-verifier"
+      ]
+    },
+    "business-analysis-approach": {
+      "template": "templates/business-analysis-approach.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-analysis-approach-rubric.md"
+      }
+    },
+    "business-analysis-information-communicated": {
+      "template": "templates/business-analysis-information-communicated.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-analysis-information-communicated-rubric.md"
+      }
+    },
+    "business-analysis-performance-assessment": {
+      "template": "templates/business-analysis-performance-assessment.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-analysis-performance-assessment-rubric.md"
+      }
+    },
+    "business-capability-map": {
+      "template": "templates/business-capability-map.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-capability-map-capability-model-rubric.md"
+      }
+    },
+    "business-case": {
+      "template": "templates/business-case.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-case-rubric.md"
+      },
+      "reviewers": [
+        "deliverable-critic",
+        "solution-value-auditor"
+      ]
+    },
+    "business-model-canvas": {
+      "template": "templates/business-model-canvas.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-model-canvas-rubric.md"
+      }
+    },
+    "business-objectives": {
+      "template": "templates/business-objectives.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-objectives-rubric.md"
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
+    },
+    "business-rules-catalogue": {
+      "template": "templates/business-rules-catalogue.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-rules-catalogue-set-of-business-rules-rubric.md"
+      }
+    },
+    "change-request": {
+      "template": "templates/change-request.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/requirements-change-assessment-rubric.md"
+      }
+    },
+    "change-strategy": {
+      "template": "templates/change-strategy.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/change-strategy-rubric.md"
+      },
+      "reviewers": [
+        "risk-challenger",
+        "strategy-analyst"
+      ]
+    },
+    "compliance-obligation-register": {
+      "template": "templates/compliance-obligation-register.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/compliance-obligation-register-rubric.md"
+      },
+      "reviewers": [
+        "compliance-auditor"
+      ]
+    },
+    "context-diagram": {
+      "template": "templates/context-diagram.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/scope-model-rubric.md"
+      }
+    },
+    "current-state-assessment": {
+      "template": "templates/current-state-assessment.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/current-state-description-rubric.md"
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
+    },
+    "data-dictionary": {
+      "template": "templates/data-dictionary.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/data-dictionary-rubric.md"
+      },
+      "reviewers": [
+        "model-verifier"
+      ]
+    },
+    "decision-log": {
+      "template": "templates/decision-log.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/decision-log-rubric.md"
+      }
+    },
+    "decision-matrix": {
+      "template": "templates/decision-matrix.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/decision-matrix-rubric.md"
+      }
+    },
+    "design-options": {
+      "template": "templates/design-options.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/design-options-rubric.md"
+      }
+    },
+    "designs-approved": {
+      "template": "templates/designs-approved.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/designs-approved-rubric.md"
+      }
+    },
+    "designs-change-assessment": {
+      "template": "templates/designs-change-assessment.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/designs-change-assessment-rubric.md"
+      }
+    },
+    "designs-maintained": {
+      "template": "templates/designs-maintained.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/designs-maintained-rubric.md"
+      }
+    },
+    "designs-prioritized": {
+      "template": "templates/designs-prioritized.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/designs-prioritized-rubric.md"
+      }
+    },
+    "designs-traced": {
+      "template": "templates/designs-traced.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/designs-traced-rubric.md"
+      },
+      "reviewers": [
+        "traceability-auditor"
+      ]
+    },
+    "elicitation-activity-plan": {
+      "template": "templates/elicitation-activity-plan.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/elicitation-activity-plan-rubric.md"
+      }
+    },
+    "empathy-map": {
+      "template": "templates/empathy-map.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/empathy-map-rubric.md"
+      }
+    },
+    "enterprise-limitation": {
+      "template": "templates/enterprise-limitation.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/enterprise-limitation-rubric.md"
+      }
+    },
+    "estimation-basis": {
+      "template": "templates/estimation-basis.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/estimate-cost-effort-forecasts-with-ranges-rubric.md"
+      }
+    },
+    "executive-summary": {
+      "template": "templates/executive-summary.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/executive-summary-rubric.md"
+      },
+      "reviewers": [
+        "deliverable-critic"
+      ]
+    },
+    "experiment-log": {
+      "template": "templates/experiment-log.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/experiment-log-rubric.md"
+      }
+    },
+    "frd": {
+      "template": "templates/frd.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/functional-requirements-rubric.md"
+      },
+      "reviewers": [
+        "requirements-verifier"
+      ]
+    },
+    "future-state-definition": {
+      "template": "templates/future-state-definition.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/future-state-description-rubric.md"
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
+    },
+    "gap-analysis": {
+      "template": "templates/gap-analysis.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/gap-analysis-rubric.md"
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
+    },
+    "go-to-market-plan": {
+      "template": "templates/go-to-market-plan.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/go-to-market-plan-rubric.md"
+      }
+    },
+    "governance-approach": {
+      "template": "templates/governance-approach.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/governance-approach-rubric.md"
+      }
+    },
+    "information-management-approach": {
+      "template": "templates/information-management-approach.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/information-management-approach-rubric.md"
+      }
+    },
+    "interview-guide": {
+      "template": "templates/interview-guide.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/interview-guide-rubric.md"
+      }
+    },
+    "journey-map": {
+      "template": "templates/journey-map.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/customer-journey-map-rubric.md"
+      }
+    },
+    "logical-data-model": {
+      "template": "templates/logical-data-model.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/logical-data-model-rubric.md"
+      },
+      "reviewers": [
+        "model-verifier"
+      ]
+    },
+    "meeting-notes": {
+      "template": "templates/meeting-notes.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/meeting-notes-rubric.md"
+      }
+    },
+    "nfr-specification": {
+      "template": "templates/nfr-specification.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/non-functional-requirements-rubric.md"
+      }
+    },
+    "okrs": {
+      "template": "templates/okrs.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/business-objectives-rubric.md"
+      }
+    },
+    "opportunity-solution-tree": {
+      "template": "templates/opportunity-solution-tree.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/opportunity-solution-tree-rubric.md"
+      }
+    },
+    "persona": {
+      "template": "templates/persona.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/personas-rubric.md"
+      }
+    },
+    "potential-value": {
+      "template": "templates/potential-value.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/potential-value-rubric.md"
+      },
+      "reviewers": [
+        "solution-value-auditor"
+      ]
+    },
+    "prd": {
+      "template": "templates/prd.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/prd-rubric.md"
+      },
+      "reviewers": [
+        "requirements-verifier"
+      ]
+    },
+    "prioritization-matrix": {
+      "template": "templates/prioritization-matrix.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/prioritization-matrix-rubric.md"
+      }
+    },
+    "process-model": {
+      "template": "templates/process-model.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/process-model-rubric.md"
+      },
+      "reviewers": [
+        "model-verifier"
+      ]
+    },
+    "product-roadmap": {
+      "template": "templates/product-roadmap.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/product-roadmap-rubric.md"
+      }
+    },
+    "product-strategy": {
+      "template": "templates/product-strategy.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/product-strategy-rubric.md"
+      }
+    },
+    "product-vision-brief": {
+      "template": "templates/product-vision-brief.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/product-vision-brief-rubric.md"
+      }
+    },
+    "prototype-brief": {
+      "template": "templates/prototype-brief.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/prototype-rubric.md"
+      }
+    },
+    "raid-log": {
+      "template": "templates/raid-log.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/raid-log-rubric.md"
+      },
+      "reviewers": [
+        "risk-challenger"
+      ]
+    },
+    "recommended-actions": {
+      "template": "templates/recommended-actions.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/recommended-actions-rubric.md"
+      }
+    },
+    "release-plan-and-notes": {
+      "template": "templates/release-plan-and-notes.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/release-plan-release-backlog-rubric.md"
+      }
+    },
+    "release-readiness-checklist": {
+      "template": "templates/release-readiness-checklist.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/release-readiness-checklist-rubric.md"
+      }
+    },
+    "requirements-architecture": {
+      "template": "templates/requirements-architecture.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/requirements-architecture-rubric.md"
+      },
+      "reviewers": [
+        "requirements-verifier",
+        "traceability-auditor"
+      ]
+    },
+    "requirements-change-assessment": {
+      "template": "templates/requirements-change-assessment.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/requirements-change-assessment-rubric.md"
+      },
+      "reviewers": [
+        "requirements-verifier",
+        "traceability-auditor"
+      ]
+    },
+    "requirements-traceability-matrix": {
+      "template": "templates/requirements-traceability-matrix.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/requirements-traceability-matrix-rubric.md"
+      },
+      "reviewers": [
+        "requirements-verifier",
+        "traceability-auditor"
+      ]
+    },
+    "rfp": {
+      "template": "templates/rfp.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/request-for-proposal-rubric.md"
+      }
+    },
+    "risk-register": {
+      "template": "templates/risk-register.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/risk-register-rubric.md"
+      },
+      "reviewers": [
+        "risk-challenger"
+      ]
+    },
+    "service-level-agreement": {
+      "template": "templates/service-level-agreement.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/service-level-agreement-rubric.md"
+      }
+    },
+    "solution-limitation": {
+      "template": "templates/solution-limitation.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/solution-limitation-rubric.md"
+      }
+    },
+    "solution-performance-analysis": {
+      "template": "templates/solution-performance-analysis.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/solution-performance-analysis-rubric.md"
+      },
+      "reviewers": [
+        "solution-value-auditor"
+      ]
+    },
+    "solution-performance-measures": {
+      "template": "templates/solution-performance-measures.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/solution-performance-measures-rubric.md"
+      },
+      "reviewers": [
+        "solution-value-auditor"
+      ]
+    },
+    "solution-recommendation": {
+      "template": "templates/solution-recommendation.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/solution-recommendations-rubric.md"
+      }
+    },
+    "solution-scope": {
+      "template": "templates/solution-scope.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/solution-scope-rubric.md"
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
+    },
+    "srs": {
+      "template": "templates/srs.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/solution-requirements-rubric.md"
+      },
+      "reviewers": [
+        "requirements-verifier"
+      ]
+    },
+    "stakeholder-engagement-approach": {
+      "template": "templates/stakeholder-engagement-approach.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/stakeholder-engagement-approach-rubric.md"
+      },
+      "reviewers": [
+        "stakeholder-coverage-auditor"
+      ]
+    },
+    "stakeholder-map-raci": {
+      "template": "templates/stakeholder-map-raci.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/stakeholder-list-stakeholder-map-personas-rubric.md"
+      },
+      "reviewers": [
+        "stakeholder-coverage-auditor"
+      ]
+    },
+    "stakeholder-register": {
+      "template": "templates/stakeholder-register.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/stakeholder-list-stakeholder-map-personas-rubric.md"
+      },
+      "reviewers": [
+        "stakeholder-coverage-auditor"
+      ]
+    },
+    "statement-of-work": {
+      "template": "templates/statement-of-work.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/statement-of-work-rubric.md"
+      }
+    },
+    "status-report": {
+      "template": "templates/status-report.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/status-report-rubric.md"
+      }
+    },
+    "swot-analysis": {
+      "template": "templates/swot-analysis.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/swot-matrix-rubric.md"
+      }
+    },
+    "uat-plan": {
+      "template": "templates/uat-plan.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/user-acceptance-test-rubric.md"
+      }
+    },
+    "use-case-specification": {
+      "template": "templates/use-case-specification.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/use-case-rubric.md"
+      }
+    },
+    "user-story-epic": {
+      "template": "templates/user-story-epic.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/user-story-rubric.md"
+      }
+    },
+    "win-loss-report": {
+      "template": "templates/win-loss-report.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/win-loss-report-rubric.md"
+      }
+    },
+    "workshop-plan": {
+      "template": "templates/workshop-plan.md",
+      "gate": {
+        "mode": "rubric",
+        "rubric": "evaluation/workshop-plan-rubric.md"
+      }
+    }
+  }
+}

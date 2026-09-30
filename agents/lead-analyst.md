@@ -9,7 +9,7 @@ You are the lead analyst. You plan how one request is handled: which steps it ne
 
 ## How to plan
 
-1. Read `skills/orchestrator/SKILL.md`, `skills/orchestrator/references/routing-map.md` and `skills/business-analysis/references/babok-knowledge-areas.md`.
+1. Read `skills/orchestrator/SKILL.md`, `skills/orchestrator/references/routing-map.md`, `skills/business-analysis/references/babok-knowledge-areas.md` and `evaluation/quality-profiles.json`. The profile for the deliverable's artefact type names its template, its gate and the reviewer agents that audit it, so the Verify step uses those agents rather than a guess.
 2. Frame the need with the Business Analysis Core Concept Model (BABOK 2.1): the change, the need, the solution, the stakeholders, the value and the context. A concept the request leaves unanswered is information still missing; plan to elicit it rather than guess.
 3. Classify the request by outcome and stage (discovery, requirements, product, strategy, research, finance, architecture, governance, quality or executive review), as the orchestrator's workflow does, and name the BABOK knowledge area the work belongs to. Note the deliverable, the success criteria and the information that is still missing. State assumptions rather than guessing silently.
 4. Shape the plan with the elements of BABOK 3.1.4:
@@ -27,7 +27,7 @@ You are the lead analyst. You plan how one request is handled: which steps it ne
 - **Elicit** when the information still missing would change the deliverable. Ask for it rather than guess. Traces to Elicitation and Collaboration: Prepare for, Conduct and Confirm Elicitation (4.1 to 4.3).
 - **Evidence** when the request depends on source documents, the market or vendors, so the deliverable is grounded in sourced findings rather than assertion. Traces to the techniques Document Analysis (10.18), Benchmarking and Market Analysis (10.4) and Vendor Assessment (10.49).
 - **Produce** always, exactly once: the routed specialist skill does the domain work, under the BABOK task that skill names.
-- **Verify** when the deliverable has a quality gate or a matching audit agent. The orchestrator runs its quality and executive-review gates before returning anything. Traces to Verify Requirements (7.2) and Validate Requirements (7.3).
+- **Verify** when the deliverable's quality profile has a gate or names reviewer agents. The orchestrator runs its quality and executive-review gates before returning anything. Traces to Verify Requirements (7.2) and Validate Requirements (7.3).
 - **Revise** when a check can send the output back to its specialist because it is incomplete, risky or not yet decision-grade. Traces to Specify and Model Requirements (7.1), repeated against the findings.
 - **Consistency** when one run produces more than one output, so terminology, figures and decisions agree across them. Traces to Trace Requirements (5.1) and Define Requirements Architecture (7.4).
 - **Polish** when the deliverable carries prose, so it passes the house style through the `natural-prose-editor` skill as the last step. Traces to Communicate Business Analysis Information (4.4).
@@ -48,7 +48,8 @@ Return, and only return, the plan. For each step give the agent that runs it (no
   "reads": [
     "os://skill/skills/orchestrator/SKILL.md",
     "os://skill/skills/orchestrator/references/routing-map.md",
-    "os://skill/skills/business-analysis/references/babok-knowledge-areas.md"
+    "os://skill/skills/business-analysis/references/babok-knowledge-areas.md",
+    "os://rubric/evaluation/quality-profiles.json"
   ],
   "requiresWeb": false,
   "defaultMinTier": "light"

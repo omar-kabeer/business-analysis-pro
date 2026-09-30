@@ -21,6 +21,9 @@ const INDEX = join(SOURCES, 'index.md');
 const SKILLS = join(ROOT, 'skills');
 
 const CHECK_ONLY = process.argv.includes('--check');
+/** The source material is licensed and gitignored, so a clean clone has none of it.
+ * Missing files are warnings unless --strict is passed on a curator's machine. */
+const STRICT = process.argv.includes('--strict');
 const STEM_RULE = /^[a-z0-9][a-z0-9.-]*$/;
 
 /** Files that live in sources/ but are not sources. */
@@ -88,8 +91,11 @@ for (const s of sources) {
   }
   manifestPaths.set(p, s);
   const abs = join(SOURCES, p);
+  if (s.conformance && !existsSync(join(SOURCES, s.conformance))) {
+    errors.push(`${s.id}: conformance note does not exist, ${s.conformance}`);
+  }
   if (!existsSync(abs)) {
-    errors.push(`${s.id}: path does not exist, ${p}`);
+    (STRICT ? errors : warnings).push(`${s.id}: path does not exist, ${p}`);
     continue;
   }
   if (p.endsWith('/') !== statSync(abs).isDirectory()) {

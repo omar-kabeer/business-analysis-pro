@@ -21,12 +21,16 @@ jobs:
       - name: Validate skills and templates (structure + house style)
         run: npm run check
 
+      - name: Validate the source library manifest and conformance notes
+        run: npm run sources:check
+
       - name: Build the distributable plugin
         run: npm run build:plugin
 
       - name: Ensure the plugin is in sync with the source
         run: |
-          if ! git diff --exit-code -- plugin; then
+          if [ -n "$(git status --porcelain -- plugin)" ]; then
+            git status --short -- plugin
             echo "plugin/ is out of date. Run 'npm run build:plugin' and commit the result."
             exit 1
           fi

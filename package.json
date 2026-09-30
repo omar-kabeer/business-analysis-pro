@@ -1,13 +1,14 @@
 {
   "name": "business-analysis-os",
-  "version": "1.0.0",
+  "version": "1.17.0",
   "description": "Business Analysis OS enterprise repository",
   "scripts": {
     "lint": "echo \"Local check: linting... (Placeholder)\"",
     "check": "node scripts/validate-assets.mjs",
     "build:plugin": "node scripts/build-plugin.mjs",
     "sources:index": "node scripts/build-source-index.mjs",
-    "sources:check": "node scripts/build-source-index.mjs --check"
+    "sources:check": "node scripts/build-source-index.mjs --check",
+    "sources:check:strict": "node scripts/build-source-index.mjs --check --strict"
   },
   "author": "",
   "license": "Apache-2.0"
