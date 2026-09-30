@@ -1,6 +1,6 @@
 # Deliverable Catalogue
 
-Every deliverable the OS produces, with its template, owning skill, and the rubric that grades it. The template to rubric pairing is defined in `evaluation/template-rubric-bindings.json`, which the validator checks.
+Every deliverable the OS produces, with its template, owning skill, and the rubric that grades it. The rubric for each template comes from its quality profile in `evaluation/quality-profiles.json`, which the validator checks.
 
 ## Discovery and analysis
 

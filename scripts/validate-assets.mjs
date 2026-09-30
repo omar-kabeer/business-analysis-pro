@@ -150,41 +150,59 @@ function validateMvp() {
   }
 }
 
-// Template to rubric bindings: every template is graded by exactly one existing rubric,
-// its own-name rubric wins when one exists, and every playbook slot agrees with the binding.
-function validateRubricBindings() {
-  const bindingsPath = 'evaluation/template-rubric-bindings.json'
-  if (!existsSync(join(root, bindingsPath))) {
-    errors.push(`${bindingsPath}: missing template to rubric bindings`)
+// Quality profiles: every artefact type (template stem) has one profile naming its template,
+// its gate, and any reviewer agents. An own-name rubric wins when one exists, and every
+// playbook slot must grade its template with the rubric its profile names.
+function validateQualityProfiles() {
+  const profilesPath = 'evaluation/quality-profiles.json'
+  if (!existsSync(join(root, profilesPath))) {
+    errors.push(`${profilesPath}: missing quality profiles`)
     return
   }
-  let bindings
+  let doc
   try {
-    bindings = JSON.parse(readText(join(root, bindingsPath))).bindings ?? {}
+    doc = JSON.parse(readText(join(root, profilesPath)))
   } catch (error) {
-    errors.push(`${bindingsPath}: invalid JSON (${error.message})`)
+    errors.push(`${profilesPath}: invalid JSON (${error.message})`)
     return
   }
+  if (doc.schemaVersion !== 1) errors.push(`${profilesPath}: schemaVersion must be 1`)
+  const modes = new Set(doc.gateModes ?? [])
+  const profiles = doc.profiles ?? {}
 
-  const templates = readdirSync(join(root, 'templates'))
+  const types = readdirSync(join(root, 'templates'))
     .filter((entry) => entry.endsWith('.md') && entry !== 'README.md')
-    .map((entry) => `templates/${entry}`)
-  for (const template of templates) {
-    const rubric = bindings[template]
-    if (!rubric) {
-      errors.push(`${bindingsPath}: ${template} has no rubric binding`)
+    .map((entry) => basename(entry, '.md'))
+  for (const type of types) {
+    const profile = profiles[type]
+    if (!profile) {
+      errors.push(`${profilesPath}: ${type} has no quality profile`)
       continue
     }
-    if (!/^evaluation\/[a-z0-9-]+-rubric\.md$/.test(rubric) || !existsSync(join(root, rubric))) {
-      errors.push(`${bindingsPath}: ${template} binds to missing rubric ${rubric}`)
+    if (profile.template !== `templates/${type}.md`) {
+      errors.push(`${profilesPath}: ${type} must name template templates/${type}.md`)
     }
-    const ownName = `evaluation/${basename(template, '.md')}-rubric.md`
-    if (existsSync(join(root, ownName)) && rubric !== ownName) {
-      errors.push(`${bindingsPath}: ${template} must bind to its own-name rubric ${ownName}`)
+    const gate = profile.gate ?? {}
+    if (!modes.has(gate.mode)) errors.push(`${profilesPath}: ${type} has unknown gate mode "${gate.mode}"`)
+    if (gate.mode === 'rubric') {
+      if (!/^evaluation\/[a-z0-9-]+-rubric\.md$/.test(gate.rubric ?? '') || !existsSync(join(root, gate.rubric))) {
+        errors.push(`${profilesPath}: ${type} names missing rubric ${gate.rubric}`)
+      }
+      const ownName = `evaluation/${type}-rubric.md`
+      if (existsSync(join(root, ownName)) && gate.rubric !== ownName) {
+        errors.push(`${profilesPath}: ${type} must use its own-name rubric ${ownName}`)
+      }
+    } else if (gate.rubric) {
+      errors.push(`${profilesPath}: ${type} names a rubric but its gate mode is ${gate.mode}`)
+    }
+    for (const reviewer of profile.reviewers ?? []) {
+      if (!existsSync(join(root, 'agents', `${reviewer}.md`))) {
+        errors.push(`${profilesPath}: ${type} names unknown reviewer agent ${reviewer}`)
+      }
     }
   }
-  for (const template of Object.keys(bindings)) {
-    if (!templates.includes(template)) errors.push(`${bindingsPath}: binding for unknown template ${template}`)
+  for (const type of Object.keys(profiles)) {
+    if (!types.includes(type)) errors.push(`${profilesPath}: profile for unknown artefact type ${type}`)
   }
 
   const playbooksDir = join(root, 'playbooks')
@@ -193,10 +211,10 @@ function validateRubricBindings() {
     const slots = JSON.parse(readText(join(playbooksDir, entry))).slots ?? []
     for (const slot of slots) {
       if (slot.quality?.mode !== 'rubric') continue
-      const template = slot.template?.key?.split('.template.')[1]
+      const profile = profiles[slot.artefactType]
       const rubric = slot.quality.reference?.key?.split('.rubric.')[1]
-      if (template && bindings[template] && rubric !== bindings[template]) {
-        errors.push(`playbooks/${entry}: ${slot.slotId} grades ${template} with ${rubric}, but the binding is ${bindings[template]}`)
+      if (profile?.gate?.rubric && rubric !== profile.gate.rubric) {
+        errors.push(`playbooks/${entry}: ${slot.slotId} grades ${slot.artefactType} with ${rubric}, but its profile names ${profile.gate.rubric}`)
       }
     }
   }
@@ -204,7 +222,7 @@ function validateRubricBindings() {
 
 validateSkills()
 validateFrontmatterDir('templates', 'deliverable')
-validateRubricBindings()
+validateQualityProfiles()
 validateFrontmatterDir('checklists', 'checklist')
 validateAgents()
 validateEditorialStyle()
@@ -216,4 +234,4 @@ if (errors.length) {
   process.exit(1)
 }
 
-console.log('Validation passed: skills, agents, templates, rubric bindings, checklists, and MVP assets are sound.')
+console.log('Validation passed: skills, agents, templates, quality profiles, checklists, and MVP assets are sound.')
