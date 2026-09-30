@@ -49,6 +49,10 @@ Pin down what the business means by its nouns and how those things relate. Produ
 
 Concepts are defined and agreed, the logical model is normalised with cardinality complete, the dictionary is populated, and any source to target mapping has no unexplained gaps.
 
+## Method reference
+
+For the full method, read `references/data-modelling-playbook.md`: concept model first, model levels, the logical model, the data dictionary, data flows and CRUD, model mapping, and data quality and privacy requirements (10.11, 10.12, 10.13, 10.15). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

@@ -41,6 +41,10 @@ Help the business analyst understand and communicate the technical shape of a so
 
 The technical context is clear enough for the BA to write sound requirements, options and tradeoffs are framed, and security and compliance constraints are captured for the requirements skill.
 
+## Method reference
+
+For the full method, read `references/solution-architecture-playbook.md`: how the analyst uses architecture to shape requirements and design options: context, interfaces, integration patterns, behaviour models, the requirements architecture, and design options (6.1, 7.4, 7.5). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

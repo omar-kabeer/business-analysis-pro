@@ -67,7 +67,8 @@
       },
       "skills": [
         "visual-modelling",
-        "data-modelling"
+        "data-modelling",
+        "architecture"
       ],
       "authority": "normative",
       "constrains": [
@@ -143,7 +144,8 @@
       },
       "skills": [
         "business-architecture",
-        "visual-modelling"
+        "visual-modelling",
+        "architecture"
       ],
       "authority": "normative",
       "constrains": [
@@ -274,7 +276,8 @@
       },
       "skills": [
         "regulatory-compliance",
-        "risk-analysis"
+        "risk-analysis",
+        "information-management"
       ],
       "authority": "normative",
       "constrains": [
@@ -484,7 +487,8 @@
       },
       "skills": [
         "governance",
-        "change-control"
+        "change-control",
+        "information-management"
       ],
       "notes": "Eight files: executive summary, overview, differences from COBIT 5, FAQ, laminate, objectives and practices workbook, management awareness diagnostic, RACI by role. Treat the workbooks as reference data, not prose to paraphrase.",
       "authority": "normative",
@@ -535,7 +539,8 @@
         "verified": false
       },
       "skills": [
-        "executive-review"
+        "executive-review",
+        "communication"
       ],
       "notes": "Commercial book, all rights reserved. Verify provenance before citing. Paraphrase only.",
       "authority": "supporting",
@@ -557,7 +562,8 @@
       },
       "skills": [
         "agile-coach",
-        "product-manager"
+        "product-manager",
+        "product-owner"
       ],
       "authority": "supporting",
       "constrains": [],

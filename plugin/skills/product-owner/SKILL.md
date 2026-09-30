@@ -41,6 +41,10 @@ Translate product outcomes into a clear, well-ordered, ready-to-build backlog. O
 
 The backlog is structured, INVEST-compliant, prioritised, and ready, and the sprint or release plan has clear goals and a realistic forecast.
 
+## Method reference
+
+For the full method, read `references/backlog-management-playbook.md`: anchoring the backlog to a product goal, epics, INVEST stories, acceptance criteria that can fail, vertical splitting, prioritisation, refinement, and release planning (10.1, 10.2, 10.33, 10.48). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
