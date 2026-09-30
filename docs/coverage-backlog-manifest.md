@@ -277,3 +277,23 @@ Each row below is one canonical slug that absorbed more than one register row. R
 | `user-story` | User story ; User stories |
 | `logical-data-model` | Source logical data model ; Target logical data model |
 | `process-architecture` | Business Process Architecture ; Process architecture |
+
+## Template-driven rubrics (outside the backlog)
+
+These rubrics were added in version 1.17.0 because their templates had none. They are not register rows, so they do not change the Section A counts above. Every template's rubric is recorded in `evaluation/quality-profiles.json`.
+
+| Canonical slug | Template | Rubric | Owning skill | Status |
+| --- | --- | --- | --- | --- |
+| `artefact-register` | `templates/artefact-register.md` | `evaluation/artefact-register-rubric.md` | information-management | shipped |
+| `compliance-obligation-register` | `templates/compliance-obligation-register.md` | `evaluation/compliance-obligation-register-rubric.md` | regulatory-compliance | shipped |
+| `decision-log` | `templates/decision-log.md` | `evaluation/decision-log-rubric.md` | governance | shipped |
+| `raid-log` | `templates/raid-log.md` | `evaluation/raid-log-rubric.md` | governance | shipped |
+| `release-readiness-checklist` | `templates/release-readiness-checklist.md` | `evaluation/release-readiness-checklist-rubric.md` | governance | shipped |
+| `status-report` | `templates/status-report.md` | `evaluation/status-report-rubric.md` | communication | shipped |
+| `meeting-notes` | `templates/meeting-notes.md` | `evaluation/meeting-notes-rubric.md` | communication | shipped |
+| `executive-summary` | `templates/executive-summary.md` | `evaluation/executive-summary-rubric.md` | executive-review | shipped |
+| `product-strategy` | `templates/product-strategy.md` | `evaluation/product-strategy-rubric.md` | product-manager | shipped |
+| `go-to-market-plan` | `templates/go-to-market-plan.md` | `evaluation/go-to-market-plan-rubric.md` | product-manager | shipped |
+| `opportunity-solution-tree` | `templates/opportunity-solution-tree.md` | `evaluation/opportunity-solution-tree-rubric.md` | product-manager | shipped |
+| `win-loss-report` | `templates/win-loss-report.md` | `evaluation/win-loss-report-rubric.md` | product-manager | shipped |
+| `empathy-map` | `templates/empathy-map.md` | `evaluation/empathy-map-rubric.md` | ux | shipped |

@@ -174,8 +174,11 @@
         "contentHash": "c0bab30a31ad69016e7ac0801090d9e05fbdc9569513f7857a873c92f1f0bb8a"
       },
       "quality": {
-        "mode": "no_applicable_check",
-        "reason": "No governed rubric for this output yet."
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/opportunity-solution-tree-rubric.md",
+          "contentHash": "dcb28bfd83e456ff247c388670e27b809241667f8361c8d0a8eda529a52825b4"
+        }
       }
     },
     {

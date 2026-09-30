@@ -145,8 +145,11 @@
         "contentHash": "a7c600cb772fe45f00480f3824c2ec850103fb030291ddd618e62141ad3b233c"
       },
       "quality": {
-        "mode": "no_applicable_check",
-        "reason": "No governed rubric for this output yet."
+        "mode": "rubric",
+        "reference": {
+          "key": "business-analysis.rubric.evaluation/meeting-notes-rubric.md",
+          "contentHash": "12c3ed448086ddac84e87bffc763db18a72b15f05d4bc28b9a6f20d55281127d"
+        }
       }
     },
     {
