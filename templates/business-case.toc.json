@@ -1,0 +1,229 @@
+{
+  "$comment": "Table of contents for templates/business-case.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "business-case",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the case exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "summary",
+      "heading": "Executive summary",
+      "tier": "core",
+      "purpose": "The decision, value, risks and ask.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "The decision supported and its boundary.",
+      "artefactStandard": "scope",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "Sources behind the numbers.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "need",
+      "heading": "Need assessment",
+      "tier": "core",
+      "purpose": "Need, strategy and cost of doing nothing.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "outcomes",
+      "heading": "Desired outcomes",
+      "tier": "core",
+      "purpose": "Measurable, solution-independent outcomes.",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "options",
+      "heading": "Options considered",
+      "tier": "core",
+      "purpose": "Alternatives including doing nothing.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "fin-assumptions",
+      "heading": "Financial assumptions",
+      "tier": "core",
+      "purpose": "Every financial assumption and its source.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "cba",
+      "heading": "Cost-benefit analysis",
+      "tier": "core",
+      "purpose": "Benefits and costs by period.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "metrics",
+      "heading": "Investment metrics",
+      "tier": "core",
+      "purpose": "NPV, IRR, payback, ROI and TCO.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "sensitivity",
+      "heading": "Sensitivity and scenario analysis",
+      "tier": "core",
+      "purpose": "Scenarios and break-even.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "non-financial",
+      "heading": "Non-financial value",
+      "tier": "standard",
+      "purpose": "Value that resists counting.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "recommendation",
+      "heading": "Recommended solution",
+      "tier": "core",
+      "purpose": "Why the option wins.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks and mitigations",
+      "tier": "core",
+      "purpose": "Key risks with responses and owners.",
+      "artefactStandard": "risks",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "Non-financial assumptions.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "implementation",
+      "heading": "Implementation overview",
+      "tier": "standard",
+      "purpose": "Phases, timeline and dependencies."
+    },
+    {
+      "id": "decision",
+      "heading": "Decision required",
+      "tier": "core",
+      "purpose": "The ask, approver and date.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "benefits",
+      "heading": "Benefits realisation plan",
+      "tier": "extended",
+      "purpose": "Who tracks each benefit.",
+      "when": {
+        "formality": [
+          "standard",
+          "formal"
+        ],
+        "audience": [
+          "executive"
+        ]
+      },
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "funding",
+      "heading": "Funding and procurement",
+      "tier": "extended",
+      "purpose": "Funding stages and gates.",
+      "when": {
+        "formality": [
+          "formal"
+        ],
+        "risk": [
+          "high"
+        ]
+      },
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the case produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the case.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

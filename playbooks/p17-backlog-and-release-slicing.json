@@ -113,13 +113,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/release-plan-and-notes.md",
-        "contentHash": "bd1df4959c40cb87a91412ae54f59ba5e1bee992a9610b7fad3c615c5f037af9"
+        "contentHash": "f95885b07bc3528ae89b1ab161be136497ee4ceb6a8c8fad8df38d1a3e7170f9"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/release-plan-release-backlog-rubric.md",
-          "contentHash": "f4aab012f47db27a98755fcc56ac26dc207a9446d876b40887190e4d4d4b1637"
+          "contentHash": "7c957d4c4f0b1215ac27d091825d807e92e9db418ba0c26914ea63145c8a5f2f"
         }
       }
     },
@@ -150,13 +150,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-roadmap.md",
-        "contentHash": "608726f4aed70e68732818217bf6401b66a733633159cac0e6958aeaddeebff5"
+        "contentHash": "8907bd5a1c93b97b1fda206bb4af9f9b91cc9422e3c616d0d2ceb3bae6fe02e5"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/product-roadmap-rubric.md",
-          "contentHash": "58005557c28566f0e3070095dfd6c54ad9692fc140aeda8746aa967efa3e1d8d"
+          "contentHash": "fbd01d91b2a5c1d410ae0b53116c6009cb916025701cb9f9aaa7f822aa380b2c"
         }
       }
     },
@@ -224,13 +224,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/estimation-basis.md",
-        "contentHash": "995239bc9c50c9b910441f10b570a60a8fea25b016d0d8228dd029f9e16b30e0"
+        "contentHash": "a5e51e2ab62da909369a077bdb2a0ad5d1f3f6c5f84ae4966084b3df32dcdf1a"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/estimate-cost-effort-forecasts-with-ranges-rubric.md",
-          "contentHash": "254d81ae01aaa991b65565b204141c7cc76ec9ee8fe4736c94aad24e32213e98"
+          "contentHash": "e223baadcce21e2378ac712bdf2af2fd0580996810696d2ffd2962236af29936"
         }
       }
     }

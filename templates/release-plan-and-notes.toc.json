@@ -1,0 +1,189 @@
+{
+  "$comment": "Table of contents for templates/release-plan-and-notes.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "release-plan-and-notes",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the plan exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the plan covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the plan is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "goal",
+      "heading": "Release goal",
+      "tier": "core",
+      "purpose": "The outcome the release serves.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "backlog",
+      "heading": "Release backlog",
+      "tier": "core",
+      "purpose": "Ranked, ready, estimated items.",
+      "evidences": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "capacity",
+      "heading": "Capacity check",
+      "tier": "core",
+      "purpose": "Scope against capacity.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "deps",
+      "heading": "Dependencies and risks",
+      "tier": "core",
+      "purpose": "Dependencies and risks with owners.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "increment",
+      "heading": "Increment",
+      "tier": "core",
+      "purpose": "What a user can do end to end.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "readiness",
+      "heading": "Readiness criteria",
+      "tier": "core",
+      "purpose": "Go and no-go, rollout and rollback.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "milestones",
+      "heading": "Milestones",
+      "tier": "standard",
+      "purpose": "Key dates and owners."
+    },
+    {
+      "id": "notes",
+      "heading": "Release notes",
+      "tier": "standard",
+      "purpose": "Customer-facing notes.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks to the plan",
+      "tier": "core",
+      "purpose": "Risks to the plan and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "internal",
+      "heading": "Internal communication",
+      "tier": "extended",
+      "purpose": "Who inside needs to know what.",
+      "when": {
+        "audience": [
+          "delivery"
+        ],
+        "formality": [
+          "standard",
+          "formal"
+        ]
+      },
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "regulatory",
+      "heading": "Regulatory release record",
+      "tier": "extended",
+      "purpose": "Approvals and evidence for release.",
+      "when": {
+        "regulated": [
+          true
+        ]
+      },
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the plan produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the plan.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "$comment": "Table of contents for templates/estimation-basis.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "estimation-basis",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the estimate exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the estimate covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the estimate is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "method",
+      "heading": "Method",
+      "tier": "core",
+      "purpose": "Method and cross-check.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "wbs",
+      "heading": "Work breakdown",
+      "tier": "core",
+      "purpose": "Three-point estimates per deliverable.",
+      "evidences": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "non-build",
+      "heading": "Non-build work",
+      "tier": "standard",
+      "purpose": "Non-build work included.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "result",
+      "heading": "Result",
+      "tier": "core",
+      "purpose": "Expected value, range and confidence.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "fit",
+      "heading": "Fit for the decision",
+      "tier": "standard",
+      "purpose": "Precision against the decision.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks and contingency",
+      "tier": "core",
+      "purpose": "Risks to the estimate and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "wrong",
+      "heading": "What would make this wrong",
+      "tier": "standard",
+      "purpose": "Top drivers of change.",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "plan",
+      "heading": "Re-estimation plan",
+      "tier": "standard",
+      "purpose": "When the estimate will be refined.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "history",
+      "heading": "Re-estimation history",
+      "tier": "standard",
+      "purpose": "Revisions and why they moved.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "monte-carlo",
+      "heading": "Monte Carlo analysis",
+      "tier": "extended",
+      "purpose": "Simulated percentiles.",
+      "when": {
+        "risk": [
+          "high"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "requires": [
+        "wbs"
+      ],
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "cost",
+      "heading": "Cost conversion",
+      "tier": "extended",
+      "purpose": "Effort converted to cost.",
+      "when": {
+        "audience": [
+          "executive"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the estimate produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the estimate.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

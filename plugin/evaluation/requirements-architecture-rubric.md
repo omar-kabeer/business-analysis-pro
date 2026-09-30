@@ -48,7 +48,7 @@ Total the scores (maximum 21):
 - Pass with changes: 12 to 16, or a single quick-to-fix dimension at 1.
 - Fail: below 12, or any dimension at 0.
 
-Record findings by severity with a specific fix, and route material issues back to the architecture skill.
+Dimensions 1 (structure defined) and 2 (relationships) are blocking: a score of 0 on either fails the document whatever the total. Record findings by severity with a specific fix, and route material issues back to the architecture skill.
 
 ## Findings template
 

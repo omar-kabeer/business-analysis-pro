@@ -216,13 +216,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/business-case.md",
-        "contentHash": "84fa60b735429d8aa9c533aa9792303bfc9550061dfb56d8adf83468c5ca70fc"
+        "contentHash": "723d87a397efce11e7220ef0dbe7d37201b315e16d111234bcc7470fc1812c79"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/business-case-rubric.md",
-          "contentHash": "7efdb57a6e206e1df23514b81a226298197d40fb0b4d7fc89e2a4a0e40696596"
+          "contentHash": "0a2a838d786503c163ed93e3ed1234063d66532c572774f6579e351db09c1043"
         }
       }
     }

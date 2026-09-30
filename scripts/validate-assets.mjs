@@ -340,6 +340,36 @@ function rubricDimensions(rubricPath) {
   return parseRubricBands(readText(join(root, rubricPath))).dimensions.map(Number)
 }
 
+// Kryterea's document catalogue reads each template's title and frontmatter domain
+// (scripts/compile-document-catalogue.mjs in kryterea-app), so a change silently moves
+// the type in the product. docs/template-identity.json pins both; change it on purpose.
+function validateTemplateIdentity() {
+  const path = join(root, 'docs', 'template-identity.json')
+  if (!existsSync(path)) return
+  const pinned = JSON.parse(readText(path)).templates ?? {}
+  const dir = join(root, 'templates')
+  const seen = new Set()
+  for (const file of readdirSync(dir).filter((name) => name.endsWith('.md'))) {
+    const type = file.slice(0, -'.md'.length)
+    seen.add(type)
+    const text = readText(join(dir, file))
+    const front = /^---\n([\s\S]*?)\n---/.exec(text)?.[1] ?? ''
+    const domain = /^domain:\s*(\S+)\s*$/m.exec(front)?.[1] ?? null
+    const title = /^#\s+(.+?)\s*$/m.exec(text.slice(front ? front.length + 8 : 0))?.[1] ?? null
+    const expected = pinned[type]
+    if (!expected) {
+      errors.push(`templates/${file}: not in docs/template-identity.json; add its title and domain`)
+    } else if (expected.title !== title || expected.domain !== domain) {
+      errors.push(
+        `templates/${file}: title or domain changed (${JSON.stringify({ title, domain })}, pinned ${JSON.stringify(expected)}); this moves the type in Kryterea's catalogue, so update docs/template-identity.json only if intended`,
+      )
+    }
+  }
+  for (const type of Object.keys(pinned)) {
+    if (!seen.has(type)) errors.push(`docs/template-identity.json: ${type} has no template`)
+  }
+}
+
 function validateTemplateTocs() {
   const profiles = JSON.parse(readText(join(root, 'evaluation', 'quality-profiles.json'))).profiles ?? {}
   for (const file of readdirSync(join(root, 'templates')).filter((name) => name.endsWith('.toc.json'))) {
@@ -458,6 +488,7 @@ validateFrontmatterDir('templates', 'deliverable')
 validateQualityProfiles()
 validateCalibration()
 validateTemplateTocs()
+validateTemplateIdentity()
 validateBlockingDimensions()
 validateFrontmatterDir('checklists', 'checklist')
 validateAgents()

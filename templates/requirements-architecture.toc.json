@@ -1,0 +1,180 @@
+{
+  "$comment": "Table of contents for templates/requirements-architecture.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "requirements-architecture",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the architecture exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the architecture covers and what it leaves out.",
+      "artefactStandard": "scope"
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the architecture is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "structure",
+      "heading": "Structure",
+      "tier": "core",
+      "purpose": "How requirements are organised.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "relationships",
+      "heading": "Relationships",
+      "tier": "core",
+      "purpose": "Typed relationships among requirements.",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "viewpoints",
+      "heading": "Viewpoints",
+      "tier": "standard",
+      "purpose": "Viewpoints and their models.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "completeness",
+      "heading": "Completeness check",
+      "tier": "core",
+      "purpose": "Gaps found through the structure.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "consistency",
+      "heading": "Consistency check",
+      "tier": "standard",
+      "purpose": "Conflicts found and resolved.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "context",
+      "heading": "Context",
+      "tier": "standard",
+      "purpose": "What a reader needs to interpret the structure.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "trace",
+      "heading": "Traceability",
+      "tier": "core",
+      "purpose": "Tracing to needs, designs, releases and tests.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the architecture and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "framework",
+      "heading": "Architecture framework alignment",
+      "tier": "extended",
+      "purpose": "Viewpoints mapped to the enterprise framework.",
+      "when": {
+        "perspective": [
+          "business-architecture"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "inventory",
+      "heading": "Requirements model inventory",
+      "tier": "extended",
+      "purpose": "Every model with owner and version.",
+      "when": {
+        "risk": [
+          "high"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the architecture produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the architecture.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

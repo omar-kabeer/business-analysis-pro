@@ -87,6 +87,7 @@ The schema is `schemas/template-toc.json`.
 - Every blocking dimension in the profile is evidenced by at least one core section, so tailoring can never switch a blocking check off.
 - Every rubric dimension is evidenced by at least one core or standard section, so the default resolution never leaves a dimension without evidence. This also protects graders that do not resolve the manifest, such as Kryterea today.
 - Every template with a manifest opens with the usage note described below, and its list of conditional sections matches the manifest's extended sections.
+- Every template's title and frontmatter `domain` match `docs/template-identity.json`. Kryterea's document catalogue reads both, so a rewrite must not change them by accident.
 
 ### The usage note
 

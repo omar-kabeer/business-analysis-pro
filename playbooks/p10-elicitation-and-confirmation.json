@@ -113,13 +113,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/workshop-plan.md",
-        "contentHash": "a4c3d12c053d7a6341e409a7dad556d529343e5d402f838d13c085da9cd0e42d"
+        "contentHash": "f9f51f5941eff15cf14cda07d000fe73db1f60b8ff8ecba0ff4666caedd6208d"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/workshop-plan-rubric.md",
-          "contentHash": "443e6df699af6e9e88eff5c0cf012755bac075f31a24328228debe874463961a"
+          "contentHash": "e47860bc7e47773a004e33567ec4faa1af42b4e436287c5a88e98527a40e2fad"
         }
       }
     },

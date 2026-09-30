@@ -1,0 +1,189 @@
+{
+  "$comment": "Table of contents for templates/product-roadmap.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "product-roadmap",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the roadmap exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the roadmap covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the roadmap is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "vision",
+      "heading": "Vision link",
+      "tier": "core",
+      "purpose": "The vision and strategy served.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "principles",
+      "heading": "Principles",
+      "tier": "standard",
+      "purpose": "How the roadmap is written.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "roadmap",
+      "heading": "Roadmap",
+      "tier": "core",
+      "purpose": "Themes by horizon with outcome and confidence.",
+      "evidences": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "sequencing",
+      "heading": "Sequencing rationale",
+      "tier": "standard",
+      "purpose": "Why the order.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "deps",
+      "heading": "Dependencies",
+      "tier": "standard",
+      "purpose": "Dependencies with owners.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "capacity",
+      "heading": "Capacity check",
+      "tier": "standard",
+      "purpose": "Near-term fit to capacity.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "not",
+      "heading": "Not on the roadmap",
+      "tier": "standard",
+      "purpose": "Deliberate exclusions."
+    },
+    {
+      "id": "cadence",
+      "heading": "Review cadence",
+      "tier": "standard",
+      "purpose": "When and why it changes.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the roadmap and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "changelog",
+      "heading": "Change log",
+      "tier": "extended",
+      "purpose": "What changed and why.",
+      "when": {
+        "audience": [
+          "executive",
+          "customer"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "portfolio",
+      "heading": "Portfolio view",
+      "tier": "extended",
+      "purpose": "Alignment with other roadmaps.",
+      "when": {
+        "audience": [
+          "executive"
+        ]
+      },
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the roadmap produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the roadmap.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}
