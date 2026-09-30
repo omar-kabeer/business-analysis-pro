@@ -8,7 +8,9 @@
     "build:plugin": "node scripts/build-plugin.mjs",
     "sources:index": "node scripts/build-source-index.mjs",
     "sources:check": "node scripts/build-source-index.mjs --check",
-    "sources:check:strict": "node scripts/build-source-index.mjs --check --strict"
+    "sources:check:strict": "node scripts/build-source-index.mjs --check --strict",
+    "audit:depth": "node scripts/audit-depth.mjs",
+    "audit:depth:update": "node scripts/audit-depth.mjs --update"
   },
   "author": "",
   "license": "Apache-2.0"

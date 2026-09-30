@@ -21,6 +21,9 @@ jobs:
       - name: Validate skills and templates (structure + house style)
         run: npm run check
 
+      - name: Check depth against the baseline (docs/depth-standard.md)
+        run: npm run audit:depth
+
       - name: Validate the source library manifest and conformance notes
         run: npm run sources:check
 
