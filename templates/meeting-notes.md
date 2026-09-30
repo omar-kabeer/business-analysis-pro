@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Meeting Notes
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Formal minutes (formal governance, or regulated work); Elicitation results (predictive, adaptive or hybrid approach, or standard or formal governance). The full rules are in `templates/meeting-notes.toc.json`.
+
 ## Purpose
 
 Capture what a meeting decided and who owns what next, so decisions are not lost and actions are tracked. Circulate promptly while memory is fresh and confirm with participants. Supports BABOK Confirm Elicitation Results (4.3) and Communicate Business Analysis Information (4.4). Graded by `evaluation/meeting-notes-rubric.md`.

@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Current State Assessment
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Root cause analysis (formal governance, or high risk); Capability heat map (written for executive readers, or the Business Architecture perspective); Regulatory and control environment (regulated work). The full rules are in `templates/current-state-assessment.toc.json`.
+
 ## Purpose
 
 Understand the business need in the context of the enterprise as it is today, so the change has enough context to define a sensible future state and change strategy. This is the working form of the BABOK Analyze Current State task (6.1) and its output, the Current State Description. Describe only as much of the current state as the change requires; full detail everywhere is rarely needed. Graded by `evaluation/current-state-description-rubric.md`.

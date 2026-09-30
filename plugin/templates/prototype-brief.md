@@ -1,11 +1,13 @@
 ---
 type: deliverable
-domain: ux
+domain: design
 status: draft
 version: 2.0.0
 ---
 
 # Prototype Brief and Findings
+
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Technical proof of concept (high risk, or the Information Technology perspective); Accessibility check (written for customers, or regulated work). The full rules are in `templates/prototype-brief.toc.json`.
 
 ## Purpose
 

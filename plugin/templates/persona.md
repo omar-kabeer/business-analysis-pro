@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Persona
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Persona set overview (standard or formal governance); Accessibility needs (written for customers, or regulated work). The full rules are in `templates/persona.toc.json`.
+
 ## Purpose
 
 Describe an evidence-based archetype of a user segment so the team designs for a real person, not an average. Base it on research and label anything assumed. Based on BABOK Stakeholder List, Map, or Personas (10.43) and the UX artefacts reference. Graded by `evaluation/personas-rubric.md`.
@@ -25,9 +27,9 @@ This template is a superset. Its table-of-contents manifest, `templates/persona.
 
 ## Scope
 
-State which segment the persona represents, what share of users it covers, and which segments other personas cover.
+State which segment the persona represents, what share of users it covers, and which segments other personas cover, and how this persona differs from them.
 
-Example: covers about 70 percent of our 1,800 active suppliers. Large suppliers with AP teams are PER-003.
+Example: covers about 70 percent of our 1,800 active suppliers. Large suppliers with AP teams are PER-003, who want bulk data rather than a lookup page.
 
 ## Inputs
 

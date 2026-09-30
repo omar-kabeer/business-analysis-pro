@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Use Case Specification
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Use case diagram (formal governance, or the Information Technology perspective); Non-functional notes (medium or high risk). The full rules are in `templates/use-case-specification.toc.json`.
+
 ## Purpose
 
 Describe how an actor interacts with a solution to achieve a goal, including the main success scenario and the alternate and exception paths, precisely enough that requirements and tests can be built from it. Based on BABOK Use Cases and Scenarios (10.47). Graded by `evaluation/use-case-rubric.md`.

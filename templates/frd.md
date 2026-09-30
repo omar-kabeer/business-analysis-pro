@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Functional Requirements Document (FRD)
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: User interface requirements (written for customers, or the Information Technology perspective); Reporting requirements (the Business Intelligence perspective). The full rules are in `templates/frd.toc.json`.
+
 ## Purpose
 
 Specify in detail what the solution must do: the behaviours, business rules, and interactions that deliver the business and stakeholder requirements. The FRD sits below the BRD and PRD and above design. Every functional requirement is atomic, testable, and traceable, per the BABOK quality characteristics (Verify Requirements, 7.2). Graded by `evaluation/functional-requirements-rubric.md`.

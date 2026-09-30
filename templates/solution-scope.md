@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Solution Scope
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Release and transition boundaries (adaptive or hybrid approach); Context diagram (formal governance, or the Information Technology perspective). The full rules are in `templates/solution-scope.toc.json`.
+
 ## Purpose
 
 Define the boundary of the solution: the capabilities the change will deliver, what it will not, and how the in-scope solution enables the future state's goals. This is the working form of the Solution Scope output of BABOK Define Change Strategy (6.4). A scope with a stated out-of-scope list prevents most scope disputes before they start. Graded by `evaluation/solution-scope-rubric.md`.

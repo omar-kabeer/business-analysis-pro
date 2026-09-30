@@ -1,6 +1,7 @@
 import { createHash } from 'node:crypto'
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs'
 import { join, basename } from 'node:path'
+import { noteFor, withNote } from './sync-template-notes.mjs'
 
 const root = process.cwd()
 const errors = []
@@ -359,6 +360,10 @@ function validateTemplateTocs() {
     if (toc.schemaVersion !== 1) errors.push(`${label}: schemaVersion must be 1`)
     if (toc.artefactType !== type) errors.push(`${label}: artefactType must be ${type}`)
     const sections = Array.isArray(toc.sections) ? toc.sections : []
+    const templateText = readText(templatePath)
+    if (sections.length && withNote(templateText, noteFor(toc, type)) !== templateText) {
+      errors.push(`templates/${type}.md: usage note is missing or stale; run node scripts/sync-template-notes.mjs`)
+    }
     const headings = [...readText(templatePath).matchAll(/^#{2,3} (.+?)\s*$/gm)].map((m) => m[1])
     const topHeadings = [...readText(templatePath).matchAll(/^## (.+?)\s*$/gm)].map((m) => m[1])
     const ids = new Map()
@@ -418,6 +423,12 @@ function validateTemplateTocs() {
       for (const dimension of dimensions) {
         if (!sections.some((section) => (section.evidences ?? []).includes(dimension))) {
           errors.push(`${label}: rubric dimension ${dimension} is evidenced by no section`)
+        } else if (
+          !sections.some((section) => section.tier !== 'extended' && (section.evidences ?? []).includes(dimension))
+        ) {
+          // The default resolution drops extended sections, and a grader that does not
+          // resolve the manifest would then mark this dimension down.
+          errors.push(`${label}: rubric dimension ${dimension} is evidenced only by extended sections`)
         }
       }
       for (const dimension of gate.blocking ?? []) {

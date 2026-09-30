@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Elicitation Activity Plan
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Confidentiality and data handling (regulated work). The full rules are in `templates/elicitation-activity-plan.toc.json`.
+
 ## Purpose
 
 Plan an elicitation activity: the outcomes it must produce, the techniques, the participants, and the logistics. This is the working form of BABOK Prepare for Elicitation (4.1) and its output, the Elicitation Activity Plan. Plan only what the activity needs, and match techniques to the outcomes and the people. Graded by `evaluation/elicitation-activity-plan-rubric.md`.

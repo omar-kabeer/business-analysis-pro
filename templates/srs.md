@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Software Requirements Specification (SRS)
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Security requirements (high risk, or regulated work); State and behaviour models (formal governance, or the Information Technology perspective); Regulatory traceability (regulated work). The full rules are in `templates/srs.toc.json`.
+
 ## Purpose
 
 Provide a complete, formal specification of a software solution: what it must do, the qualities it must have, and the constraints it operates under. The section order follows ISO/IEC/IEEE 29148 (and the legacy IEEE 830 outline) and the BABOK Requirements Classification Schema. Every requirement is uniquely identified, atomic, testable, and traced to the stakeholder requirement it satisfies. Graded by `evaluation/solution-requirements-rubric.md`.

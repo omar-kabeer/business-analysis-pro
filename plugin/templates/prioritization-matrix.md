@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Prioritization Matrix
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Value versus effort view (light governance); MoSCoW for scope agreement (predictive or hybrid approach); Weighted scoring for governed decisions (formal governance, or written for executive readers). The full rules are in `templates/prioritization-matrix.toc.json`.
+
 ## Purpose
 
 Rank opportunities, features, or backlog items transparently with one consistent method, tied to the outcome you are trying to move. The matrix makes trade-offs visible so scope decisions are defensible rather than driven by whoever asked last. This is the working form of BABOK Prioritization (10.33) in Prioritize Requirements (5.3). Graded by `evaluation/prioritization-matrix-rubric.md`.

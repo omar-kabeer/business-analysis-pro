@@ -1,11 +1,13 @@
 ---
 type: deliverable
-domain: product
+domain: product-management
 status: draft
 version: 2.0.0
 ---
 
 # Experiment and Post-Mortem Log
+
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Portfolio view (written for executive readers); Research approvals (formal governance, or regulated work). The full rules are in `templates/experiment-log.toc.json`.
 
 ## Purpose
 

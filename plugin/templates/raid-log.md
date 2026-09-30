@@ -7,6 +7,8 @@ version: 2.0.0
 
 # RAID Log
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Top items for the steering group (written for executive readers, or high risk); Regulatory and audit trail (formal governance, or written for regulators, or regulated work). The full rules are in `templates/raid-log.toc.json`.
+
 ## Purpose
 
 Track the four things that most often derail delivery in one place: Risks, Assumptions, Issues, and Dependencies. The log keeps each item visible, owned, dated, and acted on, so nothing important is lost between meetings. It is the working form of BABOK Item Tracking (10.26) and feeds Risk Analysis and Management (10.38). Graded by `evaluation/raid-log-rubric.md`.
