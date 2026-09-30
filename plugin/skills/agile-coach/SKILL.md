@@ -45,6 +45,10 @@ Scrum, Kanban, XP, SAFe, and LeSS; the core ceremonies; flow and WIP limits; agi
 
 The team has a tailored approach, ceremonies that serve them, and a way to inspect and adapt, matched to their actual problem.
 
+## Method reference
+
+For the full method, read `references/agile-delivery-playbook.md`: choosing the framework, setting Scrum up to its rules, running events for their purpose, flow measures, retrospectives, and careful scaling (11.1). It ends with a worked example.
+
 ## House style
 
 Run the natural-prose-editor pass on any narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

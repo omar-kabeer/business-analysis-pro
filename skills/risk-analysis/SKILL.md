@@ -46,6 +46,10 @@ Find the things that could stop the change delivering its value, size them hones
 
 Risks are identified, scored on a stated scale, owned, responded to, checked against appetite, and the aggregate picture is stated.
 
+## Method reference
+
+For the full method, read `references/risk-analysis-playbook.md`: scope, context, and criteria, identification, analysis, evaluation, treatment, and review, following ISO 31000 (6.3, 10.38). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

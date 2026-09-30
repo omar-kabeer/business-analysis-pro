@@ -43,6 +43,10 @@ Own the constraints that come from outside the initiative: legislation, regulati
 
 The constraint register is complete and cited, every obligation has a requirement and a control or an owned gap, and the audit view is assembled.
 
+## Method reference
+
+For the full method, read `references/compliance-analysis-playbook.md`: identifying applicable obligations, decomposing them into testable requirements, risk-based controls, the compliance matrix, acceptance evidence, and monitoring. It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

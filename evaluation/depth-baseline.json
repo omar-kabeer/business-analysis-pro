@@ -166,11 +166,11 @@
     },
     "skills": {
       "acceptance-testing": 3,
-      "agile-coach": 3,
+      "agile-coach": 6,
       "architecture": 6,
       "ba-planning": 6,
       "business-analysis": 3,
-      "business-architecture": 4,
+      "business-architecture": 6,
       "business-intelligence": 6,
       "change-control": 3,
       "communication": 6,
@@ -195,19 +195,19 @@
       "project-intake": 3,
       "prompt-master": 3,
       "proposal-writer": 6,
-      "prototyping": 3,
+      "prototyping": 6,
       "quality": 6,
       "reference-standards": 6,
-      "regulatory-compliance": 4,
+      "regulatory-compliance": 6,
       "requirements": 6,
-      "risk-analysis": 4,
+      "risk-analysis": 6,
       "skill-upgrader": 4,
       "solution-evaluation": 6,
       "strategy": 6,
       "technical-writer": 5,
-      "ux": 3,
+      "ux": 6,
       "vendor-evaluation": 2,
-      "visual-modelling": 4
+      "visual-modelling": 6
     }
   }
 }
