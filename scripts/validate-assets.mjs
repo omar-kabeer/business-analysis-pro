@@ -209,7 +209,27 @@ function validateQualityProfiles() {
   const playbooksDir = join(root, 'playbooks')
   if (!existsSync(playbooksDir)) return
   for (const entry of readdirSync(playbooksDir).filter((name) => name.endsWith('.json'))) {
-    const slots = JSON.parse(readText(join(playbooksDir, entry))).slots ?? []
+    const playbook = JSON.parse(readText(join(playbooksDir, entry)))
+    // Every pinned source must hash to the file on disk, or Kryterea rejects the playbook.
+    const pins = []
+    const collectPins = (node) => {
+      if (Array.isArray(node)) node.forEach(collectPins)
+      else if (node && typeof node === 'object') {
+        if (typeof node.key === 'string' && typeof node.contentHash === 'string') pins.push(node)
+        Object.values(node).forEach(collectPins)
+      }
+    }
+    collectPins(playbook)
+    for (const pin of pins) {
+      const path = pin.key.split('.').slice(2).join('.')
+      const file = join(root, path)
+      if (!existsSync(file)) {
+        errors.push(`playbooks/${entry}: pins missing file ${path}`)
+      } else if (createHash('sha256').update(readFileSync(file)).digest('hex') !== pin.contentHash) {
+        errors.push(`playbooks/${entry}: stale pin for ${path}; regenerate the playbook`)
+      }
+    }
+    const slots = playbook.slots ?? []
     for (const slot of slots) {
       if (slot.quality?.mode !== 'rubric') continue
       const profile = profiles[slot.artefactType]

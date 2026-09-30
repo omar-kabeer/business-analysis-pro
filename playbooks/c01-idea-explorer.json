@@ -43,7 +43,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-vision-brief.md",
-        "contentHash": "6ef4763ba0b0674c3ec6d90d4ed1b022d70de17d281ad6cc5a2ddaf73a1e4ff9"
+        "contentHash": "3093443c2af7f2d1d82db7014b50d580c48bed84b1a3cbc85052501ad89d6ac0"
       },
       "quality": {
         "mode": "rubric",

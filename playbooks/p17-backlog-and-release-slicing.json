@@ -47,7 +47,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/user-story-epic.md",
-        "contentHash": "a1505b1d7dc08da46bd200e5586b85a4d2814a3fae1e6642c60df32ecfc420f1"
+        "contentHash": "eab44ce3ab9b5f5cb7894980b8d31435e1b9f54f554e7dd51259cdcc71027849"
       },
       "quality": {
         "mode": "rubric",

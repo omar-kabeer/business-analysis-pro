@@ -199,7 +199,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prototype-brief.md",
-        "contentHash": "5a0fcc04bd71120afa1e2da07c52c7ba05495d1a7f9d2d0796670f95f94afc6e"
+        "contentHash": "25a52896554751103fe688d795a32832eafa3a598049f297b4265c320f852307"
       },
       "quality": {
         "mode": "rubric",
@@ -232,7 +232,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/uat-plan.md",
-        "contentHash": "10df415bc1f2e496b7ccdea5dfe8a9efdb813a36fcb312b7f8abc0b0be0c0910"
+        "contentHash": "b98090ee02835c5f7ea47982d00ec8b14847914057b2f42e6e3617be7f606746"
       },
       "quality": {
         "mode": "rubric",
