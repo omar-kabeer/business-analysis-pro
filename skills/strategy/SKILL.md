@@ -55,6 +55,23 @@ For the full method, read `references/strategy-analysis-playbook.md`: the four S
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
 
+## Templates and rubrics
+
+This skill owns the artefact types below. Produce each on its template, tailor it with the template's table-of-contents manifest, and grade it with the rubric its quality profile names in `evaluation/quality-profiles.json`.
+
+| Artefact type | Template | Rubric | Role |
+| --- | --- | --- | --- |
+| business-model-canvas | `templates/business-model-canvas.md` | `evaluation/business-model-canvas-rubric.md` | Primary |
+| business-objectives | `templates/business-objectives.md` | `evaluation/business-objectives-rubric.md` | Primary |
+| change-strategy | `templates/change-strategy.md` | `evaluation/change-strategy-rubric.md` | Primary |
+| current-state-assessment | `templates/current-state-assessment.md` | `evaluation/current-state-description-rubric.md` | Primary |
+| future-state-definition | `templates/future-state-definition.md` | `evaluation/future-state-description-rubric.md` | Primary |
+| gap-analysis | `templates/gap-analysis.md` | `evaluation/gap-analysis-rubric.md` | Primary |
+| okrs | `templates/okrs.md` | `evaluation/business-objectives-rubric.md` | Primary |
+| potential-value | `templates/potential-value.md` | `evaluation/potential-value-rubric.md` | Primary |
+| solution-scope | `templates/solution-scope.md` | `evaluation/solution-scope-rubric.md` | Primary |
+| swot-analysis | `templates/swot-analysis.md` | `evaluation/swot-matrix-rubric.md` | Primary |
+
 ## Operating standard
 
 This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.

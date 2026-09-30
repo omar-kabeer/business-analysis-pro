@@ -49,6 +49,16 @@ The message is tailored, leads with its point, states any ask, and is honest abo
 
 Run the natural-prose-editor skill as the final language pass. No em dashes. See `docs/methodology/editorial-style.md`.
 
+## Templates and rubrics
+
+This skill owns the artefact types below. Produce each on its template, tailor it with the template's table-of-contents manifest, and grade it with the rubric its quality profile names in `evaluation/quality-profiles.json`.
+
+| Artefact type | Template | Rubric | Role |
+| --- | --- | --- | --- |
+| business-analysis-information-communicated | `templates/business-analysis-information-communicated.md` | `evaluation/business-analysis-information-communicated-rubric.md` | Primary |
+| meeting-notes | `templates/meeting-notes.md` | `evaluation/meeting-notes-rubric.md` | Primary |
+| status-report | `templates/status-report.md` | `evaluation/status-report-rubric.md` | Primary |
+
 ## Operating standard
 
 This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.

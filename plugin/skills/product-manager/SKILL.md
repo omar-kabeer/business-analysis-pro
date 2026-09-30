@@ -65,6 +65,25 @@ The product direction owns a measurable outcome, is grounded in continuous disco
 
 Run the natural-prose-editor pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
 
+## Templates and rubrics
+
+This skill owns the artefact types below. Produce each on its template, tailor it with the template's table-of-contents manifest, and grade it with the rubric its quality profile names in `evaluation/quality-profiles.json`.
+
+| Artefact type | Template | Rubric | Role |
+| --- | --- | --- | --- |
+| experiment-log | `templates/experiment-log.md` | `evaluation/experiment-log-rubric.md` | Primary |
+| go-to-market-plan | `templates/go-to-market-plan.md` | `evaluation/go-to-market-plan-rubric.md` | Primary |
+| okrs | `templates/okrs.md` | `evaluation/business-objectives-rubric.md` | Shared |
+| opportunity-solution-tree | `templates/opportunity-solution-tree.md` | `evaluation/opportunity-solution-tree-rubric.md` | Primary |
+| prd | `templates/prd.md` | `evaluation/prd-rubric.md` | Primary |
+| prioritization-matrix | `templates/prioritization-matrix.md` | `evaluation/prioritization-matrix-rubric.md` | Primary |
+| product-roadmap | `templates/product-roadmap.md` | `evaluation/product-roadmap-rubric.md` | Primary |
+| product-strategy | `templates/product-strategy.md` | `evaluation/product-strategy-rubric.md` | Primary |
+| product-vision-brief | `templates/product-vision-brief.md` | `evaluation/product-vision-brief-rubric.md` | Primary |
+| release-plan-and-notes | `templates/release-plan-and-notes.md` | `evaluation/release-plan-release-backlog-rubric.md` | Primary |
+| user-story-epic | `templates/user-story-epic.md` | `evaluation/user-story-epic-rubric.md` | Shared |
+| win-loss-report | `templates/win-loss-report.md` | `evaluation/win-loss-report-rubric.md` | Primary |
+
 ## Operating standard
 
 This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.

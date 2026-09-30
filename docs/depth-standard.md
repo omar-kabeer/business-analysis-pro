@@ -38,7 +38,7 @@ A template is the working form of one artefact type. Its table-of-contents manif
 | ID | Check | How it is measured |
 | --- | --- | --- |
 | S1 | Has a method playbook grounded in its BABOK tasks and techniques | A `references/*-playbook.md` file |
-| S2 | Has at least three curated sources | Entries naming the skill in `sources/manifest.json` |
+| S2 | Has at least three curated sources | Entries naming the skill in `sources/manifest.json`; a source whose `skills` is `*` (BABOK) counts for every skill |
 | S3 | Has reference depth in proportion to what it owns | Reference words at least 800, and at least 60 per register row the skill owns |
 | S4 | Has a worked example | A reference or linked example shows the skill's output filled in |
 | S5 | Links the templates and rubrics it owns | SKILL.md or a reference names `templates/` and `evaluation/` paths |

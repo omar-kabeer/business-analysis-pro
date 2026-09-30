@@ -45,6 +45,17 @@ The relevant governance artifacts are populated, owned, scored where applicable,
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
 
+## Templates and rubrics
+
+This skill owns the artefact types below. Produce each on its template, tailor it with the template's table-of-contents manifest, and grade it with the rubric its quality profile names in `evaluation/quality-profiles.json`.
+
+| Artefact type | Template | Rubric | Role |
+| --- | --- | --- | --- |
+| decision-log | `templates/decision-log.md` | `evaluation/decision-log-rubric.md` | Primary |
+| designs-approved | `templates/designs-approved.md` | `evaluation/designs-approved-rubric.md` | Primary |
+| governance-approach | `templates/governance-approach.md` | `evaluation/governance-approach-rubric.md` | Primary |
+| raid-log | `templates/raid-log.md` | `evaluation/raid-log-rubric.md` | Primary |
+
 ## Operating standard
 
 This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.

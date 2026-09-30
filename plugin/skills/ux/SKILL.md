@@ -45,6 +45,17 @@ Users are modelled from evidence, the experience is mapped with pain points and 
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
 
+## Templates and rubrics
+
+This skill owns the artefact types below. Produce each on its template, tailor it with the template's table-of-contents manifest, and grade it with the rubric its quality profile names in `evaluation/quality-profiles.json`.
+
+| Artefact type | Template | Rubric | Role |
+| --- | --- | --- | --- |
+| empathy-map | `templates/empathy-map.md` | `evaluation/empathy-map-rubric.md` | Primary |
+| journey-map | `templates/journey-map.md` | `evaluation/customer-journey-map-rubric.md` | Primary |
+| persona | `templates/persona.md` | `evaluation/personas-rubric.md` | Primary |
+| prototype-brief | `templates/prototype-brief.md` | `evaluation/prototype-brief-rubric.md` | Shared |
+
 ## Operating standard
 
 This skill operates under the governing system prompt in `prompts/ba-operating-system-prompt.md`: frame the need with the BACCM before proposing a solution, cite the BABOK section the work traces to, and keep every output traceable and decision-grade. Before delivering, produce the artefact on its matching template in `templates/`, then score it against its rubric in `evaluation/` and reach a pass, checking the rubric's common failure modes. Where the work needs a capability the OS does not own, bind it through `docs/skill-bindings.md`.
