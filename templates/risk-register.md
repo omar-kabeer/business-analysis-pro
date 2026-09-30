@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Risk Register
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Quantitative analysis (formal governance, or high risk); Regulatory and compliance risks (regulated work). The full rules are in `templates/risk-register.toc.json`.
+
 ## Purpose
 
 Identify, assess, and manage the risks to an initiative in a structured, auditable way: describe each risk, score its probability and impact on an agreed scale, choose a response, assign an owner, and track residual risk over time. This is the working form of BABOK Risk Analysis and Management (10.38) and Assess Risks (6.3). Graded by `evaluation/risk-register-rubric.md`.

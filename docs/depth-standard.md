@@ -85,6 +85,12 @@ The schema is `schemas/template-toc.json`.
 - Core sections together cover all seven CLAUDE.md elements.
 - Every `evidences` number is a dimension of the rubric the type's profile names, and every dimension of that rubric is evidenced by at least one section.
 - Every blocking dimension in the profile is evidenced by at least one core section, so tailoring can never switch a blocking check off.
+- Every rubric dimension is evidenced by at least one core or standard section, so the default resolution never leaves a dimension without evidence. This also protects graders that do not resolve the manifest, such as Kryterea today.
+- Every template with a manifest opens with the usage note described below, and its list of conditional sections matches the manifest's extended sections.
+
+### The usage note
+
+A grader or generator may receive the template text without its manifest. So each template carries a short note under its title, generated from the manifest by `scripts/sync-template-notes.mjs`. The note says three things. The filled rows are illustrations and must never be copied into a real document. Core and standard sections are included by default. Each extended section is listed with the conditions that bring it in. The validator fails if the note is missing or out of date, so run the script after changing a manifest.
 
 ## Blocking dimensions
 

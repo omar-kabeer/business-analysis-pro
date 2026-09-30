@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Interview Guide
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Cross-interview synthesis (standard or formal governance); Sensitive topics and consent (regulated work). The full rules are in `templates/interview-guide.toc.json`.
+
 ## Purpose
 
 Plan and run a stakeholder interview that draws out the information the change needs, then confirm what was captured before it is used. This guide is the interview form of the BABOK Elicitation Activity Plan (Prepare for Elicitation, 4.1), the Interviews technique (10.25), and Conduct and Confirm Elicitation Results (4.2 and 4.3). Graded by `evaluation/interview-guide-rubric.md`.

@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Stakeholder Register
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Personas (written for customers, or the Agile or Business Process Management perspective); Stakeholder impact analysis (predictive or hybrid approach, or medium or high risk); Contact and privacy handling (regulated work). The full rules are in `templates/stakeholder-register.toc.json`.
+
 ## Purpose
 
 Record every group or individual with a relationship to the change, the need, or the solution, together with the characteristics that decide how each one is engaged. This register is the working form of BABOK Plan Stakeholder Engagement (3.2) and the Stakeholder List, Map, or Personas technique (10.43). A thorough register lowers the risk that a source of requirements, a decision maker, or a group affected by the change is missed. Graded by `evaluation/stakeholder-register-rubric.md`.
@@ -69,6 +71,10 @@ Check the register against the BABOK roles and the affected groups, so gaps are 
 | --- | --- | --- |
 | Regulator | STK-005 internal audit | External auditor not yet listed: confirm with the sponsor |
 | Tester | Not yet assigned | Name UAT testers from AP by 2026-06-20 |
+
+State whether user groups are summarised as personas. If they are, link each persona to the register entries it represents (see Personas); if not, say why the register alone is enough.
+
+Example: approvers are summarised as persona PER-001, linked to STK-007 to STK-012.
 
 ## Assumptions
 

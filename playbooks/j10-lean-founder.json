@@ -43,7 +43,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-vision-brief.md",
-        "contentHash": "3093443c2af7f2d1d82db7014b50d580c48bed84b1a3cbc85052501ad89d6ac0"
+        "contentHash": "994177361a9d8774275cc84ae1d67a68026ef8767aedfa42817ea8a4982c6f61"
       },
       "quality": {
         "mode": "rubric",
@@ -76,7 +76,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/experiment-log.md",
-        "contentHash": "1379690f9c3ba2dbb325d3ec0fb3f8a364999e859c688364a824a303e3d40ea7"
+        "contentHash": "959f02c3499cdf67f8c6703722541514da145f17fce143f325689f766a7cc4cb"
       },
       "quality": {
         "mode": "rubric",
@@ -113,7 +113,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/user-story-epic.md",
-        "contentHash": "eab44ce3ab9b5f5cb7894980b8d31435e1b9f54f554e7dd51259cdcc71027849"
+        "contentHash": "3a8e179cac0e67c0816ce8692fe51a0f2740d1e406e528a5e1a05e3524bec742"
       },
       "quality": {
         "mode": "rubric",
@@ -146,7 +146,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/decision-log.md",
-        "contentHash": "4f65c2b1817433f309f4bae78867ac9ecdbe7d3abf844f30acd8d4b479145413"
+        "contentHash": "37c8e737369c46563593a20ce5b6b34fe1bd88924661b04a504749a3cc2da023"
       },
       "quality": {
         "mode": "rubric",
@@ -216,7 +216,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/risk-register.md",
-        "contentHash": "6bcf44fb21f21c6858a43bb6c966d967846d3ec2c4967ff59bf8244acd2284d0"
+        "contentHash": "0dacad86ec778dfd12e9262628bdf263505a3c881420bfcd2889d0c63ad0b15f"
       },
       "quality": {
         "mode": "rubric",

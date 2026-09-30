@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Decision Log
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Decision analysis detail (formal governance, or high risk); Audit trail (formal governance, or regulated work). The full rules are in `templates/decision-log.toc.json`.
+
 ## Purpose
 
 Record significant decisions with enough context that a newcomer can understand what was decided, why, by whom, and under what conditions it would be revisited. A good log prevents relitigating settled questions and makes governance auditable. Supports BABOK Plan Business Analysis Governance (3.3), Decision Analysis (10.16), and Assess Requirements Changes (5.4). Graded by `evaluation/decision-log-rubric.md`.

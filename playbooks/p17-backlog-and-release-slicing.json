@@ -47,7 +47,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/user-story-epic.md",
-        "contentHash": "eab44ce3ab9b5f5cb7894980b8d31435e1b9f54f554e7dd51259cdcc71027849"
+        "contentHash": "3a8e179cac0e67c0816ce8692fe51a0f2740d1e406e528a5e1a05e3524bec742"
       },
       "quality": {
         "mode": "rubric",
@@ -84,7 +84,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prioritization-matrix.md",
-        "contentHash": "0f7e8c81989d0f7a4bc420b3579c3e10d1332212e3a5a615e196de0f64b62757"
+        "contentHash": "f942e46c36739944583732c400972100394a73423e3be1d4a659c4737614c3d7"
       },
       "quality": {
         "mode": "rubric",
@@ -187,7 +187,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/nfr-specification.md",
-        "contentHash": "257f71d72fad3270c05e3ffdf396fc19188e80a3e37e623aa6150670f2f1c503"
+        "contentHash": "9e1ca56b38ddd34859cbb5dd3c5d9833d17d2918b97c77283476812af7b99e0d"
       },
       "quality": {
         "mode": "rubric",

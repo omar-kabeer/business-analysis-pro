@@ -7,6 +7,8 @@ version: 2.0.0
 
 # User Acceptance Test Plan
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Non-functional acceptance (medium or high risk, or the Information Technology perspective); Operational readiness checks (formal governance, or high risk); Regulatory evidence (written for regulators, or regulated work). The full rules are in `templates/uat-plan.toc.json`.
+
 ## Purpose
 
 Define how the business will prove that the delivered solution meets the agreed requirements, and the conditions under which it will be accepted. User acceptance testing is the business's decision, backed by evidence: this plan says what will be tested, by whom, against which requirements, and what result earns acceptance. Graded by `evaluation/uat-plan-rubric.md`.

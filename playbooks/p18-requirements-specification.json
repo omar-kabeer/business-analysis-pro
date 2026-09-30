@@ -51,7 +51,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/brd.md",
-        "contentHash": "90e616f54976fe583eb092685e5e37623ecb2fd8ea7b45368dc0c2c30d741bf8"
+        "contentHash": "ae439cabf03e69825725032b4271f0657164292748a8500ebf66c5ef1ebdf4f7"
       },
       "quality": {
         "mode": "rubric",
@@ -88,7 +88,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/frd.md",
-        "contentHash": "cc6034c49a4437019612c4e5431077756c8612eeb47cf815d07d179a7c523a34"
+        "contentHash": "ffa491f5d94bd7526e3974939f8084f340def6bccb2b53fb3f01b202e18fd894"
       },
       "quality": {
         "mode": "rubric",
@@ -129,7 +129,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/use-case-specification.md",
-        "contentHash": "9476366eb52ca5400795e868373bc3aff9897bb47721c7177d605a73e9c81122"
+        "contentHash": "6caf1142d472cce39b52490bd03023e6c5450b9a1890764db8e630bb655c4521"
       },
       "quality": {
         "mode": "rubric",
@@ -166,7 +166,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/nfr-specification.md",
-        "contentHash": "257f71d72fad3270c05e3ffdf396fc19188e80a3e37e623aa6150670f2f1c503"
+        "contentHash": "9e1ca56b38ddd34859cbb5dd3c5d9833d17d2918b97c77283476812af7b99e0d"
       },
       "quality": {
         "mode": "rubric",
@@ -199,7 +199,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/srs.md",
-        "contentHash": "df73bfcfe8d9acdced28186c80ef8f1c5babd3693bc366237538cd8e51a6cdf0"
+        "contentHash": "0efcf87c7d36a1d9b72165af095a5f3566d4d14ac0c26c138680862c90da7583"
       },
       "quality": {
         "mode": "rubric",

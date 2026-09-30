@@ -7,6 +7,8 @@ version: 2.0.0
 
 # Non-Functional Requirements Specification
 
+> **How to use this template.** Filled rows and "Example" lines illustrate one scenario so the expected depth is clear. Replace them with the facts of the work at hand: never carry example names, figures, or IDs into a real document, and say plainly when a fact is not yet known. Include every other section by default, and leave one out only when the user asks. Include these sections only when their condition applies or the user asks for them: Service level detail (formal governance); Security and privacy controls (written for regulators, or regulated work); Capacity model (high risk). The full rules are in `templates/nfr-specification.toc.json`.
+
 ## Purpose
 
 Specify how well the solution must perform, as distinct from what it must do. Non-functional requirements (also called quality attributes or quality of service) are declarative statements with a constraining factor, quantified, with the conditions they are measured under and a way to verify them. The categories follow BABOK Non-Functional Requirements Analysis (10.30). An unquantified non-functional requirement is not testable and does not belong here. Graded by `evaluation/nfr-specification-rubric.md`.
