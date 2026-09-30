@@ -256,7 +256,9 @@
       "skills": [
         "risk-analysis",
         "governance",
-        "strategy"
+        "strategy",
+        "decision-analysis",
+        "estimation"
       ],
       "notes": "Genuine ISO 31000:2018, confirmed from the title page. PROVENANCE PROBLEM: the copy carries a Clarivate Techstreet watermark licensing it to a University of Toronto user, dated 2018-03-11, and states that no further reproduction or distribution is permitted. It is not licensed to us. Replace with an owned copy before this underpins client deliverables.",
       "authority": "normative",
@@ -309,7 +311,10 @@
       },
       "skills": [
         "regulatory-compliance",
-        "risk-analysis"
+        "risk-analysis",
+        "change-control",
+        "procurement-contracts",
+        "vendor-evaluation"
       ],
       "authority": "normative",
       "constrains": [
@@ -337,7 +342,8 @@
       "skills": [
         "requirements",
         "quality",
-        "elicitation"
+        "elicitation",
+        "acceptance-testing"
       ],
       "authority": "normative",
       "constrains": [

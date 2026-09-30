@@ -44,6 +44,10 @@ Vendor assessment, RFI and RFP structuring, weighted scoring matrices, criteria 
 
 Vendors are scored transparently against agreed weighted criteria and a defensible recommendation with trade-offs is delivered.
 
+## Method reference
+
+For the full method, read `references/vendor-evaluation-playbook.md`: criteria and weights set before responses, fair treatment, evidence-based and moderated scoring, supplier risk and security, total cost, and the recommendation (10.49). It ends with a worked example.
+
 ## House style
 
 Run the natural-prose-editor pass on any narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

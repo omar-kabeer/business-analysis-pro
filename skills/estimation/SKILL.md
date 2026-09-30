@@ -46,6 +46,10 @@ Produce forecasts that survive scrutiny. Decompose the work, choose an estimatio
 
 The work is decomposed, estimated by a stated method as a range with assumptions and exclusions, contingency is justified, and the re-estimation points are agreed.
 
+## Method reference
+
+For the full method, read `references/estimation-playbook.md`: the decision and its precision, scope and exclusions, method and cross-check, COCOMO II applied as defined, ranges, risk-based contingency, and re-estimation (10.19). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

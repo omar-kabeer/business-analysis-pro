@@ -46,6 +46,10 @@ Protect the agreed baseline without becoming an obstacle. Assess every proposed 
 
 The request is classified, impact is traced across all dimensions, options and a recommendation are stated, the decision is recorded, and any approved change is reflected in a new baseline.
 
+## Method reference
+
+For the full method, read `references/change-control-playbook.md`: capturing the request, authority and route, impact on every dimension, options, authorisation before work, and updating the baseline (5.4). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

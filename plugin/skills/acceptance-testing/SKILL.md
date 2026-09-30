@@ -47,6 +47,10 @@ Turn agreed requirements into evidence. Design the business-facing tests that pr
 
 Coverage is complete and traced, tests have been executed and recorded with evidence, defects are triaged against the exit criteria, and an acceptance recommendation with residual risk has been made.
 
+## Method reference
+
+For the full method, read `references/acceptance-testing-playbook.md`: testable criteria, the plan with entry and exit criteria, scenario and case design, coverage, safe data, triage, and the evidence-based recommendation (10.1, 7.3). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
