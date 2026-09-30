@@ -25,7 +25,11 @@
       "template": "templates/brd.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/brd-rubric.md"
+        "rubric": "evaluation/brd-rubric.md",
+        "blocking": [
+          4,
+          9
+        ]
       },
       "reviewers": [
         "requirements-verifier"
@@ -161,7 +165,11 @@
       "template": "templates/decision-log.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/decision-log-rubric.md"
+        "rubric": "evaluation/decision-log-rubric.md",
+        "blocking": [
+          2,
+          4
+        ]
       }
     },
     "decision-matrix": {
@@ -273,7 +281,11 @@
       "template": "templates/frd.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/functional-requirements-rubric.md"
+        "rubric": "evaluation/functional-requirements-rubric.md",
+        "blocking": [
+          4,
+          5
+        ]
       },
       "reviewers": [
         "requirements-verifier"
@@ -356,7 +368,11 @@
       "template": "templates/meeting-notes.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/meeting-notes-rubric.md"
+        "rubric": "evaluation/meeting-notes-rubric.md",
+        "blocking": [
+          3,
+          4
+        ]
       }
     },
     "nfr-specification": {
@@ -381,14 +397,22 @@
       "template": "templates/opportunity-solution-tree.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/opportunity-solution-tree-rubric.md"
+        "rubric": "evaluation/opportunity-solution-tree-rubric.md",
+        "blocking": [
+          1,
+          4
+        ]
       }
     },
     "persona": {
       "template": "templates/persona.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/personas-rubric.md"
+        "rubric": "evaluation/personas-rubric.md",
+        "blocking": [
+          1,
+          7
+        ]
       }
     },
     "potential-value": {
@@ -620,7 +644,11 @@
       "template": "templates/srs.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/solution-requirements-rubric.md"
+        "rubric": "evaluation/solution-requirements-rubric.md",
+        "blocking": [
+          2,
+          5
+        ]
       },
       "reviewers": [
         "requirements-verifier"
@@ -696,7 +724,11 @@
       "template": "templates/use-case-specification.md",
       "gate": {
         "mode": "rubric",
-        "rubric": "evaluation/use-case-rubric.md"
+        "rubric": "evaluation/use-case-rubric.md",
+        "blocking": [
+          3,
+          7
+        ]
       }
     },
     "user-story-epic": {

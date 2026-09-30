@@ -1,0 +1,256 @@
+{
+  "$comment": "Table of contents for templates/srs.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "srs",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the SRS exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the SRS covers and what it leaves out.",
+      "artefactStandard": "scope"
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the SRS is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "definitions",
+      "heading": "Definitions",
+      "tier": "standard",
+      "purpose": "Terms and their meaning.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "perspective",
+      "heading": "Product perspective",
+      "tier": "standard",
+      "purpose": "How the system fits with others.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "users",
+      "heading": "User characteristics",
+      "tier": "standard",
+      "purpose": "User classes and differences."
+    },
+    {
+      "id": "constraints",
+      "heading": "Constraints",
+      "tier": "standard",
+      "purpose": "Regulatory, software and design constraints.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "coverage",
+      "heading": "Stakeholder requirement coverage",
+      "tier": "core",
+      "purpose": "Every stakeholder requirement satisfied; no orphans.",
+      "evidences": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "interfaces",
+      "heading": "External interface requirements",
+      "tier": "standard",
+      "purpose": "External interfaces.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "functional",
+      "heading": "Functional requirements",
+      "tier": "core",
+      "purpose": "Testable functional requirements traced to stakeholder needs.",
+      "evidences": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "nfr",
+      "heading": "Non-functional requirements",
+      "tier": "core",
+      "purpose": "Quantified quality attributes.",
+      "evidences": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": "other",
+      "heading": "Other requirements",
+      "tier": "standard",
+      "purpose": "Retention, security, compliance and more.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "priorities",
+      "heading": "Priorities and agreement",
+      "tier": "standard",
+      "purpose": "How priorities were set and agreed.",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the SRS and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "dependencies",
+      "heading": "Dependencies",
+      "tier": "standard",
+      "purpose": "Dependencies with owner and date.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "checks",
+      "heading": "Feasibility and consistency check",
+      "tier": "standard",
+      "purpose": "Checks that the set is achievable and consistent.",
+      "evidences": [
+        6,
+        9
+      ]
+    },
+    {
+      "id": "security",
+      "heading": "Security requirements",
+      "tier": "extended",
+      "purpose": "Access, audit and protection.",
+      "when": {
+        "regulated": [
+          true
+        ],
+        "risk": [
+          "high"
+        ]
+      },
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "states",
+      "heading": "State and behaviour models",
+      "tier": "extended",
+      "purpose": "State model of key entities.",
+      "when": {
+        "perspective": [
+          "information-technology"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "regulatory",
+      "heading": "Regulatory traceability",
+      "tier": "extended",
+      "purpose": "Obligations traced to requirements and tests.",
+      "when": {
+        "regulated": [
+          true
+        ]
+      },
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the SRS produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "quality-gate",
+      "heading": "Quality gate",
+      "tier": "standard",
+      "purpose": "Requirement quality characteristics.",
+      "evidences": [
+        4,
+        6
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the SRS.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

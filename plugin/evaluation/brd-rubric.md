@@ -59,7 +59,7 @@ Total the scores (maximum 27). Record a verdict:
 - Pass with changes: 16 to 21, or any single dimension at 1 that is quick to fix.
 - Fail: below 16, or any dimension at 0.
 
-Record findings by severity with a specific fix, and route material issues back to the requirements skill.
+Dimensions 4 (requirement quality) and 9 (sign-off readiness) are blocking: a score of 0 on either fails the document whatever the total. Record findings by severity with a specific fix, and route material issues back to the requirements skill.
 
 ## Findings template
 

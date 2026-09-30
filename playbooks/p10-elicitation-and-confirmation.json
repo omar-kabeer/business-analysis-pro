@@ -142,13 +142,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/meeting-notes.md",
-        "contentHash": "a7c600cb772fe45f00480f3824c2ec850103fb030291ddd618e62141ad3b233c"
+        "contentHash": "662036a35fb09e08f0052affd26f6c2ac5f2fc55bcff1290a7e6f91f1a635b71"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/meeting-notes-rubric.md",
-          "contentHash": "12c3ed448086ddac84e87bffc763db18a72b15f05d4bc28b9a6f20d55281127d"
+          "contentHash": "2e04195e9347910a120046bac434db0868d7396c9903decb829a27fc3966cb39"
         }
       }
     },

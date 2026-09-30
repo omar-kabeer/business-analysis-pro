@@ -1,6 +1,6 @@
 # Functional Requirements Evaluation Rubric
 
-A repeatable rubric for judging whether a set of functional requirements is ready to hand to design and build. Functional requirements describe the behaviour and information the solution manages. Used by the quality and requirements skills and applied to functional requirements captured in a BRD, FRD, or SRS. Based on BABOK Requirements Classification Schema (2.3), Specify and Model Requirements (7.1), and Verify Requirements (7.2).
+A repeatable rubric for judging whether a set of functional requirements is ready to hand to design and build. Functional requirements describe the behaviour and information the solution manages. Used by the quality and requirements skills and applied to functional requirements captured in a BRD, FRD, or SRS. Based on BABOK Requirements Classification Schema (2.3), Specify and Model Requirements (7.1), and Verify Requirements (7.2). Applied to documents produced from `templates/frd.md`.
 
 ## Scoring scale
 
@@ -54,7 +54,7 @@ Total the scores (maximum 27):
 - Pass with changes: 16 to 21, or a single quick-to-fix dimension at 1.
 - Fail: below 16, or any dimension at 0.
 
-Record findings by severity with a specific fix, and route material issues back to the requirements skill.
+Dimensions 4 (unambiguous) and 5 (testable) are blocking: a score of 0 on either fails the document whatever the total. Record findings by severity with a specific fix, and route material issues back to the requirements skill.
 
 ## Findings template
 

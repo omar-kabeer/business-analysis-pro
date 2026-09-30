@@ -1,6 +1,6 @@
 # Solution Requirements Evaluation Rubric
 
-A repeatable rubric for judging whether a set of solution requirements is ready to take into design. Solution requirements describe the capabilities and qualities of a solution that meets the stakeholder requirements, and they divide into functional and non-functional requirements. Used by the quality and requirements skills and applied to solution requirements in a BRD, SRS, or requirements package. Based on BABOK Requirements Classification Schema (2.3) and Specify and Model Requirements (7.1).
+A repeatable rubric for judging whether a set of solution requirements is ready to take into design. Solution requirements describe the capabilities and qualities of a solution that meets the stakeholder requirements, and they divide into functional and non-functional requirements. Used by the quality and requirements skills and applied to solution requirements in a BRD, SRS, or requirements package. Based on BABOK Requirements Classification Schema (2.3) and Specify and Model Requirements (7.1). Applied to documents produced from `templates/srs.md`.
 
 ## Scoring scale
 
@@ -53,7 +53,7 @@ Total the scores (maximum 27):
 - Pass with changes: 16 to 21, or a single quick-to-fix dimension at 1.
 - Fail: below 16, or any dimension at 0.
 
-Record findings by severity with a specific fix, and route material issues back to the requirements skill.
+Dimensions 2 (meets stakeholder requirements) and 5 (testable) are blocking: a score of 0 on either fails the document whatever the total. Record findings by severity with a specific fix, and route material issues back to the requirements skill.
 
 ## Findings template
 

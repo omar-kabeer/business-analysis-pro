@@ -92,13 +92,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/use-case-specification.md",
-        "contentHash": "031b1652a170fd8f5fad41d897a836b681aac5c7379f3842bd5701b36a05091f"
+        "contentHash": "9476366eb52ca5400795e868373bc3aff9897bb47721c7177d605a73e9c81122"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/use-case-rubric.md",
-          "contentHash": "73a52fb6fb2a7adfe01fe696cfe49d4dd4d22b6b9bc6d1778cfdd45eadd885c2"
+          "contentHash": "d0de148be02ec9984c46c54301b28d63469f5a5a1ed301ba198b6905e4c33cf0"
         }
       }
     },

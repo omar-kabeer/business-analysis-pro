@@ -146,13 +146,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/decision-log.md",
-        "contentHash": "416b83d03957031d81cb5f737560845e3f28f1a3fe26ee5b650617ebc5bfe441"
+        "contentHash": "4f65c2b1817433f309f4bae78867ac9ecdbe7d3abf844f30acd8d4b479145413"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/decision-log-rubric.md",
-          "contentHash": "7959acb56f42d649884eba6b73b5fac11b9939b3d1326cc7f4aed2dab02b36b9"
+          "contentHash": "bf65897bc7f8c10e002db897ad548fb59378da8543eb04ecb44e912c755c89c7"
         }
       }
     },

@@ -72,13 +72,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/persona.md",
-        "contentHash": "bcbb2eab30408a78f0d152b503f82a5ad77959d548cca5429449575aa5674ec0"
+        "contentHash": "7fb36cd0f1df0816730d83a309c50268fe1834e32eaf3f7de6698d9d3f5af30c"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/personas-rubric.md",
-          "contentHash": "4ac0cdf8998a8a2970b5898091e006d5caf238b36ab4a4ed455d3fcf8de63d62"
+          "contentHash": "e3cf08edfbb9a9482e4d51ed7d84fc9f71e56bd0574e4c95d40abd649f0e2aed"
         }
       }
     },
@@ -171,13 +171,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/opportunity-solution-tree.md",
-        "contentHash": "c0bab30a31ad69016e7ac0801090d9e05fbdc9569513f7857a873c92f1f0bb8a"
+        "contentHash": "d293bd7c7da6da29786405fcccc717f2ccff167115a300ecdbe5eeaf5dbfb44c"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/opportunity-solution-tree-rubric.md",
-          "contentHash": "dcb28bfd83e456ff247c388670e27b809241667f8361c8d0a8eda529a52825b4"
+          "contentHash": "1a563b5b3c3d9f90da477dbc3664816bb529732e6d44985e6a8d0f5e3d3e7f60"
         }
       }
     },

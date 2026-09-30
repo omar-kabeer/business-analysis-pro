@@ -1,0 +1,294 @@
+{
+  "$comment": "Table of contents for templates/brd.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "brd",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the BRD exists and what grades it.",
+      "artefactStandard": "purpose",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "executive-summary",
+      "heading": "Executive Summary",
+      "tier": "core",
+      "purpose": "Need, outcome, recommendation and decision.",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "context",
+      "heading": "Business Context",
+      "tier": "standard",
+      "purpose": "Situation, drivers and strategic fit.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "Sources the requirements come from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "objectives",
+      "heading": "Objectives and Success Measures",
+      "tier": "core",
+      "purpose": "Outcome objectives with measures.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What is in and out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "stakeholders",
+      "heading": "Stakeholders",
+      "tier": "standard",
+      "purpose": "Who is involved and their decision rights.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "current",
+      "heading": "Current State",
+      "tier": "standard",
+      "purpose": "Today's processes, systems and pains.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "future",
+      "heading": "Future State",
+      "tier": "standard",
+      "purpose": "The desired capability and experience.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "business-req",
+      "heading": "Business Requirements",
+      "tier": "core",
+      "purpose": "What the business needs met.",
+      "evidences": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "stakeholder-req",
+      "heading": "Stakeholder Requirements",
+      "tier": "core",
+      "purpose": "What stakeholders need.",
+      "evidences": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "functional",
+      "heading": "Functional Requirements",
+      "tier": "core",
+      "purpose": "Testable behaviours with acceptance criteria.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "nfr",
+      "heading": "Non-Functional Requirements",
+      "tier": "core",
+      "purpose": "Quantified qualities.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "transition",
+      "heading": "Transition Requirements",
+      "tier": "standard",
+      "purpose": "What moving to the future state needs.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Data and Reporting Requirements",
+      "tier": "standard",
+      "purpose": "Data and report needs.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "compliance",
+      "heading": "Compliance and Control Requirements",
+      "tier": "standard",
+      "purpose": "Policy and regulatory needs with evidence.",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Business Rules",
+      "tier": "standard",
+      "purpose": "Rules the solution enforces.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "Assumptions with impact and owner.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "dependencies",
+      "heading": "Dependencies",
+      "tier": "core",
+      "purpose": "Dependencies with owner and date.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Key risks with impact and mitigation.",
+      "artefactStandard": "risks",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "questions",
+      "heading": "Open Questions",
+      "tier": "standard",
+      "purpose": "Owned questions with dates.",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "trace",
+      "heading": "Traceability",
+      "tier": "core",
+      "purpose": "Requirement to objective, source and test.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "glossary",
+      "heading": "Glossary",
+      "tier": "extended",
+      "purpose": "Terms that could be misread.",
+      "when": {
+        "audience": [
+          "executive",
+          "customer"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "regulatory",
+      "heading": "Regulatory Impact Assessment",
+      "tier": "extended",
+      "purpose": "Obligations affected and the assessment.",
+      "when": {
+        "regulated": [
+          true
+        ]
+      },
+      "requires": [
+        "compliance"
+      ],
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the BRD produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the BRD.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "sign-off",
+      "heading": "Sign-Off",
+      "tier": "core",
+      "purpose": "Approvers and their decisions.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}
