@@ -241,9 +241,11 @@ function parseRubricBands(markdown) {
   }
 }
 
-function verdictFor(bands, scores) {
+function verdictFor(bands, scores, blocking = []) {
   const total = scores.reduce((sum, score) => sum + score, 0)
   const hasZero = scores.includes(0)
+  // A blocking dimension at 0 fails the artefact whatever the total (docs/depth-standard.md).
+  if (blocking.some((dimension) => scores[dimension - 1] === 0)) return 'fail'
   if (total >= bands.pass && !(bands.noZeroForPass && hasZero)) return 'pass'
   if (total >= bands.partial) return 'pass_with_changes'
   return 'fail'
@@ -282,12 +284,12 @@ function validateCalibration() {
         errors.push(`${label}: scores must cover exactly dimensions ${bands.dimensions.join(', ')}`)
         continue
       }
-      const scores = keys.map((key) => reference.scores[key])
+      const scores = bands.dimensions.map((key) => reference.scores[key])
       if (scores.some((score) => !Number.isInteger(score) || score < 0 || score > bands.scaleMax)) {
         errors.push(`${label}: every score must be an integer from 0 to ${bands.scaleMax}`)
         continue
       }
-      const verdict = verdictFor(bands, scores)
+      const verdict = verdictFor(bands, scores, profiles[type]?.gate?.blocking ?? [])
       if (verdict !== reference.expectedVerdict) {
         errors.push(`${label}: scores give ${verdict}, but expectedVerdict is ${reference.expectedVerdict}`)
       }

@@ -84,13 +84,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/solution-scope.md",
-        "contentHash": "ca0d3a195737407a3717e73ddacc33742e0490516362ba62e716d35f3fb3e1ef"
+        "contentHash": "8ed6ed8452a24b29a4d6b330907965fc71d8a7d73c072ebd319821791d09120a"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/solution-scope-rubric.md",
-          "contentHash": "dc017d2c9a52c6351c5cb417d65f88d9307fa0358f0501144dbf4dde7d4aaf3d"
+          "contentHash": "bd09f256316db17fd1ba8a7ff7a1138d08a0cafa05f68768179fc692106c6096"
         }
       }
     },
@@ -109,13 +109,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/stakeholder-register.md",
-        "contentHash": "d239b1f603403d6e95b15f8636808ba9aec0655a707732d1bfb7ff4bfb7c210a"
+        "contentHash": "7597a6f93593988711dbfbab0f7fc62eb85fbb8d945b920ef4b48787853f03ff"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/stakeholder-list-stakeholder-map-personas-rubric.md",
-          "contentHash": "8eb9c0d1aa532c49f4b4316024716d5fe9f29de90fa97023a446753509e97bf3"
+          "key": "business-analysis.rubric.evaluation/stakeholder-register-rubric.md",
+          "contentHash": "1e27d32203cd525186f583281b1d7f75c2d67a15fad6307c13fe20c7ca12810a"
         }
       }
     },

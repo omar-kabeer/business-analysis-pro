@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
   "artefactType": "user-story-epic",
-  "rubric": "evaluation/user-story-rubric.md",
-  "rubricSha256": "95514e34fee5e7208d1631ccdd899e3e507ec756265538703cbba691b3c18bfc",
+  "rubric": "evaluation/user-story-epic-rubric.md",
+  "rubricSha256": "2e60bcb7ace02a6fcdc12950df7eba5fe8d8bcb2be0b9b0b97c1b2a5e763eb45",
   "status": "provisional",
   "tolerance": 1,
   "references": [
@@ -13,10 +13,10 @@
         "1": 3,
         "2": 3,
         "3": 3,
-        "4": 3,
+        "4": 2,
         "5": 3,
-        "6": 3,
-        "7": 3
+        "6": 2,
+        "7": 2
       }
     },
     {
@@ -27,20 +27,20 @@
         "2": 2,
         "3": 2,
         "4": 1,
-        "5": 1,
-        "6": 1,
-        "7": 3
+        "5": 2,
+        "6": 2,
+        "7": 1
       }
     },
     {
       "file": "failing.md",
       "expectedVerdict": "fail",
       "scores": {
-        "1": 1,
+        "1": 0,
         "2": 0,
-        "3": 0,
-        "4": 2,
-        "5": 2,
+        "3": 1,
+        "4": 0,
+        "5": 0,
         "6": 0,
         "7": 0
       }

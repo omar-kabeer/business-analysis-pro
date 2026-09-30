@@ -47,13 +47,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/user-story-epic.md",
-        "contentHash": "d99ae04605ca18ba1b2e5c0d0f4f9f462c667c07c76c5450eb20d66e6c9e49fa"
+        "contentHash": "a1505b1d7dc08da46bd200e5586b85a4d2814a3fae1e6642c60df32ecfc420f1"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/user-story-rubric.md",
-          "contentHash": "95514e34fee5e7208d1631ccdd899e3e507ec756265538703cbba691b3c18bfc"
+          "key": "business-analysis.rubric.evaluation/user-story-epic-rubric.md",
+          "contentHash": "2e60bcb7ace02a6fcdc12950df7eba5fe8d8bcb2be0b9b0b97c1b2a5e763eb45"
         }
       }
     },
@@ -187,13 +187,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/nfr-specification.md",
-        "contentHash": "289f5eba78c8b8cfc3342268e51809a1a5c1e456cdcc1de61b555055aab3514f"
+        "contentHash": "257f71d72fad3270c05e3ffdf396fc19188e80a3e37e623aa6150670f2f1c503"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
-          "key": "business-analysis.rubric.evaluation/non-functional-requirements-rubric.md",
-          "contentHash": "c4df08debc8185b210aaa5b73d6acf907499b22c352528c0a07a7a9c02b88e8f"
+          "key": "business-analysis.rubric.evaluation/nfr-specification-rubric.md",
+          "contentHash": "e3c9c10c5b56a647de60231904de9d5b67e52ffe0bbec7991af1585cd3af8a87"
         }
       }
     },

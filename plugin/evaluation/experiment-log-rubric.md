@@ -18,6 +18,28 @@ For each dimension score 0 to 3: 0 absent or misleading, 1 weak, 2 adequate for 
 | 6 | Decision and learning | Completed tests record a reasoned persevere, pivot or drop decision and learning; proposed tests identify the decision to be made after evidence arrives. |
 | 7 | Launch retrospective | If a launch has occurred, the post-mortem compares expectation with actual outcome and identifies root cause and a concrete change; otherwise it is clearly pending or not applicable. |
 
+## Scoring anchors
+
+Anchors describe the extreme scores; 1 and 2 interpolate between them.
+
+| # | Score 0 (absent) | Score 3 (strong) |
+| --- | --- | --- |
+| 1 | Entries are activities with no belief or question. | Each entry states a falsifiable belief or specific question and the learning sought. |
+| 2 | No risk type named, or a method that cannot test it. | The value, usability, feasibility or viability risk is named and the proposed method can test it. |
+| 3 | No measure or threshold, or thresholds added after the result. | The measure and decision threshold are set before results are interpreted, or the missing threshold is explicitly flagged as blocking execution. |
+| 4 | Stage and dates are missing, so history cannot be followed. | Each entry makes clear whether the test is proposed, running or completed, with enough identity and dates to follow its history. |
+| 5 | Results are invented for tests that have not run, or interpretation is presented as evidence. | Completed tests distinguish observed evidence from interpretation; pending tests leave results unknown rather than inventing them. |
+| 6 | No decision after a completed test, or a learning that changes nothing. | Completed tests record a reasoned persevere, pivot or drop decision and learning; proposed tests identify the decision to be made after evidence arrives. |
+| 7 | A launch happened with no post-mortem, or blame instead of a root cause. | If a launch has occurred, the post-mortem compares expectation with actual outcome and identifies root cause and a concrete change; otherwise it is clearly pending or not applicable. |
+
+## Common failure modes
+
+- Thresholds written after looking at the data.
+- Only successful experiments recorded, so the log flatters the product.
+- Fake doors with no ethics or expectation handling.
+- Learnings that are restated results rather than changed beliefs.
+- A post-mortem that names people rather than causes.
+
 ## Result
 
 Total the scores (maximum 21):
@@ -26,7 +48,7 @@ Total the scores (maximum 21):
 - Pass with changes: 12 to 16, or 17 or higher with a dimension at 0.
 - Fail: below 12.
 
-Record findings by severity with specific fixes. Passing a proposed experiment means its plan is reviewable; it does not assert that the experiment succeeded or produced evidence.
+Dimensions 3 (predeclared measure) and 5 (result integrity) are blocking: a score of 0 on either fails the log whatever the total. Record findings by severity with specific fixes. Passing a proposed experiment means its plan is reviewable; it does not assert that the experiment succeeded or produced evidence.
 
 ## Findings template
 

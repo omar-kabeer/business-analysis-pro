@@ -1,0 +1,24 @@
+{
+  "$comment": "Table of contents for templates/stakeholder-register.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "stakeholder-register",
+  "sections": [
+    { "id": "purpose", "heading": "Purpose", "tier": "core", "purpose": "Why the register exists and what grades it.", "artefactStandard": "purpose" },
+    { "id": "document-control", "heading": "Document Control", "tier": "core", "purpose": "Owner, version and status." },
+    { "id": "scope", "heading": "Scope", "tier": "core", "purpose": "The change covered and the rule for who is in scope.", "artefactStandard": "scope", "evidences": [1] },
+    { "id": "inputs", "heading": "Inputs", "tier": "core", "purpose": "Sources used to find stakeholders.", "artefactStandard": "inputs", "evidences": [1, 3] },
+    { "id": "how-to-build", "heading": "How to build the register", "tier": "standard", "purpose": "The method for a complete register.", "evidences": [1] },
+    { "id": "register", "heading": "Register", "tier": "core", "purpose": "One row per stakeholder with their characteristics.", "evidences": [1, 2, 3, 5] },
+    { "id": "map", "heading": "Stakeholder map", "tier": "standard", "purpose": "Placement by interest and influence.", "evidences": [4] },
+    { "id": "coverage-check", "heading": "Coverage check", "tier": "core", "purpose": "The register checked against roles and groups.", "evidences": [1, 7] },
+    { "id": "assumptions", "heading": "Assumptions", "tier": "core", "purpose": "What was taken as true and how it will be confirmed.", "artefactStandard": "assumptions", "evidences": [3] },
+    { "id": "risks", "heading": "Risks", "tier": "core", "purpose": "Risks from gaps and resistance.", "artefactStandard": "risks", "evidences": [7] },
+    { "id": "personas", "heading": "Personas", "tier": "extended", "purpose": "Evidence-based user types linked to the register.", "when": { "perspective": ["agile", "business-process-management"], "audience": ["customer"] }, "requires": ["register"], "evidences": [6] },
+    { "id": "impact-analysis", "heading": "Stakeholder impact analysis", "tier": "extended", "purpose": "How each group is affected and the support it needs.", "when": { "risk": ["medium", "high"], "approach": ["predictive", "hybrid"] }, "requires": ["register"], "evidences": [2, 5] },
+    { "id": "privacy", "heading": "Contact and privacy handling", "tier": "extended", "purpose": "Lawful basis, retention and access for personal details.", "when": { "regulated": [true] }, "evidences": [7] },
+    { "id": "outputs", "heading": "Outputs", "tier": "core", "purpose": "What the register feeds.", "artefactStandard": "outputs", "evidences": [5] },
+    { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the register.", "artefactStandard": "review-criteria" },
+    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
+  ]
+}

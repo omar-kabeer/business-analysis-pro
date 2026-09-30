@@ -1,0 +1,25 @@
+{
+  "$comment": "Table of contents for templates/solution-scope.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "solution-scope",
+  "sections": [
+    { "id": "purpose", "heading": "Purpose", "tier": "core", "purpose": "Why the scope exists and what grades it.", "artefactStandard": "purpose" },
+    { "id": "document-control", "heading": "Document Control", "tier": "core", "purpose": "Owner, version and status." },
+    { "id": "document-scope", "heading": "Document scope", "tier": "core", "purpose": "Which change and release this scope defines.", "artefactStandard": "scope" },
+    { "id": "inputs", "heading": "Inputs", "tier": "core", "purpose": "What the scope is built from.", "artefactStandard": "inputs", "evidences": [6] },
+    { "id": "in-scope", "heading": "In scope", "tier": "core", "purpose": "Capabilities the change delivers, with IDs.", "evidences": [1, 2, 5, 7] },
+    { "id": "out-of-scope", "heading": "Out of scope", "tier": "core", "purpose": "What is deliberately excluded and why.", "evidences": [4, 7] },
+    { "id": "scope-views", "heading": "Scope views", "tier": "standard", "purpose": "Further views that make the boundary unambiguous.", "evidences": [2, 5, 7] },
+    { "id": "enables-future-state", "heading": "How the scope enables the future state", "tier": "core", "purpose": "Each objective and the elements that move it.", "evidences": [3] },
+    { "id": "strategy-alignment", "heading": "Alignment with the change strategy", "tier": "standard", "purpose": "Fit with the change strategy and its constraints.", "evidences": [6] },
+    { "id": "release-boundaries", "heading": "Release and transition boundaries", "tier": "extended", "purpose": "Which elements land in which release.", "when": { "approach": ["adaptive", "hybrid"] }, "requires": ["in-scope"], "evidences": [5, 8] },
+    { "id": "assumptions", "heading": "Assumptions and constraints", "tier": "core", "purpose": "What the scope takes as true and its limits.", "artefactStandard": "assumptions", "evidences": [8] },
+    { "id": "risks", "heading": "Risks", "tier": "core", "purpose": "Risks to the scope boundary.", "artefactStandard": "risks", "evidences": [7] },
+    { "id": "change-control", "heading": "Scope change control", "tier": "standard", "purpose": "How the scope may change.", "evidences": [8] },
+    { "id": "context-diagram", "heading": "Context diagram", "tier": "extended", "purpose": "The boundary and external actors as a diagram.", "when": { "formality": ["formal"], "perspective": ["information-technology"] }, "evidences": [1] },
+    { "id": "outputs", "heading": "Outputs", "tier": "core", "purpose": "What traces to the scope.", "artefactStandard": "outputs" },
+    { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the scope.", "artefactStandard": "review-criteria" },
+    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
+  ]
+}
