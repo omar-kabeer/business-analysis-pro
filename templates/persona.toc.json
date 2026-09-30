@@ -1,0 +1,158 @@
+{
+  "$comment": "Table of contents for templates/persona.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "persona",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the persona exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the persona covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the persona is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "profile",
+      "heading": "Profile",
+      "tier": "core",
+      "purpose": "Role, context, goals, tasks, pains and expertise, with evidence.",
+      "evidences": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "behaviours",
+      "heading": "Behaviours and attitudes",
+      "tier": "standard",
+      "purpose": "How the persona behaves and decides.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "scenarios",
+      "heading": "Scenarios of use",
+      "tier": "standard",
+      "purpose": "Situations that matter for design.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "implications",
+      "heading": "Design implications",
+      "tier": "core",
+      "purpose": "What the persona means for design and priority.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the persona and their responses.",
+      "artefactStandard": "risks"
+    },
+    {
+      "id": "set",
+      "heading": "Persona set overview",
+      "tier": "extended",
+      "purpose": "How the set covers the population.",
+      "when": {
+        "formality": [
+          "standard",
+          "formal"
+        ]
+      },
+      "evidences": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "accessibility",
+      "heading": "Accessibility needs",
+      "tier": "extended",
+      "purpose": "Access needs found in research.",
+      "when": {
+        "audience": [
+          "customer"
+        ],
+        "regulated": [
+          true
+        ]
+      },
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the persona produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the persona.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

@@ -51,13 +51,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/brd.md",
-        "contentHash": "6e0f7e2b67f6a97db44a58076cb978cebebd7ec44c4e48e1da215bf343c8a84a"
+        "contentHash": "90e616f54976fe583eb092685e5e37623ecb2fd8ea7b45368dc0c2c30d741bf8"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/brd-rubric.md",
-          "contentHash": "6776d79ec2535f1a8c050ff31571290ef61a73a7a4d928e2587a953eeb3b6579"
+          "contentHash": "207f0b8cdcd89179ed4d8e50cec14a248e35bdf58b6339b61840880d905b58c5"
         }
       }
     },
@@ -88,13 +88,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/frd.md",
-        "contentHash": "8d383ac21cc8df0fe183f2d6989c0d21fbd55aeb93f61bc5d5c8ae1e493e5446"
+        "contentHash": "cc6034c49a4437019612c4e5431077756c8612eeb47cf815d07d179a7c523a34"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/functional-requirements-rubric.md",
-          "contentHash": "c1668dbb747a29f24b423f80dd7cf31de9e67972524b2972d34605e909961eb2"
+          "contentHash": "3e114710ace46179db4951ac4ace482f5e790c006c55e97edc039410363d8ba6"
         }
       }
     },
@@ -129,13 +129,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/use-case-specification.md",
-        "contentHash": "031b1652a170fd8f5fad41d897a836b681aac5c7379f3842bd5701b36a05091f"
+        "contentHash": "9476366eb52ca5400795e868373bc3aff9897bb47721c7177d605a73e9c81122"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/use-case-rubric.md",
-          "contentHash": "73a52fb6fb2a7adfe01fe696cfe49d4dd4d22b6b9bc6d1778cfdd45eadd885c2"
+          "contentHash": "d0de148be02ec9984c46c54301b28d63469f5a5a1ed301ba198b6905e4c33cf0"
         }
       }
     },
@@ -199,13 +199,13 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/srs.md",
-        "contentHash": "797e5373f33750fddf0a40e4b978016d38c50b1127d8c353cf4dc599de4201c7"
+        "contentHash": "df73bfcfe8d9acdced28186c80ef8f1c5babd3693bc366237538cd8e51a6cdf0"
       },
       "quality": {
         "mode": "rubric",
         "reference": {
           "key": "business-analysis.rubric.evaluation/solution-requirements-rubric.md",
-          "contentHash": "8333441005bca55a89ec122d6832428470ce3c6ff893cec8ee9d7fe52e82b735"
+          "contentHash": "69fbb70819260c99f2a6972a70150658f86097edd51fd75d826a637a6168aa8b"
         }
       }
     },

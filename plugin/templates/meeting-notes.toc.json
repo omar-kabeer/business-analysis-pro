@@ -1,0 +1,178 @@
+{
+  "$comment": "Table of contents for templates/meeting-notes.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "meeting-notes",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the notes exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the notes covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the notes is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "attendees",
+      "heading": "Attendees",
+      "tier": "core",
+      "purpose": "Who attended, to judge authority.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "decisions",
+      "heading": "Decisions",
+      "tier": "core",
+      "purpose": "Outcomes with rationale and owner.",
+      "evidences": [
+        3,
+        8
+      ]
+    },
+    {
+      "id": "actions",
+      "heading": "Actions",
+      "tier": "core",
+      "purpose": "Specific actions with owner and date.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "open",
+      "heading": "Open questions and parking lot",
+      "tier": "core",
+      "purpose": "Unresolved items with owner and next step.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "discussion",
+      "heading": "Discussion summary",
+      "tier": "standard",
+      "purpose": "Attributed summary of the discussion.",
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the notes and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "confirmation",
+      "heading": "Confirmation and circulation",
+      "tier": "core",
+      "purpose": "When notes were sent and who confirmed.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "formal",
+      "heading": "Formal minutes",
+      "tier": "extended",
+      "purpose": "Quorum, interests and previous minutes.",
+      "when": {
+        "formality": [
+          "formal"
+        ],
+        "regulated": [
+          true
+        ]
+      },
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "elicitation",
+      "heading": "Elicitation results",
+      "tier": "extended",
+      "purpose": "Findings to confirm, when the meeting elicits.",
+      "when": {
+        "approach": [
+          "predictive",
+          "adaptive",
+          "hybrid"
+        ],
+        "formality": [
+          "standard",
+          "formal"
+        ]
+      },
+      "evidences": [
+        6
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the notes produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the notes.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

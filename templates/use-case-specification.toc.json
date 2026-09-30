@@ -1,0 +1,177 @@
+{
+  "$comment": "Table of contents for templates/use-case-specification.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "use-case-specification",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the use case exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the use case covers and what it leaves out.",
+      "artefactStandard": "scope"
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the use case is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "summary",
+      "heading": "Summary",
+      "tier": "core",
+      "purpose": "Actor, goal, trigger, preconditions and guarantee.",
+      "evidences": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "main",
+      "heading": "Main success scenario",
+      "tier": "core",
+      "purpose": "The ordered normal path.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "alternates",
+      "heading": "Alternate flows",
+      "tier": "core",
+      "purpose": "Other routes to the goal.",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "exceptions",
+      "heading": "Exceptions",
+      "tier": "core",
+      "purpose": "Paths where the goal fails, and the response.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Business rules and data",
+      "tier": "standard",
+      "purpose": "Rules and data the use case depends on.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "acceptance",
+      "heading": "Acceptance criteria",
+      "tier": "core",
+      "purpose": "Pass conditions across all flows.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "trace",
+      "heading": "Traceability",
+      "tier": "standard",
+      "purpose": "Links to requirements and tests.",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the use case and their responses.",
+      "artefactStandard": "risks"
+    },
+    {
+      "id": "diagram",
+      "heading": "Use case diagram",
+      "tier": "extended",
+      "purpose": "Actors and use cases inside the boundary.",
+      "when": {
+        "formality": [
+          "formal"
+        ],
+        "perspective": [
+          "information-technology"
+        ]
+      },
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "nfr-notes",
+      "heading": "Non-functional notes",
+      "tier": "extended",
+      "purpose": "Quality needs per step, by reference.",
+      "when": {
+        "risk": [
+          "medium",
+          "high"
+        ]
+      },
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the use case produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the use case.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

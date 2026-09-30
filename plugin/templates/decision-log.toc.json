@@ -1,0 +1,160 @@
+{
+  "$comment": "Table of contents for templates/decision-log.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "decision-log",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the log exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the log covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the log is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "rights",
+      "heading": "Decision rights",
+      "tier": "standard",
+      "purpose": "Who may make each kind of decision.",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "log",
+      "heading": "Log",
+      "tier": "core",
+      "purpose": "Each decision with options, rationale, authority and status.",
+      "evidences": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "pending",
+      "heading": "Pending decisions",
+      "tier": "standard",
+      "purpose": "Needed decisions with owner and date.",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the log and their responses.",
+      "artefactStandard": "risks"
+    },
+    {
+      "id": "analysis",
+      "heading": "Decision analysis detail",
+      "tier": "extended",
+      "purpose": "Criteria, weights and scores for big decisions.",
+      "when": {
+        "risk": [
+          "high"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "requires": [
+        "log"
+      ],
+      "evidences": [
+        3,
+        4
+      ]
+    },
+    {
+      "id": "audit",
+      "heading": "Audit trail",
+      "tier": "extended",
+      "purpose": "Where each decision's evidence is kept.",
+      "when": {
+        "regulated": [
+          true
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "requires": [
+        "log"
+      ],
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the log produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the log.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

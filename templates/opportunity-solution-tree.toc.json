@@ -1,0 +1,172 @@
+{
+  "$comment": "Table of contents for templates/opportunity-solution-tree.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "opportunity-solution-tree",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the tree exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the tree covers and what it leaves out.",
+      "artefactStandard": "scope"
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the tree is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        2
+      ]
+    },
+    {
+      "id": "structure",
+      "heading": "Structure",
+      "tier": "standard",
+      "purpose": "The four levels and how to work them."
+    },
+    {
+      "id": "outcome",
+      "heading": "Desired outcome",
+      "tier": "core",
+      "purpose": "One measurable outcome.",
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "opportunities",
+      "heading": "Opportunities",
+      "tier": "core",
+      "purpose": "Evidenced customer needs, sized.",
+      "evidences": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "solutions",
+      "heading": "Solutions",
+      "tier": "core",
+      "purpose": "Solutions per opportunity with assumptions.",
+      "evidences": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "experiments",
+      "heading": "Experiments",
+      "tier": "core",
+      "purpose": "Smallest tests of the riskiest assumptions.",
+      "evidences": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "learning",
+      "heading": "Learning log",
+      "tier": "standard",
+      "purpose": "What evidence changed in the tree.",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions"
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the tree and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        5
+      ]
+    },
+    {
+      "id": "sizing",
+      "heading": "Opportunity sizing detail",
+      "tier": "extended",
+      "purpose": "How opportunities were sized.",
+      "when": {
+        "audience": [
+          "executive"
+        ]
+      },
+      "requires": [
+        "opportunities"
+      ],
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "alignment",
+      "heading": "Outcome alignment",
+      "tier": "extended",
+      "purpose": "How the outcome ladders to objectives.",
+      "when": {
+        "audience": [
+          "executive"
+        ],
+        "formality": [
+          "formal"
+        ]
+      },
+      "evidences": [
+        1
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the tree produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        4
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the tree.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

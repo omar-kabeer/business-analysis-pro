@@ -1,0 +1,212 @@
+{
+  "$comment": "Table of contents for templates/frd.md. See docs/depth-standard.md.",
+  "schemaVersion": 1,
+  "artefactType": "frd",
+  "sections": [
+    {
+      "id": "purpose",
+      "heading": "Purpose",
+      "tier": "core",
+      "purpose": "Why the FRD exists and what grades it.",
+      "artefactStandard": "purpose"
+    },
+    {
+      "id": "document-control",
+      "heading": "Document Control",
+      "tier": "core",
+      "purpose": "Owner, version and status."
+    },
+    {
+      "id": "scope",
+      "heading": "Scope",
+      "tier": "core",
+      "purpose": "What the FRD covers and what it leaves out.",
+      "artefactStandard": "scope",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "inputs",
+      "heading": "Inputs",
+      "tier": "core",
+      "purpose": "The evidence the FRD is built from.",
+      "artefactStandard": "inputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "functional",
+      "heading": "Functional requirements",
+      "tier": "core",
+      "purpose": "Atomic, testable behaviours traced to source and test.",
+      "evidences": [
+        1,
+        2,
+        4,
+        5,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "rules",
+      "heading": "Business rules",
+      "tier": "core",
+      "purpose": "Rules kept apart from the requirements that enforce them.",
+      "evidences": [
+        3,
+        6
+      ]
+    },
+    {
+      "id": "use-cases",
+      "heading": "Use cases",
+      "tier": "standard",
+      "purpose": "Use cases that realise the requirements.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "data",
+      "heading": "Data requirements",
+      "tier": "standard",
+      "purpose": "Key data and operations.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "interfaces",
+      "heading": "Interface requirements",
+      "tier": "standard",
+      "purpose": "Interfaces at a functional level.",
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "priorities",
+      "heading": "Priorities and agreement",
+      "tier": "standard",
+      "purpose": "How priorities were set and agreed.",
+      "evidences": [
+        8
+      ]
+    },
+    {
+      "id": "assumptions",
+      "heading": "Assumptions",
+      "tier": "core",
+      "purpose": "What is taken as true, with the effect if wrong.",
+      "artefactStandard": "assumptions",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "risks",
+      "heading": "Risks",
+      "tier": "core",
+      "purpose": "Risks to the FRD and their responses.",
+      "artefactStandard": "risks",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "dependencies",
+      "heading": "Dependencies",
+      "tier": "standard",
+      "purpose": "Dependencies with owner and date.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "feasibility",
+      "heading": "Feasibility check",
+      "tier": "standard",
+      "purpose": "Requirements checked for feasibility.",
+      "evidences": [
+        9
+      ]
+    },
+    {
+      "id": "ui",
+      "heading": "User interface requirements",
+      "tier": "extended",
+      "purpose": "Functional needs per screen.",
+      "when": {
+        "audience": [
+          "customer"
+        ],
+        "perspective": [
+          "information-technology"
+        ]
+      },
+      "requires": [
+        "functional"
+      ],
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "reporting",
+      "heading": "Reporting requirements",
+      "tier": "extended",
+      "purpose": "Report content and audience.",
+      "when": {
+        "perspective": [
+          "business-intelligence"
+        ]
+      },
+      "evidences": [
+        3
+      ]
+    },
+    {
+      "id": "outputs",
+      "heading": "Outputs",
+      "tier": "core",
+      "purpose": "What the FRD produces and feeds.",
+      "artefactStandard": "outputs",
+      "evidences": [
+        7
+      ]
+    },
+    {
+      "id": "quality-gate",
+      "heading": "Quality gate",
+      "tier": "standard",
+      "purpose": "Requirement quality characteristics.",
+      "evidences": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "review-criteria",
+      "heading": "Review criteria",
+      "tier": "core",
+      "purpose": "How a reviewer judges the FRD.",
+      "artefactStandard": "review-criteria"
+    },
+    {
+      "id": "babok-anchor",
+      "heading": "BABOK anchor",
+      "tier": "standard",
+      "purpose": "The BABOK tasks and techniques it implements."
+    },
+    {
+      "id": "house-style",
+      "heading": "House style",
+      "tier": "standard",
+      "purpose": "Editorial rules for narrative."
+    }
+  ]
+}

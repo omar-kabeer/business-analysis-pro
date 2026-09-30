@@ -1,6 +1,6 @@
 # Use Case Evaluation Rubric
 
-A repeatable rubric for judging whether a use case describes an interaction completely and testably. A use case describes the observable interaction between actors and a solution that achieves a goal, including its main, alternate, and exception flows. Used by the requirements and visual-modelling skills. Based on BABOK Use Cases and Scenarios (10.47).
+A repeatable rubric for judging whether a use case describes an interaction completely and testably. A use case describes the observable interaction between actors and a solution that achieves a goal, including its main, alternate, and exception flows. Used by the requirements and visual-modelling skills. Based on BABOK Use Cases and Scenarios (10.47). Applied to documents produced from `templates/use-case-specification.md`.
 
 ## Scoring scale
 
@@ -51,7 +51,7 @@ Total the scores (maximum 24):
 - Pass with changes: 14 to 19, or a single quick-to-fix dimension at 1.
 - Fail: below 14, or any dimension at 0.
 
-Record findings by severity with a specific fix, and route material issues back to the requirements skill.
+Dimensions 3 (main flow) and 7 (testable) are blocking: a score of 0 on either fails the document whatever the total. Record findings by severity with a specific fix, and route material issues back to the requirements skill.
 
 ## Findings template
 
