@@ -41,6 +41,10 @@ Bring the user's perspective into analysis and delivery. Produce personas, journ
 
 Users are modelled from evidence, the experience is mapped with pain points and opportunities, and usability and accessibility guidance is specific enough to inform requirements and design.
 
+## Method reference
+
+For the full method, read `references/human-centred-design-playbook.md`: planning human-centred design, context of use, user requirements, design, early evaluation with users, and accessibility, following ISO 9241-210 and WCAG 2.1. It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

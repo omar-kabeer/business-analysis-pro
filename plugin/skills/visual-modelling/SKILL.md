@@ -42,6 +42,10 @@ Turn any business analysis model into correct, renderable diagram source. Choose
 
 The diagram source renders, follows its notation, answers the question it was asked to answer, and its assumptions are stated.
 
+## Method reference
+
+For the full method, read `references/visual-modelling-playbook.md`: choosing the diagram from the question, level of detail, notation rules from the BPMN and UML conformance notes, readability, validation, and consistency across models. It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

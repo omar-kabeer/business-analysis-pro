@@ -45,6 +45,10 @@ Make the proposed solution concrete early and cheaply so stakeholders react to s
 
 The question is answered, findings are converted into requirements or explicit rejections, and the prototype's disposition is recorded.
 
+## Method reference
+
+For the full method, read `references/prototyping-playbook.md`: question and decision first, type and fidelity, honest scope, testing with tasks, converting findings, accessibility checks, and disposition (10.36). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

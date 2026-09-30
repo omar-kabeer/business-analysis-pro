@@ -48,6 +48,10 @@ Hold the enterprise-level view: what the organisation can do, how value reaches 
 
 The blueprints answer the question asked, states are labelled, capabilities and value streams are cross-mapped, and the roadmap sequences transitions with dependencies.
 
+## Method reference
+
+For the full method, read `references/business-architecture-playbook.md`: motivation modelling with BMM, capability maps and assessment, value streams, organisation and information, and transition states (11.4, 10.6). It ends with a worked example.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

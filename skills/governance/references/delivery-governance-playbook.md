@@ -1,6 +1,6 @@
 # Delivery Governance Playbook
 
-How to set up and run the governance artefacts that keep a change controlled and auditable: who decides what, how decisions and changes are recorded, and how risks, issues, and dependencies are kept visible until they close. This playbook applies BABOK Plan Business Analysis Governance (3.3), Manage Stakeholder Collaboration (4.5), Approve Requirements (5.5), Assess Requirements Changes (5.4), and the techniques Decision Analysis (10.16), Item Tracking (10.26), and Risk Analysis and Management (10.38). Risk practice follows ISO 31000 (`iso-31000-2018`); governance and change control follow COBIT 2019 (`cobit-2019`), and COBIT's AI guidance (`cobit-ai-governance`) where the solution includes AI.
+How to set up and run the governance artefacts that keep a change controlled and auditable: who decides what, how decisions and changes are recorded, and how risks, issues, and dependencies are kept visible until they close. This playbook applies BABOK Plan Business Analysis Governance (3.3), Manage Stakeholder Collaboration (4.5), Approve Requirements (5.5), Assess Requirements Changes (5.4), and the techniques Decision Analysis (10.16), Item Tracking (10.26), and Risk Analysis and Management (10.38). Risk practice follows the guidance of ISO 31000 (`iso-31000-2018`); governance and change control follow COBIT 2019 (`cobit-2019`), and COBIT's AI guidance (`cobit-ai-governance`) where the solution includes AI.
 
 ## When this playbook applies
 
@@ -23,9 +23,9 @@ The RAID log tracks risks, assumptions, issues, and dependencies (Item Tracking,
 
 An issue logged as a risk gets watched instead of fixed. An invalidated assumption becomes a risk or an issue; link the two. Use `templates/raid-log.md`.
 
-## Step 3: Manage risk to ISO 31000
+## Step 3: Manage risk following ISO 31000
 
-For each risk, analyse probability and impact on an agreed scale, evaluate it against the stated tolerance, and choose a treatment: avoid, reduce, transfer, or accept with a contingency. Name one person as owner who can act. Carry high risks into the risk register (`templates/risk-register.md`) and review them on a stated cadence. Record residual risk after treatment, so the effect of the response is visible.
+ISO 31000 is guidance, not a certifiable standard, so the aim is to follow it rather than conform to it. For each risk, analyse likelihood and consequence on agreed criteria, evaluate it against the stated tolerance, and choose a treatment. The OS register uses avoid, reduce, transfer, or accept with a contingency; these map onto ISO 31000's options (avoid, remove the source, change likelihood or consequence, share, or retain), as the risk-analysis playbook explains. Name one person as owner who can act. Carry high risks into the risk register (`templates/risk-register.md`) and review them on a stated cadence. Record residual risk after treatment, so the effect of the response is visible.
 
 ## Step 4: Record decisions so they stay settled
 
