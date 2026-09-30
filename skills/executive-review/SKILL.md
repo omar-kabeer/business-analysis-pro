@@ -41,6 +41,10 @@ Read every deliverable as a senior executive would and raise it to that bar. Lea
 
 The deliverable leads with the decision, states a clear and quantified ask, survives a skeptical read, and meets the executive quality bar.
 
+## Method reference
+
+For the full method, read `references/executive-review-playbook.md`: the review procedure for senior decision documents, skeptical-reader questions, red flags, and board paper conventions.
+
 ## House style
 
 Run the `natural-prose-editor` skill as the final language pass. No em dashes. See `docs/methodology/editorial-style.md`.

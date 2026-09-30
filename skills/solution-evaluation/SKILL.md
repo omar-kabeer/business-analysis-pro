@@ -42,6 +42,10 @@ Follow the knowledge-area tasks (see `references/solution-evaluation-tasks.md`):
 
 Performance is measured against intended value, limitations in the solution and the enterprise are identified, and prioritised, evidence-based recommendations to increase value are delivered.
 
+## Method reference
+
+For the full method, read `references/solution-evaluation-playbook.md`: the five Solution Evaluation tasks (8.1 to 8.5), separating solution from enterprise limitations, and evidence rules.
+
 ## House style
 
 Run the natural-prose-editor pass on any narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

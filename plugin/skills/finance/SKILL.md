@@ -41,6 +41,10 @@ Build the financial case for a decision: quantify costs and benefits, compute th
 
 The financial case is modelled, the standard metrics are computed and interpreted, the result is stress-tested against uncertainty, and the recommendation with its assumptions is ready for executive review.
 
+## Method reference
+
+For the full method, read `references/financial-analysis-playbook.md`: costs, benefits, a worked NPV, IRR, payback, and ROI example, option comparison, and sensitivity analysis.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

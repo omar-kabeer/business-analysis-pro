@@ -45,6 +45,10 @@ Interviews (structured and unstructured), facilitated workshops, observation and
 
 The discovery objective is covered, instruments are ready or sessions are captured, and a clean, sourced input pack with explicit assumptions and unknowns is ready for analysis.
 
+## Method reference
+
+For the full method, read `references/elicitation-and-collaboration-playbook.md`: the five Elicitation and Collaboration tasks (4.1 to 4.5), technique selection, the states of elicited information, and when to stop.
+
 ## House style
 
 Run the `natural-prose-editor` pass on written instruments and summaries and use no em dashes. See `docs/methodology/editorial-style.md`.

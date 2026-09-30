@@ -43,6 +43,10 @@ See `references/ba-planning-tasks.md` for the knowledge-area tasks.
 
 The analysis approach, stakeholder engagement, governance, and information management are planned and proportionate, and a way to monitor and improve the work is in place.
 
+## Method reference
+
+For the full method, read `references/planning-playbook.md`: tailoring the working style, the five planning tasks (3.1 to 3.5), and proportionate planning by initiative size.
+
 ## House style
 
 Run the natural-prose-editor pass on any narrative and use no em dashes. See `docs/methodology/editorial-style.md`.

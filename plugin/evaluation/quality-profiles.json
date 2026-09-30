@@ -82,7 +82,10 @@
       "gate": {
         "mode": "rubric",
         "rubric": "evaluation/business-objectives-rubric.md"
-      }
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
     },
     "business-rules-catalogue": {
       "template": "templates/business-rules-catalogue.md",
@@ -105,7 +108,8 @@
         "rubric": "evaluation/change-strategy-rubric.md"
       },
       "reviewers": [
-        "risk-challenger"
+        "risk-challenger",
+        "strategy-analyst"
       ]
     },
     "compliance-obligation-register": {
@@ -130,7 +134,10 @@
       "gate": {
         "mode": "rubric",
         "rubric": "evaluation/current-state-description-rubric.md"
-      }
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
     },
     "data-dictionary": {
       "template": "templates/data-dictionary.md",
@@ -261,14 +268,20 @@
       "gate": {
         "mode": "rubric",
         "rubric": "evaluation/future-state-description-rubric.md"
-      }
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
     },
     "gap-analysis": {
       "template": "templates/gap-analysis.md",
       "gate": {
         "mode": "rubric",
         "rubric": "evaluation/gap-analysis-rubric.md"
-      }
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
     },
     "go-to-market-plan": {
       "template": "templates/go-to-market-plan.md",
@@ -542,7 +555,10 @@
       "gate": {
         "mode": "rubric",
         "rubric": "evaluation/solution-scope-rubric.md"
-      }
+      },
+      "reviewers": [
+        "strategy-analyst"
+      ]
     },
     "srs": {
       "template": "templates/srs.md",

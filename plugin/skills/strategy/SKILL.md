@@ -47,6 +47,10 @@ PESTLE, Porter's Five Forces, SWOT, Business Model Canvas, Lean Canvas, Value Pr
 
 The strategic question is framed, analysed with fit-for-purpose frameworks, resolved into a recommended option with tradeoffs, and translated into measurable objectives.
 
+## Method reference
+
+For the full method, read `references/strategy-analysis-playbook.md`: the four Strategy Analysis tasks (6.1 to 6.4) run as one chain, element by element, with the links each output must hold.
+
 ## House style
 
 Run the `natural-prose-editor` pass on narrative and use no em dashes. See `docs/methodology/editorial-style.md`.
