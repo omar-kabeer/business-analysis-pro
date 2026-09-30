@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "description": "The traceability graph the requirements architect maintains. Relationship types follow BABOK v3 Trace Requirements (5.1.4.2); node types follow the core concepts and the requirements classification schema. Extensions beyond 5.1 are marked and anchored to the BABOK section they rest on.",
+  "nodeTypes": [
+    { "key": "need", "label": "Need", "babok": "2.1", "description": "A problem or opportunity to be addressed (Business Analysis Core Concept Model)." },
+    { "key": "requirement", "label": "Requirement", "babok": "2.3", "description": "A usable representation of a need: business, stakeholder, solution or transition, per the requirements classification schema." },
+    { "key": "business_rule", "label": "Business rule", "babok": "10.9", "description": "A policy or rule the solution must satisfy (Business Rules Analysis)." },
+    { "key": "design", "label": "Design", "babok": "2.5", "description": "A usable representation of a solution (Requirements and Designs)." },
+    { "key": "test", "label": "Test", "babok": "10.1", "description": "A test case or acceptance criterion that can determine whether the solution fulfils a requirement (Acceptance and Evaluation Criteria)." },
+    { "key": "value", "label": "Value", "babok": "2.1", "description": "The worth of a change to a stakeholder (Business Analysis Core Concept Model)." },
+    { "key": "stakeholder", "label": "Stakeholder", "babok": "2.4", "description": "A group or individual with a relationship to the change, the need or the solution." },
+    { "key": "source", "label": "Source", "babok": "4.3", "description": "A document, session or record that business analysis information came from (Confirm Elicitation Results)." }
+  ],
+  "edgeTypes": [
+    { "key": "derives_from", "label": "Derives from", "babok": "5.1.4.2", "relationship": "Derive", "description": "A requirement derived from another requirement at a different level of abstraction." },
+    { "key": "depends_on", "label": "Depends on", "babok": "5.1.4.2", "relationship": "Depends", "description": "A requirement that depends on another, by necessity or by effort." },
+    { "key": "satisfies", "label": "Satisfies", "babok": "5.1.4.2", "relationship": "Satisfy", "description": "An implementation element or design satisfying a requirement." },
+    { "key": "verifies", "label": "Verifies", "babok": "5.1.4.2", "relationship": "Validate", "description": "A test case or other element that can determine whether the solution fulfils a requirement." },
+    { "key": "realises", "label": "Realises", "babok": "7.3", "relationship": "OS extension", "description": "A requirement or design that delivers value toward a business objective (Validate Requirements)." },
+    { "key": "raised_by", "label": "Raised by", "babok": "2.4", "relationship": "OS extension", "description": "A need or requirement and the stakeholder it came from." },
+    { "key": "cites", "label": "Cites", "babok": "4.3", "relationship": "OS extension", "description": "A requirement and the source that evidences it." }
+  ],
+  "impactEdges": ["derives_from", "satisfies", "verifies", "realises"]
+}
