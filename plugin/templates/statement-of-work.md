@@ -11,6 +11,8 @@ version: 1.0.0
 
 Define what a supplier will deliver, on what terms, and how the buyer will decide whether it has been delivered.
 
+BABOK v3 anchor: Define Change Strategy (6.4), which names the statement of work, and Vendor Assessment (10.49).
+
 ## Document Control
 
 | Field | Value |

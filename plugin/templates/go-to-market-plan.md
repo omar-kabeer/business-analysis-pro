@@ -11,6 +11,8 @@ version: 1.0.0
 
 Plan how a product or feature reaches its market and succeeds after launch: who it is for, how it is positioned and priced, how it is delivered and supported, and how success is measured. A go-to-market plan turns a build into a launch with owners, a timeline, and metrics.
 
+BABOK v3 anchor: BABOK has no go-to-market artefact. The closest tasks are Define Change Strategy (6.4) for the transition and Benchmarking and Market Analysis (10.4) for the market view.
+
 ## Document Control
 
 | Field | Value |

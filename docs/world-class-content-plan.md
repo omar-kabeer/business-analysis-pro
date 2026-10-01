@@ -1,7 +1,7 @@
 # World-Class Content Plan
 
 Plan version: 1.0.0
-Plan status: Phase 0 shipped; Phase 1 in progress
+Plan status: Phases 0 to 2 shipped; Phase 3 in progress (30 of 43 skills at the bar on 2026-09-30, after #34). The app re-pins to each OS merge; see kryterea-app #216.
 Date: 2026-09-30
 Scope: Business Analysis OS (this repository) and the Kryterea app that consumes it (`kryterea/kryterea-app`)
 

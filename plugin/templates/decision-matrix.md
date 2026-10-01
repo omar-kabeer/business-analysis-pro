@@ -11,6 +11,8 @@ version: 1.0.0
 
 Make the basis of a choice visible: the options considered, the criteria applied, the weights agreed before scoring, the evidence behind each score, and how robust the answer is.
 
+BABOK v3 anchor: Decision Analysis (10.16).
+
 ## Document Control
 
 | Field | Value |

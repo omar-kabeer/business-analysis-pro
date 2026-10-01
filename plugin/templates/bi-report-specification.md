@@ -11,6 +11,8 @@ version: 1.0.0
 
 Specify a reporting or dashboard deliverable so that it answers a real decision, uses definitions everyone agrees with, and can be built and reconciled without further interpretation.
 
+BABOK v3 anchor: The Business Intelligence Perspective (11.2), with Data Modelling (10.15) and Metrics and Key Performance Indicators (10.28).
+
 ## Document Control
 
 | Field | Value |
