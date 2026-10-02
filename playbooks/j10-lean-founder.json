@@ -6,15 +6,21 @@
   "minimumInputs": [
     {
       "key": "needidea",
-      "prompt": "Need/idea"
+      "prompt": "Need/idea",
+      "help": "What is the need or idea, in your own words?",
+      "example": "A simple way for freelancers to track unpaid invoices."
     },
     {
       "key": "desired_progress",
-      "prompt": "Desired progress"
+      "prompt": "Desired progress",
+      "help": "What progress do you want to make next?",
+      "example": "Ten paying users within three months."
     },
     {
       "key": "stated_constraints_without",
-      "prompt": "Stated constraints without inferring budget or team size"
+      "prompt": "Stated constraints without inferring budget or team size",
+      "help": "What limits do you have? Kryterea will not guess your budget or team size.",
+      "example": "Just me, evenings only, launch before summer."
     }
   ],
   "components": [],
@@ -29,15 +35,21 @@
       "minimumInputs": [
         {
           "key": "idea_need_users",
-          "prompt": "Idea or need in the user's words"
+          "prompt": "Idea or need in the user's words",
+          "help": "Describe the idea or the need the way you would explain it to a friend.",
+          "example": "Suppliers keep chasing us by email because they cannot see if their invoice was approved."
         },
         {
           "key": "explorationproduct_scope",
-          "prompt": "Exploration/product scope"
+          "prompt": "Exploration/product scope",
+          "help": "What is in and out of scope for this exploration? Rough boundaries are fine.",
+          "example": "Invoice status only; payments and contracts are out of scope for now."
         },
         {
           "key": "unknown_usersvaluemetrics_remain",
-          "prompt": "Unknown users/value/metrics remain hypotheses"
+          "prompt": "Unknown users/value/metrics remain hypotheses",
+          "help": "Nothing to fill in. Anything not yet known about users, value or metrics is written as a hypothesis to test.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -62,15 +74,21 @@
       "minimumInputs": [
         {
           "key": "hypothesis_learning_question",
-          "prompt": "Hypothesis or learning question"
+          "prompt": "Hypothesis or learning question",
+          "help": "What do you believe is true but have not proven? Write it as a guess you can test.",
+          "example": "Suppliers who can see invoice status will stop emailing accounts payable."
         },
         {
           "key": "proposed_test_actual",
-          "prompt": "Proposed test or actual experiment"
+          "prompt": "Proposed test or actual experiment",
+          "help": "How could you test that guess quickly and cheaply? Or describe a test you already ran.",
+          "example": "Email ten suppliers a status link for two weeks and count follow-up emails."
         },
         {
           "key": "distinguish_planned_work",
-          "prompt": "Distinguish planned work from observed results"
+          "prompt": "Distinguish planned work from observed results",
+          "help": "Nothing to fill in. Planned steps and real results are kept apart, so nothing is reported as done before it happened.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -95,19 +113,27 @@
       "minimumInputs": [
         {
           "key": "target_user",
-          "prompt": "Target user"
+          "prompt": "Target user",
+          "help": "Who is the main user of what will be built?",
+          "example": "Approving managers who receive invoices for sign-off."
         },
         {
           "key": "desired_capabilityoutcome",
-          "prompt": "Desired capability/outcome"
+          "prompt": "Desired capability/outcome",
+          "help": "What should the user be able to do that they cannot do today?",
+          "example": "Approve an invoice from their phone in under a minute."
         },
         {
           "key": "bounded_scope",
-          "prompt": "Bounded scope"
+          "prompt": "Bounded scope",
+          "help": "What is included in this piece of work, and what is not?",
+          "example": "Approval and rejection only; editing invoice details is not included."
         },
         {
           "key": "acceptance_expectations_proposed",
-          "prompt": "Acceptance expectations proposed where not confirmed"
+          "prompt": "Acceptance expectations proposed where not confirmed",
+          "help": "Optional. How you would know a story is done. Kryterea proposes acceptance criteria where you have none, marked as proposed.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -132,15 +158,22 @@
       "minimumInputs": [
         {
           "key": "least_one_explicit",
-          "prompt": "At least one explicit decision question or actual recorded decision"
+          "prompt": "At least one explicit decision question or actual recorded decision",
+          "help": "What decision needs making, or was already made?",
+          "example": "Decided to build approval by email first, before a mobile app."
         },
         {
           "key": "sourceactor_if_known",
-          "prompt": "Source/actor if known"
+          "prompt": "Source/actor if known",
+          "help": "Who made or owns the decision, if you know? Leave blank if not.",
+          "example": "Finance director, at the steering meeting.",
+          "optional": true
         },
         {
           "key": "unanswered_questions_remain",
-          "prompt": "Unanswered questions remain pending"
+          "prompt": "Unanswered questions remain pending",
+          "help": "Nothing to fill in. Open questions are kept as pending, not answered for you.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -165,19 +198,27 @@
       "minimumInputs": [
         {
           "key": "desired_outcome",
-          "prompt": "Desired outcome"
+          "prompt": "Desired outcome",
+          "help": "What result do you want this work to deliver?",
+          "example": "Invoices approved within five days and fewer supplier complaints."
         },
         {
           "key": "relevant_solutionprocess_scope",
-          "prompt": "Relevant solution/process scope"
+          "prompt": "Relevant solution/process scope",
+          "help": "Which solution or process is being measured?",
+          "example": "The new invoice approval workflow."
         },
         {
           "key": "candidate_measurable_signals",
-          "prompt": "Candidate measurable signals"
+          "prompt": "Candidate measurable signals",
+          "help": "What could you measure to see if it is working?",
+          "example": "Days from invoice received to approved; number of chase emails."
         },
         {
           "key": "targets_proposed_if",
-          "prompt": "Targets proposed if absent"
+          "prompt": "Targets proposed if absent",
+          "help": "Nothing to fill in. If you have no targets, Kryterea proposes some for you to confirm.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -202,15 +243,21 @@
       "minimumInputs": [
         {
           "key": "scopeobjective",
-          "prompt": "Scope/objective"
+          "prompt": "Scope/objective",
+          "help": "What is the work or goal these risks relate to?",
+          "example": "Roll out the approval workflow to all departments by June."
         },
         {
           "key": "known_uncertainties_basis",
-          "prompt": "Known uncertainties and basis"
+          "prompt": "Known uncertainties and basis",
+          "help": "What could go wrong or is uncertain, and why do you think so?",
+          "example": "The finance system interface is undocumented; IT has warned us."
         },
         {
           "key": "scalesratings_proposed_if",
-          "prompt": "Scales/ratings proposed if not supplied"
+          "prompt": "Scales/ratings proposed if not supplied",
+          "help": "Nothing to fill in. Likelihood and impact scales are proposed if you have none.",
+          "optional": true
         }
       ],
       "dependsOn": [],

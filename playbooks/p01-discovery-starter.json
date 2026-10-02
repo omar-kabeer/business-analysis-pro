@@ -6,15 +6,21 @@
   "minimumInputs": [
     {
       "key": "problem_users_words",
-      "prompt": "Problem in the user's words"
+      "prompt": "Problem in the user's words",
+      "help": "What is the problem, in your own words?",
+      "example": "We pay suppliers late and lose discounts because approvals are slow."
     },
     {
       "key": "intended_audience",
-      "prompt": "Intended audience"
+      "prompt": "Intended audience",
+      "help": "Who is this work for, or who will read the results?",
+      "example": "The finance director and the operations managers."
     },
     {
       "key": "known_constraints",
-      "prompt": "Known constraints"
+      "prompt": "Known constraints",
+      "help": "What limits must be respected (budget, deadline, systems, rules)? Write \"none known\" if none.",
+      "example": "Must go live before the audit in March; cannot replace the finance system."
     }
   ],
   "components": [],
@@ -29,19 +35,27 @@
       "minimumInputs": [
         {
           "key": "needproblem_opportunity",
-          "prompt": "Need/problem or opportunity"
+          "prompt": "Need/problem or opportunity",
+          "help": "What need, problem or opportunity is behind this work?",
+          "example": "Late approvals are costing us early-payment discounts."
         },
         {
           "key": "desired_change",
-          "prompt": "Desired change"
+          "prompt": "Desired change",
+          "help": "What should be different afterwards?",
+          "example": "Invoices approved and posted within five working days."
         },
         {
           "key": "affected_scope",
-          "prompt": "Affected scope"
+          "prompt": "Affected scope",
+          "help": "Which part of the organisation, process or system is affected?",
+          "example": "Accounts payable and every manager who approves spend."
         },
         {
           "key": "unknown_targets_remain",
-          "prompt": "Unknown targets remain proposed"
+          "prompt": "Unknown targets remain proposed",
+          "help": "Nothing to fill in. Targets you have not set are proposed for you to confirm.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -66,19 +80,27 @@
       "minimumInputs": [
         {
           "key": "needoutcome",
-          "prompt": "Need/outcome"
+          "prompt": "Need/outcome",
+          "help": "What need does this meet, or what outcome should it produce?",
+          "example": "Invoices approved within five days instead of nine."
         },
         {
           "key": "named_solutionchange_boundary",
-          "prompt": "Named solution/change boundary"
+          "prompt": "Named solution/change boundary",
+          "help": "Name the solution or change, and where it starts and stops.",
+          "example": "An approval workflow in front of the finance system; the finance system itself is unchanged."
         },
         {
           "key": "known_constraints",
-          "prompt": "Known constraints"
+          "prompt": "Known constraints",
+          "help": "What limits must be respected (budget, deadline, systems, rules)? Write \"none known\" if none.",
+          "example": "Must go live before the audit in March; cannot replace the finance system."
         },
         {
           "key": "exclusions_may_be",
-          "prompt": "Exclusions may be proposed"
+          "prompt": "Exclusions may be proposed",
+          "help": "Optional. Anything you already know is out of scope. Otherwise Kryterea proposes exclusions for you to confirm.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -103,7 +125,9 @@
       "minimumInputs": [
         {
           "key": "scope_plus_least",
-          "prompt": "Scope plus at least one known affected group/person or explicit candidate group"
+          "prompt": "Scope plus at least one known affected group/person or explicit candidate group",
+          "help": "What is this work about, and name at least one group or person it affects (a guess is fine).",
+          "example": "Invoice approval; affects the accounts payable team and approving managers."
         }
       ],
       "dependsOn": [],
@@ -128,15 +152,21 @@
       "minimumInputs": [
         {
           "key": "described_problemsituation",
-          "prompt": "A described problem/situation"
+          "prompt": "A described problem/situation",
+          "help": "Describe the situation as it is today.",
+          "example": "Invoices arrive as PDFs by email and are keyed in by hand."
         },
         {
           "key": "affected_scope",
-          "prompt": "Affected scope"
+          "prompt": "Affected scope",
+          "help": "Which part of the organisation, process or system is affected?",
+          "example": "Accounts payable and every manager who approves spend."
         },
         {
           "key": "least_user_assertion",
-          "prompt": "At least a user assertion or identifiable source"
+          "prompt": "At least a user assertion or identifiable source",
+          "help": "Where does this information come from? Your own view counts; say so.",
+          "example": "My experience as the AP manager, and the finance team's monthly report."
         }
       ],
       "dependsOn": [],
@@ -161,15 +191,21 @@
       "minimumInputs": [
         {
           "key": "scopeobjective",
-          "prompt": "Scope/objective"
+          "prompt": "Scope/objective",
+          "help": "What is the work or goal these risks relate to?",
+          "example": "Roll out the approval workflow to all departments by June."
         },
         {
           "key": "known_uncertainties_basis",
-          "prompt": "Known uncertainties and basis"
+          "prompt": "Known uncertainties and basis",
+          "help": "What could go wrong or is uncertain, and why do you think so?",
+          "example": "The finance system interface is undocumented; IT has warned us."
         },
         {
           "key": "scalesratings_proposed_if",
-          "prompt": "Scales/ratings proposed if not supplied"
+          "prompt": "Scales/ratings proposed if not supplied",
+          "help": "Nothing to fill in. Likelihood and impact scales are proposed if you have none.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -194,23 +230,33 @@
       "minimumInputs": [
         {
           "key": "need",
-          "prompt": "Need"
+          "prompt": "Need",
+          "help": "What business need does this address?",
+          "example": "Stop losing early-payment discounts worth about 40,000 a year."
         },
         {
           "key": "feasible_candidate_options",
-          "prompt": "Feasible candidate options"
+          "prompt": "Feasible candidate options",
+          "help": "What options could meet the need, including doing nothing?",
+          "example": "Do nothing; add reminders; buy an approval tool; build our own."
         },
         {
           "key": "known_costvalue_assumptions",
-          "prompt": "Known cost/value assumptions"
+          "prompt": "Known cost/value assumptions",
+          "help": "What do you know or assume about costs and benefits? Rough figures are fine.",
+          "example": "Tool costs about 12,000 a year; discounts worth about 40,000."
         },
         {
           "key": "decision_horizon",
-          "prompt": "Decision horizon"
+          "prompt": "Decision horizon",
+          "help": "When does the decision need to be made, and over what period should it pay back?",
+          "example": "Decide by end of quarter; judge over three years."
         },
         {
           "key": "missing_quantities_remain",
-          "prompt": "Missing quantities remain unknown"
+          "prompt": "Missing quantities remain unknown",
+          "help": "Nothing to fill in. Figures you do not have stay marked unknown, never invented.",
+          "optional": true
         }
       ],
       "dependsOn": [],

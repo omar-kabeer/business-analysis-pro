@@ -6,15 +6,21 @@
   "minimumInputs": [
     {
       "key": "needoutcome",
-      "prompt": "Need/outcome"
+      "prompt": "Need/outcome",
+      "help": "What need does this meet, or what outcome should it produce?",
+      "example": "Invoices approved within five days instead of nine."
     },
     {
       "key": "builder_audience",
-      "prompt": "Builder audience"
+      "prompt": "Builder audience",
+      "help": "Who will build from this brief?",
+      "example": "A freelance developer using a no-code tool."
     },
     {
       "key": "known_flows_constraints",
-      "prompt": "Known flows and constraints"
+      "prompt": "Known flows and constraints",
+      "help": "Which user steps do you know, and what limits apply?",
+      "example": "Supplier uploads invoice, sees status, gets an email when paid; must work on mobile."
     }
   ],
   "components": [],
@@ -29,23 +35,33 @@
       "minimumInputs": [
         {
           "key": "problem",
-          "prompt": "Problem"
+          "prompt": "Problem",
+          "help": "What problem are you solving, and for whom?",
+          "example": "Managers miss approval deadlines because invoices arrive by email and get buried."
         },
         {
           "key": "target_user",
-          "prompt": "Target user"
+          "prompt": "Target user",
+          "help": "Who is the main user of what will be built?",
+          "example": "Approving managers who receive invoices for sign-off."
         },
         {
           "key": "intended_outcome",
-          "prompt": "Intended outcome"
+          "prompt": "Intended outcome",
+          "help": "What will be different when this is solved?",
+          "example": "Invoices approved in five days and early-payment discounts captured."
         },
         {
           "key": "proposed_scope",
-          "prompt": "Proposed scope"
+          "prompt": "Proposed scope",
+          "help": "What do you propose to include in this product version?",
+          "example": "Invoice capture, approval routing by amount, and posting to finance."
         },
         {
           "key": "available_discovery_evidence",
-          "prompt": "Available discovery evidence and constraints"
+          "prompt": "Available discovery evidence and constraints",
+          "help": "What research or evidence do you have, and what limits apply? Say \"none yet\" if so.",
+          "example": "Interviews with six managers; must integrate with the current finance system."
         }
       ],
       "dependsOn": [],
@@ -70,23 +86,33 @@
       "minimumInputs": [
         {
           "key": "actor",
-          "prompt": "Actor"
+          "prompt": "Actor",
+          "help": "Who (or what system) carries out this use case?",
+          "example": "An approving manager."
         },
         {
           "key": "goal",
-          "prompt": "Goal"
+          "prompt": "Goal",
+          "help": "What is the actor trying to achieve?",
+          "example": "Approve an invoice that is within their spending limit."
         },
         {
           "key": "scope",
-          "prompt": "Scope"
+          "prompt": "Scope",
+          "help": "What does this cover, and what is outside it?",
+          "example": "Invoice approval in the new workflow; payment runs are outside."
         },
         {
           "key": "known_main_behaviour",
-          "prompt": "Known main behaviour and conditions"
+          "prompt": "Known main behaviour and conditions",
+          "help": "Describe the normal steps, and any conditions you know (before, after, exceptions).",
+          "example": "Manager opens invoice, checks it against the order, approves; invoices over the limit go to a director."
         },
         {
           "key": "proposed_flows_marked",
-          "prompt": "Proposed flows marked"
+          "prompt": "Proposed flows marked",
+          "help": "Nothing to fill in. Any step Kryterea proposes rather than takes from you is marked as proposed.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -111,15 +137,21 @@
       "minimumInputs": [
         {
           "key": "hypothesis_learning_question",
-          "prompt": "Hypothesis or learning question"
+          "prompt": "Hypothesis or learning question",
+          "help": "What do you believe is true but have not proven? Write it as a guess you can test.",
+          "example": "Suppliers who can see invoice status will stop emailing accounts payable."
         },
         {
           "key": "proposed_test_actual",
-          "prompt": "Proposed test or actual experiment"
+          "prompt": "Proposed test or actual experiment",
+          "help": "How could you test that guess quickly and cheaply? Or describe a test you already ran.",
+          "example": "Email ten suppliers a status link for two weeks and count follow-up emails."
         },
         {
           "key": "distinguish_planned_work",
-          "prompt": "Distinguish planned work from observed results"
+          "prompt": "Distinguish planned work from observed results",
+          "help": "Nothing to fill in. Planned steps and real results are kept apart, so nothing is reported as done before it happened.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -144,19 +176,27 @@
       "minimumInputs": [
         {
           "key": "solution_boundary",
-          "prompt": "Solution boundary"
+          "prompt": "Solution boundary",
+          "help": "What does the solution cover, and where does it stop?",
+          "example": "The approval web app and its email notifications."
         },
         {
           "key": "affected_usersdataoperating_context",
-          "prompt": "Affected users/data/operating context"
+          "prompt": "Affected users/data/operating context",
+          "help": "Who uses it, what data does it handle, and where or when does it run?",
+          "example": "Around 40 managers, invoice and supplier data, used in office hours across two countries."
         },
         {
           "key": "relevant_quality_concerns",
-          "prompt": "Relevant quality concerns"
+          "prompt": "Relevant quality concerns",
+          "help": "Which qualities matter most, such as speed, security, availability or accessibility?",
+          "example": "Security of supplier bank details, and pages loading in under two seconds."
         },
         {
           "key": "unsupported_thresholds_remain",
-          "prompt": "Unsupported thresholds remain proposed"
+          "prompt": "Unsupported thresholds remain proposed",
+          "help": "Nothing to fill in. Any number you have not given (for example a response time) is proposed and marked for confirmation.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -181,19 +221,27 @@
       "minimumInputs": [
         {
           "key": "question_test",
-          "prompt": "Question to test"
+          "prompt": "Question to test",
+          "help": "What question should the prototype answer?",
+          "example": "Can a manager approve an invoice on a phone without help?"
         },
         {
           "key": "intended_userscenario",
-          "prompt": "Intended user/scenario"
+          "prompt": "Intended user/scenario",
+          "help": "Who will try the prototype, and in what situation?",
+          "example": "A manager approving three invoices between meetings."
         },
         {
           "key": "prototype_boundary",
-          "prompt": "Prototype boundary"
+          "prompt": "Prototype boundary",
+          "help": "What will the prototype include, and what will it fake or leave out?",
+          "example": "Clickable approval screens only; no real data or login."
         },
         {
           "key": "no_findings_without",
-          "prompt": "No findings without test evidence"
+          "prompt": "No findings without test evidence",
+          "help": "Nothing to fill in. Findings are only recorded from real test sessions, never assumed.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -218,15 +266,21 @@
       "minimumInputs": [
         {
           "key": "scoperequirements_explicit_draft",
-          "prompt": "Scope/requirements or explicit draft acceptance goals"
+          "prompt": "Scope/requirements or explicit draft acceptance goals",
+          "help": "What will be tested? Paste the requirements, or describe what \"working\" means in your words.",
+          "example": "Managers can approve, reject and delegate invoices; approved invoices post to finance."
         },
         {
           "key": "intended_tester_roles",
-          "prompt": "Intended tester roles"
+          "prompt": "Intended tester roles",
+          "help": "Who will do the acceptance testing?",
+          "example": "Two approving managers and one accounts payable clerk."
         },
         {
           "key": "environment_unknowns_recorded",
-          "prompt": "Environment unknowns recorded"
+          "prompt": "Environment unknowns recorded",
+          "help": "Nothing to fill in. Anything not yet known about the test environment is recorded as open.",
+          "optional": true
         }
       ],
       "dependsOn": [],

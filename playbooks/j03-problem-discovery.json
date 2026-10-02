@@ -6,11 +6,15 @@
   "minimumInputs": [
     {
       "key": "symptomsituation_affected_context",
-      "prompt": "A symptom/situation and affected context"
+      "prompt": "A symptom/situation and affected context",
+      "help": "What are you noticing, and where? Describe the symptom, not the solution.",
+      "example": "Invoices sit unapproved for weeks in the operations department."
     },
     {
       "key": "any_example_source",
-      "prompt": "Any example or source assertion"
+      "prompt": "Any example or source assertion",
+      "help": "Give one example, or say where you heard about the problem.",
+      "example": "Last month a supplier threatened to stop deliveries over a late payment."
     }
   ],
   "components": [],
@@ -25,15 +29,21 @@
       "minimumInputs": [
         {
           "key": "described_problemsituation",
-          "prompt": "A described problem/situation"
+          "prompt": "A described problem/situation",
+          "help": "Describe the situation as it is today.",
+          "example": "Invoices arrive as PDFs by email and are keyed in by hand."
         },
         {
           "key": "affected_scope",
-          "prompt": "Affected scope"
+          "prompt": "Affected scope",
+          "help": "Which part of the organisation, process or system is affected?",
+          "example": "Accounts payable and every manager who approves spend."
         },
         {
           "key": "least_user_assertion",
-          "prompt": "At least a user assertion or identifiable source"
+          "prompt": "At least a user assertion or identifiable source",
+          "help": "Where does this information come from? Your own view counts; say so.",
+          "example": "My experience as the AP manager, and the finance team's monthly report."
         }
       ],
       "dependsOn": [],
@@ -58,19 +68,27 @@
       "minimumInputs": [
         {
           "key": "needproblem_opportunity",
-          "prompt": "Need/problem or opportunity"
+          "prompt": "Need/problem or opportunity",
+          "help": "What need, problem or opportunity is behind this work?",
+          "example": "Late approvals are costing us early-payment discounts."
         },
         {
           "key": "desired_change",
-          "prompt": "Desired change"
+          "prompt": "Desired change",
+          "help": "What should be different afterwards?",
+          "example": "Invoices approved and posted within five working days."
         },
         {
           "key": "affected_scope",
-          "prompt": "Affected scope"
+          "prompt": "Affected scope",
+          "help": "Which part of the organisation, process or system is affected?",
+          "example": "Accounts payable and every manager who approves spend."
         },
         {
           "key": "unknown_targets_remain",
-          "prompt": "Unknown targets remain proposed"
+          "prompt": "Unknown targets remain proposed",
+          "help": "Nothing to fill in. Targets you have not set are proposed for you to confirm.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -95,15 +113,21 @@
       "minimumInputs": [
         {
           "key": "questiondecision_inform",
-          "prompt": "Question/decision to inform"
+          "prompt": "Question/decision to inform",
+          "help": "What decision or question should this elicitation help answer?",
+          "example": "Whether to automate approvals or just add reminders."
         },
         {
           "key": "known_evidence_gaps",
-          "prompt": "Known evidence gaps"
+          "prompt": "Known evidence gaps",
+          "help": "What do you not know yet that you need to find out?",
+          "example": "How long each approval step actually takes."
         },
         {
           "key": "candidate_source_stakeholder",
-          "prompt": "Candidate source or stakeholder group"
+          "prompt": "Candidate source or stakeholder group",
+          "help": "Who or what could provide that information?",
+          "example": "Approving managers, the finance system's reports, and two suppliers."
         }
       ],
       "dependsOn": [],
@@ -128,7 +152,9 @@
       "minimumInputs": [
         {
           "key": "scope_plus_least",
-          "prompt": "Scope plus at least one known affected group/person or explicit candidate group"
+          "prompt": "Scope plus at least one known affected group/person or explicit candidate group",
+          "help": "What is this work about, and name at least one group or person it affects (a guess is fine).",
+          "example": "Invoice approval; affects the accounts payable team and approving managers."
         }
       ],
       "dependsOn": [],
@@ -153,19 +179,27 @@
       "minimumInputs": [
         {
           "key": "process_boundary",
-          "prompt": "Process boundary"
+          "prompt": "Process boundary",
+          "help": "Where does the process start and end?",
+          "example": "From invoice received by email to invoice posted in finance."
         },
         {
           "key": "actors",
-          "prompt": "Actors"
+          "prompt": "Actors",
+          "help": "Who takes part in the process? List people, roles or systems.",
+          "example": "Supplier, AP clerk, approving manager, finance system."
         },
         {
           "key": "known_sequence_explicitly",
-          "prompt": "Known sequence or explicitly proposed sequence"
+          "prompt": "Known sequence or explicitly proposed sequence",
+          "help": "What are the steps, in order? If you are unsure, describe how you think it works and say so.",
+          "example": "Receive invoice, key it in, email manager, chase, approve, post."
         },
         {
           "key": "actualproposed_states_labelled",
-          "prompt": "Actual/proposed states labelled"
+          "prompt": "Actual/proposed states labelled",
+          "help": "Nothing to fill in. The current process and any proposed future process are labelled separately.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -190,15 +224,21 @@
       "minimumInputs": [
         {
           "key": "learning_objective",
-          "prompt": "Learning objective"
+          "prompt": "Learning objective",
+          "help": "What do you want to learn from these interviews?",
+          "example": "Why approvers delay invoices and what would make them act sooner."
         },
         {
           "key": "intended_participant_group",
-          "prompt": "Intended participant group"
+          "prompt": "Intended participant group",
+          "help": "Who will you talk to? Name the group or role.",
+          "example": "Five approving managers from operations and facilities."
         },
         {
           "key": "known_context_unanswered",
-          "prompt": "Known context and unanswered topics"
+          "prompt": "Known context and unanswered topics",
+          "help": "What do you already know, and what are the open questions you want covered?",
+          "example": "We know approvals take nine days on average; we do not know where the time goes."
         }
       ],
       "dependsOn": [],

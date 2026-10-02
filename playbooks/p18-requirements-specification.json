@@ -6,19 +6,27 @@
   "minimumInputs": [
     {
       "key": "confirmed_findings",
-      "prompt": "Confirmed findings"
+      "prompt": "Confirmed findings",
+      "help": "What has already been confirmed with stakeholders?",
+      "example": "Invoices over 10,000 need director approval; all approvals must be logged."
     },
     {
       "key": "scope",
-      "prompt": "Scope"
+      "prompt": "Scope",
+      "help": "What does this cover, and what is outside it?",
+      "example": "Invoice approval in the new workflow; payment runs are outside."
     },
     {
       "key": "stakeholders",
-      "prompt": "Stakeholders"
+      "prompt": "Stakeholders",
+      "help": "Who has a say in the requirements?",
+      "example": "Finance director, AP lead, approving managers, IT."
     },
     {
       "key": "terminology",
-      "prompt": "Terminology"
+      "prompt": "Terminology",
+      "help": "Any terms or abbreviations that need defining? Say \"none\" if not.",
+      "example": "AP means accounts payable; PO means purchase order."
     }
   ],
   "components": [],
@@ -33,19 +41,27 @@
       "minimumInputs": [
         {
           "key": "business_need",
-          "prompt": "Business need"
+          "prompt": "Business need",
+          "help": "What business need do these requirements serve?",
+          "example": "Reduce approval time and payment errors."
         },
         {
           "key": "desired_outcome",
-          "prompt": "Desired outcome"
+          "prompt": "Desired outcome",
+          "help": "What result do you want this work to deliver?",
+          "example": "Invoices approved within five days and fewer supplier complaints."
         },
         {
           "key": "bounded_initiative",
-          "prompt": "Bounded initiative"
+          "prompt": "Bounded initiative",
+          "help": "What is the initiative, and where does it start and stop?",
+          "example": "Invoice approval workflow; finance system changes are out."
         },
         {
           "key": "known_stakeholder_needs",
-          "prompt": "Known stakeholder needs or explicit hypotheses"
+          "prompt": "Known stakeholder needs or explicit hypotheses",
+          "help": "What do stakeholders need? Mark anything you have not confirmed as a guess.",
+          "example": "Managers need approvals on phones (confirmed); auditors need a trail (assumed)."
         }
       ],
       "dependsOn": [],
@@ -70,19 +86,27 @@
       "minimumInputs": [
         {
           "key": "bounded_needscope",
-          "prompt": "Bounded need/scope"
+          "prompt": "Bounded need/scope",
+          "help": "What need does this cover, and what is out of scope?",
+          "example": "Approval routing; supplier onboarding is out."
         },
         {
           "key": "actors",
-          "prompt": "Actor(s)"
+          "prompt": "Actor(s)",
+          "help": "Who or what interacts with the system?",
+          "example": "Manager, AP clerk, finance system."
         },
         {
           "key": "required_behaviour_source",
-          "prompt": "Required behaviour and source assertions"
+          "prompt": "Required behaviour and source assertions",
+          "help": "What must the system do, and who said so?",
+          "example": "Route invoices over 10,000 to a director (finance policy)."
         },
         {
           "key": "gaps_remain_explicit",
-          "prompt": "Gaps remain explicit"
+          "prompt": "Gaps remain explicit",
+          "help": "Nothing to fill in. Anything not yet decided is listed as an open gap, not filled in for you.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -107,23 +131,33 @@
       "minimumInputs": [
         {
           "key": "actor",
-          "prompt": "Actor"
+          "prompt": "Actor",
+          "help": "Who (or what system) carries out this use case?",
+          "example": "An approving manager."
         },
         {
           "key": "goal",
-          "prompt": "Goal"
+          "prompt": "Goal",
+          "help": "What is the actor trying to achieve?",
+          "example": "Approve an invoice that is within their spending limit."
         },
         {
           "key": "scope",
-          "prompt": "Scope"
+          "prompt": "Scope",
+          "help": "What does this cover, and what is outside it?",
+          "example": "Invoice approval in the new workflow; payment runs are outside."
         },
         {
           "key": "known_main_behaviour",
-          "prompt": "Known main behaviour and conditions"
+          "prompt": "Known main behaviour and conditions",
+          "help": "Describe the normal steps, and any conditions you know (before, after, exceptions).",
+          "example": "Manager opens invoice, checks it against the order, approves; invoices over the limit go to a director."
         },
         {
           "key": "proposed_flows_marked",
-          "prompt": "Proposed flows marked"
+          "prompt": "Proposed flows marked",
+          "help": "Nothing to fill in. Any step Kryterea proposes rather than takes from you is marked as proposed.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -148,19 +182,27 @@
       "minimumInputs": [
         {
           "key": "solution_boundary",
-          "prompt": "Solution boundary"
+          "prompt": "Solution boundary",
+          "help": "What does the solution cover, and where does it stop?",
+          "example": "The approval web app and its email notifications."
         },
         {
           "key": "affected_usersdataoperating_context",
-          "prompt": "Affected users/data/operating context"
+          "prompt": "Affected users/data/operating context",
+          "help": "Who uses it, what data does it handle, and where or when does it run?",
+          "example": "Around 40 managers, invoice and supplier data, used in office hours across two countries."
         },
         {
           "key": "relevant_quality_concerns",
-          "prompt": "Relevant quality concerns"
+          "prompt": "Relevant quality concerns",
+          "help": "Which qualities matter most, such as speed, security, availability or accessibility?",
+          "example": "Security of supplier bank details, and pages loading in under two seconds."
         },
         {
           "key": "unsupported_thresholds_remain",
-          "prompt": "Unsupported thresholds remain proposed"
+          "prompt": "Unsupported thresholds remain proposed",
+          "help": "Nothing to fill in. Any number you have not given (for example a response time) is proposed and marked for confirmation.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -185,15 +227,21 @@
       "minimumInputs": [
         {
           "key": "software_scope",
-          "prompt": "Software scope"
+          "prompt": "Software scope",
+          "help": "What software is being specified, and what is excluded?",
+          "example": "The approval web app; the finance system is excluded."
         },
         {
           "key": "usersystem_context",
-          "prompt": "User/system context"
+          "prompt": "User/system context",
+          "help": "Who uses it, and which systems does it connect to?",
+          "example": "Managers and AP clerks; connects to the finance system and email."
         },
         {
           "key": "sourced_behaviour_quality",
-          "prompt": "Sourced behaviour and quality constraints or explicit gaps"
+          "prompt": "Sourced behaviour and quality constraints or explicit gaps",
+          "help": "What must it do and how well, with where each came from? Say what is still unknown.",
+          "example": "Approve in two clicks (managers); 99.5% uptime (IT); load times unknown."
         }
       ],
       "dependsOn": [],
@@ -218,15 +266,21 @@
       "minimumInputs": [
         {
           "key": "known_requirements_draft",
-          "prompt": "Known requirements or draft statements with identifiers"
+          "prompt": "Known requirements or draft statements with identifiers",
+          "help": "Paste the requirements you have, with IDs if they have them.",
+          "example": "REQ-1 route by amount; REQ-2 log every approval."
         },
         {
           "key": "solution_scope",
-          "prompt": "Solution scope"
+          "prompt": "Solution scope",
+          "help": "What does the solution cover?",
+          "example": "Invoice capture, approval and posting."
         },
         {
           "key": "viewpointsconstraints",
-          "prompt": "Viewpoints/constraints"
+          "prompt": "Viewpoints/constraints",
+          "help": "Which viewpoints matter (business, user, technical) and what constraints apply?",
+          "example": "Audit trail for finance; mobile for managers; reuse company login."
         }
       ],
       "dependsOn": [],
