@@ -65,9 +65,9 @@ Record the outcome and the conditions attached.
 - A rollback plan exists and has been tested.
 - The decision is explicit and any conditions are recorded with owners and dates.
 
-## BABOK anchor
+## Practice anchor
 
-Supports Verify Requirements (7.2), Validate Requirements (7.3), and solution acceptance. Pairs with the `requirements-traceability-matrix` and the quality skill.
+Supports Verify Requirements, Validate Requirements, and solution acceptance. Pairs with the `requirements-traceability-matrix` and the quality skill.
 
 ## House style
 

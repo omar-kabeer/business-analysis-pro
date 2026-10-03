@@ -11,7 +11,7 @@ version: 1.0.0
 
 Build shared understanding of a user before designing, by capturing what they say, think, do, and feel, plus their pains and gains. Pairs with the persona and journey map. Grounded in the UX artifacts reference.
 
-BABOK v3 anchor: BABOK has no empathy map technique. The closest is Stakeholder List, Map, or Personas (10.43), which this artefact complements.
+Practice anchor: standard business analysis practice has no empathy map technique. The closest is Stakeholder List, Map, or Personas, which this artefact complements.
 
 ## Document Control
 

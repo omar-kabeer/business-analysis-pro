@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-State the direction the business wants to pursue to reach the future state, as measurable objectives that the solution, the roadmap, and benefits tracking can all trace to. This is the working form of the Business Objectives output of BABOK Define Future State (6.2). Each objective is an outcome, not a solution. Graded by `evaluation/business-objectives-rubric.md`.
+State the direction the business wants to pursue to reach the future state, as measurable objectives that the solution, the roadmap, and benefits tracking can all trace to. This is the working form of the Business Objectives output of Define Future State. Each objective is an outcome, not a solution. Graded by `evaluation/business-objectives-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/business-objectives.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -126,9 +126,9 @@ A prioritised, owned, measurable set of objectives that the future state, soluti
 - Each has one accountable owner.
 - Relative priority is clear.
 
-## BABOK anchor
+## Practice anchor
 
-Define Future State (6.2); Business Objectives output; Balanced Scorecard (10.3) and Metrics and KPIs (10.28) for measures. Owned by the strategy skill.
+Define Future State; Business Objectives output; Balanced Scorecard and Metrics and KPIs for measures. Owned by the strategy skill.
 
 ## House style
 

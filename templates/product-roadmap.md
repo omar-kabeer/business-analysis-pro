@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Communicate product direction as outcomes over time, not a dated list of features. A now, next, later roadmap sets expectations about what the team is working toward and how confident it is, and adapts as discovery changes the evidence. Based on the BABOK Agile Perspective (11.1), Define Change Strategy (6.4), and Prioritization (10.33). Graded by `evaluation/product-roadmap-rubric.md`.
+Communicate product direction as outcomes over time, not a dated list of features. A now, next, later roadmap sets expectations about what the team is working toward and how confident it is, and adapts as discovery changes the evidence. Based on the Agile Perspective, Define Change Strategy, and Prioritization. Graded by `evaluation/product-roadmap-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/product-roadmap.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -141,9 +141,9 @@ A published roadmap that aligns stakeholders on outcomes, sequence, and confiden
 - Near-term horizons fit capacity.
 - The roadmap is framed to adapt as learning occurs.
 
-## BABOK anchor
+## Practice anchor
 
-Agile Perspective (11.1); Define Change Strategy (6.4); Prioritization (10.33); Backlog Management (10.2). Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
+Agile Perspective; Define Change Strategy; Prioritization; Backlog Management. Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
 
 ## House style
 

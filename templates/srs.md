@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Provide a complete, formal specification of a software solution: what it must do, the qualities it must have, and the constraints it operates under. The section order follows ISO/IEC/IEEE 29148 (and the legacy IEEE 830 outline) and the BABOK Requirements Classification Schema. Every requirement is uniquely identified, atomic, testable, and traced to the stakeholder requirement it satisfies. Graded by `evaluation/solution-requirements-rubric.md`.
+Provide a complete, formal specification of a software solution: what it must do, the qualities it must have, and the constraints it operates under. The section order follows ISO/IEC/IEEE 29148 (and the legacy IEEE 830 outline) and the Requirements Classification Schema. Every requirement is uniquely identified, atomic, testable, and traced to the stakeholder requirement it satisfies. Graded by `evaluation/solution-requirements-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/srs.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -199,9 +199,9 @@ Every requirement is atomic, complete, consistent, concise, feasible, unambiguou
 - Requirements are prioritised with stakeholder agreement.
 - The set is achievable within the agreed constraints.
 
-## BABOK anchor
+## Practice anchor
 
-Requirements Classification Schema (2.3); Specify and Model Requirements (7.1); Verify Requirements (7.2); Non-Functional Requirements Analysis (10.30); State Modelling (10.44). Aligned to ISO/IEC/IEEE 29148.
+Requirements Classification Schema; Specify and Model Requirements; Verify Requirements; Non-Functional Requirements Analysis; State Modelling. Aligned to ISO/IEC/IEEE 29148.
 
 ## House style
 

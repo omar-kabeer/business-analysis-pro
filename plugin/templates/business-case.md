@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Justify a course of action by comparing the benefits of a proposed solution against the cost, effort, and risk of acquiring and living with it. This is the working form of the BABOK Business Cases technique (10.7), with the financial section built on Financial Analysis (10.20). Keep the effort proportional to the size and importance of the decision, and give decision makers enough to approve without specifying the implementation method. Graded by `evaluation/business-case-rubric.md`.
+Justify a course of action by comparing the benefits of a proposed solution against the cost, effort, and risk of acquiring and living with it. This is the working form of the Business Cases technique, with the financial section built on Financial Analysis. Keep the effort proportional to the size and importance of the decision, and give decision makers enough to approve without specifying the implementation method. Graded by `evaluation/business-case-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/business-case.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -203,9 +203,9 @@ A decision-ready case, with a recommendation that follows from the analysis, an 
 - Key risks have responses and owners.
 - The recommendation follows from the analysis, and the decision and approver are explicit.
 
-## BABOK anchor
+## Practice anchor
 
-Business Cases (10.7); Financial Analysis (10.20); Define Future State (6.2); Analyze Potential Value and Recommend Solution (7.6). Owned by the finance skill.
+Business Cases; Financial Analysis; Define Future State; Analyze Potential Value and Recommend Solution. Owned by the finance skill.
 
 ## House style
 

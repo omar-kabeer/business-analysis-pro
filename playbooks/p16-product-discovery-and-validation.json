@@ -43,7 +43,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-vision-brief.md",
-        "contentHash": "994177361a9d8774275cc84ae1d67a68026ef8767aedfa42817ea8a4982c6f61"
+        "contentHash": "c577972821ac630019c009c05906e85039f70325553a111c020d1412cf9eb679"
       },
       "quality": {
         "mode": "rubric",
@@ -72,7 +72,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/persona.md",
-        "contentHash": "a829a525d8b86d982f2c4b20584957037d2a99aaff0f1138e3fcfd063a83a86e"
+        "contentHash": "335dc4c0f59e2f1285dd6a5e70959d21e79b7e44f28bec6adcea9e3f5fcdbcbd"
       },
       "quality": {
         "mode": "rubric",
@@ -105,7 +105,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/journey-map.md",
-        "contentHash": "0c791ae080e23ae614b1f573a5a59936212065f147791a370bcc59b5e20f5745"
+        "contentHash": "c09077eb6f1e90f7d3021f401e3bd46473ecb31bd457699ea72154eace023ea6"
       },
       "quality": {
         "mode": "rubric",
@@ -138,7 +138,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/experiment-log.md",
-        "contentHash": "959f02c3499cdf67f8c6703722541514da145f17fce143f325689f766a7cc4cb"
+        "contentHash": "4e122eb265c69353310f5842bdb8fb957c3fee8362e8095be8d6dd6a1f5fd313"
       },
       "quality": {
         "mode": "rubric",
@@ -171,7 +171,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/opportunity-solution-tree.md",
-        "contentHash": "e8ff627784227ebc5cee9d493de2463d38ae7b9d44a91f5d429827b54cbbf690"
+        "contentHash": "14cee1da8bf7333ac73ce68b8ab5d2ea9f167bcdd4e9a3f57b7d52f3b7af2497"
       },
       "quality": {
         "mode": "rubric",
@@ -208,7 +208,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prototype-brief.md",
-        "contentHash": "4bcbe554453d446999f6691268d43b70fdf787bdeb0385bd8221ae5ccd49d7fc"
+        "contentHash": "7297833bb477abcc1b2b675563f84f12691e1be137023304f618cf3e28e7f5ad"
       },
       "quality": {
         "mode": "rubric",
@@ -249,7 +249,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prd.md",
-        "contentHash": "a9514aaf8c5290f43ca5a696f67ba6bf1a59d95bed6d24d1ce035ff3dcb3b378"
+        "contentHash": "90f8f401d2e05f6946176ae126942e0271a8a4ccc78cfe89c6210ca4dda83026"
       },
       "quality": {
         "mode": "rubric",

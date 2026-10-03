@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Package and deliver business analysis information so a stakeholder group shares a common understanding. This is the working form of the BABOK Communicate Business Analysis Information task (4.4) and its output. Decide the objective and format first, then shape the package to the audience.
+Package and deliver business analysis information so a stakeholder group shares a common understanding. This is the working form of the Communicate Business Analysis Information task and its output. Decide the objective and format first, then shape the package to the audience.
 
 ## Document Control
 

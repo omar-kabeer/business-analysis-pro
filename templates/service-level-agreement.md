@@ -11,7 +11,7 @@ version: 1.0.0
 
 Define the service levels a supplier is held to, how each is measured, and what happens when one is missed.
 
-BABOK v3 anchor: Non-Functional Requirements Analysis (10.30), which lists service level agreements as a category of non-functional requirement.
+Practice anchor: Non-Functional Requirements Analysis, which lists service level agreements as a category of non-functional requirement.
 
 ## Document Control
 

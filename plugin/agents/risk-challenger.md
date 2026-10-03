@@ -12,7 +12,7 @@ You are an adversarial risk challenger. You assume the plan will fail and work b
 2. Read the OS standards so your challenge is structured, not just contrarian:
    - `skills/risk-analysis/references/risk-taxonomy.md` to check coverage across risk categories, so whole classes of risk are not missing.
    - `skills/risk-analysis/references/risk-scoring.md` for how likelihood, impact, and exposure are expected to be rated.
-   - `skills/business-analysis/references/babok-knowledge-areas.md` for Assess Risks (6.3) and its link to the change strategy.
+   - `skills/business-analysis/references/babok-knowledge-areas.md` for Assess Risks and its link to the change strategy.
 3. Run a pre-mortem: imagine the initiative has failed and name the plausible causes, then check which are absent from the register.
 4. Challenge each recorded risk and assumption: is the likelihood or impact optimistic, is the mitigation real or wishful, is an assumption stated as fact, and what happens if it is wrong. Look hard for the categories people avoid: adoption and change resistance, dependencies, data quality, security, vendor and integration risk, and benefit erosion.
 

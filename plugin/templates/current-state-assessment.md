@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Understand the business need in the context of the enterprise as it is today, so the change has enough context to define a sensible future state and change strategy. This is the working form of the BABOK Analyze Current State task (6.1) and its output, the Current State Description. Describe only as much of the current state as the change requires; full detail everywhere is rarely needed. Graded by `evaluation/current-state-description-rubric.md`.
+Understand the business need in the context of the enterprise as it is today, so the change has enough context to define a sensible future state and change strategy. This is the working form of the Analyze Current State task and its output, the Current State Description. Describe only as much of the current state as the change requires; full detail everywhere is rarely needed. Graded by `evaluation/current-state-description-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/current-state-assessment.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -164,7 +164,7 @@ For regulated work, list the controls and obligations that apply to the current 
 
 ## Outputs
 
-A current state description with a measured baseline, stated business need and root cause, and the constraints the future state must respect, ready for Define Future State (6.2) and gap analysis.
+A current state description with a measured baseline, stated business need and root cause, and the constraints the future state must respect, ready for Define Future State and gap analysis.
 
 ## Review criteria
 
@@ -176,9 +176,9 @@ A current state description with a measured baseline, stated business need and r
 - Claims cite evidence or are recorded as assumptions.
 - The description gives a clear baseline for future-state work without prescribing a solution.
 
-## BABOK anchor
+## Practice anchor
 
-Analyze Current State (6.1); Business Capability Analysis (10.6); Process Analysis (10.34); Root Cause Analysis (10.40); PESTLE within Analyze Current State. Owned by the strategy skill.
+Analyze Current State; Business Capability Analysis; Process Analysis; Root Cause Analysis; PESTLE within Analyze Current State. Owned by the strategy skill.
 
 ## House style
 

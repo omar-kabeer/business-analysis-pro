@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Record the agreement and approval of designs so that solution construction can proceed. This is the working form of the approved-design output of the BABOK Approve Requirements task (5.5). Follow the approval process defined in the governance approach.
+Record the agreement and approval of designs so that solution construction can proceed. This is the working form of the approved-design output of the Approve Requirements task. Follow the approval process defined in the governance approach.
 
 ## Document Control
 

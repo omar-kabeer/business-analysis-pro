@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Plan and run a stakeholder interview that draws out the information the change needs, then confirm what was captured before it is used. This guide is the interview form of the BABOK Elicitation Activity Plan (Prepare for Elicitation, 4.1), the Interviews technique (10.25), and Conduct and Confirm Elicitation Results (4.2 and 4.3). Graded by `evaluation/interview-guide-rubric.md`.
+Plan and run a stakeholder interview that draws out the information the change needs, then confirm what was captured before it is used. This guide is the interview form of the Elicitation Activity Plan (Prepare for Elicitation, 4.1), the Interviews technique, and Conduct and Confirm Elicitation Results. Graded by `evaluation/interview-guide-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/interview-guide.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -88,7 +88,7 @@ Every follow-up has an owner and a due date.
 
 ## Confirmation of results
 
-Summarise the key points back to the interviewee and record their response before the findings are used. This is Confirm Elicitation Results (4.3).
+Summarise the key points back to the interviewee and record their response before the findings are used. This is Confirm Elicitation Results.
 
 | Sent | Response | Changes made |
 | --- | --- | --- |
@@ -132,9 +132,9 @@ Confirmed elicitation results: attributed statements separated into fact and opi
 - Results were confirmed with the interviewee before use.
 - The record reflects what was said, not what was expected.
 
-## BABOK anchor
+## Practice anchor
 
-Prepare for Elicitation (4.1); Conduct Elicitation (4.2); Confirm Elicitation Results (4.3); Interviews (10.25). Owned by the elicitation skill.
+Prepare for Elicitation; Conduct Elicitation; Confirm Elicitation Results; Interviews. Owned by the elicitation skill.
 
 ## House style
 

@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Show a system or solution in the middle, the external actors and systems it interacts with around it, and the data that crosses the boundary. It answers who and what the system talks to and what information flows, before any internal detail. Grounded in the architecture integration-patterns reference and BABOK Scope Modelling (10.41) and Interface Analysis (10.24).
+Show a system or solution in the middle, the external actors and systems it interacts with around it, and the data that crosses the boundary. It answers who and what the system talks to and what information flows, before any internal detail. Grounded in the architecture integration-patterns reference and Scope Modelling and Interface Analysis.
 
 ## Document Control
 
@@ -49,4 +49,4 @@ Represent the diagram in text if a drawing is not attached: the system in the ce
 
 ## Reference
 
-`skills/architecture/references/integration-patterns.md`; BABOK Scope Modelling (10.41), Interface Analysis (10.24). Owned by the architecture skill.
+`skills/architecture/references/integration-patterns.md`; Scope Modelling, Interface Analysis. Owned by the architecture skill.

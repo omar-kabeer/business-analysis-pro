@@ -20,7 +20,7 @@
     { "id": "release-slicing", "heading": "Release slicing", "tier": "extended", "purpose": "Stories grouped into releases with their outcome.", "when": { "approach": ["adaptive", "hybrid"] }, "requires": ["stories"], "evidences": [6] },
     { "id": "outputs", "heading": "Outputs", "tier": "standard", "purpose": "What the document hands on.", "evidences": [5] },
     { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the epic and stories.", "artefactStandard": "review-criteria" },
-    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK techniques and perspective." },
+    { "id": "babok-anchor", "heading": "Practice anchor", "tier": "standard", "purpose": "business analysis techniques and perspective." },
     { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
   ]
 }

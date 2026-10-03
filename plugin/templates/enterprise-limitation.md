@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Describe the factors external to the solution that are restricting value realization. This is the working form of the BABOK Assess Enterprise Limitations task (8.4) and its output, the Enterprise Limitation.
+Describe the factors external to the solution that are restricting value realization. This is the working form of the Assess Enterprise Limitations task and its output, the Enterprise Limitation.
 
 ## Document Control
 

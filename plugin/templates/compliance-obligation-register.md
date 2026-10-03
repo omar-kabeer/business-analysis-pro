@@ -11,7 +11,7 @@ version: 1.0.0
 
 Record every law, regulation, standard, and internal policy that constrains the change, and hold the chain from obligation to requirement to control to evidence so that compliance can be demonstrated rather than asserted.
 
-BABOK v3 anchor: Business Rules Analysis (10.9) for obligations drawn from regulation and policy, and the compliance category of Non-Functional Requirements Analysis (10.30).
+Practice anchor: Business Rules Analysis for obligations drawn from regulation and policy, and the compliance category of Non-Functional Requirements Analysis.
 
 ## Document Control
 

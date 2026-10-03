@@ -19,7 +19,7 @@
     { "id": "risks", "heading": "Risks", "tier": "core", "purpose": "Risks that targets cannot be met or cost too much.", "artefactStandard": "risks", "evidences": [8] },
     { "id": "outputs", "heading": "Outputs", "tier": "core", "purpose": "What the specification hands on.", "artefactStandard": "outputs" },
     { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the specification.", "artefactStandard": "review-criteria" },
-    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "babok-anchor", "heading": "Practice anchor", "tier": "standard", "purpose": "business analysis tasks and techniques." },
     { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
   ]
 }

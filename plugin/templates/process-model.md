@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Document a business process so it is visible, analysable, and ready to improve or specify. Captures the boundary (SIPOC), the current-state flow, the analysis, and the future-state flow, in a notation used correctly. Based on BABOK Process Modelling (10.35) and Process Analysis (10.34). Graded by `evaluation/process-model-rubric.md`.
+Document a business process so it is visible, analysable, and ready to improve or specify. Captures the boundary (SIPOC), the current-state flow, the analysis, and the future-state flow, in a notation used correctly. Based on Process Modelling and Process Analysis. Graded by `evaluation/process-model-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/process-model.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -170,9 +170,9 @@ A validated current-state and future-state model, with analysis of where the pro
 - The level of detail suits the audience.
 - The model is labelled and readable unaided.
 
-## BABOK anchor
+## Practice anchor
 
-Process Modelling (10.35); Process Analysis (10.34); Functional Decomposition (10.22); Analyze Current State (6.1). Owned by the process-modelling skill.
+Process Modelling; Process Analysis; Functional Decomposition; Analyze Current State. Owned by the process-modelling skill.
 
 ## House style
 

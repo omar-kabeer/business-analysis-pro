@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Map a customer's experience across the stages of a task or relationship, from their point of view, to expose where it breaks and where the opportunities are. Use a current-state map to understand and a future-state map to design. Grounded in BABOK Stakeholder List, Map, or Personas (10.43), Process Analysis (10.34), and the UX artefacts reference. Graded by `evaluation/customer-journey-map-rubric.md`.
+Map a customer's experience across the stages of a task or relationship, from their point of view, to expose where it breaks and where the opportunities are. Use a current-state map to understand and a future-state map to design. Grounded in Stakeholder List, Map, or Personas, Process Analysis, and the UX artefacts reference. Graded by `evaluation/customer-journey-map-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/journey-map.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -129,9 +129,9 @@ A validated journey map with evidence for each stage, the moments that matter, a
 - Opportunities are specific, prioritised, and handed off.
 - The map is grounded in research, not assumption.
 
-## BABOK anchor
+## Practice anchor
 
-Stakeholder List, Map, or Personas (10.43); Process Analysis (10.34); Observation (10.31); Analyze Current State (6.1). Owned by the ux skill; see `skills/ux/references/ux-artifacts.md`.
+Stakeholder List, Map, or Personas; Process Analysis; Observation; Analyze Current State. Owned by the ux skill; see `skills/ux/references/ux-artifacts.md`.
 
 ## House style
 

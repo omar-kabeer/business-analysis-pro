@@ -43,7 +43,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-vision-brief.md",
-        "contentHash": "994177361a9d8774275cc84ae1d67a68026ef8767aedfa42817ea8a4982c6f61"
+        "contentHash": "c577972821ac630019c009c05906e85039f70325553a111c020d1412cf9eb679"
       },
       "quality": {
         "mode": "rubric",
@@ -76,7 +76,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/experiment-log.md",
-        "contentHash": "959f02c3499cdf67f8c6703722541514da145f17fce143f325689f766a7cc4cb"
+        "contentHash": "4e122eb265c69353310f5842bdb8fb957c3fee8362e8095be8d6dd6a1f5fd313"
       },
       "quality": {
         "mode": "rubric",
@@ -101,7 +101,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/stakeholder-register.md",
-        "contentHash": "58396bac74ecca426900e849ba7244ba234e9ab4cd344a701994e391acac570c"
+        "contentHash": "e996f4b4b87ed0352cad36a5cafcbc25af0aae7fd7eb708d7b9d590e951e42c6"
       },
       "quality": {
         "mode": "rubric",
@@ -134,7 +134,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/interview-guide.md",
-        "contentHash": "239bee936b1b703468059643e5f3538c3ea319913ba0713f39ed686f329bcf6e"
+        "contentHash": "7d8942649635c1716ed3cc1fd4e63305fe3da5fc461e9fdf5c64d186c12f1e0c"
       },
       "quality": {
         "mode": "rubric",
@@ -167,7 +167,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/journey-map.md",
-        "contentHash": "0c791ae080e23ae614b1f573a5a59936212065f147791a370bcc59b5e20f5745"
+        "contentHash": "c09077eb6f1e90f7d3021f401e3bd46473ecb31bd457699ea72154eace023ea6"
       },
       "quality": {
         "mode": "rubric",

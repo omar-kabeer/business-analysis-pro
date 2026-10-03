@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Record significant decisions with enough context that a newcomer can understand what was decided, why, by whom, and under what conditions it would be revisited. A good log prevents relitigating settled questions and makes governance auditable. Supports BABOK Plan Business Analysis Governance (3.3), Decision Analysis (10.16), and Assess Requirements Changes (5.4). Graded by `evaluation/decision-log-rubric.md`.
+Record significant decisions with enough context that a newcomer can understand what was decided, why, by whom, and under what conditions it would be revisited. A good log prevents relitigating settled questions and makes governance auditable. Supports Plan Business Analysis Governance, Decision Analysis, and Assess Requirements Changes. Graded by `evaluation/decision-log-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/decision-log.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -108,9 +108,9 @@ A current record of significant decisions, their rationale, authority, and links
 - Each entry has a date and status; superseded decisions are marked and linked.
 - Decisions link to the requirements, changes, and risks they affect.
 
-## BABOK anchor
+## Practice anchor
 
-Plan Business Analysis Governance (3.3); Decision Analysis (10.16); Assess Requirements Changes (5.4). Pairs with the RAID log and risk register.
+Plan Business Analysis Governance; Decision Analysis; Assess Requirements Changes. Pairs with the RAID log and risk register.
 
 ## House style
 

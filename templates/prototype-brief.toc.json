@@ -21,7 +21,7 @@
     { "id": "accessibility", "heading": "Accessibility check", "tier": "extended", "purpose": "Accessibility issues found and their handling.", "when": { "audience": ["customer"], "regulated": [true] }, "evidences": [5] },
     { "id": "outputs", "heading": "Outputs", "tier": "standard", "purpose": "What the prototype hands on.", "evidences": [5] },
     { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the brief.", "artefactStandard": "review-criteria" },
-    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK techniques." },
+    { "id": "babok-anchor", "heading": "Practice anchor", "tier": "standard", "purpose": "business analysis techniques." },
     { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
   ]
 }

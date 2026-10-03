@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Analyse the performance measurements collected against the goals, and recommend how to close gaps and leverage opportunities. This is the working form of the BABOK Analyze Performance Measures task (8.2) and its output, the Solution Performance Analysis.
+Analyse the performance measurements collected against the goals, and recommend how to close gaps and leverage opportunities. This is the working form of the Analyze Performance Measures task and its output, the Solution Performance Analysis.
 
 ## Document Control
 

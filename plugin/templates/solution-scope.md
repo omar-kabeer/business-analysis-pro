@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Define the boundary of the solution: the capabilities the change will deliver, what it will not, and how the in-scope solution enables the future state's goals. This is the working form of the Solution Scope output of BABOK Define Change Strategy (6.4). A scope with a stated out-of-scope list prevents most scope disputes before they start. Graded by `evaluation/solution-scope-rubric.md`.
+Define the boundary of the solution: the capabilities the change will deliver, what it will not, and how the in-scope solution enables the future state's goals. This is the working form of the Solution Scope output of Define Change Strategy. A scope with a stated out-of-scope list prevents most scope disputes before they start. Graded by `evaluation/solution-scope-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/solution-scope.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -121,9 +121,9 @@ A baselined solution scope that requirements, the release plan, and the business
 - Nothing is ambiguous about what is in and what is out.
 - The scope is controlled and expected to evolve.
 
-## BABOK anchor
+## Practice anchor
 
-Define Change Strategy (6.4); Define Future State (6.2); Scope Modelling (10.41). Owned by the strategy skill.
+Define Change Strategy; Define Future State; Scope Modelling. Owned by the strategy skill.
 
 ## House style
 

@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Record every group or individual with a relationship to the change, the need, or the solution, together with the characteristics that decide how each one is engaged. This register is the working form of BABOK Plan Stakeholder Engagement (3.2) and the Stakeholder List, Map, or Personas technique (10.43). A thorough register lowers the risk that a source of requirements, a decision maker, or a group affected by the change is missed. Graded by `evaluation/stakeholder-register-rubric.md`.
+Record every group or individual with a relationship to the change, the need, or the solution, together with the characteristics that decide how each one is engaged. This register is the working form of Plan Stakeholder Engagement and the Stakeholder List, Map, or Personas technique. A thorough register lowers the risk that a source of requirements, a decision maker, or a group affected by the change is missed. Graded by `evaluation/stakeholder-register-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/stakeholder-register.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -39,13 +39,13 @@ List the sources used to find stakeholders: the solution or change scope, organi
 ## How to build the register
 
 1. Start from the scope and the process: who performs, approves, receives, audits, supports, and pays for each step.
-2. Use the generic BABOK roles as a checklist so no class of stakeholder is missed: customer, domain subject matter expert, end user, implementation subject matter expert, operational support, project manager, regulator, sponsor, supplier, and tester. One person can hold several roles.
+2. Use the generic business analysis roles as a checklist so no class of stakeholder is missed: customer, domain subject matter expert, end user, implementation subject matter expert, operational support, project manager, regulator, sponsor, supplier, and tester. One person can hold several roles.
 3. For each stakeholder, record the characteristics below, and mark any that are assumed rather than evidenced.
 4. Ask each stakeholder who else is affected, and repeat until no new names appear.
 
 ## Register
 
-| ID | Stakeholder | BABOK role | Position or unit | Interest | Influence | Impact of change on them | Attitude | Decision authority | Key needs and concerns | Engagement approach | Communication | Owner | Basis |
+| ID | Stakeholder | Business analysis role | Position or unit | Interest | Influence | Impact of change on them | Attitude | Decision authority | Key needs and concerns | Engagement approach | Communication | Owner | Basis |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | STK-001 | Finance Director | Sponsor | Finance | High | High | Accountable for close timeliness | Supporter | Approves scope and budget | Close within 3 days; fewer late-payment penalties | Co-design at milestones | Monthly steering | Ana Costa | Evidenced (kickoff) |
 | STK-002 | AP clerks (6) | End user | Accounts payable | High | Medium | Daily work changes completely | Cautious | None | Less rekeying; fewer chasing emails | Co-design | Weekly show and tell | Ana Costa | Evidenced (walkthrough) |
@@ -65,7 +65,7 @@ Place each stakeholder by interest and influence to decide how much engagement e
 
 ## Coverage check
 
-Check the register against the BABOK roles and the affected groups, so gaps are found now rather than in testing.
+Check the register against the standard business analysis roles and the affected groups, so gaps are found now rather than in testing.
 
 | Role or group | Covered by | Gap and action |
 | --- | --- | --- |
@@ -124,7 +124,7 @@ A register that feeds the stakeholder map and RACI, the engagement approach, the
 
 ## Review criteria
 
-- The register covers every affected group for the stated scope, checked against the BABOK roles.
+- The register covers every affected group for the stated scope, checked against the standard business analysis roles.
 - Each entry records role, interest, influence, impact, attitude, decision authority, and needs.
 - Characteristics are evidenced or marked as assumed.
 - Placement on the map follows from interest and influence.
@@ -132,9 +132,9 @@ A register that feeds the stakeholder map and RACI, the engagement approach, the
 - Personas, where used, are based on evidence and linked to register entries.
 - Gaps found by the coverage check have an owner and a date.
 
-## BABOK anchor
+## Practice anchor
 
-Plan Stakeholder Engagement (3.2); Stakeholder List, Map, or Personas (10.43); Manage Stakeholder Collaboration (4.5). Feeds the stakeholder map and RACI template and the elicitation plan. Owned by the elicitation and business-analysis skills.
+Plan Stakeholder Engagement; Stakeholder List, Map, or Personas; Manage Stakeholder Collaboration. Feeds the stakeholder map and RACI template and the elicitation plan. Owned by the elicitation and business-analysis skills.
 
 ## House style
 

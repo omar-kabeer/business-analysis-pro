@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Specify in detail what the solution must do: the behaviours, business rules, and interactions that deliver the business and stakeholder requirements. The FRD sits below the BRD and PRD and above design. Every functional requirement is atomic, testable, and traceable, per the BABOK quality characteristics (Verify Requirements, 7.2). Graded by `evaluation/functional-requirements-rubric.md`.
+Specify in detail what the solution must do: the behaviours, business rules, and interactions that deliver the business and stakeholder requirements. The FRD sits below the BRD and PRD and above design. Every functional requirement is atomic, testable, and traceable, per the requirements quality characteristics (Verify Requirements, 7.2). Graded by `evaluation/functional-requirements-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/frd.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -160,9 +160,9 @@ Every functional requirement is atomic, complete, consistent, concise, feasible,
 - Requirements are prioritised with stakeholder agreement.
 - Each is feasible, or flagged for investigation.
 
-## BABOK anchor
+## Practice anchor
 
-Requirements Classification Schema (2.3); Specify and Model Requirements (7.1); Verify Requirements (7.2); Use Cases and Scenarios (10.47); Business Rules Analysis (10.9). Validate with the quality skill.
+Requirements Classification Schema; Specify and Model Requirements; Verify Requirements; Use Cases and Scenarios; Business Rules Analysis. Validate with the quality skill.
 
 ## House style
 

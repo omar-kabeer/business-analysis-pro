@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Define how business analysis information is stored, accessed, reused, and maintained on this initiative. Business analysis information covers requirements, designs, elicitation results, solution options, and change strategy, not requirements alone. This is the working form of the BABOK Plan Business Analysis Information Management task (3.4) and its output, the Information Management Approach.
+Define how business analysis information is stored, accessed, reused, and maintained on this initiative. Business analysis information covers requirements, designs, elicitation results, solution options, and change strategy, not requirements alone. This is the working form of the Plan Business Analysis Information Management task and its output, the Information Management Approach.
 
 ## Document Control
 

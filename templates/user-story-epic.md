@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Express a need from the user's perspective as an epic and its stories, sliced so a team can deliver value in small increments. Stories follow the INVEST qualities and carry acceptance criteria someone other than the author can verify. This is the working form of BABOK User Stories (10.48) with Acceptance and Evaluation Criteria (10.1). Graded by `evaluation/user-story-epic-rubric.md`.
+Express a need from the user's perspective as an epic and its stories, sliced so a team can deliver value in small increments. Stories follow the INVEST qualities and carry acceptance criteria someone other than the author can verify. This is the working form of User Stories with Acceptance and Evaluation Criteria. Graded by `evaluation/user-story-epic-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/user-story-epic.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -153,9 +153,9 @@ A refined epic and set of stories, each ready to estimate and plan, traced to th
 - Priority reflects value and risk.
 - Assumptions, dependencies, and spikes are visible.
 
-## BABOK anchor
+## Practice anchor
 
-User Stories (10.48); Acceptance and Evaluation Criteria (10.1); Backlog Management (10.2); the Agile Perspective (11.1). Take direction from the product-manager skill and validate with the quality skill.
+User Stories; Acceptance and Evaluation Criteria; Backlog Management; the Agile Perspective. Take direction from the product-manager skill and validate with the quality skill.
 
 ## House style
 

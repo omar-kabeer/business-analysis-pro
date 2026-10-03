@@ -19,7 +19,7 @@
     { "id": "approvals", "heading": "Research approvals", "tier": "extended", "purpose": "Approvals for regulated or personal-data experiments.", "when": { "regulated": [true], "formality": ["formal"] }, "requires": ["risks"], "evidences": [2] },
     { "id": "outputs", "heading": "Outputs", "tier": "standard", "purpose": "Where decisions and learnings go next.", "evidences": [6] },
     { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the log.", "artefactStandard": "review-criteria" },
-    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK techniques and perspective." },
+    { "id": "babok-anchor", "heading": "Practice anchor", "tier": "standard", "purpose": "business analysis techniques and perspective." },
     { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
   ]
 }

@@ -11,7 +11,7 @@ version: 1.0.0
 
 Define the things the business cares about, what they mean, how they relate, and the rules that bind them, at a level independent of any platform.
 
-BABOK v3 anchor: Data Modelling (10.15), which defines the logical data model.
+Practice anchor: Data Modelling, which defines the logical data model.
 
 ## Document Control
 

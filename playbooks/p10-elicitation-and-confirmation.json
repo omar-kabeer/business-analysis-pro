@@ -43,7 +43,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/elicitation-activity-plan.md",
-        "contentHash": "09f4ceec8644b1d0b35ea11c214b54e76fb2807c8a47ee9983bf763e7b8fb68e"
+        "contentHash": "fcf6a437428f5ce41241f0f7dd0465be70884793b6d4d6767120099ecbb5e6f9"
       },
       "quality": {
         "mode": "rubric",
@@ -76,7 +76,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/interview-guide.md",
-        "contentHash": "239bee936b1b703468059643e5f3538c3ea319913ba0713f39ed686f329bcf6e"
+        "contentHash": "7d8942649635c1716ed3cc1fd4e63305fe3da5fc461e9fdf5c64d186c12f1e0c"
       },
       "quality": {
         "mode": "rubric",
@@ -113,7 +113,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/workshop-plan.md",
-        "contentHash": "f9f51f5941eff15cf14cda07d000fe73db1f60b8ff8ecba0ff4666caedd6208d"
+        "contentHash": "ff7e216390a69d74cce52cd97d69856d7bb2274257d683ce6c125a122d19e672"
       },
       "quality": {
         "mode": "rubric",
@@ -142,7 +142,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/meeting-notes.md",
-        "contentHash": "6e748ae2ee998006eb132d3b5c0bb6faecb88546787d4a2fcb653d574e02e53e"
+        "contentHash": "5b4c6bea2c60477e841e05dc160ab688e70aa1637fc508d0d1e4a28cd5cb477e"
       },
       "quality": {
         "mode": "rubric",
@@ -167,7 +167,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/stakeholder-register.md",
-        "contentHash": "58396bac74ecca426900e849ba7244ba234e9ab4cd344a701994e391acac570c"
+        "contentHash": "e996f4b4b87ed0352cad36a5cafcbc25af0aae7fd7eb708d7b9d590e951e42c6"
       },
       "quality": {
         "mode": "rubric",

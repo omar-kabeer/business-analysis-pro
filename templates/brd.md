@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-State the business need, the outcome the business wants, and the requirements a solution must meet, so the sponsor can approve scope and delivery can begin. The BRD follows the BABOK Requirements Classification Schema (business, stakeholder, solution, and transition requirements) and the quality characteristics of Verify Requirements (7.2). Graded by `evaluation/brd-rubric.md`.
+State the business need, the outcome the business wants, and the requirements a solution must meet, so the sponsor can approve scope and delivery can begin. The BRD follows the Requirements Classification Schema (business, stakeholder, solution, and transition requirements) and the quality characteristics of Verify Requirements. Graded by `evaluation/brd-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/brd.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -230,9 +230,9 @@ Name the approvers and record their decisions.
 | --- | --- | --- | --- |
 | Finance Director | Sponsor | Approve | 2026-06-12 |
 
-## BABOK anchor
+## Practice anchor
 
-Requirements Classification Schema (2.3); Specify and Model Requirements (7.1); Verify Requirements (7.2); Approve Requirements (5.5); Define Future State (6.2). Owned by the requirements skill.
+Requirements Classification Schema; Specify and Model Requirements; Verify Requirements; Approve Requirements; Define Future State. Owned by the requirements skill.
 
 ## House style
 

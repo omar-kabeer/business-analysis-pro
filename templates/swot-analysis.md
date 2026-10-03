@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Assess an enterprise, unit, or initiative across its internal strengths and weaknesses and its external opportunities and threats, then turn that assessment into strategy. This is the BABOK SWOT Analysis technique (10.46). A SWOT is only useful if it is evidence-based and each item leads to an action; a generic SWOT is worthless.
+Assess an enterprise, unit, or initiative across its internal strengths and weaknesses and its external opportunities and threats, then turn that assessment into strategy. This is the SWOT Analysis technique. A SWOT is only useful if it is evidence-based and each item leads to an action; a generic SWOT is worthless.
 
 ## Document Control
 
@@ -61,6 +61,6 @@ Match internal and external factors to generate candidate strategies. This is wh
 - The analysis produces candidate strategies through the TOWS matching, not just four lists.
 - Strategies are prioritised and hand off to finance or the roadmap where relevant.
 
-## BABOK anchor
+## Practice anchor
 
-SWOT Analysis (10.46). Pairs with PESTLE and Five Forces for the external scan and with the business model canvas for the internal view.
+SWOT Analysis. Pairs with PESTLE and Five Forces for the external scan and with the business model canvas for the internal view.

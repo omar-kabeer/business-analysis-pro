@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Recommend the course of action that will increase the value the solution delivers, chosen among adjust, replace, retire, or invest. This is the working form of the BABOK Recommend Actions to Increase Solution Value task (8.5) and its output, the Recommended Actions.
+Recommend the course of action that will increase the value the solution delivers, chosen among adjust, replace, retire, or invest. This is the working form of the Recommend Actions to Increase Solution Value task and its output, the Recommended Actions.
 
 ## Document Control
 

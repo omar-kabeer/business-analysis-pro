@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Plan an elicitation activity: the outcomes it must produce, the techniques, the participants, and the logistics. This is the working form of BABOK Prepare for Elicitation (4.1) and its output, the Elicitation Activity Plan. Plan only what the activity needs, and match techniques to the outcomes and the people. Graded by `evaluation/elicitation-activity-plan-rubric.md`.
+Plan an elicitation activity: the outcomes it must produce, the techniques, the participants, and the logistics. This is the working form of Prepare for Elicitation and its output, the Elicitation Activity Plan. Plan only what the activity needs, and match techniques to the outcomes and the people. Graded by `evaluation/elicitation-activity-plan-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/elicitation-activity-plan.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -53,9 +53,9 @@ Choose techniques that suit the outcome and the people involved, and say why.
 
 | ID | Activity | Technique | Why chosen | Outcome | Participants |
 | --- | --- | --- | --- | --- | --- |
-| ACT-001 | Watch clerks process a day's invoices | Observation (10.31) | Clerks describe the procedure, not what they actually do | OUT-001 | Four AP clerks |
-| ACT-002 | Budget holder interviews | Interviews (10.25) | Approvers are spread across sites and short of time | OUT-001 | Six budget holders |
-| ACT-003 | Exception causes session | Focus group (10.21) | Clerks build on each other's examples | OUT-002 | AP team |
+| ACT-001 | Watch clerks process a day's invoices | Observation | Clerks describe the procedure, not what they actually do | OUT-001 | Four AP clerks |
+| ACT-002 | Budget holder interviews | Interviews | Approvers are spread across sites and short of time | OUT-001 | Six budget holders |
+| ACT-003 | Exception causes session | Focus group | Clerks build on each other's examples | OUT-002 | AP team |
 
 ## Participants
 
@@ -130,7 +130,7 @@ For regulated or sensitive topics, state how recordings and notes are stored and
 
 ## Outputs
 
-An agreed plan for each activity (outcome, technique, participants, logistics, and materials) ready for Conduct Elicitation (4.2).
+An agreed plan for each activity (outcome, technique, participants, logistics, and materials) ready for Conduct Elicitation.
 
 ## Review criteria
 
@@ -143,9 +143,9 @@ An agreed plan for each activity (outcome, technique, participants, logistics, a
 - Conditions for collaboration are considered.
 - The plan fits the BA approach and the engagement approach.
 
-## BABOK anchor
+## Practice anchor
 
-Prepare for Elicitation (4.1); Plan Stakeholder Engagement (3.2); techniques including Interviews (10.25), Observation (10.31), and Focus Groups (10.21). Owned by the elicitation skill.
+Prepare for Elicitation; Plan Stakeholder Engagement; techniques including Interviews, Observation, and Focus Groups. Owned by the elicitation skill.
 
 ## House style
 

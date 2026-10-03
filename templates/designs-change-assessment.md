@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Assess a proposed change to one or more design components and recommend whether to approve, modify, or deny it. This is the working form of the BABOK Assess Requirements Changes task (5.4) and its output, the Designs Change Assessment. Run the assessment through the change-control process defined in the governance approach.
+Assess a proposed change to one or more design components and recommend whether to approve, modify, or deny it. This is the working form of the Assess Requirements Changes task and its output, the Designs Change Assessment. Run the assessment through the change-control process defined in the governance approach.
 
 ## Document Control
 
