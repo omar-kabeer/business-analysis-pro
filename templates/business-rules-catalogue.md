@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Capture the rules that govern decisions and behaviour, separately from the requirements that enforce them, so a rule can change in one place without rewriting every requirement. Based on BABOK Business Rules Analysis (10.9).
+Capture the rules that govern decisions and behaviour, separately from the requirements that enforce them, so a rule can change in one place without rewriting every requirement. Based on Business Rules Analysis (10.9).
 
 ## Document Control
 
@@ -41,6 +41,6 @@ Capture the rules that govern decisions and behaviour, separately from the requi
 - Each rule names its source and owner.
 - Rules do not contradict one another.
 
-## BABOK anchor
+## Practice anchor
 
 Business Rules Analysis (10.9); relates to Decision Modelling (10.17). Owned by the requirements skill.

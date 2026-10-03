@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Set out the value that could be delivered by moving to the future state, weighed against the cost of getting there. This is the working form of the Potential Value output of the BABOK Define Future State task (6.2), also analysed in Analyze Potential Value and Recommend Solution (7.6). Make the assumptions behind the value explicit.
+Set out the value that could be delivered by moving to the future state, weighed against the cost of getting there. This is the working form of the Potential Value output of the Define Future State task, also analysed in Analyze Potential Value and Recommend Solution (7.6). Make the assumptions behind the value explicit.
 
 ## Document Control
 

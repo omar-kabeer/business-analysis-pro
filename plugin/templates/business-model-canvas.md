@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Describe on one page how an enterprise or a proposed venture creates, delivers, and captures value. This is the BABOK Business Model Canvas technique (10.8). Use it to understand a current model, design a new one, or test whether a change is coherent across all nine building blocks.
+Describe on one page how an enterprise or a proposed venture creates, delivers, and captures value. This is the Business Model Canvas technique. Use it to understand a current model, design a new one, or test whether a change is coherent across all nine building blocks.
 
 ## Document Control
 
@@ -51,6 +51,6 @@ Work through all nine. The blocks must fit together: the value propositions serv
 - Value propositions are tied to real customer jobs, pains, and gains.
 - The model shows how value is captured, not only created and delivered.
 
-## BABOK anchor
+## Practice anchor
 
 Business Model Canvas (10.8). Complements SWOT (internal and external position) and the value proposition view; hand financial viability to the finance skill.

@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Specify how well the solution must perform, as distinct from what it must do. Non-functional requirements (also called quality attributes or quality of service) are declarative statements with a constraining factor, quantified, with the conditions they are measured under and a way to verify them. The categories follow BABOK Non-Functional Requirements Analysis (10.30). An unquantified non-functional requirement is not testable and does not belong here. Graded by `evaluation/nfr-specification-rubric.md`.
+Specify how well the solution must perform, as distinct from what it must do. Non-functional requirements (also called quality attributes or quality of service) are declarative statements with a constraining factor, quantified, with the conditions they are measured under and a way to verify them. The categories follow Non-Functional Requirements Analysis (10.30). An unquantified non-functional requirement is not testable and does not belong here. Graded by `evaluation/nfr-specification-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/nfr-specification.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -140,7 +140,7 @@ A reviewed, prioritised set of non-functional requirements with verification met
 - Requirements are prioritised, and conflicts between qualities are resolved and recorded.
 - Feasibility is confirmed with an architecture or operations owner.
 
-## BABOK anchor
+## Practice anchor
 
 Non-Functional Requirements Analysis (10.30); the Requirements Classification Schema (solution requirements, non-functional); Verify Requirements (7.2); Validate Requirements (7.3). Owned by the requirements skill.
 

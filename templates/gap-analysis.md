@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Compare the current state with the defined future state to identify what must change, size each gap, and recommend the actions that close it. Gap analysis bridges the BABOK Analyze Current State (6.1) and Define Future State (6.2) tasks and draws on Business Capability Analysis (10.6). Its output feeds the change strategy and the requirements work.
+Compare the current state with the defined future state to identify what must change, size each gap, and recommend the actions that close it. Gap analysis bridges the Analyze Current State and Define Future State (6.2) tasks and draws on Business Capability Analysis (10.6). Its output feeds the change strategy and the requirements work.
 
 ## Document Control
 
@@ -66,6 +66,6 @@ Carry forward the assumptions and constraints from the future state definition t
 - All dimensions of change are checked, not only capabilities.
 - Actions are traceable to the gaps they close and are owned.
 
-## BABOK anchor
+## Practice anchor
 
 Analyze Current State (6.1); Define Future State (6.2); Business Capability Analysis (10.6). Output informs Define Change Strategy (6.4) and requirements.

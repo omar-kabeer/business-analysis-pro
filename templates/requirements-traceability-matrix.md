@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Maintain the links from business need to requirement to design to solution component to test, in both directions, so coverage is visible and the impact of any change can be assessed. Traceability is what makes requirements auditable and change-safe. This is the working form of BABOK Trace Requirements (5.1).
+Maintain the links from business need to requirement to design to solution component to test, in both directions, so coverage is visible and the impact of any change can be assessed. Traceability is what makes requirements auditable and change-safe. This is the working form of Trace Requirements (5.1).
 
 ## Document Control
 
@@ -52,7 +52,7 @@ When a requirement changes, use the matrix to find the linked designs and tests 
 - The matrix is kept current as requirements and tests change.
 - IDs are consistent with the source requirement documents.
 
-## BABOK anchor
+## Practice anchor
 
 Trace Requirements (5.1); Requirements Life Cycle Management. Sources from the BRD, FRD, SRS, and user stories.
 

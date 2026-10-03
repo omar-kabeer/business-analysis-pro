@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Rank opportunities, features, or backlog items transparently with one consistent method, tied to the outcome you are trying to move. The matrix makes trade-offs visible so scope decisions are defensible rather than driven by whoever asked last. This is the working form of BABOK Prioritization (10.33) in Prioritize Requirements (5.3). Graded by `evaluation/prioritization-matrix-rubric.md`.
+Rank opportunities, features, or backlog items transparently with one consistent method, tied to the outcome you are trying to move. The matrix makes trade-offs visible so scope decisions are defensible rather than driven by whoever asked last. This is the working form of Prioritization (10.33) in Prioritize Requirements (5.3). Graded by `evaluation/prioritization-matrix-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/prioritization-matrix.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -145,7 +145,7 @@ A reproducible ranking of the full candidate set against one outcome, a decision
 - The final decision follows from the scores, and overrides are explained.
 - Estimates are labelled as estimates.
 
-## BABOK anchor
+## Practice anchor
 
 Prioritization (10.33); Prioritize Requirements (5.3); Backlog Management (10.2). Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
 

@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Rank design options and components by their relative importance and the sequence in which they will be built. This is the working form of the prioritized-design output of the BABOK Prioritize Requirements task (5.3).
+Rank design options and components by their relative importance and the sequence in which they will be built. This is the working form of the prioritized-design output of the Prioritize Requirements task.
 
 ## Document Control
 

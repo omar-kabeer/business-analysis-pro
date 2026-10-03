@@ -11,7 +11,7 @@ version: 1.0.0
 
 Summarise why recent buyers chose the product or a competitor, from structured interviews with them. It reveals sales-cycle mechanics, pricing sensitivity, messaging resonance, and competitive gaps, and feeds positioning, roadmap, and pricing. Based on the win/loss analysis technique.
 
-BABOK v3 anchor: Benchmarking and Market Analysis (10.4), with Lessons Learned (10.27).
+Practice anchor: Benchmarking and Market Analysis (10.4), with Lessons Learned (10.27).
 
 ## Document Control
 

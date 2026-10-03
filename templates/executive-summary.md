@@ -73,7 +73,7 @@ For each claim, ask: how do we know, what if it is wrong, what would a board mem
 - Value, cost, and risk are quantified and consistent with the source document.
 - Length and tone fit a senior audience and nothing survives that does not aid the decision.
 
-## BABOK anchor
+## Practice anchor
 
 Supports Communicate Business Analysis Information (4.4) and the recommendation from Analyze Potential Value and Recommend Solution (7.6). Pairs with the business case and the executive-review skill.
 

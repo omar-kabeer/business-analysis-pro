@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Record what was estimated, by what method, on what assumptions, and with what confidence, so the number can be defended, challenged, and re-estimated as knowledge improves. Based on BABOK Estimation (10.19). Graded by `evaluation/estimate-cost-effort-forecasts-with-ranges-rubric.md`.
+Record what was estimated, by what method, on what assumptions, and with what confidence, so the number can be defended, challenged, and re-estimated as knowledge improves. Based on Estimation (10.19). Graded by `evaluation/estimate-cost-effort-forecasts-with-ranges-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/estimation-basis.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -163,7 +163,7 @@ A defended estimate with a range and confidence, its basis, assumptions, and con
 - The precision fits the decision.
 - The estimate is set up to be refined.
 
-## BABOK anchor
+## Practice anchor
 
 Estimation (10.19); Plan Business Analysis Approach (3.1); Risk Analysis and Management (10.38) for contingency. Owned by the estimation skill.
 

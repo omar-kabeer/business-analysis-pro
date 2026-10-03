@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Define the measures and indicators that show how the solution is performing against its goals, with baselines, targets, and practical collection, so performance can be judged on evidence. This is the working form of the BABOK Measure Solution Performance task (8.1) and its output, the Solution Performance Measures. Graded by `evaluation/solution-performance-measures-rubric.md`.
+Define the measures and indicators that show how the solution is performing against its goals, with baselines, targets, and practical collection, so performance can be judged on evidence. This is the working form of the Measure Solution Performance task and its output, the Solution Performance Measures. Graded by `evaluation/solution-performance-measures-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/solution-performance-measures.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -127,7 +127,7 @@ An agreed set of valid, collectable measures with baselines, targets, and report
 - KPIs are identified for the strategic goals.
 - Reporting audience, frequency, and triggers are defined.
 
-## BABOK anchor
+## Practice anchor
 
 Measure Solution Performance (8.1); Analyze Performance Measures (8.2); Metrics and Key Performance Indicators (10.28); Balanced Scorecard (10.3). Owned by the solution-evaluation skill.
 

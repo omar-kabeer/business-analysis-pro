@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Give stakeholders an honest, decision-ready view of progress, risks, and decisions needed. Based on BABOK Communicate Business Analysis Information (4.4). A status rating must reflect reality; a green that hides a real problem costs more later.
+Give stakeholders an honest, decision-ready view of progress, risks, and decisions needed. Based on Communicate Business Analysis Information (4.4). A status rating must reflect reality; a green that hides a real problem costs more later.
 
 ## Document Control
 
@@ -63,6 +63,6 @@ The main milestones or activities in the next period.
 - Risks and decisions are specific, owned, and dated.
 - The report leads with what the audience needs to know or decide.
 
-## BABOK anchor
+## Practice anchor
 
 Communicate Business Analysis Information (4.4). Owned by the communication skill; pairs with governance.

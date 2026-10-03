@@ -158,9 +158,9 @@
     },
     {
       "id": "babok-anchor",
-      "heading": "BABOK anchor",
+      "heading": "Practice anchor",
       "tier": "standard",
-      "purpose": "The BABOK tasks and techniques it implements."
+      "purpose": "The business analysis tasks and techniques it implements."
     },
     {
       "id": "house-style",

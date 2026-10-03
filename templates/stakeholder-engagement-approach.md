@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Plan how the team collaborates and communicates with stakeholders across the initiative, and capture the stakeholder analysis that informs it. This is the working form of the BABOK Plan Stakeholder Engagement task (3.2) and its output, the Stakeholder Engagement Approach. Cover every stakeholder the change affects, and match the engagement to each.
+Plan how the team collaborates and communicates with stakeholders across the initiative, and capture the stakeholder analysis that informs it. This is the working form of the Plan Stakeholder Engagement task and its output, the Stakeholder Engagement Approach. Cover every stakeholder the change affects, and match the engagement to each.
 
 ## Document Control
 

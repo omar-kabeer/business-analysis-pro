@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Describe how an actor interacts with a solution to achieve a goal, including the main success scenario and the alternate and exception paths, precisely enough that requirements and tests can be built from it. Based on BABOK Use Cases and Scenarios (10.47). Graded by `evaluation/use-case-rubric.md`.
+Describe how an actor interacts with a solution to achieve a goal, including the main success scenario and the alternate and exception paths, precisely enough that requirements and tests can be built from it. Based on Use Cases and Scenarios (10.47). Graded by `evaluation/use-case-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/use-case-specification.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -155,7 +155,7 @@ A baselined use case with numbered flows, business rules, acceptance criteria, a
 - Acceptance criteria make the use case testable.
 - The use case traces to requirements and tests.
 
-## BABOK anchor
+## Practice anchor
 
 Use Cases and Scenarios (10.47); Specify and Model Requirements (7.1); Acceptance and Evaluation Criteria (10.1). Owned by the requirements skill; feeds the FRD and traceability.
 

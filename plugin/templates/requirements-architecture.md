@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Structure the requirements of the initiative and the relationships among them, so the set can be understood and assessed as a whole: complete, consistent, and traceable to needs, designs, and releases. This is the working form of the BABOK Define Requirements Architecture task (7.4) and its output, the Requirements Architecture. Graded by `evaluation/requirements-architecture-rubric.md`.
+Structure the requirements of the initiative and the relationships among them, so the set can be understood and assessed as a whole: complete, consistent, and traceable to needs, designs, and releases. This is the working form of the Define Requirements Architecture task and its output, the Requirements Architecture. Graded by `evaluation/requirements-architecture-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/requirements-architecture.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -148,7 +148,7 @@ A requirements architecture that shows where every requirement belongs, how requ
 - The context needed to read the structure is recorded.
 - The structure supports tracing to needs, designs, releases, and tests.
 
-## BABOK anchor
+## Practice anchor
 
 Define Requirements Architecture (7.4); Trace Requirements (5.1); Specify and Model Requirements (7.1); Functional Decomposition (10.22). Owned by the requirements skill.
 

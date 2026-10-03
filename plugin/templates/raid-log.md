@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Track the four things that most often derail delivery in one place: Risks, Assumptions, Issues, and Dependencies. The log keeps each item visible, owned, dated, and acted on, so nothing important is lost between meetings. It is the working form of BABOK Item Tracking (10.26) and feeds Risk Analysis and Management (10.38). Graded by `evaluation/raid-log-rubric.md`.
+Track the four things that most often derail delivery in one place: Risks, Assumptions, Issues, and Dependencies. The log keeps each item visible, owned, dated, and acted on, so nothing important is lost between meetings. It is the working form of Item Tracking (10.26) and feeds Risk Analysis and Management (10.38). Graded by `evaluation/raid-log-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/raid-log.toc.json`, marks which sections are core, standard, or extended and when the extended ones apply, so a light internal log and a regulated programme log come from the same source.
 
@@ -134,7 +134,7 @@ The maintained log, the escalations raised from it, the items carried into the r
 - The log was reviewed at its stated cadence, and closed items are kept with their outcome.
 - Items link to the risks, decisions, and other artefacts they affect.
 
-## BABOK anchor
+## Practice anchor
 
 Item Tracking (10.26); Risk Analysis and Management (10.38); Plan Business Analysis Governance (3.3). Pairs with `risk-register` and `decision-log`.
 

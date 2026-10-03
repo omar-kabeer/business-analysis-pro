@@ -19,7 +19,7 @@
     { "id": "context-diagram", "heading": "Context diagram", "tier": "extended", "purpose": "The boundary and external actors as a diagram.", "when": { "formality": ["formal"], "perspective": ["information-technology"] }, "evidences": [1] },
     { "id": "outputs", "heading": "Outputs", "tier": "core", "purpose": "What traces to the scope.", "artefactStandard": "outputs" },
     { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the scope.", "artefactStandard": "review-criteria" },
-    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "babok-anchor", "heading": "Practice anchor", "tier": "standard", "purpose": "business analysis tasks and techniques." },
     { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
   ]
 }

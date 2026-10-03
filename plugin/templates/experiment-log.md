@@ -136,7 +136,7 @@ Decisions on which ideas to build, pivot, or drop; updated assumption status; le
 - Each completed test has a decision and a learning that changes something.
 - Launch post-mortems reach a root cause and a concrete change, not blame.
 
-## BABOK anchor
+## Practice anchor
 
 Agile Perspective (11.1) discovery practice; Prototyping (10.36); Metrics and Key Performance Indicators (10.28); Decision Analysis (10.16). Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
 

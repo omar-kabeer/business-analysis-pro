@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Describe the current limitations of the solution, including its constraints and defects, that restrict value realization. This is the working form of the BABOK Assess Solution Limitations task (8.3) and its output, the Solution Limitation.
+Describe the current limitations of the solution, including its constraints and defects, that restrict value realization. This is the working form of the Assess Solution Limitations task and its output, the Solution Limitation.
 
 ## Document Control
 

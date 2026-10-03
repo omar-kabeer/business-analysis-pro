@@ -11,7 +11,7 @@ version: 1.0.0
 
 Hold the authoritative list of everything the initiative produces: what it is called, what class it belongs to, who owns it, where it lives, which version is current, and whether it is baselined. It is the index that makes every other artefact findable.
 
-BABOK v3 anchor: Plan Business Analysis Information Management (3.4), which sets how business analysis information is organised, stored and accessed.
+Practice anchor: Plan Business Analysis Information Management (3.4), which sets how business analysis information is organised, stored and accessed.
 
 ## Document Control
 

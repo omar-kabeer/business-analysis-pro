@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Define how decisions are made on this initiative: how requirements and designs are approved, prioritised, and changed, and who holds each decision. This is the working form of the BABOK Plan Business Analysis Governance task (3.3) and its output, the Governance Approach. Keep it consistent with the business analysis approach and with organizational policy.
+Define how decisions are made on this initiative: how requirements and designs are approved, prioritised, and changed, and who holds each decision. This is the working form of the Plan Business Analysis Governance task and its output, the Governance Approach. Keep it consistent with the business analysis approach and with organizational policy.
 
 ## Document Control
 

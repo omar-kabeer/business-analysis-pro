@@ -47,7 +47,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/user-story-epic.md",
-        "contentHash": "3a8e179cac0e67c0816ce8692fe51a0f2740d1e406e528a5e1a05e3524bec742"
+        "contentHash": "653eebdee5ff1a402646130d2278b8a52560d4152520166725d526cbbc1686c3"
       },
       "quality": {
         "mode": "rubric",
@@ -84,7 +84,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prioritization-matrix.md",
-        "contentHash": "f942e46c36739944583732c400972100394a73423e3be1d4a659c4737614c3d7"
+        "contentHash": "31fac167ea940e05df28fd0f32f8c9128ec3c0be1d7e9f08dbc9e80911250f28"
       },
       "quality": {
         "mode": "rubric",
@@ -113,7 +113,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/release-plan-and-notes.md",
-        "contentHash": "f95885b07bc3528ae89b1ab161be136497ee4ceb6a8c8fad8df38d1a3e7170f9"
+        "contentHash": "e99ff068c482d33ff5a73901a7d3b815d9dc5472a575a76ca2e3605b5e09034d"
       },
       "quality": {
         "mode": "rubric",
@@ -150,7 +150,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-roadmap.md",
-        "contentHash": "8907bd5a1c93b97b1fda206bb4af9f9b91cc9422e3c616d0d2ceb3bae6fe02e5"
+        "contentHash": "3919e00e3138e01bc481e1f21f57e61a6a59a8e2f7d1bf7ce0731ff4ceaa5f9f"
       },
       "quality": {
         "mode": "rubric",
@@ -187,7 +187,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/nfr-specification.md",
-        "contentHash": "9e1ca56b38ddd34859cbb5dd3c5d9833d17d2918b97c77283476812af7b99e0d"
+        "contentHash": "bd1b96d3848502f867ef5573b4ed9c5cb62482426c4eba46f0b20b27f1b313cb"
       },
       "quality": {
         "mode": "rubric",
@@ -224,7 +224,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/estimation-basis.md",
-        "contentHash": "a5e51e2ab62da909369a077bdb2a0ad5d1f3f6c5f84ae4966084b3df32dcdf1a"
+        "contentHash": "250302ff773580f4ca3e80102dea3f99d81f00a20520b0baad3f5c0220e1b461"
       },
       "quality": {
         "mode": "rubric",

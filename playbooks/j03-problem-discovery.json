@@ -39,7 +39,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/current-state-assessment.md",
-        "contentHash": "467829997a48dee3aff1dc734978f337878b755da6546dcfc003ab6f84abd2f2"
+        "contentHash": "9f10140951f3b60cc98afc394466e152ec681bff42e4309e728430ffb02ac0d9"
       },
       "quality": {
         "mode": "rubric",
@@ -76,7 +76,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/business-objectives.md",
-        "contentHash": "7f6397d8b7b9cc0e011e02dddc7dbac4dd949cd19b8f36f0738a54923727ce15"
+        "contentHash": "f34cb3d59bc37b1c9b57c1978eb3a101c683f1a3bad3bbc246c48b50f1e1b4aa"
       },
       "quality": {
         "mode": "rubric",
@@ -109,7 +109,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/elicitation-activity-plan.md",
-        "contentHash": "09f4ceec8644b1d0b35ea11c214b54e76fb2807c8a47ee9983bf763e7b8fb68e"
+        "contentHash": "f788a147b33850b3c0df13255608a219b403cdc8917c9ef1f99f2bbb25101bd3"
       },
       "quality": {
         "mode": "rubric",
@@ -134,7 +134,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/stakeholder-register.md",
-        "contentHash": "58396bac74ecca426900e849ba7244ba234e9ab4cd344a701994e391acac570c"
+        "contentHash": "c06e2a7ebedd765085952489bfa0f58bd8f69b34c52af9d973913524c442dbf4"
       },
       "quality": {
         "mode": "rubric",
@@ -171,7 +171,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/process-model.md",
-        "contentHash": "c63fd6570f0f533e51fa3fbcfcf9b9a7a6311453d24266e80523157a6ca297e2"
+        "contentHash": "193d9fce734e4712e3dcb7ab74c85de43202e5acd4c64b8cd495b472cdb95c53"
       },
       "quality": {
         "mode": "rubric",
@@ -204,7 +204,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/interview-guide.md",
-        "contentHash": "239bee936b1b703468059643e5f3538c3ea319913ba0713f39ed686f329bcf6e"
+        "contentHash": "1fd21f0ea0bf721816692872b0f4b3d86c5a8e6b0cd9abe365509c0a982d7191"
       },
       "quality": {
         "mode": "rubric",

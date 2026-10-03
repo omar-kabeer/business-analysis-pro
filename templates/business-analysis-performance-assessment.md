@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Assess the business analysis work against its performance objectives and recommend improvements. This is the working form of the BABOK Identify Business Analysis Performance Improvements task (3.5) and its output, the Business Analysis Performance Assessment. Base the assessment on evidence, and carry each finding through to an owned action.
+Assess the business analysis work against its performance objectives and recommend improvements. This is the working form of the Identify Business Analysis Performance Improvements task and its output, the Business Analysis Performance Assessment. Base the assessment on evidence, and carry each finding through to an owned action.
 
 ## Document Control
 

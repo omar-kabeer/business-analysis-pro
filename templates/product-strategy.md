@@ -11,7 +11,7 @@ version: 1.0.0
 
 Define how the product wins: who it serves, how it is positioned, the value it delivers, how it makes money, the strategic bets, and how each bet is defensible. It sits between the vision (the multi-year destination) and the roadmap (the sequenced path). Grounded in modern product strategy, including Gibson Biddle's DHM lens.
 
-BABOK v3 anchor: BABOK has no product strategy artefact. The closest tasks are Define Future State (6.2) and Define Change Strategy (6.4).
+Practice anchor: standard business analysis practice has no product strategy artefact. The closest tasks are Define Future State (6.2) and Define Change Strategy (6.4).
 
 ## Document Control
 

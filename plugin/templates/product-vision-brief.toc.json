@@ -22,7 +22,7 @@
     { "id": "sign-off", "heading": "Alignment and sign-off", "tier": "extended", "purpose": "Who reviewed and endorsed the vision.", "when": { "formality": ["formal"] }, "evidences": [8] },
     { "id": "outputs", "heading": "Outputs", "tier": "core", "purpose": "What the brief feeds.", "artefactStandard": "outputs" },
     { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the brief.", "artefactStandard": "review-criteria" },
-    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "babok-anchor", "heading": "Practice anchor", "tier": "standard", "purpose": "business analysis tasks and techniques." },
     { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
   ]
 }

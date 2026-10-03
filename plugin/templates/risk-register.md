@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Identify, assess, and manage the risks to an initiative in a structured, auditable way: describe each risk, score its probability and impact on an agreed scale, choose a response, assign an owner, and track residual risk over time. This is the working form of BABOK Risk Analysis and Management (10.38) and Assess Risks (6.3). Graded by `evaluation/risk-register-rubric.md`.
+Identify, assess, and manage the risks to an initiative in a structured, auditable way: describe each risk, score its probability and impact on an agreed scale, choose a response, assign an owner, and track residual risk over time. This is the working form of Risk Analysis and Management (10.38) and Assess Risks (6.3). Graded by `evaluation/risk-register-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/risk-register.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -130,7 +130,7 @@ A current, owned register of scored risks with responses and residual severity, 
 - Status, residual severity, and review dates are current.
 - The register covers delivery, adoption, technical, benefit, and regulatory sources of risk.
 
-## BABOK anchor
+## Practice anchor
 
 Risk Analysis and Management (10.38); Assess Risks (6.3); Plan Business Analysis Approach (3.1) for cadence. Complements the RAID log. Owned by the risk-analysis skill.
 

@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Define the desired future state in enough detail to guide the change strategy and to identify the value the change will deliver. This is the working form of the BABOK Define Future State task (6.2). It sets measurable objectives, bounds the solution space, records constraints and assumptions, and states the potential value.
+Define the desired future state in enough detail to guide the change strategy and to identify the value the change will deliver. This is the working form of the Define Future State task. It sets measurable objectives, bounds the solution space, records constraints and assumptions, and states the potential value.
 
 ## Document Control
 
@@ -80,6 +80,6 @@ Describe the value the future state is expected to deliver, both tangible (measu
 - Constraints and assumptions are explicit, justified, and owned.
 - Potential value is stated in terms that a business case can use.
 
-## BABOK anchor
+## Practice anchor
 
 Define Future State (6.2); SMART objectives; potential value feeds the business case (Business Cases, 10.7) and Analyze Potential Value and Recommend Solution (7.6).

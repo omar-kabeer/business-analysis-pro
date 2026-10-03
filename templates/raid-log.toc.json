@@ -35,7 +35,7 @@
     },
     { "id": "outputs", "heading": "Outputs", "tier": "core", "purpose": "What the log produces and feeds.", "artefactStandard": "outputs", "evidences": [8] },
     { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the log.", "artefactStandard": "review-criteria" },
-    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "The BABOK tasks and techniques the log implements." },
+    { "id": "babok-anchor", "heading": "Practice anchor", "tier": "standard", "purpose": "The business analysis tasks and techniques the log implements." },
     { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules for narrative." }
   ]
 }

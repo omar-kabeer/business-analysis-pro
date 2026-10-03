@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Plan an elicitation activity: the outcomes it must produce, the techniques, the participants, and the logistics. This is the working form of BABOK Prepare for Elicitation (4.1) and its output, the Elicitation Activity Plan. Plan only what the activity needs, and match techniques to the outcomes and the people. Graded by `evaluation/elicitation-activity-plan-rubric.md`.
+Plan an elicitation activity: the outcomes it must produce, the techniques, the participants, and the logistics. This is the working form of Prepare for Elicitation (4.1) and its output, the Elicitation Activity Plan. Plan only what the activity needs, and match techniques to the outcomes and the people. Graded by `evaluation/elicitation-activity-plan-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/elicitation-activity-plan.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -143,7 +143,7 @@ An agreed plan for each activity (outcome, technique, participants, logistics, a
 - Conditions for collaboration are considered.
 - The plan fits the BA approach and the engagement approach.
 
-## BABOK anchor
+## Practice anchor
 
 Prepare for Elicitation (4.1); Plan Stakeholder Engagement (3.2); techniques including Interviews (10.25), Observation (10.31), and Focus Groups (10.21). Owned by the elicitation skill.
 

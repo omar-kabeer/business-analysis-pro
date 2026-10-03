@@ -25,7 +25,7 @@
     { "id": "recommendation", "heading": "Acceptance recommendation", "tier": "core", "purpose": "The recommendation, its evidence and conditions.", "artefactStandard": "outputs", "evidences": [7] },
     { "id": "outputs", "heading": "Outputs", "tier": "standard", "purpose": "What the plan produces.", "evidences": [7] },
     { "id": "review-criteria", "heading": "Review criteria", "tier": "core", "purpose": "How a reviewer judges the plan.", "artefactStandard": "review-criteria" },
-    { "id": "babok-anchor", "heading": "BABOK anchor", "tier": "standard", "purpose": "BABOK tasks and techniques." },
+    { "id": "babok-anchor", "heading": "Practice anchor", "tier": "standard", "purpose": "business analysis tasks and techniques." },
     { "id": "house-style", "heading": "House style", "tier": "standard", "purpose": "Editorial rules." }
   ]
 }

@@ -35,7 +35,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-vision-brief.md",
-        "contentHash": "994177361a9d8774275cc84ae1d67a68026ef8767aedfa42817ea8a4982c6f61"
+        "contentHash": "f52f73ca640e7b37aa4a2877695943325b01112e4af33b528f75d0d00fb2fed6"
       },
       "quality": {
         "mode": "rubric",
@@ -64,7 +64,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/experiment-log.md",
-        "contentHash": "959f02c3499cdf67f8c6703722541514da145f17fce143f325689f766a7cc4cb"
+        "contentHash": "cd3721eb8afc7e04e326a07654f00d27a0fc7e4044ce677e46f6aee061d2c039"
       },
       "quality": {
         "mode": "rubric",
@@ -93,7 +93,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/business-objectives.md",
-        "contentHash": "7f6397d8b7b9cc0e011e02dddc7dbac4dd949cd19b8f36f0738a54923727ce15"
+        "contentHash": "f34cb3d59bc37b1c9b57c1978eb3a101c683f1a3bad3bbc246c48b50f1e1b4aa"
       },
       "quality": {
         "mode": "rubric",
@@ -122,7 +122,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/stakeholder-register.md",
-        "contentHash": "58396bac74ecca426900e849ba7244ba234e9ab4cd344a701994e391acac570c"
+        "contentHash": "c06e2a7ebedd765085952489bfa0f58bd8f69b34c52af9d973913524c442dbf4"
       },
       "quality": {
         "mode": "rubric",
@@ -151,7 +151,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/risk-register.md",
-        "contentHash": "0dacad86ec778dfd12e9262628bdf263505a3c881420bfcd2889d0c63ad0b15f"
+        "contentHash": "b64911d73003d25f0131cafd7e23c3dd3fbe252cfe2ee9349f93eae600e7a8ab"
       },
       "quality": {
         "mode": "rubric",

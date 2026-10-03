@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Establish which design option is most appropriate to meet the enterprise's requirements, based on the potential value of each. This is the working form of the BABOK Analyze Potential Value and Recommend Solution task (7.6) and its output, the Solution Recommendation.
+Establish which design option is most appropriate to meet the enterprise's requirements, based on the potential value of each. This is the working form of the Analyze Potential Value and Recommend Solution task and its output, the Solution Recommendation.
 
 ## Document Control
 

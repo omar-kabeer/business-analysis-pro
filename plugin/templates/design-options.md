@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Set out alternative ways to satisfy the need, each with a solution approach, components, and the improvement opportunities it offers. This is the working form of the BABOK Define Design Options task (7.5) and its output, Design Options.
+Set out alternative ways to satisfy the need, each with a solution approach, components, and the improvement opportunities it offers. This is the working form of the Define Design Options task and its output, Design Options.
 
 ## Document Control
 

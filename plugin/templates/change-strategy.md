@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Describe the approach to move from the current state to the future state, chosen from alternatives and justified. This is the working form of the Change Strategy output of the BABOK Define Change Strategy task (6.4). Define the transition states along the way.
+Describe the approach to move from the current state to the future state, chosen from alternatives and justified. This is the working form of the Change Strategy output of the Define Change Strategy task. Define the transition states along the way.
 
 ## Document Control
 

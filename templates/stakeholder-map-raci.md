@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Turn the stakeholder register into two decision tools: a stakeholder map that positions each stakeholder by influence and interest so engagement effort is spent well, and a responsibility matrix (RACI) that makes clear who is Responsible, Accountable, Consulted, and Informed for each activity or decision. These are the Stakeholder Map (BABOK 10.43) and the RACI form of the Roles and Permissions Matrix (BABOK 10.39).
+Turn the stakeholder register into two decision tools: a stakeholder map that positions each stakeholder by influence and interest so engagement effort is spent well, and a responsibility matrix (RACI) that makes clear who is Responsible, Accountable, Consulted, and Informed for each activity or decision. These are the Stakeholder Map and the RACI form of the Roles and Permissions Matrix.
 
 ## Document Control
 
@@ -69,6 +69,6 @@ Note anything assumed about authority or decision rights and confirm it with the
 - Each RACI row has exactly one Accountable and at least one Responsible.
 - Consulted and Informed are used deliberately, not by default.
 
-## BABOK anchor
+## Practice anchor
 
 Stakeholder List, Map, or Personas (10.43); Roles and Permissions Matrix, RACI form (10.39); Plan Stakeholder Engagement (3.2).

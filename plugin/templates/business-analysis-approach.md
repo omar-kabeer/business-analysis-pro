@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Define an appropriate method to conduct the business analysis work on this initiative: how and when tasks are performed, the deliverables produced, and the techniques used. This is the working form of the BABOK Plan Business Analysis Approach task (3.1) and its output, the Business Analysis Approach. Define only as much as the initiative needs, and tailor any organizational standard to the situation rather than applying it whole.
+Define an appropriate method to conduct the business analysis work on this initiative: how and when tasks are performed, the deliverables produced, and the techniques used. This is the working form of the Plan Business Analysis Approach task and its output, the Business Analysis Approach. Define only as much as the initiative needs, and tailor any organizational standard to the situation rather than applying it whole.
 
 ## Document Control
 

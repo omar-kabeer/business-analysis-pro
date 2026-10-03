@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Capture a design together with the relationships that make its coverage and the effects of change clear. This is the working form of the traced-design output of the BABOK Trace Requirements task (5.1). Record only the relationships the change needs to manage.
+Capture a design together with the relationships that make its coverage and the effects of change clear. This is the working form of the traced-design output of the Trace Requirements task. Record only the relationships the change needs to manage.
 
 ## Document Control
 

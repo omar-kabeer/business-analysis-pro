@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Keep a design accurate, current, and reusable over its life. This is the working form of the maintained-design output of the BABOK Maintain Requirements task (5.2). Maintain only what stays in use.
+Keep a design accurate, current, and reusable over its life. This is the working form of the maintained-design output of the Maintain Requirements task. Maintain only what stays in use.
 
 ## Document Control
 
