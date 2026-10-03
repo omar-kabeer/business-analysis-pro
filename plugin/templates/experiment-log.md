@@ -138,7 +138,7 @@ Decisions on which ideas to build, pivot, or drop; updated assumption status; le
 
 ## Practice anchor
 
-Agile Perspective (11.1) discovery practice; Prototyping (10.36); Metrics and Key Performance Indicators (10.28); Decision Analysis (10.16). Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
+Agile Perspective discovery practice; Prototyping; Metrics and Key Performance Indicators; Decision Analysis. Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
 
 ## House style
 

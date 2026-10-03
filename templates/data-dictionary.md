@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Give each data element one agreed definition, so systems and reports mean the same thing by the same name. Based on Data Dictionary (10.12). This is the cheapest way to prevent reporting disputes and integration defects.
+Give each data element one agreed definition, so systems and reports mean the same thing by the same name. Based on Data Dictionary. This is the cheapest way to prevent reporting disputes and integration defects.
 
 ## Document Control
 
@@ -44,4 +44,4 @@ For elements built from others (a full name from first and last, or a margin fro
 
 ## Practice anchor
 
-Data Dictionary (10.12); relates to Data Modelling (10.15) and the Glossary (10.23). Owned by the data-analysis skill.
+Data Dictionary; relates to Data Modelling and the Glossary. Owned by the data-analysis skill.

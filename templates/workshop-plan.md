@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Plan and run a facilitated workshop that brings stakeholders together to elicit, refine, or decide, then confirm the results. This is the workshop form of the Elicitation Activity Plan (Prepare for Elicitation, 4.1), the Workshops technique (10.50), and Conduct and Confirm Elicitation Results (4.2 and 4.3). Graded by `evaluation/workshop-plan-rubric.md`.
+Plan and run a facilitated workshop that brings stakeholders together to elicit, refine, or decide, then confirm the results. This is the workshop form of the Elicitation Activity Plan (Prepare for Elicitation, 4.1), the Workshops technique, and Conduct and Confirm Elicitation Results. Graded by `evaluation/workshop-plan-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/workshop-plan.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -169,7 +169,7 @@ Confirmed decisions, actions, and parked items with owners, and the work product
 
 ## Practice anchor
 
-Prepare for Elicitation (4.1); Conduct Elicitation (4.2); Confirm Elicitation Results (4.3); Workshops (10.50). Owned by the elicitation skill.
+Prepare for Elicitation; Conduct Elicitation; Confirm Elicitation Results; Workshops. Owned by the elicitation skill.
 
 ## House style
 

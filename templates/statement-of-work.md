@@ -11,7 +11,7 @@ version: 1.0.0
 
 Define what a supplier will deliver, on what terms, and how the buyer will decide whether it has been delivered.
 
-Practice anchor: Define Change Strategy (6.4), which names the statement of work, and Vendor Assessment (10.49).
+Practice anchor: Define Change Strategy, which names the statement of work, and Vendor Assessment.
 
 ## Document Control
 

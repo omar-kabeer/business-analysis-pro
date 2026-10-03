@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Define what a product or feature must do and why, framed around the customer problem and the outcome it should move, so a team can design, build, and measure it. The PRD leads with problem and outcome, not a feature list. Requirements follow the standard business analysis classification (business, stakeholder, solution functional and non-functional, transition) and the quality characteristics of Verify Requirements (7.2). Graded by `evaluation/prd-rubric.md`.
+Define what a product or feature must do and why, framed around the customer problem and the outcome it should move, so a team can design, build, and measure it. The PRD leads with problem and outcome, not a feature list. Requirements follow the standard business analysis classification (business, stakeholder, solution functional and non-functional, transition) and the quality characteristics of Verify Requirements. Graded by `evaluation/prd-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/prd.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -185,7 +185,7 @@ Each requirement is atomic, complete, consistent, concise, feasible, unambiguous
 
 ## Practice anchor
 
-Requirements Classification Schema (2.3); Specify and Model Requirements (7.1); Verify Requirements (7.2); Define Requirements Architecture (7.4); Acceptance and Evaluation Criteria (10.1). Product direction from the product-manager skill; backlog from the product-owner skill.
+Requirements Classification Schema; Specify and Model Requirements; Verify Requirements; Define Requirements Architecture; Acceptance and Evaluation Criteria. Product direction from the product-manager skill; backlog from the product-owner skill.
 
 ## House style
 

@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Connect a desired outcome to the opportunities that could move it, the solutions that address those opportunities, and the experiments that test the solutions. The tree keeps solutions tied to a real, evidence-based opportunity and to the outcome, so the team explores the problem space before committing to build. This is Teresa Torres' continuous discovery structure, applied within the Agile Perspective and Define Future State (6.2). Graded by `evaluation/opportunity-solution-tree-rubric.md`.
+Connect a desired outcome to the opportunities that could move it, the solutions that address those opportunities, and the experiments that test the solutions. The tree keeps solutions tied to a real, evidence-based opportunity and to the outcome, so the team explores the problem space before committing to build. This is Teresa Torres' continuous discovery structure, applied within the Agile Perspective and Define Future State. Graded by `evaluation/opportunity-solution-tree-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/opportunity-solution-tree.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -143,7 +143,7 @@ A current tree whose solutions all trace to an evidenced opportunity and the out
 
 ## Practice anchor
 
-Agile Perspective (11.1); Define Future State (6.2); Prototyping (10.36) and Survey or Questionnaire (10.45) as experiment techniques. Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
+Agile Perspective; Define Future State; Prototyping and Survey or Questionnaire as experiment techniques. Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
 
 ## House style
 

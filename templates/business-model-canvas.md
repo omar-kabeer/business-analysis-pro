@@ -53,4 +53,4 @@ Work through all nine. The blocks must fit together: the value propositions serv
 
 ## Practice anchor
 
-Business Model Canvas (10.8). Complements SWOT (internal and external position) and the value proposition view; hand financial viability to the finance skill.
+Business Model Canvas. Complements SWOT (internal and external position) and the value proposition view; hand financial viability to the finance skill.

@@ -75,7 +75,7 @@ For each claim, ask: how do we know, what if it is wrong, what would a board mem
 
 ## Practice anchor
 
-Supports Communicate Business Analysis Information (4.4) and the recommendation from Analyze Potential Value and Recommend Solution (7.6). Pairs with the business case and the executive-review skill.
+Supports Communicate Business Analysis Information and the recommendation from Analyze Potential Value and Recommend Solution. Pairs with the business case and the executive-review skill.
 
 ## House style
 

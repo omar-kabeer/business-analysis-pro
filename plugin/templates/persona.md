@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Describe an evidence-based archetype of a user segment so the team designs for a real person, not an average. Base it on research and label anything assumed. Based on Stakeholder List, Map, or Personas (10.43) and the UX artefacts reference. Graded by `evaluation/personas-rubric.md`.
+Describe an evidence-based archetype of a user segment so the team designs for a real person, not an average. Base it on research and label anything assumed. Based on Stakeholder List, Map, or Personas and the UX artefacts reference. Graded by `evaluation/personas-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/persona.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -125,7 +125,7 @@ A validated persona, with evidence for each attribute and clear design implicati
 
 ## Practice anchor
 
-Stakeholder List, Map, or Personas (10.43); Interviews (10.25); Observation (10.31). Owned by the ux skill; see `skills/ux/references/ux-artifacts.md`.
+Stakeholder List, Map, or Personas; Interviews; Observation. Owned by the ux skill; see `skills/ux/references/ux-artifacts.md`.
 
 ## House style
 

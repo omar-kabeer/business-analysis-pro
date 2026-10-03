@@ -164,7 +164,7 @@ For regulated work, list the controls and obligations that apply to the current 
 
 ## Outputs
 
-A current state description with a measured baseline, stated business need and root cause, and the constraints the future state must respect, ready for Define Future State (6.2) and gap analysis.
+A current state description with a measured baseline, stated business need and root cause, and the constraints the future state must respect, ready for Define Future State and gap analysis.
 
 ## Review criteria
 
@@ -178,7 +178,7 @@ A current state description with a measured baseline, stated business need and r
 
 ## Practice anchor
 
-Analyze Current State (6.1); Business Capability Analysis (10.6); Process Analysis (10.34); Root Cause Analysis (10.40); PESTLE within Analyze Current State. Owned by the strategy skill.
+Analyze Current State; Business Capability Analysis; Process Analysis; Root Cause Analysis; PESTLE within Analyze Current State. Owned by the strategy skill.
 
 ## House style
 

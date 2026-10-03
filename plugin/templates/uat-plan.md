@@ -186,7 +186,7 @@ Executed tests with evidence, a defect log with every defect triaged, and a sign
 
 ## Practice anchor
 
-Acceptance and Evaluation Criteria (10.1); Validate Requirements (7.3); Measure Solution Performance (8.1); Assess Solution Limitations (8.3). Owned by the acceptance-testing skill.
+Acceptance and Evaluation Criteria; Validate Requirements; Measure Solution Performance; Assess Solution Limitations. Owned by the acceptance-testing skill.
 
 ## House style
 

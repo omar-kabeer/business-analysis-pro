@@ -82,4 +82,4 @@ Describe the value the future state is expected to deliver, both tangible (measu
 
 ## Practice anchor
 
-Define Future State (6.2); SMART objectives; potential value feeds the business case (Business Cases, 10.7) and Analyze Potential Value and Recommend Solution (7.6).
+Define Future State; SMART objectives; potential value feeds the business case (Business Cases, 10.7) and Analyze Potential Value and Recommend Solution.

@@ -11,7 +11,7 @@ version: 1.0.0
 
 Turn strategy into measurable near-term focus: a qualitative Objective plus a few measurable Key Results. Makes direction executable and trackable. Grounded in the strategy frameworks reference.
 
-Practice anchor: Define Future State (6.2), whose business objectives the objectives express, and Metrics and Key Performance Indicators (10.28) for the key results.
+Practice anchor: Define Future State, whose business objectives the objectives express, and Metrics and Key Performance Indicators for the key results.
 
 ## Document Control
 

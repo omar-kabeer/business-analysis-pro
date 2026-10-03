@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Capture what a meeting decided and who owns what next, so decisions are not lost and actions are tracked. Circulate promptly while memory is fresh and confirm with participants. Supports Confirm Elicitation Results (4.3) and Communicate Business Analysis Information (4.4). Graded by `evaluation/meeting-notes-rubric.md`.
+Capture what a meeting decided and who owns what next, so decisions are not lost and actions are tracked. Circulate promptly while memory is fresh and confirm with participants. Supports Confirm Elicitation Results and Communicate Business Analysis Information. Graded by `evaluation/meeting-notes-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/meeting-notes.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -139,7 +139,7 @@ Confirmed notes whose decisions are logged, whose actions are tracked, and whose
 
 ## Practice anchor
 
-Confirm Elicitation Results (4.3); Communicate Business Analysis Information (4.4). Owned by the communication and elicitation skills.
+Confirm Elicitation Results; Communicate Business Analysis Information. Owned by the communication and elicitation skills.
 
 ## House style
 

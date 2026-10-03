@@ -201,7 +201,7 @@ Every requirement is atomic, complete, consistent, concise, feasible, unambiguou
 
 ## Practice anchor
 
-Requirements Classification Schema (2.3); Specify and Model Requirements (7.1); Verify Requirements (7.2); Non-Functional Requirements Analysis (10.30); State Modelling (10.44). Aligned to ISO/IEC/IEEE 29148.
+Requirements Classification Schema; Specify and Model Requirements; Verify Requirements; Non-Functional Requirements Analysis; State Modelling. Aligned to ISO/IEC/IEEE 29148.
 
 ## House style
 

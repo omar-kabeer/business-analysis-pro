@@ -167,7 +167,7 @@ Findings converted into accepted requirements, rejected ideas with reasons, and 
 
 ## Practice anchor
 
-Prototyping (10.36); Observation (10.31); Acceptance and Evaluation Criteria (10.1); Validate Requirements (7.3). Owned by the prototyping and ux skills.
+Prototyping; Observation; Acceptance and Evaluation Criteria; Validate Requirements. Owned by the prototyping and ux skills.
 
 ## House style
 

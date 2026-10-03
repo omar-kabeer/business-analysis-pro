@@ -51,7 +51,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prd.md",
-        "contentHash": "dd613ee2eda66ccfa29f2239b737b642dd19a64b3852c60d10d5f3b13ac08631"
+        "contentHash": "90f8f401d2e05f6946176ae126942e0271a8a4ccc78cfe89c6210ca4dda83026"
       },
       "quality": {
         "mode": "rubric",
@@ -92,7 +92,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/use-case-specification.md",
-        "contentHash": "5818bcaa292b7629c54c3649c94d26f3f7194c84c0033ad2e791da5466006003"
+        "contentHash": "ce2b88b4f9b11610abd5973598e6f2ac145c72f81816902143d7c20aabb4c0e4"
       },
       "quality": {
         "mode": "rubric",
@@ -125,7 +125,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/experiment-log.md",
-        "contentHash": "cd3721eb8afc7e04e326a07654f00d27a0fc7e4044ce677e46f6aee061d2c039"
+        "contentHash": "4e122eb265c69353310f5842bdb8fb957c3fee8362e8095be8d6dd6a1f5fd313"
       },
       "quality": {
         "mode": "rubric",
@@ -162,7 +162,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/nfr-specification.md",
-        "contentHash": "bd1b96d3848502f867ef5573b4ed9c5cb62482426c4eba46f0b20b27f1b313cb"
+        "contentHash": "afc086f034db33e8caa38604038136fac39c9b7138209bb77927803e0b75edd2"
       },
       "quality": {
         "mode": "rubric",
@@ -199,7 +199,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prototype-brief.md",
-        "contentHash": "1c3f5a7c982abbea28d7d6426a3654da44c39d94a2c34714a86b7b9a2102c6f4"
+        "contentHash": "7297833bb477abcc1b2b675563f84f12691e1be137023304f618cf3e28e7f5ad"
       },
       "quality": {
         "mode": "rubric",
@@ -232,7 +232,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/uat-plan.md",
-        "contentHash": "d88d5755e1f9cbdc643626038743c8a1ac3fd554e37cd7f69fb25633b5698fa0"
+        "contentHash": "2caf904d16877d562bb1dc3b07178c28f9c269417f399361c75f2ce3e1a3baa9"
       },
       "quality": {
         "mode": "rubric",

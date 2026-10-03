@@ -63,4 +63,4 @@ Match internal and external factors to generate candidate strategies. This is wh
 
 ## Practice anchor
 
-SWOT Analysis (10.46). Pairs with PESTLE and Five Forces for the external scan and with the business model canvas for the internal view.
+SWOT Analysis. Pairs with PESTLE and Five Forces for the external scan and with the business model canvas for the internal view.

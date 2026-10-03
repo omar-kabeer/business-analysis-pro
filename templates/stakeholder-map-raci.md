@@ -71,4 +71,4 @@ Note anything assumed about authority or decision rights and confirm it with the
 
 ## Practice anchor
 
-Stakeholder List, Map, or Personas (10.43); Roles and Permissions Matrix, RACI form (10.39); Plan Stakeholder Engagement (3.2).
+Stakeholder List, Map, or Personas; Roles and Permissions Matrix, RACI form; Plan Stakeholder Engagement.

@@ -67,7 +67,7 @@ Record the outcome and the conditions attached.
 
 ## Practice anchor
 
-Supports Verify Requirements (7.2), Validate Requirements (7.3), and solution acceptance. Pairs with the `requirements-traceability-matrix` and the quality skill.
+Supports Verify Requirements, Validate Requirements, and solution acceptance. Pairs with the `requirements-traceability-matrix` and the quality skill.
 
 ## House style
 

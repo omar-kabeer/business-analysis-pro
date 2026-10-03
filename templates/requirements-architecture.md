@@ -150,7 +150,7 @@ A requirements architecture that shows where every requirement belongs, how requ
 
 ## Practice anchor
 
-Define Requirements Architecture (7.4); Trace Requirements (5.1); Specify and Model Requirements (7.1); Functional Decomposition (10.22). Owned by the requirements skill.
+Define Requirements Architecture; Trace Requirements; Specify and Model Requirements; Functional Decomposition. Owned by the requirements skill.
 
 ## House style
 

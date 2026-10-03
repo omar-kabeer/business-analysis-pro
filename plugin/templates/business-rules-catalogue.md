@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Capture the rules that govern decisions and behaviour, separately from the requirements that enforce them, so a rule can change in one place without rewriting every requirement. Based on Business Rules Analysis (10.9).
+Capture the rules that govern decisions and behaviour, separately from the requirements that enforce them, so a rule can change in one place without rewriting every requirement. Based on Business Rules Analysis.
 
 ## Document Control
 
@@ -43,4 +43,4 @@ Capture the rules that govern decisions and behaviour, separately from the requi
 
 ## Practice anchor
 
-Business Rules Analysis (10.9); relates to Decision Modelling (10.17). Owned by the requirements skill.
+Business Rules Analysis; relates to Decision Modelling. Owned by the requirements skill.

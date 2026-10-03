@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Define the goal, scope, sequence, and readiness criteria of a release for the team, and the customer-facing notes that explain what changed. One document, two audiences: internal planning and external communication. Based on Backlog Management (10.2) and Prioritization (10.33). Graded by `evaluation/release-plan-release-backlog-rubric.md`.
+Define the goal, scope, sequence, and readiness criteria of a release for the team, and the customer-facing notes that explain what changed. One document, two audiences: internal planning and external communication. Based on Backlog Management and Prioritization. Graded by `evaluation/release-plan-release-backlog-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/release-plan-and-notes.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -161,7 +161,7 @@ An approved plan whose items, capacity, dependencies, and readiness criteria sup
 
 ## Practice anchor
 
-Backlog Management (10.2); Prioritization (10.33); Plan Business Analysis Approach (3.1) for release cadence. Owned by the product-manager and product-owner skills. Pairs with the go-to-market plan and release readiness checklist.
+Backlog Management; Prioritization; Plan Business Analysis Approach for release cadence. Owned by the product-manager and product-owner skills. Pairs with the go-to-market plan and release readiness checklist.
 
 ## House style
 

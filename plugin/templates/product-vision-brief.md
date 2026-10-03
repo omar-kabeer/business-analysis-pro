@@ -159,7 +159,7 @@ An agreed vision that the product strategy, roadmap, and discovery backlog trace
 
 ## Practice anchor
 
-Define Future State (6.2); Analyze Potential Value and Recommend Solution (7.6); the Agile Perspective (11.1); Business Model Canvas (10.8). Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
+Define Future State; Analyze Potential Value and Recommend Solution; the Agile Perspective; Business Model Canvas. Owned by the product-manager skill; see `skills/product-manager/references/product-discovery.md`.
 
 ## House style
 

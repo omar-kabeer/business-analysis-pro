@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Ask a shortlist of suppliers for detailed, comparable proposals against your requirements, so responses can be scored consistently. Based on Vendor Assessment (10.49). Use an RFI first to gather information and shortlist; use this RFP to get proposals from the shortlist.
+Ask a shortlist of suppliers for detailed, comparable proposals against your requirements, so responses can be scored consistently. Based on Vendor Assessment. Use an RFI first to gather information and shortlist; use this RFP to get proposals from the shortlist.
 
 ## Document Control
 
@@ -78,4 +78,4 @@ State the pricing information required (licence or subscription, implementation,
 
 ## Practice anchor
 
-Vendor Assessment (10.49). Owned by the vendor-evaluation skill; scoring uses the weighted matrix in that skill.
+Vendor Assessment. Owned by the vendor-evaluation skill; scoring uses the weighted matrix in that skill.

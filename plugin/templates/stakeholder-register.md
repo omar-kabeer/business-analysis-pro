@@ -11,7 +11,7 @@ version: 2.0.0
 
 ## Purpose
 
-Record every group or individual with a relationship to the change, the need, or the solution, together with the characteristics that decide how each one is engaged. This register is the working form of Plan Stakeholder Engagement (3.2) and the Stakeholder List, Map, or Personas technique (10.43). A thorough register lowers the risk that a source of requirements, a decision maker, or a group affected by the change is missed. Graded by `evaluation/stakeholder-register-rubric.md`.
+Record every group or individual with a relationship to the change, the need, or the solution, together with the characteristics that decide how each one is engaged. This register is the working form of Plan Stakeholder Engagement and the Stakeholder List, Map, or Personas technique. A thorough register lowers the risk that a source of requirements, a decision maker, or a group affected by the change is missed. Graded by `evaluation/stakeholder-register-rubric.md`.
 
 This template is a superset. Its table-of-contents manifest, `templates/stakeholder-register.toc.json`, marks which sections are core, standard, or extended and when each applies.
 
@@ -134,7 +134,7 @@ A register that feeds the stakeholder map and RACI, the engagement approach, the
 
 ## Practice anchor
 
-Plan Stakeholder Engagement (3.2); Stakeholder List, Map, or Personas (10.43); Manage Stakeholder Collaboration (4.5). Feeds the stakeholder map and RACI template and the elicitation plan. Owned by the elicitation and business-analysis skills.
+Plan Stakeholder Engagement; Stakeholder List, Map, or Personas; Manage Stakeholder Collaboration. Feeds the stakeholder map and RACI template and the elicitation plan. Owned by the elicitation and business-analysis skills.
 
 ## House style
 

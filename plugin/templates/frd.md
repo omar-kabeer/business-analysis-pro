@@ -162,7 +162,7 @@ Every functional requirement is atomic, complete, consistent, concise, feasible,
 
 ## Practice anchor
 
-Requirements Classification Schema (2.3); Specify and Model Requirements (7.1); Verify Requirements (7.2); Use Cases and Scenarios (10.47); Business Rules Analysis (10.9). Validate with the quality skill.
+Requirements Classification Schema; Specify and Model Requirements; Verify Requirements; Use Cases and Scenarios; Business Rules Analysis. Validate with the quality skill.
 
 ## House style
 

@@ -9,7 +9,7 @@ version: 1.0.0
 
 ## Purpose
 
-Give stakeholders an honest, decision-ready view of progress, risks, and decisions needed. Based on Communicate Business Analysis Information (4.4). A status rating must reflect reality; a green that hides a real problem costs more later.
+Give stakeholders an honest, decision-ready view of progress, risks, and decisions needed. Based on Communicate Business Analysis Information. A status rating must reflect reality; a green that hides a real problem costs more later.
 
 ## Document Control
 
@@ -65,4 +65,4 @@ The main milestones or activities in the next period.
 
 ## Practice anchor
 
-Communicate Business Analysis Information (4.4). Owned by the communication skill; pairs with governance.
+Communicate Business Analysis Information. Owned by the communication skill; pairs with governance.

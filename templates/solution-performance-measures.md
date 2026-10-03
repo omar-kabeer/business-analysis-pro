@@ -115,7 +115,7 @@ For executive audiences, show how the measures roll up to the enterprise scoreca
 
 ## Outputs
 
-An agreed set of valid, collectable measures with baselines, targets, and reporting, ready for Analyze Performance Measures (8.2).
+An agreed set of valid, collectable measures with baselines, targets, and reporting, ready for Analyze Performance Measures.
 
 ## Review criteria
 
@@ -129,7 +129,7 @@ An agreed set of valid, collectable measures with baselines, targets, and report
 
 ## Practice anchor
 
-Measure Solution Performance (8.1); Analyze Performance Measures (8.2); Metrics and Key Performance Indicators (10.28); Balanced Scorecard (10.3). Owned by the solution-evaluation skill.
+Measure Solution Performance; Analyze Performance Measures; Metrics and Key Performance Indicators; Balanced Scorecard. Owned by the solution-evaluation skill.
 
 ## House style
 

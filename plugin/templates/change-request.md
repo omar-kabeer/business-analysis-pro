@@ -11,7 +11,7 @@ version: 1.0.0
 
 Capture a proposed change to a baselined artefact, assess its full impact through traceability, and produce a recommendation the change authority can act on.
 
-Practice anchor: Assess Requirements Changes (5.4), under the change control process set in Plan Business Analysis Governance (3.3).
+Practice anchor: Assess Requirements Changes, under the change control process set in Plan Business Analysis Governance.
 
 ## Request
 

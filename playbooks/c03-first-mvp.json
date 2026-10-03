@@ -43,7 +43,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/experiment-log.md",
-        "contentHash": "cd3721eb8afc7e04e326a07654f00d27a0fc7e4044ce677e46f6aee061d2c039"
+        "contentHash": "4e122eb265c69353310f5842bdb8fb957c3fee8362e8095be8d6dd6a1f5fd313"
       },
       "quality": {
         "mode": "rubric",
@@ -76,7 +76,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/product-vision-brief.md",
-        "contentHash": "f52f73ca640e7b37aa4a2877695943325b01112e4af33b528f75d0d00fb2fed6"
+        "contentHash": "c577972821ac630019c009c05906e85039f70325553a111c020d1412cf9eb679"
       },
       "quality": {
         "mode": "rubric",
@@ -113,7 +113,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/solution-scope.md",
-        "contentHash": "56dba161dddda852dcfb88dee921e4e35c4183b04367591cce849a2128ffee10"
+        "contentHash": "fad54285ec637fb75b560ee9e8ab795240c532993b91d2b0a3ab29fabbd0237c"
       },
       "quality": {
         "mode": "rubric",
@@ -150,7 +150,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/user-story-epic.md",
-        "contentHash": "653eebdee5ff1a402646130d2278b8a52560d4152520166725d526cbbc1686c3"
+        "contentHash": "2fb36e43db144e0751dcd851a01dcac38773fceb7075dc4df2cb9ab282e80030"
       },
       "quality": {
         "mode": "rubric",
@@ -187,7 +187,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/nfr-specification.md",
-        "contentHash": "bd1b96d3848502f867ef5573b4ed9c5cb62482426c4eba46f0b20b27f1b313cb"
+        "contentHash": "afc086f034db33e8caa38604038136fac39c9b7138209bb77927803e0b75edd2"
       },
       "quality": {
         "mode": "rubric",
@@ -220,7 +220,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/interview-guide.md",
-        "contentHash": "1fd21f0ea0bf721816692872b0f4b3d86c5a8e6b0cd9abe365509c0a982d7191"
+        "contentHash": "7d8942649635c1716ed3cc1fd4e63305fe3da5fc461e9fdf5c64d186c12f1e0c"
       },
       "quality": {
         "mode": "rubric",
@@ -257,7 +257,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/prototype-brief.md",
-        "contentHash": "1c3f5a7c982abbea28d7d6426a3654da44c39d94a2c34714a86b7b9a2102c6f4"
+        "contentHash": "7297833bb477abcc1b2b675563f84f12691e1be137023304f618cf3e28e7f5ad"
       },
       "quality": {
         "mode": "rubric",
@@ -290,7 +290,7 @@
       "dependsOn": [],
       "template": {
         "key": "business-analysis.template.templates/uat-plan.md",
-        "contentHash": "d88d5755e1f9cbdc643626038743c8a1ac3fd554e37cd7f69fb25633b5698fa0"
+        "contentHash": "2caf904d16877d562bb1dc3b07178c28f9c269417f399361c75f2ce3e1a3baa9"
       },
       "quality": {
         "mode": "rubric",
