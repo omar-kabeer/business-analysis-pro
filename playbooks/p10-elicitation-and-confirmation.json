@@ -6,15 +6,21 @@
   "minimumInputs": [
     {
       "key": "decision_support",
-      "prompt": "Decision to support"
+      "prompt": "Decision to support",
+      "help": "What decision should this work help someone make?",
+      "example": "Whether to fund automating invoice approval."
     },
     {
       "key": "known_facts",
-      "prompt": "Known facts"
+      "prompt": "Known facts",
+      "help": "What do you already know for sure?",
+      "example": "Approvals take nine days on average; 300 invoices a month."
     },
     {
       "key": "accessible_stakeholders_sources",
-      "prompt": "Accessible stakeholders or sources"
+      "prompt": "Accessible stakeholders or sources",
+      "help": "Who can you talk to, or what can you read, to learn more?",
+      "example": "AP team, three managers, last year's audit report."
     }
   ],
   "components": [],
@@ -29,15 +35,21 @@
       "minimumInputs": [
         {
           "key": "questiondecision_inform",
-          "prompt": "Question/decision to inform"
+          "prompt": "Question/decision to inform",
+          "help": "What decision or question should this elicitation help answer?",
+          "example": "Whether to automate approvals or just add reminders."
         },
         {
           "key": "known_evidence_gaps",
-          "prompt": "Known evidence gaps"
+          "prompt": "Known evidence gaps",
+          "help": "What do you not know yet that you need to find out?",
+          "example": "How long each approval step actually takes."
         },
         {
           "key": "candidate_source_stakeholder",
-          "prompt": "Candidate source or stakeholder group"
+          "prompt": "Candidate source or stakeholder group",
+          "help": "Who or what could provide that information?",
+          "example": "Approving managers, the finance system's reports, and two suppliers."
         }
       ],
       "dependsOn": [],
@@ -62,15 +74,21 @@
       "minimumInputs": [
         {
           "key": "learning_objective",
-          "prompt": "Learning objective"
+          "prompt": "Learning objective",
+          "help": "What do you want to learn from these interviews?",
+          "example": "Why approvers delay invoices and what would make them act sooner."
         },
         {
           "key": "intended_participant_group",
-          "prompt": "Intended participant group"
+          "prompt": "Intended participant group",
+          "help": "Who will you talk to? Name the group or role.",
+          "example": "Five approving managers from operations and facilities."
         },
         {
           "key": "known_context_unanswered",
-          "prompt": "Known context and unanswered topics"
+          "prompt": "Known context and unanswered topics",
+          "help": "What do you already know, and what are the open questions you want covered?",
+          "example": "We know approvals take nine days on average; we do not know where the time goes."
         }
       ],
       "dependsOn": [],
@@ -95,19 +113,27 @@
       "minimumInputs": [
         {
           "key": "workshop_objective",
-          "prompt": "Workshop objective"
+          "prompt": "Workshop objective",
+          "help": "What should the workshop achieve?",
+          "example": "Agree the approval rules by invoice amount."
         },
         {
           "key": "intended_participants",
-          "prompt": "Intended participants"
+          "prompt": "Intended participants",
+          "help": "Who should attend?",
+          "example": "AP lead, two managers, a finance director, IT contact."
         },
         {
           "key": "decisionquestions",
-          "prompt": "Decision/questions"
+          "prompt": "Decision/questions",
+          "help": "What decisions or questions should the workshop settle?",
+          "example": "Who approves invoices over 10,000? What happens when an approver is away?"
         },
         {
           "key": "practical_constraints_known",
-          "prompt": "Practical constraints known or marked open"
+          "prompt": "Practical constraints known or marked open",
+          "help": "What practical limits apply (time, place, online)? Say \"open\" for anything not decided.",
+          "example": "Two hours, online; date open."
         }
       ],
       "dependsOn": [],
@@ -132,11 +158,15 @@
       "minimumInputs": [
         {
           "key": "actual_supplied_meeting",
-          "prompt": "Actual supplied meeting notes/transcript or recorded discussion"
+          "prompt": "Actual supplied meeting notes/transcript or recorded discussion",
+          "help": "Paste the meeting notes or transcript. Notes are only written from what you provide.",
+          "example": "Paste your rough notes or the call transcript here."
         },
         {
           "key": "dateparticipants_known_marked",
-          "prompt": "Date/participants known or marked unknown"
+          "prompt": "Date/participants known or marked unknown",
+          "help": "When was the meeting and who attended? Say \"unknown\" if you do not know.",
+          "example": "3 March; AP lead, two managers."
         }
       ],
       "dependsOn": [],
@@ -161,7 +191,9 @@
       "minimumInputs": [
         {
           "key": "scope_plus_least",
-          "prompt": "Scope plus at least one known affected group/person or explicit candidate group"
+          "prompt": "Scope plus at least one known affected group/person or explicit candidate group",
+          "help": "What is this work about, and name at least one group or person it affects (a guess is fine).",
+          "example": "Invoice approval; affects the accounts payable team and approving managers."
         }
       ],
       "dependsOn": [],

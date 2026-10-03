@@ -6,15 +6,21 @@
   "minimumInputs": [
     {
       "key": "objectives",
-      "prompt": "Objectives"
+      "prompt": "Objectives",
+      "help": "What should the next releases achieve?",
+      "example": "Cut approval time in half and launch to all departments."
     },
     {
       "key": "current_backlog",
-      "prompt": "Current backlog"
+      "prompt": "Current backlog",
+      "help": "Paste or list the work items you have now.",
+      "example": "Email approvals, delegation, mobile view, reporting, finance integration."
     },
     {
       "key": "capacitydependency_evidence",
-      "prompt": "Capacity/dependency evidence"
+      "prompt": "Capacity/dependency evidence",
+      "help": "How much capacity do you have, and what depends on what?",
+      "example": "Two developers; finance integration must come before reporting."
     }
   ],
   "components": [],
@@ -29,19 +35,27 @@
       "minimumInputs": [
         {
           "key": "target_user",
-          "prompt": "Target user"
+          "prompt": "Target user",
+          "help": "Who is the main user of what will be built?",
+          "example": "Approving managers who receive invoices for sign-off."
         },
         {
           "key": "desired_capabilityoutcome",
-          "prompt": "Desired capability/outcome"
+          "prompt": "Desired capability/outcome",
+          "help": "What should the user be able to do that they cannot do today?",
+          "example": "Approve an invoice from their phone in under a minute."
         },
         {
           "key": "bounded_scope",
-          "prompt": "Bounded scope"
+          "prompt": "Bounded scope",
+          "help": "What is included in this piece of work, and what is not?",
+          "example": "Approval and rejection only; editing invoice details is not included."
         },
         {
           "key": "acceptance_expectations_proposed",
-          "prompt": "Acceptance expectations proposed where not confirmed"
+          "prompt": "Acceptance expectations proposed where not confirmed",
+          "help": "Optional. How you would know a story is done. Kryterea proposes acceptance criteria where you have none, marked as proposed.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -66,19 +80,27 @@
       "minimumInputs": [
         {
           "key": "candidate_work_items",
-          "prompt": "Candidate work items"
+          "prompt": "Candidate work items",
+          "help": "List the items you need to prioritise.",
+          "example": "Approval by email, mobile app, supplier portal, reporting dashboard."
         },
         {
           "key": "explicit_objective",
-          "prompt": "Explicit objective"
+          "prompt": "Explicit objective",
+          "help": "What goal should the priorities serve?",
+          "example": "Cut approval time in half within six months."
         },
         {
           "key": "prioritization_criteriamethod",
-          "prompt": "Prioritization criteria/method"
+          "prompt": "Prioritization criteria/method",
+          "help": "How should items be ranked? Name criteria or a method, or say \"suggest one\".",
+          "example": "Value to the business versus effort; or suggest one."
         },
         {
           "key": "unknown_estimates_remain",
-          "prompt": "Unknown estimates remain unset"
+          "prompt": "Unknown estimates remain unset",
+          "help": "Nothing to fill in. Effort or value you have not estimated is left blank, never invented.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -103,11 +125,15 @@
       "minimumInputs": [
         {
           "key": "planned_release_scope",
-          "prompt": "Planned release scope and dependencies"
+          "prompt": "Planned release scope and dependencies",
+          "help": "What goes into the release, and what does it depend on?",
+          "example": "Email approvals and delegation; needs the finance connector."
         },
         {
           "key": "actual_release_evidence",
-          "prompt": "Actual release evidence required for delivered notes"
+          "prompt": "Actual release evidence required for delivered notes",
+          "help": "Optional. Paste what actually shipped (tickets, change log). Release notes only describe delivered work from real evidence.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -132,19 +158,27 @@
       "minimumInputs": [
         {
           "key": "product_outcome",
-          "prompt": "Product outcome"
+          "prompt": "Product outcome",
+          "help": "What outcome should the roadmap drive?",
+          "example": "Every invoice approved within five days."
         },
         {
           "key": "candidate_initiatives",
-          "prompt": "Candidate initiatives"
+          "prompt": "Candidate initiatives",
+          "help": "What initiatives could get you there?",
+          "example": "Approval automation, supplier portal, analytics."
         },
         {
           "key": "prioritydependency_evidence",
-          "prompt": "Priority/dependency evidence"
+          "prompt": "Priority/dependency evidence",
+          "help": "What decides the order, and what depends on what?",
+          "example": "Automation saves the most; the portal needs automation first."
         },
         {
           "key": "uncertain_dates_not",
-          "prompt": "Uncertain dates not committed"
+          "prompt": "Uncertain dates not committed",
+          "help": "Nothing to fill in. Dates you are unsure of are shown as targets, not commitments.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -169,19 +203,27 @@
       "minimumInputs": [
         {
           "key": "solution_boundary",
-          "prompt": "Solution boundary"
+          "prompt": "Solution boundary",
+          "help": "What does the solution cover, and where does it stop?",
+          "example": "The approval web app and its email notifications."
         },
         {
           "key": "affected_usersdataoperating_context",
-          "prompt": "Affected users/data/operating context"
+          "prompt": "Affected users/data/operating context",
+          "help": "Who uses it, what data does it handle, and where or when does it run?",
+          "example": "Around 40 managers, invoice and supplier data, used in office hours across two countries."
         },
         {
           "key": "relevant_quality_concerns",
-          "prompt": "Relevant quality concerns"
+          "prompt": "Relevant quality concerns",
+          "help": "Which qualities matter most, such as speed, security, availability or accessibility?",
+          "example": "Security of supplier bank details, and pages loading in under two seconds."
         },
         {
           "key": "unsupported_thresholds_remain",
-          "prompt": "Unsupported thresholds remain proposed"
+          "prompt": "Unsupported thresholds remain proposed",
+          "help": "Nothing to fill in. Any number you have not given (for example a response time) is proposed and marked for confirmation.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -206,19 +248,27 @@
       "minimumInputs": [
         {
           "key": "explicit_work_scope",
-          "prompt": "Explicit work scope"
+          "prompt": "Explicit work scope",
+          "help": "What exactly is being estimated?",
+          "example": "Building approval routing and the finance connector."
         },
         {
           "key": "estimation_method_basis",
-          "prompt": "Estimation method or basis"
+          "prompt": "Estimation method or basis",
+          "help": "How should it be estimated? Name a method or past work to compare with, or say \"suggest one\".",
+          "example": "Compare with the expense tool we built last year."
         },
         {
           "key": "constraints_available_evidence",
-          "prompt": "Constraints and available evidence"
+          "prompt": "Constraints and available evidence",
+          "help": "What limits apply, and what evidence do you have (past timings, team size)?",
+          "example": "Two developers; the expense tool took ten weeks."
         },
         {
           "key": "unsupported_numbers_stay",
-          "prompt": "Unsupported numbers stay unset"
+          "prompt": "Unsupported numbers stay unset",
+          "help": "Nothing to fill in. Numbers without a basis are left blank, never invented.",
+          "optional": true
         }
       ],
       "dependsOn": [],
