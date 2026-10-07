@@ -6,15 +6,21 @@
   "minimumInputs": [
     {
       "key": "user_evidence",
-      "prompt": "User evidence"
+      "prompt": "User evidence",
+      "help": "What do you know about your users, and where does it come from?",
+      "example": "Six supplier interviews and the support inbox."
     },
     {
       "key": "desired_outcomes",
-      "prompt": "Desired outcomes"
+      "prompt": "Desired outcomes",
+      "help": "What outcomes do you want for users and the business?",
+      "example": "Suppliers stop chasing; AP spends less time on calls."
     },
     {
       "key": "constraints",
-      "prompt": "Constraints"
+      "prompt": "Constraints",
+      "help": "What limits apply (time, budget, technology, rules)?",
+      "example": "Must reuse our supplier login; launch within a quarter."
     }
   ],
   "components": [],
@@ -29,15 +35,21 @@
       "minimumInputs": [
         {
           "key": "idea_need_users",
-          "prompt": "Idea or need in the user's words"
+          "prompt": "Idea or need in the user's words",
+          "help": "Describe the idea or the need the way you would explain it to a friend.",
+          "example": "Suppliers keep chasing us by email because they cannot see if their invoice was approved."
         },
         {
           "key": "explorationproduct_scope",
-          "prompt": "Exploration/product scope"
+          "prompt": "Exploration/product scope",
+          "help": "What is in and out of scope for this exploration? Rough boundaries are fine.",
+          "example": "Invoice status only; payments and contracts are out of scope for now."
         },
         {
           "key": "unknown_usersvaluemetrics_remain",
-          "prompt": "Unknown users/value/metrics remain hypotheses"
+          "prompt": "Unknown users/value/metrics remain hypotheses",
+          "help": "Nothing to fill in. Anything not yet known about users, value or metrics is written as a hypothesis to test.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -62,11 +74,15 @@
       "minimumInputs": [
         {
           "key": "target_group_attributed",
-          "prompt": "Target group and attributed evidence or explicitly labelled hypotheses"
+          "prompt": "Target group and attributed evidence or explicitly labelled hypotheses",
+          "help": "Who is the persona for, and what do you know about them? Mark guesses as guesses.",
+          "example": "Small suppliers (from interviews); we guess they mostly use phones."
         },
         {
           "key": "no_fabricated_demographicresearch",
-          "prompt": "No fabricated demographic/research facts"
+          "prompt": "No fabricated demographic/research facts",
+          "help": "Nothing to fill in. The persona will not invent ages, statistics or research you have not given.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -91,15 +107,21 @@
       "minimumInputs": [
         {
           "key": "usergroup",
-          "prompt": "User/group"
+          "prompt": "User/group",
+          "help": "Whose journey is this? Name the user or group.",
+          "example": "A small supplier submitting their first invoice."
         },
         {
           "key": "scenariooutcome",
-          "prompt": "Scenario/outcome"
+          "prompt": "Scenario/outcome",
+          "help": "What are they trying to get done, start to finish?",
+          "example": "Get an invoice paid without having to chase anyone."
         },
         {
           "key": "known_touchpoints_explicitly",
-          "prompt": "Known touchpoints or explicitly hypothetical flow"
+          "prompt": "Known touchpoints or explicitly hypothetical flow",
+          "help": "Which steps or contact points do you know about? If unsure, describe how you think it works and say it is a guess.",
+          "example": "Email invoice, wait, chase by phone, receive payment (we think)."
         }
       ],
       "dependsOn": [],
@@ -124,15 +146,21 @@
       "minimumInputs": [
         {
           "key": "hypothesis_learning_question",
-          "prompt": "Hypothesis or learning question"
+          "prompt": "Hypothesis or learning question",
+          "help": "What do you believe is true but have not proven? Write it as a guess you can test.",
+          "example": "Suppliers who can see invoice status will stop emailing accounts payable."
         },
         {
           "key": "proposed_test_actual",
-          "prompt": "Proposed test or actual experiment"
+          "prompt": "Proposed test or actual experiment",
+          "help": "How could you test that guess quickly and cheaply? Or describe a test you already ran.",
+          "example": "Email ten suppliers a status link for two weeks and count follow-up emails."
         },
         {
           "key": "distinguish_planned_work",
-          "prompt": "Distinguish planned work from observed results"
+          "prompt": "Distinguish planned work from observed results",
+          "help": "Nothing to fill in. Planned steps and real results are kept apart, so nothing is reported as done before it happened.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -157,15 +185,21 @@
       "minimumInputs": [
         {
           "key": "desired_outcome",
-          "prompt": "Desired outcome"
+          "prompt": "Desired outcome",
+          "help": "What result do you want this work to deliver?",
+          "example": "Invoices approved within five days and fewer supplier complaints."
         },
         {
           "key": "user_needsopportunities_evidence",
-          "prompt": "User needs/opportunities with evidence or explicit hypotheses"
+          "prompt": "User needs/opportunities with evidence or explicit hypotheses",
+          "help": "What do users need, and how do you know? Mark guesses as guesses.",
+          "example": "Suppliers need to know payment dates (from support emails)."
         },
         {
           "key": "candidate_solutions_experiment",
-          "prompt": "Candidate solutions and experiment questions"
+          "prompt": "Candidate solutions and experiment questions",
+          "help": "What solutions could meet those needs, and what would you test first?",
+          "example": "Status portal or weekly email; test which reduces chasing."
         }
       ],
       "dependsOn": [],
@@ -190,19 +224,27 @@
       "minimumInputs": [
         {
           "key": "question_test",
-          "prompt": "Question to test"
+          "prompt": "Question to test",
+          "help": "What question should the prototype answer?",
+          "example": "Can a manager approve an invoice on a phone without help?"
         },
         {
           "key": "intended_userscenario",
-          "prompt": "Intended user/scenario"
+          "prompt": "Intended user/scenario",
+          "help": "Who will try the prototype, and in what situation?",
+          "example": "A manager approving three invoices between meetings."
         },
         {
           "key": "prototype_boundary",
-          "prompt": "Prototype boundary"
+          "prompt": "Prototype boundary",
+          "help": "What will the prototype include, and what will it fake or leave out?",
+          "example": "Clickable approval screens only; no real data or login."
         },
         {
           "key": "no_findings_without",
-          "prompt": "No findings without test evidence"
+          "prompt": "No findings without test evidence",
+          "help": "Nothing to fill in. Findings are only recorded from real test sessions, never assumed.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -227,23 +269,33 @@
       "minimumInputs": [
         {
           "key": "problem",
-          "prompt": "Problem"
+          "prompt": "Problem",
+          "help": "What problem are you solving, and for whom?",
+          "example": "Managers miss approval deadlines because invoices arrive by email and get buried."
         },
         {
           "key": "target_user",
-          "prompt": "Target user"
+          "prompt": "Target user",
+          "help": "Who is the main user of what will be built?",
+          "example": "Approving managers who receive invoices for sign-off."
         },
         {
           "key": "intended_outcome",
-          "prompt": "Intended outcome"
+          "prompt": "Intended outcome",
+          "help": "What will be different when this is solved?",
+          "example": "Invoices approved in five days and early-payment discounts captured."
         },
         {
           "key": "proposed_scope",
-          "prompt": "Proposed scope"
+          "prompt": "Proposed scope",
+          "help": "What do you propose to include in this product version?",
+          "example": "Invoice capture, approval routing by amount, and posting to finance."
         },
         {
           "key": "available_discovery_evidence",
-          "prompt": "Available discovery evidence and constraints"
+          "prompt": "Available discovery evidence and constraints",
+          "help": "What research or evidence do you have, and what limits apply? Say \"none yet\" if so.",
+          "example": "Interviews with six managers; must integrate with the current finance system."
         }
       ],
       "dependsOn": [],

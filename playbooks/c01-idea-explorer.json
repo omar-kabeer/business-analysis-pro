@@ -6,15 +6,22 @@
   "minimumInputs": [
     {
       "key": "ideapossibility",
-      "prompt": "Idea/possibility"
+      "prompt": "Idea/possibility",
+      "help": "What is the idea, in your own words? One or two sentences is enough.",
+      "example": "An app that lets suppliers see where their invoice is in our approval process."
     },
     {
       "key": "exploration_question",
-      "prompt": "Exploration question"
+      "prompt": "Exploration question",
+      "help": "What do you most want to find out about the idea right now?",
+      "example": "Would suppliers actually check a portal instead of emailing us?"
     },
     {
       "key": "user_group_optional",
-      "prompt": "User group optional"
+      "prompt": "User group optional",
+      "help": "Who would use it first, if you know? Leave blank if you are not sure yet.",
+      "example": "Small suppliers who send us fewer than ten invoices a month.",
+      "optional": true
     }
   ],
   "components": [],
@@ -29,15 +36,21 @@
       "minimumInputs": [
         {
           "key": "idea_need_users",
-          "prompt": "Idea or need in the user's words"
+          "prompt": "Idea or need in the user's words",
+          "help": "Describe the idea or the need the way you would explain it to a friend.",
+          "example": "Suppliers keep chasing us by email because they cannot see if their invoice was approved."
         },
         {
           "key": "explorationproduct_scope",
-          "prompt": "Exploration/product scope"
+          "prompt": "Exploration/product scope",
+          "help": "What is in and out of scope for this exploration? Rough boundaries are fine.",
+          "example": "Invoice status only; payments and contracts are out of scope for now."
         },
         {
           "key": "unknown_usersvaluemetrics_remain",
-          "prompt": "Unknown users/value/metrics remain hypotheses"
+          "prompt": "Unknown users/value/metrics remain hypotheses",
+          "help": "Nothing to fill in. Anything not yet known about users, value or metrics is written as a hypothesis to test.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -62,15 +75,21 @@
       "minimumInputs": [
         {
           "key": "hypothesis_learning_question",
-          "prompt": "Hypothesis or learning question"
+          "prompt": "Hypothesis or learning question",
+          "help": "What do you believe is true but have not proven? Write it as a guess you can test.",
+          "example": "Suppliers who can see invoice status will stop emailing accounts payable."
         },
         {
           "key": "proposed_test_actual",
-          "prompt": "Proposed test or actual experiment"
+          "prompt": "Proposed test or actual experiment",
+          "help": "How could you test that guess quickly and cheaply? Or describe a test you already ran.",
+          "example": "Email ten suppliers a status link for two weeks and count follow-up emails."
         },
         {
           "key": "distinguish_planned_work",
-          "prompt": "Distinguish planned work from observed results"
+          "prompt": "Distinguish planned work from observed results",
+          "help": "Nothing to fill in. Planned steps and real results are kept apart, so nothing is reported as done before it happened.",
+          "optional": true
         }
       ],
       "dependsOn": [],
@@ -95,7 +114,9 @@
       "minimumInputs": [
         {
           "key": "scope_plus_least",
-          "prompt": "Scope plus at least one known affected group/person or explicit candidate group"
+          "prompt": "Scope plus at least one known affected group/person or explicit candidate group",
+          "help": "What is this work about, and name at least one group or person it affects (a guess is fine).",
+          "example": "Invoice approval; affects the accounts payable team and approving managers."
         }
       ],
       "dependsOn": [],
@@ -120,15 +141,21 @@
       "minimumInputs": [
         {
           "key": "learning_objective",
-          "prompt": "Learning objective"
+          "prompt": "Learning objective",
+          "help": "What do you want to learn from these interviews?",
+          "example": "Why approvers delay invoices and what would make them act sooner."
         },
         {
           "key": "intended_participant_group",
-          "prompt": "Intended participant group"
+          "prompt": "Intended participant group",
+          "help": "Who will you talk to? Name the group or role.",
+          "example": "Five approving managers from operations and facilities."
         },
         {
           "key": "known_context_unanswered",
-          "prompt": "Known context and unanswered topics"
+          "prompt": "Known context and unanswered topics",
+          "help": "What do you already know, and what are the open questions you want covered?",
+          "example": "We know approvals take nine days on average; we do not know where the time goes."
         }
       ],
       "dependsOn": [],
@@ -153,15 +180,21 @@
       "minimumInputs": [
         {
           "key": "usergroup",
-          "prompt": "User/group"
+          "prompt": "User/group",
+          "help": "Whose journey is this? Name the user or group.",
+          "example": "A small supplier submitting their first invoice."
         },
         {
           "key": "scenariooutcome",
-          "prompt": "Scenario/outcome"
+          "prompt": "Scenario/outcome",
+          "help": "What are they trying to get done, start to finish?",
+          "example": "Get an invoice paid without having to chase anyone."
         },
         {
           "key": "known_touchpoints_explicitly",
-          "prompt": "Known touchpoints or explicitly hypothetical flow"
+          "prompt": "Known touchpoints or explicitly hypothetical flow",
+          "help": "Which steps or contact points do you know about? If unsure, describe how you think it works and say it is a guess.",
+          "example": "Email invoice, wait, chase by phone, receive payment (we think)."
         }
       ],
       "dependsOn": [],

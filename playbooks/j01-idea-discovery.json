@@ -6,11 +6,15 @@
   "minimumInputs": [
     {
       "key": "idea",
-      "prompt": "The idea or possibility in the user's words"
+      "prompt": "The idea or possibility in the user's words",
+      "help": "What is the idea? Describe it in your own words; a sentence or two is enough.",
+      "example": "A portal where suppliers can see where their invoice is in our approval process."
     },
     {
       "key": "exploration_goal",
-      "prompt": "What the user wants to explore or learn"
+      "prompt": "What the user wants to explore or learn",
+      "help": "What do you want to find out about the idea?",
+      "example": "Whether suppliers would use it, and what it would save our finance team."
     }
   ],
   "components": [],
@@ -25,11 +29,15 @@
       "minimumInputs": [
         {
           "key": "idea",
-          "prompt": "Idea or need in the user's words"
+          "prompt": "Idea or need in the user's words",
+          "help": "Describe the idea or the need the way you would explain it to a friend.",
+          "example": "Suppliers keep chasing us by email because they cannot see if their invoice was approved."
         },
         {
           "key": "exploration_goal",
-          "prompt": "Exploration or product scope; unknown users, value and metrics remain hypotheses"
+          "prompt": "Exploration or product scope; unknown users, value and metrics remain hypotheses",
+          "help": "Roughly what is in and out of scope? Anything unknown about users, value or metrics is written as a hypothesis.",
+          "example": "Invoice status for existing suppliers only; no payments."
         }
       ],
       "dependsOn": [],
@@ -54,11 +62,15 @@
       "minimumInputs": [
         {
           "key": "hypothesis",
-          "prompt": "Hypothesis or learning question"
+          "prompt": "Hypothesis or learning question",
+          "help": "What do you believe is true but have not proven? Write it as a guess you can test.",
+          "example": "Suppliers who can see invoice status will stop emailing accounts payable."
         },
         {
           "key": "test",
-          "prompt": "Proposed test or actual experiment, with planned work kept apart from observed results"
+          "prompt": "Proposed test or actual experiment, with planned work kept apart from observed results",
+          "help": "How could you test the idea quickly? Or describe a test you already ran. Plans and real results are kept apart.",
+          "example": "Send ten suppliers a status link for two weeks and count chase emails."
         }
       ],
       "dependsOn": [],
@@ -83,11 +95,15 @@
       "minimumInputs": [
         {
           "key": "need",
-          "prompt": "Need, problem or opportunity"
+          "prompt": "Need, problem or opportunity",
+          "help": "What need, problem or opportunity is behind this work?",
+          "example": "We miss early-payment discounts because approvals are slow."
         },
         {
           "key": "desired_change",
-          "prompt": "Desired change and affected scope; unknown targets remain proposed"
+          "prompt": "Desired change and affected scope; unknown targets remain proposed",
+          "help": "What should change, and for which part of the business? Targets you do not know yet are proposed.",
+          "example": "Faster invoice approval in accounts payable; target to be agreed."
         }
       ],
       "dependsOn": [],
@@ -112,11 +128,15 @@
       "minimumInputs": [
         {
           "key": "scope",
-          "prompt": "Scope of the work"
+          "prompt": "Scope of the work",
+          "help": "What is this work about?",
+          "example": "Automating supplier invoice approval."
         },
         {
           "key": "affected_group",
-          "prompt": "At least one known affected group or person, or an explicit candidate group"
+          "prompt": "At least one known affected group or person, or an explicit candidate group",
+          "help": "Name at least one group or person this affects. A best guess is fine.",
+          "example": "Accounts payable clerks."
         }
       ],
       "dependsOn": [],
@@ -141,11 +161,15 @@
       "minimumInputs": [
         {
           "key": "scope",
-          "prompt": "Scope or objective"
+          "prompt": "Scope or objective",
+          "help": "What is the work or goal these risks relate to?",
+          "example": "Go live with the new invoice approval workflow by March."
         },
         {
           "key": "uncertainties",
-          "prompt": "Known uncertainties and their basis; scales and ratings are proposed if not supplied"
+          "prompt": "Known uncertainties and their basis; scales and ratings are proposed if not supplied",
+          "help": "What could go wrong or is uncertain, and why do you think so? Ratings are proposed if you do not give them.",
+          "example": "Managers may ignore the new tool; they ignored the last one."
         }
       ],
       "dependsOn": [],
