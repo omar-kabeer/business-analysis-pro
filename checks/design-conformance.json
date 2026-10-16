@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "key": "design-conformance",
+  "version": 1,
+  "profession": "business-analysis",
+  "criterionKinds": [
+    "design"
+  ],
+  "subjectKinds": [
+    "github_file"
+  ],
+  "method": {
+    "type": "model",
+    "promptRef": "os://prompt/prompts/assurance/design-conformance.md",
+    "outputSchemaVersion": 1,
+    "requires": [
+      "structured_output"
+    ],
+    "minTier": "standard"
+  },
+  "severity": "medium",
+  "description": "The code follows the approved design decision."
+}
