@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "key": "requirement-implemented",
+  "version": 1,
+  "profession": "business-analysis",
+  "criterionKinds": [
+    "requirement"
+  ],
+  "subjectKinds": [
+    "github_file"
+  ],
+  "method": {
+    "type": "model",
+    "promptRef": "os://prompt/prompts/assurance/requirement-implemented.md",
+    "outputSchemaVersion": 1,
+    "requires": [
+      "structured_output"
+    ],
+    "minTier": "standard"
+  },
+  "severity": "high",
+  "description": "The code shows the approved requirement is implemented, citing the lines that do it."
+}

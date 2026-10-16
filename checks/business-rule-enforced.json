@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "key": "business-rule-enforced",
+  "version": 1,
+  "profession": "business-analysis",
+  "criterionKinds": [
+    "business_rule"
+  ],
+  "subjectKinds": [
+    "github_file"
+  ],
+  "method": {
+    "type": "model",
+    "promptRef": "os://prompt/prompts/assurance/requirement-implemented.md",
+    "outputSchemaVersion": 1,
+    "requires": [
+      "structured_output"
+    ],
+    "minTier": "standard"
+  },
+  "severity": "high",
+  "description": "The code enforces the approved business rule where it applies."
+}

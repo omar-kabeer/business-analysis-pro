@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "key": "requirement-has-test",
+  "version": 1,
+  "profession": "business-analysis",
+  "criterionKinds": [
+    "requirement",
+    "business_rule"
+  ],
+  "subjectKinds": [
+    "github_file"
+  ],
+  "method": {
+    "type": "rule",
+    "primitive": "test_references_criterion",
+    "params": {
+      "pathGlobs": [
+        "**/*.test.*",
+        "**/*.spec.*",
+        "**/test/**",
+        "**/tests/**"
+      ]
+    }
+  },
+  "severity": "medium",
+  "description": "A test file in the checked files names the criterion key."
+}
